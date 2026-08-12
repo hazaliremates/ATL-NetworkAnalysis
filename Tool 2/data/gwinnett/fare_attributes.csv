@@ -1,0 +1,4 @@
+fare_id,agency_id,price,currency_type,payment_method,transfers,transfer_duration
+B,GCT,2.5,USD,0,,10800
+EXZ1,GCT,3.75,USD,0,,10800
+EXZ2,GCT,5,USD,0,,10800

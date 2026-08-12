@@ -1,0 +1,17 @@
+
+NETWORK CONNECTIVITY ANALYSIS
+=============================
+
+Number of connected components: 17
+
+Component sizes:
+Component 1: 6650 nodes
+Component 2: 1403 nodes
+Component 3: 18 nodes
+Component 4: 4 nodes
+Component 5: 4 nodes
+Component 6: 4 nodes
+Component 7: 4 nodes
+Component 8: 3 nodes
+Component 9: 2 nodes
+Component 10: 2 nodes

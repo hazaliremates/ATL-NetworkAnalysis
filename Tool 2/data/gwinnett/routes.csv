@@ -1,0 +1,14 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color,route_sort_order
+10,GCT,"10A","Sug - GTC - Dora via Satellite",,3,,5A3F99,FFFFFF,5
+20,GCT,"20","Beaver Ruin - Doraville",,3,,00BCF2,000000,7
+30,GCT,"30","Lilburn - GTC",,3,,FFEF00,000000,8
+35,GCT,"35","Peachtree Pkwy - Doraville",,3,,F15822,FFFFFF,9
+40,GCT,"40","Lawrenceville - GTC - Sugarloaf Mills",,3,,AB0634,FFFFFF,10
+45,GCT,"45","GGC",,3,,005534,FFFFFF,11
+50,GCT,"10B","Sug - GTC - Dora via Remington",,3,,008B44,FFFFFF,6
+101,GCT,"101","I-985 P&R - Downtown Atlanta",,3,,E7A614,ffffff,12
+102,GCT,"102","Indian Trail P&R - Downtown Atlanta",,3,,A0CF67,000000,13
+103,GCT,"103","Sugarloaf Mills P&R - Downtown Atlanta",,3,,008852,ffffff,14
+110,GCT,"110","Indian Trail P&R - Emory",,3,,003971,FFFFFF,15
+202,GCT,"SWPR","Express PM Sweeper",,3,,0037ff,ffffff,17
+203,GCT,"103A","Rev Commute Atlanta - Sugarloaf Mills",,3,,6A737B,ffffff,16

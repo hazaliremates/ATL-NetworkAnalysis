@@ -1,0 +1,803 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,wheelchair_boarding
+2,2,Sugarloaf Mills P&R,,33.983805,-84.084292,,,0,,0
+3,3,Gwinnett Transit Center,,33.963169,-84.131209,,,0,,0
+6,6,Doraville MARTA Station,,33.902675,-84.279965,,,0,,0
+7,7,Beaver Ruin Rd & Price Pl,,33.94104,-84.204013,,,0,,0
+9,9,Dawson/Live Oak & Jimmy Carter Blvd,,33.907341,-84.204822,,,0,,0
+11,11,Live Oak Pkwy & Thompson Pkwy OB,,33.906019,-84.202669,,,0,,0
+13,13,Beaver Ruin Rd & Steve Reynolds Blvd,,33.931214,-84.147359,,,0,,0
+15,15,Peachtree Corners Cir & Holcomb Bridge R,,33.958759,-84.246874,,,0,,0
+16,16,Sugarloaf Pkwy & Five Forks Trickum Rd,,33.922554,-84.016913,,,0,,0
+17,17,Gwinnett Justice & Admin Center,,33.950637,-83.995067,,,0,,0
+19,19,I-985 @ SR20 P&R,,34.085081,-83.995197,,,0,,0
+20,600008,Civic Center Station (West Peachtreet Street),,33.766146,-84.387608,,,0,,0
+21,21,John Portman Blvd @ Peachtree Center Ave,,33.760898,-84.385603,,,0,,0
+22,600039,Martin Luther King Junior Drive at Peachtree Street,,33.751932,-84.391726,,,0,,0
+24,600024,Central Avenue Southwest at Mitchell Street Southwest,,33.749523,-84.3907,,,0,,0
+25,600004,Forsyth Street at Martin Luther King Junior Drive,,33.752241,-84.39396,,,0,,0
+26,600049,Peachtree Center Avenue at Andrew Young International Boulevard,,33.759601,-84.386002,,,0,,0
+27,27,I-85 @ Indian Trail P&R,,33.929735,-84.175444,,,0,,0
+28,28,Shackleford Rd & Kaiser Permanente Bldg,,33.946362,-84.134772,,,0,,0
+29,29,Breckinridge Blvd/Old Norcross Rd,,33.958446,-84.110161,,,0,,0
+30,30,Lawrenceville Hwy & Indian Trail/Killian,,33.894851,-84.140301,,,0,,0
+32,32,Arts Center MARTA Station,,33.789285,-84.386904,,,0,,0
+48,48,Buford Hwy & Beaver Ruin Rd,,33.94394,-84.203065,,,0,,0
+58,58,Peachtree Pkwy & Quicktrip IBOB (End of ,,33.976678,-84.218487,,,0,,0
+60,60,Beaver Ruin Rd & Buford Hwy (McD's),,33.944569,-84.204422,,,0,,0
+61,61,Brook Hollow Pkwy & N Norcross,,33.920547,-84.214868,,,0,,0
+62,62,Brook Hollow Pkwy & N Norcross,,33.920809,-84.214782,,,0,,0
+64,64,Live Oak Pkwy & Carter Oak Crossing,,33.907516,-84.204515,,,0,,0
+65,65,Lawrenceville Hwy & Indian Trail Rd,,33.894945,-84.140578,,,0,,0
+66,66,Holcomb Bridge Rd & Peachtree Corners Ci,,33.958374,-84.247765,,,0,,0
+67,67,Gwinnett Justice & Admin Center,,33.952173,-83.992757,,,0,,0
+69,69,Steve Reynolds Blvd & Beaver Ruin Rd,,33.92999,-84.1471,,,0,,0
+71,71,1535 Atkinson Rd,,33.967461,-84.071443,,,0,,0
+73,73,Atkinson Rd & Dollar Tree,,33.976279,-84.078886,,,0,,0
+74,74,Atkinson & Shell Gas Station,,33.976316,-84.07916,,,0,,0
+77,77,Atkinson Rd & Westfield Dr,,33.971512,-84.07516,,,0,,0
+78,78,Atkinson & Willow Pointe Dr,,33.967641,-84.071988,,,0,,0
+79,79,Old Norcross Rd & Averitt OB,,33.953461,-84.02377,,,0,,0
+80,600001,Baker Street at Peachtree Street,,33.762306,-84.38718,,,0,,0
+83,83,Beaver Ruin Rd & East Hill Way OB,,33.938002,-84.18819,,,0,,0
+84,84,Beaver Ruin Rd at Bolton Cir IB,,33.934073,-84.171288,,,0,,0
+85,85,Beaver Ruin Rd & Price Place IB,,33.942777,-84.201469,,,0,,0
+86,86,Beaver Ruin Rd & Price Place (across) OB,,33.942983,-84.201331,,,0,,0
+87,87,Beaver Ruin Rd & St. Patricks Church OB,,33.935094,-84.182596,,,0,,0
+88,88,Beaver Ruin Rd at Family Denstistry IB,,33.941996,-84.198799,,,0,,0
+89,89,Beaver Ruin Rd & Dept of Labor IB,,33.936694,-84.186198,,,0,,0
+90,90,Beaver Ruin Rd & Rockborough Tr (DMV),,33.936633,-84.185361,,,0,,0
+91,91,Beaver Ruin Rd at Huddersfield Way IB,,33.939451,-84.193154,,,0,,0
+92,92,Beaver Ruin Rd & Indian Trail Rd OB,,33.933096,-84.179327,,,0,,0
+94,94,Beaver Ruin Rd at Lowes IB,,33.932784,-84.175557,,,0,,0
+95,95,Beaver Ruin Rd at Newbury Rd IB,,33.939041,-84.191337,,,0,,0
+96,96,Beaver Ruin Rd at Pinnacle Way IB,,33.934758,-84.183176,,,0,,0
+97,97,Beaver Ruin Rd at Plaza IB,,33.933142,-84.180305,,,0,,0
+100,100,Beaver Ruin Rd & Beaver Ridge Elementary,,33.933625,-84.173503,,,0,,0
+101,101,Beaver Ruin Rd & Sourwood Rd OB,,33.935664,-84.169088,,,0,,0
+102,102,Beaver Ruin Rd & Twin Creek Dr,,33.940049,-84.194581,,,0,,0
+103,103,Beaver Ruin Rd & NE Community Church OB,,33.941503,-84.19757,,,0,,0
+104,104,Beaver Ruin Rd & Wexford Dr,,33.937859,-84.18851,,,0,,0
+105,105,N Berkeley Lake Rd & Cross Road Dist,,33.969913,-84.154171,,,0,,0
+106,106,N Berkeley Lake Rd & The Estates Apts OB,,33.9713,-84.155256,,,0,,0
+107,107,N Berkeley Lake Rd & Marquis @ Nberkeley,,33.968887,-84.151212,,,0,,0
+108,108,N Berkeley Lake Rd & Wal-Mart OB,,33.969059,-84.149375,,,0,,0
+109,109,Pleasant Hill Rd & Lawrenceville Hwy OB,,33.907193,-84.111582,,,0,,0
+111,111,Best Friend Rd & Best Friend Ct OB,,33.919388,-84.222621,,,0,,0
+112,112,Best Friend Rd & Best Friend Ct IB,,33.919472,-84.222317,,,0,,0
+113,113,Brook Hollow Pkwy & Best Friend Rd OB,,33.921698,-84.219948,,,0,,0
+114,114,Best Friend Rd & Brook Hollow Pkwy,,33.921325,-84.220014,,,0,,0
+115,115,Best Friend Rd & Nancy Hanks Dr OB,,33.916913,-84.22609,,,0,,0
+116,116,Best Friend Rd & Nancy Hanks Dr IB,,33.916796,-84.226034,,,0,,0
+117,117,Best Friend Rd & Royal Palm Ct OB,,33.915618,-84.233462,,,0,,0
+118,118,Best Friend Rd & Royal Palm Ct IB,,33.915501,-84.23308,,,0,,0
+119,119,Best Friend Rd & Skyland Ct OB,,33.916055,-84.229996,,,0,,0
+120,120,Best Friend Rd & Skyland Ct IB,,33.915943,-84.229968,,,0,,0
+121,121,Best Friend Rd & Button Gwinnett Dr IB,,33.913808,-84.236366,,,0,,0
+122,122,Button Gwinnett Dr & Mimms Dr,,33.917448,-84.240083,,,0,,0
+123,123,Button Gwinnett Dr & Mimms Dr IB,,33.917404,-84.240192,,,0,,0
+124,124,Brook Hollow Pkwy & FedEx Entrance,,33.919149,-84.212826,,,0,,0
+125,125,Boggs Rd & Duluth Hwy 120 IB,,33.977217,-84.099943,,,0,,0
+126,126,Boggs Rd & Autumn Village Ct,,33.955282,-84.094484,,,0,,0
+127,127,Boggs Rd & Astor Place Apartments,,33.951301,-84.092138,,,0,,0
+128,128,Boggs Rd & Astor Place Apts,,33.951412,-84.09188,,,0,,0
+129,129,Boggs Rd & Magnolia Pointe Apts,,33.954013,-84.093701,,,0,,0
+130,130,Boggs Rd & Post Office (Main Entrance),,33.958722,-84.093975,,,0,,0
+131,131,Boggs Rd & Quick Trip IB,,33.97078,-84.09843,,,0,,0
+132,132,Boggs Rd & Meridian Apts,,33.954369,-84.094291,,,0,,0
+133,133,Boggs Rd & Old Norcross Rd,,33.949847,-84.091046,,,0,,0
+134,134,Boggs Rd & NCR1 (side entrance) OB,,33.970779,-84.098714,,,0,,0
+135,135,Boggs Rd & Pinemeadow Ct (GE) OB,,33.97292,-84.099645,,,0,,0
+136,136,Boggs Rd & Post Office  (First Entrance),,33.958551,-84.093741,,,0,,0
+137,137,Boggs Rd & Post Office (3rd entrance),,33.956658,-84.094013,,,0,,0
+138,138,Old Norcross Rd at Brass Key Ct,,33.954118,-84.035731,,,0,,0
+139,139,Breckinridge Blvd & Duluth Hwy,,33.976421,-84.083151,,,0,,0
+142,142,Breckinridge Blvd & Marcos Pizza OB,,33.95663,-84.112053,,,0,,0
+143,143,3350 Breckinridge Blvd,,33.954204,-84.121112,,,0,,0
+144,144,3350 Breckinridge Blvd (across),,33.954927,-84.120044,,,0,,0
+145,145,Breckinridge Blvd & The Enclave @ Breck,,33.96504,-84.085876,,,0,,0
+147,147,Breckinridge Blvd & Friendly Village,,33.975116,-84.08363,,,0,,0
+148,148,Breckinridge Blvd & Kia Building,,33.965649,-84.085802,,,0,,0
+149,149,Breckinridge Blvd & Newpoint Pl,,33.971899,-84.085329,,,0,,0
+151,151,Breckinridge Blvd & RICOH (across),,33.971405,-84.08523,,,0,,0
+153,153,Breckinridge Blvd & Fairfield Inn,,33.950189,-84.126871,,,0,,0
+155,155,Breckinridge Blvd & Boggs Rd,,33.961231,-84.094542,,,0,,0
+159,159,Brook Hollow Pkwy & PepBoys,,33.917865,-84.21078,,,0,,0
+160,160,Brook Hollow Pkwy &Victory World Church,,33.919693,-84.202831,,,0,,0
+161,161,Brook Hollow Pkwy & Indian Trail Rd OB,,33.930028,-84.178129,,,0,,0
+162,162,Brook Hollow Pkwy & Chevron Gas Station,,33.930186,-84.178401,,,0,,0
+163,163,Brook Hollow Pkwy & Financial Dr OB,,33.918926,-84.204894,,,0,,0
+164,164,Brook Hollow Pkwy & Mitchell Rd OB,,33.923053,-84.188547,,,0,,0
+165,165,Brook Hollow Pkwy & Mitchell Rd IB,,33.92273,-84.189599,,,0,,0
+171,171,Brook Hollow Pkwy & Pinnacle Way OB,,33.927681,-84.183172,,,0,,0
+172,172,Brook Hollow Pkwy & Pinnacle Way IB,,33.927885,-84.183268,,,0,,0
+173,173,Brook Hollow Pkwy & Jimmy Carter Blvd OB,,33.918163,-84.207817,,,0,,0
+174,174,Brook Hollow Pkwy & Jimmy Carter Blvd IB,,33.917962,-84.207824,,,0,,0
+175,175,Brook Hollow & Indian Temple (1st Entran,,33.918778,-84.20471,,,0,,0
+176,176,Brook Hollow Pkwy & Spring Lake Apts,,33.920051,-84.200296,,,0,,0
+177,177,Brook Hollow Pkwy & Spring Lake Apts OB,,33.920252,-84.200565,,,0,,0
+178,178,Brook Hollow Pkwy & EBD OB,,33.920028,-84.198673,,,0,,0
+179,179,Brown Rd & Sugarloaf Pkwy IB,,33.985335,-84.080525,,,0,,0
+180,180,Buford Hwy & Amwiler OB,,33.923945,-84.250991,,,0,,0
+181,181,Beaver Ruin Rd & Buford Hwy (Las Tortas),,33.94394,-84.203065,,,0,,0
+182,182,Buford Hwy & N Berkeley Lake Rd IB,,33.97585,-84.164203,,,0,,0
+184,184,Buford Hwy & Andy Glass OB,,33.914541,-84.261696,,,0,,0
+186,186,Buford Hwy & East Lake Dr (across) OB,,33.922996,-84.25242,,,0,,0
+187,187,Buford Hwy & Gravitt Tr IB,,33.97347,-84.167478,,,0,,0
+188,188,Buford Hwy & Hillside Dr,,33.929036,-84.236715,,,0,,0
+189,189,Buford Hwy & Pine St OB,,33.929579,-84.234346,,,0,,0
+190,190,Buford Hwy & S. Peachtree St  OB,,33.931556,-84.225795,,,0,,0
+191,191,Buford Hwy & Jones Mills Rd,,33.925893,-84.247838,,,0,,0
+194,194,Buford Hwy & N Norcross Tucker Rd OB,,33.935272,-84.215707,,,0,,0
+195,195,Buford Hwy & Oakcliff Rd,,33.912028,-84.264163,,,0,,0
+196,196,Buford Hwy & Simpson Cir,,33.966007,-84.177782,,,0,,0
+197,197,Buford Hwy & Summerour St IB,,33.9426,-84.20651,,,0,,0
+198,198,Buford Hwy & Value Pawn OB,,33.933004,-84.219843,,,0,,0
+199,199,Buford Hwy & West Mount Tabor,,33.970857,-84.171066,,,0,,0
+200,200,Buford Hwy & Woodbine Hill Way,,33.96904,-84.173549,,,0,,0
+202,202,Buford Hwy & Steve Dr OB,,33.920743,-84.255512,,,0,,0
+203,203,Buford Hwy at Steve Dr (Accu-Car Expo),,33.920553,-84.255383,,,0,,0
+205,205,Buford Hwy & S Cemetery St IB,,33.938792,-84.211274,,,0,,0
+206,206,Buford Hwy & Mitchell Rd (Advance Auto) ,,33.940976,-84.208992,,,0,,0
+208,208,Buford Hwy & Peach Corners Dist Ctr,,33.945984,-84.202629,,,0,,0
+209,209,Buford Hwy & Button Gwinnett Dr IB,,33.925875,-84.247395,,,0,,0
+210,210,Buford Hwy & Cambridge St,,33.951188,-84.196034,,,0,,0
+212,212,Buford Hwy at Car Z Atlanta IB,,33.929779,-84.232545,,,0,,0
+213,213,Buford Hwy at Korean Catholic Church IB,,33.914449,-84.261306,,,0,,0
+215,215,Buford Hwy at Global Forum OB,,33.919256,-84.257175,,,0,,0
+216,216,Buford Hwy at Global Forum IB,,33.919089,-84.256918,,,0,,0
+217,217,Buford Hwy & Gravitt Tr (across) OB,,33.973837,-84.167419,,,0,,0
+218,218,Buford Hwy at Green Auto Body IB,,33.923282,-84.251526,,,0,,0
+221,221,Buford Hwy at Hillside Dr IB,,33.928889,-84.236401,,,0,,0
+222,222,Buford Hwy at Huntington Rd Apts IB,,33.931734,-84.223983,,,0,,0
+225,225,Buford Hwy & Reyes Auto OB,,33.917962,-84.258413,,,0,,0
+226,226,Buford Hwy at Jenny's Place IB,,33.91735,-84.258634,,,0,,0
+227,227,Buford Hwy at Jimmy Carter IB,,33.932799,-84.2196,,,0,,0
+229,229,Buford Hwy & Suzanne's Kitchen,,33.975958,-84.164478,,,0,,0
+231,231,Buford Hwy at Lake Dr IB,,33.922405,-84.25286,,,0,,0
+233,233,Buford Hwy & Langford Rd (Magnolia Plaza,,33.950267,-84.197463,,,0,,0
+234,234,Buford Hwy at Lively Ave IB,,33.936144,-84.214275,,,0,,0
+236,236,Buford Hwy & Mitchell Rd (NAPA) IB,,33.941486,-84.207868,,,0,,0
+237,237,Buford Hwy & N Norcross Tucker Rd,,33.934888,-84.21576,,,0,,0
+238,238,Buford Hwy & Norcross Industrial Ct,,33.948097,-84.199989,,,0,,0
+239,239,Buford Hwy at Oak Rd IB,,33.928394,-84.238496,,,0,,0
+240,240,Buford Hwy & S Peachtree St IB,,33.931147,-84.226642,,,0,,0
+241,241,Buford Hwy & Old Norcross Rd,,33.947104,-84.200705,,,0,,0
+242,242,Buford Hwy & Payne Rd,,33.961355,-84.18405,,,0,,0
+243,243,Buford Hwy & Phoenix Metals,,33.962112,-84.183617,,,0,,0
+244,244,Buford Hwy & S Old Peachtree Rd OB,,33.970153,-84.172553,,,0,,0
+245,245,Buford Hwy at Pleasantdale Rd IB,,33.924555,-84.249668,,,0,,0
+246,246,Buford Hwy & Pittman Cir,,33.957475,-84.188549,,,0,,0
+247,247,Buford Hwy & Pittman Cir,,33.957961,-84.188484,,,0,,0
+248,248,Buford Hwy & Centro Norcross Plaza IB,,33.940132,-84.209599,,,0,,0
+249,249,Buford Hwy & Carlyle St OB,,33.938571,-84.21196,,,0,,0
+250,250,Buford Hwy & Remington Park Ct,,33.964667,-84.179641,,,0,,0
+251,251,Buford Hwy at Tofu House IB,,33.912404,-84.263377,,,0,,0
+253,253,Buford Hwy & Simpson Cir,,33.966907,-84.177061,,,0,,0
+254,254,Buford Hwy & Smith Ridge Trace,,33.952269,-84.195132,,,0,,0
+255,255,Burns Rd & Cliffglen Way IB,,33.910512,-84.121632,,,0,,0
+256,256,Burns Rd &  Garner Way,,33.910285,-84.122048,,,0,,0
+258,258,Burns Rd & Burns Cir B,,33.908773,-84.139887,,,0,,0
+259,259,Burns Rd & Beaver Ruin Rd (CVS),,33.912089,-84.133226,,,0,,0
+260,260,Burns Rd & Beaver Ruin Rd (Chevron),,33.911916,-84.133264,,,0,,0
+262,262,Burns Rd & Jacksons Mill Way,,33.90648,-84.144543,,,0,,0
+263,263,Burns Rd & Jodeco Cir (across),,33.905054,-84.148139,,,0,,0
+264,264,Burns Rd & Jodeco Rd,,33.904944,-84.147982,,,0,,0
+265,265,Burns Rd & Johns Way IB,,33.91113,-84.11795,,,0,,0
+266,266,Burns Rd & Johns Way,,33.911041,-84.117843,,,0,,0
+267,267,Burns Rd & Pleasant Hill Rd OB,,33.91076,-84.113762,,,0,,0
+268,268,Burns Rd & Shady Dr (across),,33.912182,-84.129214,,,0,,0
+269,269,Burns Rd & Springwood Dr IB,,33.907393,-84.142868,,,0,,0
+270,270,Burns Rd & Springwood Dr,,33.907412,-84.142616,,,0,,0
+272,272,Burns Rd & Walking Ln (past),,33.911101,-84.126161,,,0,,0
+277,277,Button Gwinnett Dr & Omega Dr OB,,33.923998,-84.244906,,,0,,0
+278,278,Button Gwinnett Dr & RUSH Truck Ctr,,33.919495,-84.241523,,,0,,0
+279,279,Button Gwinnett Dr & RUSH Ent (across),,33.919594,-84.241756,,,0,,0
+280,280,Button Gwinnett Rd & Ryder,,33.924089,-84.244794,,,0,,0
+281,281,Center Way Quicktrip (across),,33.919008,-84.197998,,,0,,0
+282,282,Center Way & Oakbrook Summit Entrance,,33.917008,-84.19651,,,0,,0
+283,283,Center Way & Reece  Supply OB,,33.916972,-84.196229,,,0,,0
+288,288,Grayson Hwy & Associated Credit Union,,33.941891,-83.98321,,,0,,0
+291,291,Club Dr & Carrington Ct Apts (Court Dr),,33.942136,-84.131656,,,0,,0
+292,292,Club Dr & Crestwood Pkwy OB,,33.942393,-84.132338,,,0,,0
+293,293,Club Dr & Shackleford Rd,,33.94266,-84.140351,,,0,,0
+294,294,Club Dr & Shackleford Rd,,33.942784,-84.140384,,,0,,0
+295,295,Club Dr & Steve Reynolds Blvd,,33.942111,-84.135106,,,0,,0
+296,296,Club Dr & Steve Reynolds Blvd OB,,33.942331,-84.135434,,,0,,0
+301,600029,Courtland Street at Ellis Street,,33.7585,-84.384307,,,0,,0
+304,304,W. Pike St & CVS Pharmacy,,33.964751,-84.008297,,,0,,0
+305,305,Dawson Blvd & Gateway Business Park,,33.908049,-84.208551,,,0,,0
+308,308,Dawson Blvd & Varsity Entrance 2,,33.908171,-84.208424,,,0,,0
+309,309,Dawson Blvd & Varsity Entrane 1,,33.907538,-84.20756,,,0,,0
+310,310,Koger Blvd & Devry University OB,,33.948981,-84.123026,,,0,,0
+313,313,Duluth Hwy & Meadow Brook Pkwy IB,,33.977836,-84.09691,,,0,,0
+314,314,Duluth Hwy  & Primerica Pkwy OB,,33.978014,-84.095797,,,0,,0
+316,316,Centerview Dr & Ferguson Elementary OB,,33.95077,-84.123157,,,0,,0
+318,318,Best Friend Rd & Button Gwinnett Dr OB,,33.913848,-84.236614,,,0,,0
+323,323,Graves Rd & McDonough Dr OB,,33.90262,-84.222407,,,0,,0
+324,324,Graves Rd & McDonough Dr IB,,33.902556,-84.22256,,,0,,0
+326,326,Graves Rd & Osborne Dr,,33.899823,-84.220848,,,0,,0
+327,327,Graves Rd & Sienna Heights Apts OB,,33.895261,-84.212562,,,0,,0
+328,328,Graves Rd & Champoins Park Apts OB,,33.901694,-84.221328,,,0,,0
+329,329,Graves Rd & Champions Park Apts IB,,33.901706,-84.221593,,,0,,0
+330,330,Graves Rd & Downing Ln OB,,33.895574,-84.21829,,,0,,0
+333,333,Graves Rd & Marquis Estates Apts OB,,33.895201,-84.216259,,,0,,0
+334,334,Graves Rd & E National Cir,,33.895072,-84.211406,,,0,,0
+336,336,Grayson Hwy & Big Lots,,33.945033,-83.984695,,,0,,0
+337,337,Grayson Hwy & Lawrenceville Square Plaza,,33.948587,-83.986771,,,0,,0
+338,338,Grayson Hwy & Metro Matress,,33.946053,-83.985288,,,0,,0
+340,340,Grayson Hwy & VFW IB,,33.942302,-83.983106,,,0,,0
+349,349,Prof Dr at the Gwinnett Prof Center #2,,33.964379,-84.011488,,,0,,0
+350,350,Gwinnett Dr & Bridgestone Tire,,33.943243,-83.992318,,,0,,0
+351,351,Gwinnett Dr & Town Center Cinemas OB,,33.940332,-83.984885,,,0,,0
+352,352,Gwinnett Dr & Green Tomato OB,,33.943179,-83.991868,,,0,,0
+353,353,Gwinnett Dr & Kroger Shopping IB,,33.940172,-83.984931,,,0,,0
+354,354,Gwinnett Dr & Police Security Bldg,,33.946601,-83.997147,,,0,,0
+355,355,Gwinnett Dr & HS Football Field,,33.948037,-83.99822,,,0,,0
+356,356,Gwinnett Dr & PNC Bank,,33.941479,-83.990338,,,0,,0
+357,357,Gwinnett Dr & Scenic Hwy OB,,33.942449,-83.990716,,,0,,0
+358,358,Gwinnett Dr & Stone Mountain St,,33.943999,-83.993521,,,0,,0
+360,360,Gwinnett Central High School IB,,33.949949,-84.000314,,,0,,0
+361,361,Gwinnett Technical College,,33.963566,-84.062777,,,0,,0
+363,363,Old Norcross Rd & Hillandale Rd,,33.953877,-84.031564,,,0,,0
+364,364,Holcomb Bridge Rd & Gwinnett Walk Plaza,,33.953953,-84.243505,,,0,,0
+365,365,Holcomb Bridge Rd & Bank of America OB,,33.949696,-84.233291,,,0,,0
+366,366,Holcomb Bridge Rd & Citgo Gas Station,,33.952823,-84.242668,,,0,,0
+369,369,Holcomb Bridge Rd & Ryan Rd,,33.951016,-84.237336,,,0,,0
+370,370,Holcomb Bridge Rd & A Hand to Hold,,33.953268,-84.243433,,,0,,0
+371,371,Holcomb Bridge Rd & The Corners Pkwy OB,,33.951405,-84.239981,,,0,,0
+372,372,Holcomb Bridge Rd & Woodland Rd OB,,33.957268,-84.245163,,,0,,0
+374,374,Indian Trail Rd & Le's Auto Repair,,33.916933,-84.163812,,,0,,0
+375,375,Indian Trail Rd at BOEHM Travel,,33.918621,-84.165212,,,0,,0
+376,376,Indian Trail Rd & GA Belle Ct,,33.919412,-84.167214,,,0,,0
+377,377,Indian Trail Rd & Georgia Belle Ct,,33.919719,-84.167148,,,0,,0
+378,378,Indian Trail Rd & GACS (2nd Entrance) OB,,33.920976,-84.170006,,,0,,0
+379,379,Indian Trail Rd & Indian Way,,33.908318,-84.157047,,,0,,0
+380,380,Indian Trail Rd & Market Center,,33.905246,-84.155196,,,0,,0
+381,381,Indian Trail Rd & Checks Cashed Bldg,,33.913263,-84.161259,,,0,,0
+382,382,Indian Trail Rd & GACS (1st Entrance) OB,,33.921948,-84.171598,,,0,,0
+383,383,Indian Trail Rd & Brook Plaza,,33.921205,-84.169726,,,0,,0
+384,384,Indian Trail Rd & KFC/WF,,33.922819,-84.172651,,,0,,0
+385,385,Indian Trail Rd & Quicktrip,,33.923146,-84.172471,,,0,,0
+386,386,Indian Trail Rd & TreeTrl Village Plz,,33.916567,-84.163931,,,0,,0
+387,387,Indian Trail Rd & Willow Trail Pkwy OB,,33.926156,-84.174902,,,0,,0
+388,388,Indian Trail Rd & Willow Trail Pkwy IB,,33.925778,-84.174279,,,0,,0
+390,390,Indian Tr & Wuthering Way (CPA) IB,,33.909825,-84.157204,,,0,,0
+391,391,Jimmy Carter Blvd & Amway Products Dist,,33.935127,-84.224789,,,0,,0
+392,392,Jimmy Carter Blvd & Atlantic Blvd,,33.939537,-84.236704,,,0,,0
+393,393,Jimmy Carter Blvd & MJays Baked Foods,,33.940999,-84.237717,,,0,,0
+395,395,Jimmy Carter Blvd & Veridian Bus Park,,33.94108,-84.237468,,,0,,0
+396,396,Jimmy Carter Blvd & Cash Ct,,33.942557,-84.239125,,,0,,0
+397,397,Jimmy Carter Blvd & Britt Rd,,33.885303,-84.191961,,,0,,0
+398,398,Jimmy Carter Blvd & Williams Rd,,33.885044,-84.191321,,,0,,0
+399,399,Jimmy Carter Blvd & Los Portales Rest,,33.931074,-84.221487,,,0,,0
+400,400,Jimmy Carter Blvd & Atlantic Blvd,,33.939815,-84.236593,,,0,,0
+403,403,Jimmy Carter Blvd & Everest Tr,,33.878488,-84.189059,,,0,,0
+404,404,Jimmy Carter Blvd & Panda Cab & Granite ,,33.93777,-84.235503,,,0,,0
+405,405,Jimmy Carter Blvd & Forest Vale Apts,,33.892921,-84.196443,,,0,,0
+406,406,Jimmy Carter Blvd & NAPA,,33.892481,-84.19599,,,0,,0
+407,407,Jimmy Carter Blvd & Best Friend Park OB,,33.928208,-84.220247,,,0,,0
+408,408,Jimmy Carter Blvd & Gale Dr,,33.899287,-84.20364,,,0,,0
+411,411,Jimmy Carter Blvd & Home Depot,,33.869427,-84.188102,,,0,,0
+412,412,Jimmy Carter Blvd & Hunters Club Ln,,33.872646,-84.187997,,,0,,0
+413,413,Jimmy Carter Blvd & Mr. Clean Carwash,,33.87193,-84.187763,,,0,,0
+415,415,Jimmy Carter Blvd & Martins Rest OB,,33.93144,-84.222072,,,0,,0
+416,416,Jimmy Carter Blvd & Sunrise Village Ln,,33.888412,-84.194429,,,0,,0
+418,418,Jimmy Carter Blvd & Norhtbelt Dr,,33.92738,-84.219276,,,0,,0
+419,419,Jimmy Carter Blvd & O'Riley,,33.922873,-84.213174,,,0,,0
+421,421,Jimmy Carter Blvd & Pacific Dr,,33.935446,-84.227955,,,0,,0
+423,423,Jimmy Carter Blvd & Quick Trip OB,,33.924278,-84.215927,,,0,,0
+424,424,Jimmy Carter Blvd & Regency Pkwy OB,,33.929772,-84.221127,,,0,,0
+425,425,Jimmy Carter Blvd & Rockbridge Rd (IHOP),,33.896309,-84.197557,,,0,,0
+426,426,Jimmy Carter Blvd & SPECTRA,,33.936013,-84.233753,,,0,,0
+427,427,Jimmy Carter Blvd & Shelby Dr,,33.895174,-84.196963,,,0,,0
+428,428,Jimmy Carter Blvd & WalMart OB,,33.894475,-84.196516,,,0,,0
+430,430,Jimmy Carter Blvd & Sonic OB,,33.922778,-84.213689,,,0,,0
+431,431,Jimmy Carter Blvd & Tracey Valley Dr,,33.899234,-84.20279,,,0,,0
+432,432,Jimmy Carter Blvd & Wandering Way,,33.881175,-84.18992,,,0,,0
+433,433,Jimmy Carter Blvd & Wandering Way,,33.880857,-84.189512,,,0,,0
+434,434,Jimmy Carter Blvd & Pacific Dr (Granite),,33.935635,-84.228433,,,0,,0
+436,436,Johnson Rd & L&ing Plaza OB,,33.921209,-84.007821,,,0,,0
+438,438,Nash St & GJAC Garage Ave,,33.949621,-83.992072,,,0,,0
+439,439,131 Langley Professional Building,,33.95458,-83.997366,,,0,,0
+440,440,Langley Dr & Plaza Park Office,,33.955857,-83.997854,,,0,,0
+441,441,Langley Dr & Methodist Church,,33.954712,-83.997163,,,0,,0
+442,442,Langley Dr & Huff St (Shell),,33.95595,-83.998129,,,0,,0
+443,443,Lawrenceville Hwy & Main St,,33.892549,-84.141506,,,0,,0
+444,444,Lawrenceville Hwy & Hillcrest Rd OB,,33.893008,-84.141654,,,0,,0
+445,445,Lawrenceville Hwy & Bartow Jenkins Park,,33.946561,-84.006312,,,0,,0
+446,446,Lawrenceville Hwy& Berkmar Middle Sch OB,,33.901201,-84.12627,,,0,,0
+448,448,Lawrenceville Hwy & Exxon Gas Station,,33.886878,-84.158098,,,0,,0
+449,449,Lawrenceville Hwy & PNC Bank (WalMart),,33.904257,-84.113215,,,0,,0
+451,451,Lawrenceville Hwy & Greenwood Dr,,33.886811,-84.157819,,,0,,0
+452,452,Lawrenceville Hwy & Harmony Grove Rd IB,,33.880772,-84.16472,,,0,,0
+453,453,Lawrenceville Hwy & Hanarry Dr,,33.944762,-84.009346,,,0,,0
+454,454,Lawrenceville Hwy & Harbins Rd IB,,33.888959,-84.155235,,,0,,0
+455,455,Lawrenceville Hwy & Harbins Rd OB,,33.889202,-84.155506,,,0,,0
+456,456,Lawrenceville Hwy & Harmony Grove Rd OB,,33.88122,-84.164515,,,0,,0
+457,457,Lawrenceville Hwy & Pine St,,33.889508,-84.14463,,,0,,0
+458,458,Lawrenceville Hwy &Tucker Valley Rd,,33.867094,-84.186814,,,0,,0
+459,459,Lawrenceville Hwy & Kenvilla Dr IB,,33.875644,-84.170504,,,0,,0
+460,460,Lawrenceville Hwy & Kenvilla Dr OB,,33.876121,-84.170286,,,0,,0
+461,461,Lawrenceville Hwy & Lankford Rd IB,,33.870472,-84.176011,,,0,,0
+462,462,Lawrenceville Hwy & Don Pedro OB,,33.904026,-84.115882,,,0,,0
+463,463,Lawrenceville Hwy & Lilburn School Rd,,33.88955,-84.151568,,,0,,0
+464,464,Lawrenceville Hwy & Lilburn School Rd OB,,33.889748,-84.151591,,,0,,0
+465,465,Lawrenceville Hwy & Linda Dr,,33.870972,-84.175867,,,0,,0
+466,466,Lawrenceville Hwy & Mimosa Cir IB,,33.872824,-84.173609,,,0,,0
+467,467,Lawrenceville Hwy & KED Plasma US OB,,33.87217,-84.174709,,,0,,0
+468,468,Lawrenceville Suwanee Rd & Old Norcross ,,33.956686,-84.018225,,,0,,0
+469,469,Lawrenceville Hwy & PepBoys,,33.90499,-84.112638,,,0,,0
+470,470,Lawrenceville Hwy & Pizza Hut,,33.938602,-84.018109,,,0,,0
+471,471,Lawrenceville Hwy & US Postal,,33.900698,-84.127303,,,0,,0
+472,472,Lawrenceville Hwy & Pounds Rd,,33.868545,-84.179166,,,0,,0
+473,473,Lawrenceville Hwy & Braxton Pl,,33.868889,-84.178954,,,0,,0
+475,475,Lawrenceville Hwy & Providence,,33.899788,-84.133519,,,0,,0
+476,476,Lawrenceville Suwanee & Radio Shack,,33.935493,-84.028219,,,0,,0
+477,477,Lawrenceville Hwy & Shell/Lilburn Animal,,33.889714,-84.14468,,,0,,0
+478,478,Lawrenceville Hwy & Summerwalk Pkwy,,33.867456,-84.182194,,,0,,0
+479,479,Lawrenceville Hwy & Stone Center OB,,33.867797,-84.181982,,,0,,0
+480,480,Lawrenceville Hwy & Citgo Gas Station,,33.867317,-84.186794,,,0,,0
+481,481,Lawrenceville Hwy & Rockbridge Rd (Walgr,,33.883544,-84.161388,,,0,,0
+485,485,Lawrenceville Hwy & Arcado Rd IB,,33.902626,-84.122304,,,0,,0
+486,486,Lawrenceville Hwy & Popeyes OB,,33.903718,-84.118255,,,0,,0
+487,487,Lawrenceville Hwy & Lawrenceville Pediat,,33.941921,-84.012936,,,0,,0
+488,488,Lawrenceville Hwy & Pizza Hut IB,,33.903504,-84.117996,,,0,,0
+489,489,Lawrenceville Hwy & Little Ceasars,,33.939745,-84.015852,,,0,,0
+493,493,Live OakPkwy & Live Oak Center,,33.909391,-84.199538,,,0,,0
+494,494,Live Oak Pkwy & Fire Department,,33.911856,-84.200697,,,0,,0
+495,495,Live Oak Pkwy at Live Oak Plaza IB,,33.907874,-84.20235,,,0,,0
+496,496,Live Oak Pkwy & Salvation Army,,33.91061,-84.199694,,,0,,0
+497,497,McDonough Dr & DACA Specialty Svc OB,,33.904115,-84.219756,,,0,,0
+498,498,McDonough Dr & Webb Dr OB,,33.904893,-84.218495,,,0,,0
+499,499,McDonough Dr & Young Ct OB,,33.907038,-84.215805,,,0,,0
+504,504,McDonough Dr & Dawson Blvd (Rooms2Go),,33.909766,-84.209671,,,0,,0
+505,505,McDonough Dr & Fit Food (across),,33.908174,-84.213435,,,0,,0
+506,506,McDonough Dr & Fit Food IB,,33.908221,-84.213561,,,0,,0
+507,507,McDonough Dr & DACA Specialty Svc IB,,33.90413,-84.220036,,,0,,0
+508,508,McDonough Dr & Webb Dr (APEX),,33.905414,-84.21809,,,0,,0
+509,509,McDonough Dr & Wilwat Dr (past street),,33.909137,-84.211414,,,0,,0
+510,510,McDonough Dr & Young Ct IB,,33.907281,-84.215593,,,0,,0
+511,511,Steve Reynolds Blvd at Meadow Creek HS,,33.923513,-84.147053,,,0,,0
+513,513,Medlock Bridge Rd & Animal Hospital,,33.957137,-84.208188,,,0,,0
+514,514,Medlock Bridge Rd & Chevron Gas Station,,33.962064,-84.208582,,,0,,0
+515,515,Medlock Bridge Rd & Medlock Corners Dr,,33.963603,-84.208383,,,0,,0
+516,516,Medlock Bridge Rd & Thai Star Restaurant,,33.960022,-84.208526,,,0,,0
+520,600037,Mitchell Street Southwest at Central Avenue Southwest,,33.749667,-84.390799,,,0,,0
+521,521,Mitchell Rd & Everglades Tr,,33.93476,-84.202378,,,0,,0
+522,522,Mithcell Rd & Goodwick Way (across),,33.928291,-84.196165,,,0,,0
+523,523,Mitchell Rd & Goodwick Way,,33.928391,-84.195984,,,0,,0
+524,524,Mitchell Rd & Co-Op Ministry,,33.931958,-84.200735,,,0,,0
+525,525,Mitchell Rd & Co-Op Ministry,,33.932031,-84.200562,,,0,,0
+527,527,Mitchell Rd & Price Pl,,33.938374,-84.206004,,,0,,0
+528,528,Mitchell Rd & Everglades Tr (Shell),,33.934653,-84.202516,,,0,,0
+529,529,Mitchell Rd & Station Cir (across),,33.926394,-84.194557,,,0,,0
+530,530,Mitchell Rd & Station Cir,,33.926368,-84.19434,,,0,,0
+533,533,Martin Luther King Jr Dr & Peachtree St,,33.751922,-84.391716,,,0,,0
+534,600040,Central Avenue at Martin Luther King Junior Drive,,33.751302,-84.389382,,,0,,0
+535,535,Martin Luther King Jr. Federal Building,,33.752241,-84.39396,,,0,,0
+536,536,Old Norcross Rd & Monfort Rd,,33.954532,-84.020946,,,0,,0
+537,537,Nash St & Culver St,,33.950503,-83.990013,,,0,,0
+538,538,Langley Dr & Constitutional Blvd IB,,33.949815,-83.992276,,,0,,0
+539,539,Nash St & Stone Mountain St,,33.95026,-83.990013,,,0,,0
+540,540,N Berkeley Lake Rd & The Estates Apts IB,,33.971261,-84.155421,,,0,,0
+541,541,N Berkeley Lake Rd & Marquis @ Nberkeley,,33.968742,-84.1515,,,0,,0
+542,542,N Berkeley Lake Road & Wal-Mart,,33.96889,-84.149369,,,0,,0
+545,545,Old Norcross Rd & Cntry @Sugarloaf Apts,,33.953845,-84.044182,,,0,,0
+546,546,Old Norcross Rd & Benefield Elementary,,33.954167,-84.031914,,,0,,0
+547,547,Old Norcross Rd & 3100 Curtis Building,,33.955971,-84.105679,,,0,,0
+549,549,Old Norcross Rd & Averritt (across) IB,,33.953719,-84.023933,,,0,,0
+551,551,Old Norcross Rd & Discovery HS IB,,33.954335,-84.036771,,,0,,0
+552,552,Old Norcross Rd & Old Norcross Plaza,,33.95232,-84.102293,,,0,,0
+553,553,Old Norcross Rd & Riverside Pkwy IB,,33.953327,-84.026153,,,0,,0
+554,554,Old Norcross Rd & Sugarloaf Pkwy,,33.953132,-84.050643,,,0,,0
+555,555,Old Norcross Rd & Sweetwater Rd IB,,33.951724,-84.100866,,,0,,0
+556,556,Old Norcross Rd & Tipton Industrial Dr,,33.953845,-84.041956,,,0,,0
+557,557,S Norcross Tucker Rd & Graves Rd OB,,33.895631,-84.210279,,,0,,0
+558,558,S Norcross Tucker Rd & Checkers,,33.901336,-84.205752,,,0,,0
+559,559,Norcross Tucker Rd & Crestwood Apts,,33.897556,-84.209023,,,0,,0
+560,560,S Norcross Tucker Rd & Danbury Dr OB,,33.899288,-84.207372,,,0,,0
+561,561,S Norcross Tucker Rd & Graves Rd,,33.89559,-84.209983,,,0,,0
+562,562,S Norcross Tucker Rd & Rest. Las Islitas,,33.901292,-84.206087,,,0,,0
+563,563,S Norcorss Tucker Rd & Oakwood Cir,,33.899132,-84.2072,,,0,,0
+564,564,Old Norcross Rd & Showroom (Raco Dr),,33.954474,-84.021919,,,0,,0
+571,571,Live Oak Pkwy & Brookside Apartments,,33.909378,-84.199281,,,0,,0
+572,572,Live Oak Pkwy & Oaklake Office Center,,33.910805,-84.199648,,,0,,0
+573,573,Dawson Blvd & Carter Center Plaza,,33.907192,-84.206569,,,0,,0
+574,574,Live Oak Pkwy at Lakeside Corporate Ct,,33.912348,-84.200492,,,0,,0
+576,576,Oakbrook Pkwy & Oakbrook Dr,,33.915241,-84.197798,,,0,,0
+578,578,Oakbrook Pkwy & Oakbrook Lake Dr OB,,33.914291,-84.199791,,,0,,0
+579,579,Oakbrook Pkwy & Oakbrook Summit(2nd Ent),,33.915415,-84.198127,,,0,,0
+580,580,Old Norcross Rd & Sweetwater Rd OB,,33.95212,-84.102462,,,0,,0
+581,581,Old Norcross Rd & Mill Valley Apts,,33.951344,-84.100533,,,0,,0
+582,582,Old Norcross Rd at Gwinnett Clinic,,33.957186,-84.109403,,,0,,0
+583,583,Old Norcross at the Gwinnett Body Shop,,33.955595,-84.105672,,,0,,0
+584,584,Old Norcross Rd & Old Victorian Rd IB,,33.950884,-84.098703,,,0,,0
+585,585,Old Norcross Rd & Bridge,,33.953604,-84.041916,,,0,,0
+586,586,Old Norcross Rd & Burnham Ridge,,33.953761,-84.039297,,,0,,0
+587,587,Old Norcross Rd & Breckinridge Blvd IB,,33.958661,-84.111462,,,0,,0
+588,588,Old Norcross Rd & Breckinridge Blvd(WF),,33.958382,-84.111643,,,0,,0
+589,589,Old Norcrss Rd & Shell Gas Station,,33.95273,-84.049848,,,0,,0
+590,590,Old Norcross at Stephen Gould Corp,,33.954678,-84.104739,,,0,,0
+591,591,Old Norcross & Sweetwoods Dr,,33.949306,-84.093645,,,0,,0
+593,593,Park Dr & Beaver Ruin Rd IB,,33.933562,-84.153022,,,0,,0
+594,594,Park Dr & Beaver Ruin Rd OB,,33.933536,-84.153157,,,0,,0
+595,600051,Peachtree Street at 10th Street,,33.781911,-84.384095,,,0,,0
+596,600052,Peachtree Street at 14th Street,,33.786206,-84.383221,,,0,,0
+597,597,Peachtree Industrial Rd & ADVA OB,,33.954819,-84.221305,,,0,,0
+599,599,P'tree Ind Blvd & Peachtree Corners Cir ,,33.952234,-84.226757,,,0,,0
+600,600,Peachtree Ind Blvd & The Fields Apts,,33.942717,-84.243342,,,0,,0
+604,604,Peachtree Corners Cir & Autumn Trace Dr,,33.947007,-84.251566,,,0,,0
+607,607,Peachtree Corners Cir & Corners Ind Cir,,33.941907,-84.250066,,,0,,0
+608,608,Peachtree Corners Cir & Elmside Villg Ln,,33.95437,-84.250174,,,0,,0
+613,613,Peachtree Pkwy & Hyatt IB,,33.966354,-84.222801,,,0,,0
+614,600050,Peachtree Center Avenue at John Wesley Dobbs Avenue,,33.757032,-84.386033,,,0,,0
+615,615,Peachtree Corners Cir & Jones Mill Spur ,,33.945535,-84.251131,,,0,,0
+616,616,Peachtree Ind Blvd &  Corners @ 1700 Apt,,33.940792,-84.24669,,,0,,0
+617,617,Peachtree Corners Cir & Klinect Court (a,,33.952206,-84.251027,,,0,,0
+618,618,Peachtree Industrial Blvd & Kingston Ct,,33.941584,-84.24392,,,0,,0
+620,620,Peachtree Corners Cir & Muray's,,33.940181,-84.249271,,,0,,0
+621,600054,Peachtree Street at North Avenue,,33.770875,-84.385132,,,0,,0
+623,623,Peachtree Pkwy & Publix,,33.952211,-84.234155,,,0,,0
+624,624,Peachtree Pkwy & Peachtree Corner Cir IB,,33.977353,-84.217574,,,0,,0
+626,626,N Peachtree St & Reps Miller Road,,33.954106,-84.20859,,,0,,0
+627,627,Peachtree Corners Cir & Pineland Woods D,,33.957175,-84.248858,,,0,,0
+628,628,Peachtree Industrial Rd & DIVOTS Sportsw,,33.953787,-84.22377,,,0,,0
+629,629,Peachtree Industrail Blvd & Target Plaza,,33.949984,-84.230573,,,0,,0
+631,631,Peachtree Corners Cir& Springs Ln,,33.95049,-84.251678,,,0,,0
+632,632,Peachtree Pkwy & Weslayan School OB,,33.974073,-84.21939,,,0,,0
+633,633,Peachtree Corners Cir & Appletree Way IB,,33.957525,-84.248173,,,0,,0
+634,634,Peachtree Corners Cir & Bannor Ln,,33.951069,-84.251135,,,0,,0
+635,635,Peachtree Corners Cir & Brandywine Tr,,33.956464,-84.248968,,,0,,0
+636,636,Peachtree Corners Cir & Jones Mill Spur ,,33.944953,-84.250665,,,0,,0
+637,637,Pechtree Corners Cir & Corners @ 1700 Ap,,33.943687,-84.250311,,,0,,0
+638,638,Peachtree Corners Cir & Kilnect Ct,,33.952352,-84.250678,,,0,,0
+639,639,Peachtree Corners Cir & FIZZ IB,,33.94074,-84.249252,,,0,,0
+640,640,Peachtree Corners Cir & Parton Ct,,33.949603,-84.251576,,,0,,0
+642,642,Peachtree Pkwy & Residence Inn Hotel,,33.974073,-84.219819,,,0,,0
+643,643,Peachtree Pkwy Plaza IB,,33.970853,-84.220793,,,0,,0
+646,646,Philip Blvd & Katherine Oaks Rd,,33.967614,-84.010312,,,0,,0
+647,647,Philip Blvd & Walther Rd OB,,33.968584,-84.005681,,,0,,0
+648,648,Philip Blvd & Walther Rd IB,,33.968688,-84.00652,,,0,,0
+649,649,Philip Blvd & Katherine Oak Ct IB,,33.967677,-84.010446,,,0,,0
+650,650,W Pike St & McConnell Dr,,33.963446,-84.007041,,,0,,0
+651,651,W Pike St & Buchannan St (Hertz),,33.95857,-84.002043,,,0,,0
+652,652,W Pike St & Honeysuckle Ave,,33.957938,-83.999014,,,0,,0
+653,653,W Pike St & Old Norcross Rd,,33.960768,-84.004716,,,0,,0
+654,654,W Pike St & Phoenix HS,,33.962048,-84.006036,,,0,,0
+660,660,Pleasant Hill Rd & Lawrenceville Hwy IB,,33.90811,-84.111799,,,0,,0
+661,661,Pleasant Hill Rd & Pleasant Hill Plaza,,33.945792,-84.125362,,,0,,0
+662,662,Pleasant Hill Rd & Popeyes OB,,33.946383,-84.126167,,,0,,0
+664,664,Mitchell Rd & Price Pl OB,,33.938048,-84.205973,,,0,,0
+665,665,Lawrenceville Suwanee Rd & Professional ,,33.960462,-84.020474,,,0,,0
+666,666,Prof Dr & Second Four Way Stop Sign IB,,33.961547,-84.018548,,,0,,0
+667,667,575 Professional Dr,,33.96501,-84.011449,,,0,,0
+670,670,Tech Dr & Food Depot,,33.914784,-84.163662,,,0,,0
+672,672,Reps Miller Rd & Race Track,,33.95491,-84.218768,,,0,,0
+673,673,3119 Reps Miller Rd Office Park,,33.954364,-84.215086,,,0,,0
+674,674,Reps Miller Rd & Wyngate (Reps Ln),,33.953722,-84.212149,,,0,,0
+675,675,Old Norcross Rd & Riverside Pkwy OB,,33.953219,-84.02715,,,0,,0
+676,676,Old Norcross Rd & Winding River Dr,,33.953578,-84.044135,,,0,,0
+677,677,Grayson Hwy & Phillip St (Citgo),,33.945915,-83.985502,,,0,,0
+678,678,Satellite Blvd & Marquis @ Sugarloaf IB,,33.981002,-84.092562,,,0,,0
+679,679,Satellite Blvd & Satellite Shops,,33.963948,-84.126159,,,0,,0
+681,681,Satellite Blvd & Bank of America IB,,33.95969,-84.133028,,,0,,0
+682,682,Satellite Blvd & Bridgewater Apts OB,,33.947727,-84.154189,,,0,,0
+683,683,Satellite Blvd & I Love Pho Restaurant I,,33.942932,-84.160085,,,0,,0
+684,684,Satellite Rd & Pars Cars Sales,,33.964466,-84.126815,,,0,,0
+685,685,Satellite Blvd & The Portico Apts IB,,33.948375,-84.152362,,,0,,0
+686,686,Satellite Blvd & The Maddox Apts (across,,33.946113,-84.156808,,,0,,0
+687,687,Satellite Blvd & Chevy Dealership,,33.963321,-84.122186,,,0,,0
+688,688,Satellite Blvd & Chick-fil-A IB,,33.987522,-84.089126,,,0,,0
+689,689,Satellite Blvd & Childrens Healthcare IB,,33.967226,-84.101623,,,0,,0
+690,690,Satellite & NCR Main Entrance OB,,33.967627,-84.101717,,,0,,0
+693,693,Satellite Blvd & Gwinnett Place Ford,,33.961816,-84.11887,,,0,,0
+694,694,Satellite Blvd & Evergreen Blvd,,33.965007,-84.108087,,,0,,0
+695,695,Satellite Blvd & Golden Corral,,33.963031,-84.122313,,,0,,0
+699,699,Satellite Blvd & Hopkins Mill Rd IB,,33.941169,-84.163515,,,0,,0
+700,700,Satellite Blvd & Hopkins Mill Rd,,33.941335,-84.163887,,,0,,0
+701,701,Satellite Blvd & Satellite Square OB,,33.95655,-84.139188,,,0,,0
+702,702,Satellite Blvd & Enterprise Dealer IB,,33.962414,-84.113659,,,0,,0
+703,703,Satellite Rd & NCR Office Building OB,,33.962717,-84.113828,,,0,,0
+704,704,Satellite Blvd & InTown Suites IB,,33.956097,-84.139323,,,0,,0
+708,708,Satellite Blvd & Satellite Point Offices,,33.962664,-84.120331,,,0,,0
+710,710,Satellite Blvd & Chow Won Buffet,,33.958114,-84.136558,,,0,,0
+711,711,Satellite Blvd & Pond Rd,,33.940515,-84.16711,,,0,,0
+712,712,Satellite Blvd & Quicktrip OB,,33.962163,-84.132393,,,0,,0
+713,713,Satellite Blvd at Recycling Center IB,,33.947381,-84.154272,,,0,,0
+714,714,Satellite Blvd & Steve Reynolds Blvd OB,,33.954648,-84.141897,,,0,,0
+715,715,Satellite Blvd & The Eclipse Apts OB,,33.950189,-84.149394,,,0,,0
+716,716,Satellite Blvd & Gwinnett Square Apts OB,,33.949172,-84.151445,,,0,,0
+719,719,Satellite Blvd & Suzuki Dealership,,33.963551,-84.111042,,,0,,0
+720,720,Satellite Blvd at Valley Ridge Ln IB,,33.939937,-84.16755,,,0,,0
+721,721,Satellite Blvd & 2180 Satellite Blvd,,33.984399,-84.092431,,,0,,0
+722,722,Satellite Blvd & West Liddell IB,,33.951266,-84.14657,,,0,,0
+723,723,Satellite Blvd & W Liddell Rd,,33.95128,-84.147099,,,0,,0
+727,727,Satellite Blvd & Tandy Key Ln,,33.963566,-84.124399,,,0,,0
+729,729,Satellite Blvd & Midas IB,,33.957906,-84.136308,,,0,,0
+731,731,Satellite Blvd & BP Gas Station,,33.977971,-84.093137,,,0,,0
+732,732,Satellite Blvd & Steve Reynolds Blvd IB,,33.953716,-84.142527,,,0,,0
+734,734,Scientific Dr & Peachtree Pkwy (UCI),,33.965359,-84.222879,,,0,,0
+736,736,Shackleford Rd & Corporate Dr IB,,33.941298,-84.145905,,,0,,0
+737,737,Shackleford Rd & Corporate Dr OB,,33.941555,-84.145698,,,0,,0
+738,738,Shackleford Rd & Hotel (Sonesta),,33.948511,-84.130013,,,0,,0
+739,739,Park Dr & Shackleford Rd,,33.938766,-84.149614,,,0,,0
+740,740,Shackleford Rd & Park Dr,,33.938992,-84.149956,,,0,,0
+741,741,Shackleford Rd & Pine Rd (Building),,33.947603,-84.131965,,,0,,0
+743,743,Singleton Rd & Church (Iglesia Universal,,33.904044,-84.20315,,,0,,0
+744,744,Singleton Rd & Harbins Rd IB,,33.908186,-84.183344,,,0,,0
+746,746,Singleton Rd & Pirkle Rd IB,,33.908,-84.192443,,,0,,0
+747,747,Singleton Rd & Pirkle Rd OB,,33.90826,-84.191978,,,0,,0
+748,748,Singleton Rd & Singleton Valley Cir (1),,33.909511,-84.17842,,,0,,0
+749,749,Singleton Rd & Turners Ridge Dr,,33.909906,-84.176956,,,0,,0
+750,750,Singleton Rd & Walton Way,,33.908186,-84.189214,,,0,,0
+751,751,Singleton Rd & Santa Anna Dr,,33.912729,-84.167313,,,0,,0
+752,752,Singleton Rd & Button Gwinnett Pl OB,,33.908302,-84.190782,,,0,,0
+753,753,Singleton Rd & Button Gwinnett Pl IB,,33.908132,-84.190485,,,0,,0
+754,754,Singleton Rd & Country Downs Dr OB,,33.910656,-84.173459,,,0,,0
+759,759,Singleton Rd & Gladiator Drive OB,,33.909091,-84.18062,,,0,,0
+760,760,Singleton Rd & Harbins Rd (before light),,33.908456,-84.18307,,,0,,0
+761,761,Singleton Rd & Sarah Ct,,33.904034,-84.20269,,,0,,0
+762,762,Singleton Rd & Metro Self Storage,,33.913164,-84.165478,,,0,,0
+763,763,Singleton Rd & Thompson Pkwy (QT),,33.90515,-84.200703,,,0,,0
+764,764,Singleton Rd & Thompson Pkwy,,33.904977,-84.200445,,,0,,0
+765,765,Singleton Rd & Reddington Ln OB,,33.910329,-84.174524,,,0,,0
+766,766,Singleton Rd & Riva Ridge Dr,,33.911348,-84.169619,,,0,,0
+767,767,Singleton Rd & Robin Hill Dr OB,,33.909645,-84.178889,,,0,,0
+768,768,Singleton Rd & Sandune Dr (2nd Entrance),,33.91012,-84.174393,,,0,,0
+769,769,Singleton Rd & Seattle Slew Ln,,33.91105,-84.170541,,,0,,0
+770,770,Singleton Rd & Singleton Valley Cir (2),,33.909695,-84.176797,,,0,,0
+771,771,5925 Singleton Rd (across Steeple Chase ,,33.907461,-84.1958,,,0,,0
+772,772,Singleton Rd & The Chelsea Apts IB,,33.907346,-84.195467,,,0,,0
+773,773,Singleton Rd & Stonewood Dr OB,,33.908435,-84.188492,,,0,,0
+774,774,Singleton Rd & Sugarwood Ln,,33.913094,-84.166746,,,0,,0
+775,775,Singleton Rd & Texaco Gas Station,,33.913346,-84.163102,,,0,,0
+776,776,Singleton Rd & Williams Rd,,33.910678,-84.172643,,,0,,0
+778,778,Spalding Dr & Norcross HS (bfr light),,33.967676,-84.214945,,,0,,0
+779,779,Spalding Dr & Medlock Bridge Rd (Citgo) ,,33.968566,-84.208072,,,0,,0
+780,780,Koger Blvd & St Leo University OB,,33.94839,-84.124274,,,0,,0
+781,781,Grayson Hwy & St. Lawrence Church,,33.943778,-83.984257,,,0,,0
+784,784,Steve Reynolds Blvd & Chesdan Dr,,33.959271,-84.141744,,,0,,0
+785,785,Steve Reynolds Blvd & 7 Coffee Shop OB,,33.958455,-84.141568,,,0,,0
+787,787,Steve Reynolds Blvd & Falling Water Ln I,,33.916442,-84.151395,,,0,,0
+788,788,Steve Reynolds Blvd & Hillcrest Ct,,33.913275,-84.158648,,,0,,0
+789,789,Steve Reynolds Blvd & Old Norcross Rd OB,,33.962247,-84.141585,,,0,,0
+790,790,Steve Reynolds Blvd & Oak Loch Tr,,33.914753,-84.154322,,,0,,0
+791,791,Steve Reynolds Blvd & Old Norcross Rd,,33.963084,-84.142422,,,0,,0
+794,794,Stone Mountian St & Boys & Girls Club OB,,33.940576,-83.994704,,,0,,0
+795,795,Stone Mountain St & Piedmont Bank,,33.943196,-83.993863,,,0,,0
+796,796,Stone Mountain St & Highgate Dr OB,,33.927018,-84.008194,,,0,,0
+797,797,Johnson Rd & Stone Mountain St,,33.924319,-84.009385,,,0,,0
+798,798,Stone Mountain St & Liegh Kay Apts OB,,33.929418,-84.002009,,,0,,0
+799,799,Stone Mountain Street & Open Field,,33.935723,-83.997654,,,0,,0
+800,800,Stone Mountain St & Somerset Dr OB,,33.938248,-83.996084,,,0,,0
+801,801,Sugarloaf Pkwy & Taco Bell,,33.955184,-84.05591,,,0,,0
+802,802,Sugarloaf Mills Cir by 412/410 P&R,,33.983272,-84.081197,,,0,,0
+803,803,Sugarloaf Pkwy & Arbys,,33.955174,-84.053508,,,0,,0
+804,804,Sugarloaf Mills Cir & Bass Pro Shop,,33.982386,-84.084422,,,0,,0
+805,805,Sugarloaf Pkwy & Bellbrook Ln OB,,33.920576,-84.01078,,,0,,0
+806,806,Sugarloaf Pkwy & Cisco Office,,33.957959,-84.05922,,,0,,0
+808,808,Sugarloaf Pkwy & Marathon Blvd (McD's),,33.955918,-84.056698,,,0,,0
+809,809,Sugarloaf Pkwy & Dunnhill Dr,,33.928001,-84.024913,,,0,,0
+810,810,Sugarloaf Mills at the Discount Tire Co,,33.978171,-84.083268,,,0,,0
+812,812,Sugarloaf Pkwy & Prodigy Point,,33.925582,-84.019658,,,0,,0
+813,813,Sugarloaf Pkwy & MacLeod Indusrial Park,,33.963419,-84.062312,,,0,,0
+814,814,Sugarloaf Pkwy & PNC Bank OB,,33.920366,-84.013487,,,0,,0
+815,815,Sugarloaf Pkwy & The James @ Sugarloaf,,33.966102,-84.066597,,,0,,0
+816,816,Sugarloaf Pkwy & Gwinnett Tech (2nd Entr,,33.965842,-84.066908,,,0,,0
+819,600053,Peachtree Street at Baker Street,,33.762633,-84.387348,,,0,,0
+820,820,Sweetwater Rd & Club Dr (FedEx/Kinkos),,33.942242,-84.126848,,,0,,0
+821,821,Sweetwater Rd & Club Drive OB,,33.942299,-84.127109,,,0,,0
+823,823,Sweetwater Rd & Pleasant Hill Rd,,33.943484,-84.125291,,,0,,0
+826,826,Tech Dr & Chevron Gas Station,,33.914741,-84.163457,,,0,,0
+829,829,Technology Pkwy  & Homewood Suites,,33.955706,-84.231799,,,0,,0
+830,830,Technology Pkwy & City Hall,,33.957721,-84.225691,,,0,,0
+831,831,Technology Pkwy & Research Dr,,33.965029,-84.217781,,,0,,0
+833,833,Technology Pkwy & Yardi Business,,33.963525,-84.218737,,,0,,0
+834,834,Thompson Pkwy & Singleton Rd IB,,33.905241,-84.201173,,,0,,0
+835,600015,Washington Street at Martin Luther King Junior Drive,,33.750359,-84.388304,,,0,,0
+836,836,S Clayton St & Wells Fargo,,33.94804,-83.986761,,,0,,0
+837,837,W Pike St & W Pike Plza (Sign-o-rama),,33.957829,-83.999527,,,0,,0
+843,600011,West Peachtree Street at Peachtree Place,,33.780654,-84.387333,,,0,,0
+846,846,W Pike St & Ultra Carwash,,33.96005,-84.004367,,,0,,0
+847,847,W Pike St & Kaceys Home Cooking Rest,,33.96239,-84.006646,,,0,,0
+848,848,W Pike St & Midas OB,,33.958276,-84.001792,,,0,,0
+853,853,Check Point 3,,33.84033,-84.313166,,,0,,0
+854,854,Check Point 4,,33.79137,-84.392172,,,0,,0
+858,858,Peachtree Pkwy & Forum IB,,33.980815,-84.215304,,,0,,0
+860,860,Holcomb Bridge Rd & Veranda Knolls Apts,,33.957802,-84.245875,,,0,,0
+862,862,Buford Hwy & Susan Ln,,33.927437,-84.242584,,,0,,0
+863,863,Buford Hwy & Pine St IB,,33.92934,-84.234403,,,0,,0
+864,864,Buford Hwy & Gwinn Dr IB,,33.930392,-84.229949,,,0,,0
+865,865,Beaver Ruin Rd & Standford Village Ln IB,,33.940218,-84.196041,,,0,,0
+866,866,Satellite Blvd & The Maddox Apts IB,,33.946078,-84.156475,,,0,,0
+867,867,Satellite Blvd & Aviation Insitute IB,,33.950086,-84.149098,,,0,,0
+868,868,Satellite Blvd & Evergreen Blvd IB,,33.964583,-84.108498,,,0,,0
+869,869,Satellite Blvd & Merritt Apartments OB,,33.963792,-84.111154,,,0,,0
+870,870,Beaver Ruin Rd & Red Oak Rd OB,,33.934853,-84.170535,,,0,,0
+871,871,Beaver Ruin Rd & Bailey Dr OB,,33.938765,-84.189774,,,0,,0
+872,872,Beaver Ruin Rd & Child Ntwrk Daycare OB,,33.939507,-84.192248,,,0,,0
+873,873,Buford Hwy & Post Office OB,,33.942321,-84.207249,,,0,,0
+874,874,Buford Hwy & Susan Ln OB,,33.927702,-84.242342,,,0,,0
+876,876,Atkinson Rd & Atkinson Park Dr IB,,33.969061,-84.073149,,,0,,0
+877,877,Beaver Ruin Rd & Shell Gas Station,,33.932368,-84.152395,,,0,,0
+879,879,Button Gwinnett Dr at TOPSA,,33.914673,-84.238213,,,0,,0
+880,880,Button Gwinnett & TOPSA,,33.914705,-84.238103,,,0,,0
+881,881,Boggs Rd & Caduceus Occupational Med,,33.956703,-84.094299,,,0,,0
+882,882,Breckinridge Blvd & Arlon Lane,,33.954577,-84.117067,,,0,,0
+883,883,Breckinridge Blvd & Cascade Apartments,,33.952456,-84.122912,,,0,,0
+884,884,Breckinridge Blvd & Eldridge Rd,,33.954432,-84.114546,,,0,,0
+885,885,Breckinridge Blvd & Mustang Unlimited,,33.970084,-84.085916,,,0,,0
+886,886,Brook Hollow & Indian Temple (2nd Entran,,33.919329,-84.203197,,,0,,0
+889,889,Burns Rd & Hillcrest Rd (across),,33.906,-84.145864,,,0,,0
+890,890,Indian Trail Rd & Indian Trail Ct Plaza,,33.905235,-84.154728,,,0,,0
+891,891,Graves Rd & East Windsor Ln,,33.899296,-84.220671,,,0,,0
+892,892,Graves Rd & Graves Mill Dr,,33.8955,-84.218578,,,0,,0
+893,893,Graves Park Entrance,,33.897434,-84.220736,,,0,,0
+894,894,Graves Park Entrance (across),,33.897221,-84.22048,,,0,,0
+895,895,Holcomb Bridge Rd & The Centre Apts,,33.950763,-84.239115,,,0,,0
+897,897,Indian Trail Rd & Steve Reynolds Blvd,,33.91331,-84.160959,,,0,,0
+898,898,Indian Trail Rd & Wellington Sq Plaza,,33.907545,-84.156572,,,0,,0
+899,899,Indian Trail Rd & Sterling Glen OB,,33.910787,-84.159119,,,0,,0
+900,900,6695 Jimmy Carter Blvd,,33.936508,-84.234045,,,0,,0
+901,901,Jimmy Carter Blvd & Best Friend Rd IB,,33.924638,-84.215898,,,0,,0
+903,903,Jimmy Carter Blvd & Maxzone Depo,,33.93535,-84.230651,,,0,,0
+904,904,Jimmy Carter Blvd & Everest Tr OB,,33.877768,-84.188564,,,0,,0
+905,905,Jimmy Carter Blvd & Meadowbrook Dr OB,,33.887917,-84.193897,,,0,,0
+906,906,Jimmy Carter Blvd & Best Friend Park,,33.928521,-84.220021,,,0,,0
+907,907,Jimmy Carter Blvd & RR Tracks,,33.938049,-84.235358,,,0,,0
+908,908,Jimmy Carter Blvd & S Peachtree St,,33.933376,-84.222826,,,0,,0
+909,909,Lawrenceville Hwy & BBT Bank IB,,33.897682,-84.138139,,,0,,0
+910,910,Lawrenceville Hwy & Bryson Park OB,,33.889424,-84.148105,,,0,,0
+911,911,Lawrenceville Hwy & Rockbridge Rd (Citgo,,33.882665,-84.161827,,,0,,0
+912,912,Lawrenceville Hwy & Wynne Russell Dr,,33.898304,-84.137732,,,0,,0
+913,913,Live Oak Pkwy & Thompson Pkwy IB,,33.907259,-84.2033,,,0,,0
+914,914,McDonough Dr & Dawson Blvd,,33.909557,-84.209554,,,0,,0
+915,915,Old Norcross Rd & Arbors @Breckinridge,,33.954292,-84.1041,,,0,,0
+916,916,Old Norcross Rd & Burnham Ridge,,33.954043,-84.039078,,,0,,0
+917,917,Old Norcross Rd & Old Victorian Rd IB,,33.951191,-84.098895,,,0,,0
+922,922,Park Dr & Gwinnett Park Sign (across),,33.936246,-84.149487,,,0,,0
+923,923,Peachtree Pkwy & The Corner Bakery,,33.953851,-84.233353,,,0,,0
+924,924,Peachtree Pkwy & Triangle Dr,,33.972894,-84.221072,,,0,,0
+925,925,Peachtree Corners Cir & Gleanleaf Dr IB,,33.947259,-84.251345,,,0,,0
+926,926,Peachtree Corners Cir & Jones Mill Ct,,33.94396,-84.250658,,,0,,0
+927,927,Peachtree Corners Cir & Parton Ct OB,,33.949232,-84.251962,,,0,,0
+928,928,Peachtree Corners Cir & Westchase Villge,,33.956051,-84.249526,,,0,,0
+932,932,Singleton Rd & Harbins Ridge Drive IB,,33.908249,-84.186612,,,0,,0
+934,934,Singleton Rd & Hydaburg Lane OB,,33.911513,-84.169825,,,0,,0
+935,935,Singleton Rd & Myrtle Creek Dr,,33.908258,-84.185221,,,0,,0
+936,936,S Norcross Tucker Rd & The Pointe Apartm,,33.897108,-84.208986,,,0,,0
+937,937,Spalding Dr & Bank of America,,33.96958,-84.219994,,,0,,0
+938,938,Spalding Dr & Technology Pkwy,,33.96823,-84.21746,,,0,,0
+939,939,Steve Reynolds Blvd & Falling Water Ln O,,33.916847,-84.151487,,,0,,0
+940,940,Steve Reynolds Blvd & Fire Station OB,,33.923878,-84.147419,,,0,,0
+941,941,Steve Reynolds Blvd & Ashford Apts IB,,33.914536,-84.1542,,,0,,0
+942,942,Stone Mountain St & Charleston Ln,,33.933842,-83.998771,,,0,,0
+943,943,Stone Mountain St & Charter St,,33.931928,-83.999947,,,0,,0
+944,944,Technology Pkwy at 157 Tech Pkwy,,33.961153,-84.223633,,,0,,0
+945,945,Technology Pkwy near Hampton Inn,,33.955422,-84.229586,,,0,,0
+948,948,Technology Pkwy & Technology Pkwy South,,33.962206,-84.220189,,,0,,0
+949,949,Boggs Rd & Meadow Brook Pkwy IB,,33.975017,-84.1009,,,0,,0
+950,950,Boggs Rd @ St. Andrews Church OB,,33.977467,-84.100098,,,0,,0
+951,951,Satellite Blvd & Public Storage OB,,33.943424,-84.159894,,,0,,0
+952,952,McDonough Dr & Wilwat Dr (ACE) IB,,33.909113,-84.211697,,,0,,0
+953,953,Singleton Rd & Harbins Ridge Dr OB,,33.908463,-84.187042,,,0,,0
+954,954,Graves Rd & Marquis Estates Apts IB,,33.895046,-84.216012,,,0,,0
+955,955,Live Oak Pkwy & Live Oak Plaza OB,,33.907383,-84.202505,,,0,,0
+957,957,Burns Shopping Ctr & Pleasant Hill Rd IB,,33.911331,-84.115292,,,0,,0
+958,958,Burns Rd & Bradstone Trace,,33.911007,-84.125244,,,0,,0
+959,959,Burns Rd & Shady Dr,,33.91233,-84.128914,,,0,,0
+960,960,Steve Reynolds Blvd & Windward Lane IB,,33.927159,-84.147492,,,0,,0
+961,961,Park Dr & Communications Dr IB,,33.936182,-84.149358,,,0,,0
+962,962,Shackleford Rd & Doan Way IB,,33.940091,-84.148248,,,0,,0
+963,963,Koger Blvd & Assi Farmers Market,,33.947785,-84.125101,,,0,,0
+964,964,Koger Blvd & Devry University IB,,33.948799,-84.122845,,,0,,0
+965,965,Breckinridge Blvd & Executive Dr S,,33.95657,-84.111726,,,0,,0
+967,967,Breckinridge Blvd & Arlon Ln OB,,33.95496,-84.117842,,,0,,0
+968,968,Shackleford Rd & Doan Way OB,,33.940295,-84.148134,,,0,,0
+969,969,Steve Reynolds Blvd & Hillcrest Ct OB,,33.913606,-84.158634,,,0,,0
+970,970,Lawrenceville Hwy & Beaver Ruin Rd OB,,33.90303,-84.122303,,,0,,0
+971,971,Lawrenceville Hwy & Merchants Walk OB,,33.900285,-84.130878,,,0,,0
+972,972,Jimmy Carter Blvd & Rockbridge School Rd,,33.89728,-84.198799,,,0,,0
+973,973,Old Norcross Rd & Boggs Rd IB,,33.94927,-84.092704,,,0,,0
+974,974,Atkinson Rd & Atkinson Park Dr OB,,33.969477,-84.073721,,,0,,0
+975,975,Professional Dr & 2nd 4way Stop Sign,,33.961333,-84.018231,,,0,,0
+976,976,Lawrenceville Hwy & Wal-Mart,,33.938099,-84.025583,,,0,,0
+977,977,N Norcross Tucker Rd & Pelican Dr IB,,33.920871,-84.212702,,,0,,0
+978,978,Jimmy Carter Blvd & W Peachtree St,,33.935272,-84.224564,,,0,,0
+980,980,Holcomb Bridge Rd & The Veiws Apts,,33.95556,-84.244885,,,0,,0
+981,981,Scientific Dr & Technology Pkwy,,33.966233,-84.218421,,,0,,0
+982,982,Scientific Dr & Meridian Business Plza,,33.965648,-84.219846,,,0,,0
+983,983,Peachtree Pkwy & Piedmont Bank,,33.982741,-84.213914,,,0,,0
+984,984,Peachtree Corners Cir & Davinci Ct IB,,33.977442,-84.214406,,,0,,0
+985,985,Peachtree Corners Cir & CHASE Bank IB,,33.977337,-84.216095,,,0,,0
+986,986,Medlock Bridge Rd & P'tree Corners Cir,,33.978591,-84.211436,,,0,,0
+987,987,Holcomb Bridge Rd & Woodmont Land Apts,,33.955516,-84.244554,,,0,,0
+988,988,N Norcross Tucker Rd & Pelican Dr,,33.920915,-84.212908,,,0,,0
+989,989,3300 Breckinridge Blvd,,33.954824,-84.119469,,,0,,0
+991,991,Breckinridge Blvd & Breckinridge Pkwy,,33.960065,-84.105783,,,0,,0
+992,992,2700 Breckinridge Blvd,,33.959907,-84.101796,,,0,,0
+993,993,Lawrenceville Hwy & Bryson Park IB,,33.889192,-84.148125,,,0,,0
+994,994,Beaver Ruin Rd & Quick Trip,,33.932945,-84.176588,,,0,,0
+995,995,Buford Hwy & WA Credit Dealer (Gwin Dr),,33.930642,-84.229837,,,0,,0
+996,996,Buford Hwy & CarZ (across) OB,,33.930044,-84.232248,,,0,,0
+997,997,Buford Hwy & Cornerstone Auto (across) O,,33.9285,-84.238913,,,0,,0
+998,998,Jimmy Carter Blvd & Paces Crossing Apts,,33.875213,-84.188043,,,0,,0
+999,999,Lawrenceville Hwy & Car Care Service Cen,,33.899985,-84.130975,,,0,,0
+1000,1000,Lawrenceville Hwy & Jordan Drive OB,,33.878677,-84.167687,,,0,,0
+1001,1001,Breckinridge & Mustangs Unltd OB across,,33.96975,-84.085589,,,0,,0
+1002,1002,Atkinson Rd & Herrington Rd,,33.973444,-84.077346,,,0,,0
+1003,1003,Buford Hwy & Beaver Ruin Rd (10BIB),,33.945488,-84.202807,,,0,,0
+1004,1004,Collins Hill Rd & Park Access Dr OB,,33.973657,-83.993662,,,0,,0
+1005,1005,Duluth Hwy & ALDI,,33.968784,-84.028367,,,0,,0
+1006,1006,Duluth Hwy & Lakes Pkwy,,33.968499,-84.033203,,,0,,0
+1007,1007,Duluth Hwy & Lawrenceville Suwanee Rd,,33.96818,-84.025527,,,0,,0
+1008,1008,Lawrenceville Suwanee Rd & AMC,,33.969682,-84.019764,,,0,,0
+1009,1009,Hurricane Shoals Rd & Curtis Rd OB,,33.969254,-83.995253,,,0,,0
+1010,1010,Hurricane Shoals Rd & Philip Blvd,,33.967947,-84.004702,,,0,,0
+1011,1011,Hurricane Shoals Rd & Whitehall Ln OB,,33.968545,-84.00049,,,0,,0
+1012,1012,Lakes Pkwy @ 1760 Apt Homes OB,,33.962961,-84.059692,,,0,,0
+1013,1013,Lakes Pkwy & Lakes Court Dr OB,,33.961374,-84.041394,,,0,,0
+1014,1014,Lakes Pkwy & Laval Blvd (Truck Entrance),,33.960878,-84.045675,,,0,,0
+1015,1015,Lakes Pkwy & WIKA,,33.963041,-84.052365,,,0,,0
+1016,1016,Lakes Pkwy & Belle Meade Ct,,33.963721,-84.056531,,,0,,0
+1017,1017,Riverside Pkwy & Lakes Pkwy OB,,33.964325,-84.036818,,,0,,0
+1018,1018,Lawrenceville Suwanee Rd & Lawrenceville,,33.971343,-84.018007,,,0,,0
+1019,1019,Lonnie Harvel Blvd @ GGC Housing OB,,33.980669,-84.008365,,,0,,0
+1020,1020,Lonnie Harvel Blvd & Sugar Oak Ln OB,,33.977474,-84.012456,,,0,,0
+1021,1021,Lonnie Harvel Blvd & Student Center OB,,33.981953,-84.005194,,,0,,0
+1022,1022,Riverside Pkwy & Kroger,,33.96677,-84.035421,,,0,,0
+1023,1023,Walther Blvd & IHOP,,33.972945,-84.016918,,,0,,0
+1024,1024,Walther Blvd & Parc 980 Apartments OB,,33.974793,-84.014033,,,0,,0
+1025,1025,Collins Hill Rd & Park Access Dr IB,,33.97471,-83.994104,,,0,,0
+1026,1026,Duluth Hwy & Lutheran Church,,33.969131,-84.028962,,,0,,0
+1027,1027,Hurricane Shoals Rd & Curtis Rd IB,,33.969414,-83.99451,,,0,,0
+1028,1028,Hurricane Shoals Rd & Whitehall Ln IB,,33.968395,-84.00027,,,0,,0
+1029,1029,Lakes Pkwy & Lakes Court Dr IB,,33.961882,-84.041066,,,0,,0
+1030,1030,Lakes Pkwy & Riverside Pkwy IB,,33.963681,-84.037932,,,0,,0
+1031,1031,Lakes Pkwy @ Smokey Tr,,33.963918,-84.056787,,,0,,0
+1032,1032,Lakes Pkwy & Wiegand Blvd,,33.961908,-84.049248,,,0,,0
+1033,1033,Duluth Hwy & Publix (L'ville Suwanee Rd),,33.968218,-84.024455,,,0,,0
+1034,1034,Lawrenceville Suwanee Rd & Verizon,,33.971378,-84.018349,,,0,,0
+1035,1035,Lonnie Harvel Blvd & GGC Housing IB,,33.980791,-84.008045,,,0,,0
+1036,1036,Lonnie Harvel Blvd @ Sugar Oak Ln IB,,33.977838,-84.012708,,,0,,0
+1037,1037,Lonnie Harvel Blvd & Student Center IB,,33.982187,-84.005038,,,0,,0
+1038,1038,Collins Hill Rd & Hurricane Shoals Rd IB,,33.97211,-83.992811,,,0,,0
+1039,1039,Atkinson Rd & Farmwood Dr,,33.9731,-84.076884,,,0,,0
+1040,1040,Riverside Pkwy & Duluth Hwy,,33.967636,-84.035552,,,0,,0
+1041,1041,Riverside Pkwy & Golden Corral,,33.965526,-84.0366,,,0,,0
+1042,1042,Walther Blvd & C3 Church,,33.973107,-84.017093,,,0,,0
+1044,1044,Walther Blvd & Parc 980 Apartments IB,,33.975159,-84.01341,,,0,,0
+1045,1045,Gwinnett Medical Resource Ctr,,33.966328,-84.008303,,,0,,0
+1046,1046,Lakes Pkwy & 1760 Apartment Homes IB,,33.963232,-84.059735,,,0,,0
+1047,1047,Collins Hill Rd & Hurricane Shoals Rd OB,,33.971959,-83.99298,,,0,,0
+1052,600025,1762 Clifton Road,,33.801402,-84.33133,,,0,,0
+1053,1053,Woodruff Circle Emory,,33.793327,-84.321513,,,0,,0
+1054,600027,Clifton Road at Houston Mill Road,,33.798667,-84.323971,,,0,,0
+1055,1055,Sugarloaf Mills P&R Local,,33.982845,-84.084811,,,0,,0
+1058,1058,Jimmy Carter Blvd & Dunkin Donuts OB,,33.904094,-84.205534,,,0,,0
+1059,1059,Buford Hwy & Remington Park Ct,,33.96488,-84.179813,,,0,,0
+1060,1060,N Berkeley Lake Rd & Storage OB,,33.975281,-84.161029,,,0,,0
+1061,1061,N Berkeley Lake Rd & Storage IB,,33.975304,-84.161576,,,0,,0
+1062,1062,Data Drive at Vital Solutions,,33.971943,-84.225569,,,0,,0
+1063,1063,Triangle Pkwy & Triangle Dr,,33.972644,-84.222362,,,0,,0
+1064,600026,Clifton Road at Clifton Way,,33.800568,-84.326912,,,0,,0
+1065,1065,Live Oak Pkwy & Wells Fargo Bank,,33.907321,-84.204635,,,0,,0
+1066,600007,Civic Center Station (West Peachtreet Street),,33.766731,-84.387403,,,0,,0
+1067,1067,Collins Hill Rd Collins Industrial Way I,,33.979859,-83.997677,,,0,,0
+1068,1068,Jones Mill Rd & Bay Cir OB,,33.937968,-84.247026,,,0,,0
+1069,1069,Governor's Lake Pkwy & Veritiv OB,,33.932425,-84.251989,,,0,,0
+1070,1070,Governor's Lake Pkwy (crosswalk),,33.935309,-84.253084,,,0,,0
+285,600002,Central Avenue at Wall Street,,33.752412,-84.388429,,,0,,0
+602,600006,Peachtree Center Avenue at Auburn Avenue,,33.755261,-84.386054,,,0,,0
+844,600013,North Avenue Station (West Peachtree Street),,33.771924,-84.387247,,,0,,0
+839,600014,West Peachtree Street at 14th Street,,33.787383,-84.387706,,,0,,0
+300,600028,Courtland Street at Auburn Avenue,,33.755912,-84.384348,,,0,,0
+302,600030,Courtland Street at Gilmer St,,33.753111,-84.385795,,,0,,0
+645,600041,New Peachtree Road at Pebblewood Apartments,,33.905528,-84.275889,,,0,,0
+570,600042,New Peachtree Road at Pebblewood Apartments,,33.905836,-84.275876,,,0,,0
+567,600043,New Peachtree Road at Longmire Way,,33.907467,-84.273248,,,0,,0
+566,600044,New Peachtree Road at Longmire Way,,33.907922,-84.272952,,,0,,0
+568,600045,New Peachtree Road at McElroy Road,,33.910887,-84.267807,,,0,,0
+569,600046,New Peachtree Road at McElroy Road,,33.911232,-84.267245,,,0,,0
+565,600047,New Peachtree Road at Oakcliff Road,,33.911555,-84.265922,,,0,,0
+622,600048,New Peachtree Road at Oakcliff Road,,33.912176,-84.265552,,,0,,0

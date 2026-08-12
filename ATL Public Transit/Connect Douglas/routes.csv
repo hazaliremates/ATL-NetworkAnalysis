@@ -1,0 +1,6 @@
+route_id,agency_id,route_short_name,route_long_name,route_type,route_color,route_text_color
+7512,1661,,ParPlan Route,3,F2F2F2,
+6712,1661,,Route 10,3,1F77B4,
+6792,1661,,Route 20,3,FF7F0E,
+6720,1661,,Route 30,3,D62728,
+6721,1661,,Route 40,3,2CA02C,

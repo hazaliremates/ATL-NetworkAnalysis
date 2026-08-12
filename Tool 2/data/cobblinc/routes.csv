@@ -1,0 +1,16 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+10,1,10,Arts Center Station/Marietta TC,,3,,1d1b11,ffffff
+100,1,100,Civic Center Station/Busbee P&R,,3,,0d0d0d,f2f2f2
+101,1,101,Civic Center/Five Points/MTC,,3,,0d0d0d,f2f2f2
+102,1,102,Arts Center Station/Acworth P&R,,3,,0d0d0d,f2f2f2
+15,1,15,CTC - MTC via Windy Hill,,3,,404040,f2f2f2
+20,1,20,CTC - MTC via S. Cobb Drive,,3,,0d0d0d,f2f2f2
+25,1,25,Hamilton E. Holmes Station/CTC,,3,,0d0d0d,f2f2f2
+30,1,30,Hamilton E. Holmes Station/MTC,,3,,0d0d0d,f2f2f2
+40,1,40,KSU-Kennesaw - MTC via Marietta,,3,,0d0d0d,f2f2f2
+45,1,45,KSU-Kennesaw - MTC via US 41,,3,,0d0d0d,f2f2f2
+50,1,50,CTC - MTC via Powers Ferry,,3,,0d0d0d,f2f2f2
+999,1,999,Test Route,,3,,FFFFFF,000000
+BLUE,1,BLUE,Cumberland Transfer CTC/Battery,,3,,ffffff,000000
+GREEN,1,GREEN,Battery/Windy Hill,,3,,ffffff,000000
+RAPID,1,RAPID,Arts Station/KSU-Kennesaw Rapid,,3,,ffffff,000000

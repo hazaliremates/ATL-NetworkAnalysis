@@ -1,0 +1,35 @@
+
+CENTRALITY ANALYSIS RESULTS
+============================
+
+TOP 5 NODES BY BETWEENNESS CENTRALITY:
+                node  betweenness
+    WEST END STATION     0.258402
+ FIVE POINTS STATION     0.246611
+OAKLAND CITY STATION     0.198900
+     GARNETT STATION     0.180606
+ ARTS CENTER STATION     0.176301
+
+BOTTOM 5 NODES BY BETWEENNESS CENTRALITY:
+                                    node  betweenness
+HAMILTON E HOLMES STATION - OUTSIDE LOOP          0.0
+                 Sweetwater @ Skyview OB          0.0
+                     Sweetwater @ Hwy 78          0.0
+         Thornton@ Veteran's Memorial OB          0.0
+                    Hwy 78 @ Thornton OB          0.0
+
+TOP 5 NODES BY PAGERANK:
+                                         node  pagerank
+Civic Center Station (West Peachtreet Street)  0.001869
+                             WEST END STATION  0.000849
+                           KENSINGTON STATION  0.000808
+                        NORTH SPRINGS STATION  0.000732
+                          Sugarloaf Mills P&R  0.000727
+
+BOTTOM 5 NODES BY PAGERANK:
+                                                 node  pagerank
+                             Hospital @ Prestley Mill  0.000019
+                               Prestley @ Stonebridge  0.000019
+                             S Service Rd @ Six Flags  0.000019
+                                 Thornton @ Crestmark  0.000019
+Central Avenue Southwest at Mitchell Street Southwest  0.000019

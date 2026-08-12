@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlanta Transit Network Map</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        #map {
+            height: 80vh;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .map-controls {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .agency-filter {
+            margin: 5px;
+        }
+        
+        .agency-filter input[type="checkbox"] {
+            margin-right: 8px;
+        }
+        
+        .marta-color { color: #004d9f; }
+        .cobblinc-color { color: #28a745; }
+        .gwinnett-color { color: #ffc107; }
+        .douglas-color { color: #dc3545; }
+        
+        .legend {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            padding: 15px;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            max-width: 200px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        
+        .map-container {
+            position: relative;
+        }
+        
+        .navbar {
+            background: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border: none;
+            border-radius: 25px;
+        }
+        
+        .form-control {
+            border-radius: 10px;
+        }
+        
+        .custom-popup {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/">
+                <i class="fas fa-subway me-2"></i>
+                Atlanta Metro Transit
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="/">
+                    <i class="fas fa-home me-1"></i>Home
+                </a>
+                <a class="nav-link active" href="/map">
+                    <i class="fas fa-map me-1"></i>Map
+                </a>
+                <a class="nav-link" href="/analysis">
+                    <i class="fas fa-chart-line me-1"></i>Analysis
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-12">
+                <div class="map-controls">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h5 class="mb-3">
+                                <i class="fas fa-map-marked-alt me-2"></i>
+                                Atlanta Transit Network Map
+                            </h5>
+                            <div class="d-flex flex-wrap">
+                                <label class="agency-filter">
+                                    <input type="checkbox" id="filterMARTA" checked>
+                                    <span class="marta-color fw-bold">MARTA</span>
+                                </label>
+                                <label class="agency-filter">
+                                    <input type="checkbox" id="filterCobbLinc" checked>
+                                    <span class="cobblinc-color fw-bold">CobbLinc</span>
+                                </label>
+                                <label class="agency-filter">
+                                    <input type="checkbox" id="filterGwinnett" checked>
+                                    <span class="gwinnett-color fw-bold">Gwinnett Transit</span>
+                                </label>
+                                <label class="agency-filter">
+                                    <input type="checkbox" id="filterDouglas" checked>
+                                    <span class="douglas-color fw-bold">Connect Douglas</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <input type="text" class="form-control" id="searchLocation" 
+                                           placeholder="Search for a location...">
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="btn btn-primary w-100" onclick="searchLocation()">
+                                        <i class="fas fa-search me-2"></i>Search
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="map-container">
+                    <div id="map"></div>
+                    <div class="legend">
+                        <h6 class="fw-bold mb-3">Transit Agencies</h6>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: #004d9f;"></div>
+                            <span>MARTA</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: #28a745;"></div>
+                            <span>CobbLinc</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: #ffc107;"></div>
+                            <span>Gwinnett Transit</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: #dc3545;"></div>
+                            <span>Connect Douglas</span>
+                        </div>
+                        <hr class="my-2">
+                        <div class="text-muted small">
+                            <i class="fas fa-info-circle me-1"></i>
+                            Click stops for details
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        let map;
+        let stopsLayerGroup;
+        let allStopsData = [];
+        
+        // Agency colors
+        const agencyColors = {
+            'MARTA': '#004d9f',
+            'CobbLinc': '#28a745',
+            'Gwinnett County Transit': '#ffc107',
+            'Connect Douglas': '#dc3545'
+        };
+        
+        // Initialize map
+        function initMap() {
+            // Create map centered on Atlanta
+            map = L.map('map').setView([33.7490, -84.3880], 11);
+            
+            // Add tile layer
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+            
+            // Initialize stops layer group
+            stopsLayerGroup = L.layerGroup().addTo(map);
+            
+            // Load transit data
+            loadTransitData();
+        }
+        
+        // Load transit stops data
+        async function loadTransitData() {
+            try {
+                const response = await fetch('/api/map-data');
+                const data = await response.json();
+                
+                allStopsData = data.stops;
+                
+                // Center map on data
+                if (data.center) {
+                    map.setView([data.center.lat, data.center.lon], 11);
+                }
+                
+                // Display stops
+                displayStops();
+                
+            } catch (error) {
+                console.error('Error loading transit data:', error);
+                alert('Error loading transit data. Please check if the data processing has been completed.');
+            }
+        }
+        
+        // Display stops on map
+        function displayStops() {
+            // Clear existing stops
+            stopsLayerGroup.clearLayers();
+            
+            // Get filter states
+            const filters = {
+                'MARTA': document.getElementById('filterMARTA').checked,
+                'CobbLinc': document.getElementById('filterCobbLinc').checked,
+                'Gwinnett County Transit': document.getElementById('filterGwinnett').checked,
+                'Connect Douglas': document.getElementById('filterDouglas').checked
+            };
+            
+            // Add stops to map
+            allStopsData.forEach(stop => {
+                // Check if this agency should be displayed
+                if (!filters[stop.agency]) {
+                    return;
+                }
+                
+                const color = agencyColors[stop.agency] || '#666666';
+                
+                // Create marker
+                const marker = L.circleMarker([stop.lat, stop.lon], {
+                    radius: 6,
+                    fillColor: color,
+                    color: '#ffffff',
+                    weight: 2,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                });
+                
+                // Create popup content
+                const popupContent = `
+                    <div class="custom-popup">
+                        <h6 class="fw-bold mb-2">${stop.name}</h6>
+                        <p class="mb-1">
+                            <span class="badge" style="background-color: ${color}; color: white;">
+                                ${stop.agency}
+                            </span>
+                        </p>
+                        <div class="small text-muted">
+                            <i class="fas fa-map-marker-alt me-1"></i>
+                            ${stop.lat.toFixed(4)}, ${stop.lon.toFixed(4)}
+                        </div>
+                        <button class="btn btn-sm btn-primary mt-2" onclick="findNearbyStops(${stop.lat}, ${stop.lon})">
+                            <i class="fas fa-search me-1"></i>Nearby Stops
+                        </button>
+                    </div>
+                `;
+                
+                marker.bindPopup(popupContent);
+                marker.addTo(stopsLayerGroup);
+            });
+        }
+        
+        // Search for location
+        async function searchLocation() {
+            const query = document.getElementById('searchLocation').value;
+            if (!query) return;
+            
+            try {
+                const response = await fetch('/api/geocode', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ address: query })
+                });
+                
+                const data = await response.json();
+                
+                if (data.lat && data.lon) {
+                    map.setView([data.lat, data.lon], 15);
+                    
+                    // Add search result marker
+                    L.marker([data.lat, data.lon])
+                        .addTo(map)
+                        .bindPopup(`
+                            <div>
+                                <h6>${data.formatted_address || query}</h6>
+                                <button class="btn btn-sm btn-success" onclick="findNearbyStops(${data.lat}, ${data.lon})">
+                                    Find Nearby Transit
+                                </button>
+                            </div>
+                        `)
+                        .openPopup();
+                } else {
+                    alert('Location not found');
+                }
+                
+            } catch (error) {
+                console.error('Error searching location:', error);
+                alert('Error searching location');
+            }
+        }
+        
+        // Find nearby stops
+        async function findNearbyStops(lat, lon) {
+            try {
+                const response = await fetch(`/api/stops/nearby?lat=${lat}&lon=${lon}&max_distance=20.0`);
+                const data = await response.json();
+                
+                if (data.stops && data.stops.length > 0) {
+                    let popupContent = `
+                        <div>
+                            <h6>Nearby Transit Stops</h6>
+                            <div style="max-height: 200px; overflow-y: auto;">
+                    `;
+                    
+                    data.stops.forEach(stop => {
+                        const color = agencyColors[stop.agency] || '#666666';
+                        popupContent += `
+                            <div class="mb-2 p-2 border-bottom">
+                                <div class="fw-bold">${stop.name}</div>
+                                <span class="badge" style="background-color: ${color}; color: white; font-size: 0.7em;">
+                                    ${stop.agency}
+                                </span>
+                                <div class="small text-muted">
+                                    ${(stop.distance_km * 1000).toFixed(0)}m away
+                                </div>
+                            </div>
+                        `;
+                    });
+                    
+                    popupContent += `
+                            </div>
+                        </div>
+                    `;
+                    
+                    L.popup()
+                        .setLatLng([lat, lon])
+                        .setContent(popupContent)
+                        .openOn(map);
+                } else {
+                    alert('No nearby transit stops found');
+                }
+                
+            } catch (error) {
+                console.error('Error finding nearby stops:', error);
+            }
+        }
+        
+        // Add event listeners for filters
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize map
+            initMap();
+            
+            // Add filter event listeners
+            ['filterMARTA', 'filterCobbLinc', 'filterGwinnett', 'filterDouglas'].forEach(id => {
+                document.getElementById(id).addEventListener('change', displayStops);
+            });
+            
+            // Add enter key support for search
+            document.getElementById('searchLocation').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    searchLocation();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

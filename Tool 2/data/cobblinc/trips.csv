@@ -1,0 +1,1821 @@
+trip_id,route_id,service_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,wheelchair_accessible,bikes_allowed
+1001070,40,2,"KSU-Kennesaw Campus",,0,2950607,shp-40-01,0,0
+10070,30,2,"Hamilton E. Holmes Station",,0,2948307,shp-30-01,0,0
+1007070,10,2,"Marietta Transfer Center",,1,2948207,shp-10-52,0,0
+1022090,15,3,"Cumberland Transfer Center",,0,2974409,shp-15-01,0,0
+1028020,RAPID,1,"Marietta Transfer Center limited stops",,1,2940202,shp-Rapid-51,0,0
+1041020,15,1,"Marietta Transfer Center",,1,2936302,shp-15-51,0,0
+1044020,45,1,"KSU-Kennesaw Campus",,0,2937802,shp-45-01,0,0
+1047090,15,3,"Marietta Transfer Center",,1,2974409,shp-15-51,0,0
+1054070,25,2,"Cumberland Transfer Center",,1,2948807,shp-25-01,0,0
+1061020,30,1,"Hamilton E. Holmes Station",,0,2933902,shp-30-01,0,0
+1062070,BLUE,2,"Circ Blue - Battery/Cumberland Transfer Center",,1,2950907,shp-Blue-02,0,0
+1083020,25,1,"Cumberland Transfer Center",,1,2943202,shp-25-01,0,0
+1087020,40,1,"Marietta Transfer Center",,1,2937902,shp-40-51,0,0
+1091020,10,1,"Marietta Transfer Center",,1,2934902,shp-10-52,0,0
+1092070,10,2,"Marietta Transfer Center",,1,2949607,shp-10-52,0,0
+1095020,RAPID,1,"Arts Center Station with limited stops",,0,2938402,shp-Rapid-01,0,0
+1098070,30,2,"Hamilton E. Holmes Station",,0,2948907,shp-30-01,0,0
+1100090,30,3,"Hamilton E. Holmes Station",,0,2981509,shp-30-01,0,0
+1102090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977209,shp-Rapid-52,0,0
+1103020,30,1,"Marietta Transfer Center",,1,2935902,shp-30-52,0,0
+1108090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2979209,shp-Rapid-52,0,0
+1117090,50,3,"Marietta Transfer Center",,1,2974609,shp-50-51,0,0
+1119090,45,3,"KSU-Kennesaw Campus",,0,2981809,shp-45-01,0,0
+1137070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950207,shp-Rapid-52,0,0
+114090,25,3,"Hamilton E. Holmes Station",,0,2982409,shp-25-51,0,0
+1145020,20,1,"Cumberland Transfer Center",,0,2934802,shp-20-03,0,0
+1153070,BLUE,2,"Circ Blue - Battery/Cumberland Transfer Center",,1,2950907,shp-Blue-02,0,0
+1170020,RAPID,1,"Arts Center Station with limited stops",,0,2938402,shp-Rapid-01,0,0
+1171020,30,1,"Marietta Transfer Center",,1,2936402,shp-30-52,0,0
+1179090,20,3,"Marietta Transfer Center",,1,2973709,shp-20-54,0,0
+1183090,20,3,"Marietta Transfer Center",,1,2981709,shp-20-54,0,0
+1189070,40,2,"Marietta Transfer Center",,1,2950507,shp-40-51,0,0
+1190070,30,2,"Marietta Transfer Center",,1,2949507,shp-30-52,0,0
+1192090,50,3,"Cumberland Transfer Center",,0,2975109,shp-50-01,0,0
+1003020,15,1,"Cumberland Transfer Center",,0,2934302,shp-15-01,0,0
+1003090,15,3,"Cumberland Transfer Center",,0,2973509,shp-15-01,0,0
+1004070,10,2,"Arts Center Station",,0,2948207,shp-10-03,0,0
+1006010,25,4,"Cumberland Transfer Center",,1,2844301,shp-25-01,0,0
+101020,20,1,"Marietta Transfer Center",,1,2934502,shp-20-54,0,0
+1018020,15,1,"Cumberland Transfer Center",,0,2934302,shp-15-01,0,0
+1019010,20,4,"Marietta Transfer Center",,1,2844701,shp-20-54,0,0
+1020090,10,3,"Marietta Transfer Center",,1,2973309,shp-10-52,0,0
+103090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2976909,shp-Rapid-52,0,0
+1031090,30,3,"Marietta Transfer Center",,1,2975309,shp-30-52,0,0
+1033070,50,2,"Cumberland Transfer Center",,0,2948507,shp-50-01,0,0
+1040020,30,1,"Hamilton E. Holmes Station",,0,2936402,shp-30-01,0,0
+1050020,RAPID,1,"Arts Center Station with limited stops",,0,2938002,shp-Rapid-01,0,0
+1056070,45,2,"Marietta Transfer Center",,1,2950807,shp-45-51,0,0
+1057020,45,1,"KSU-Kennesaw Campus",,0,2943002,shp-45-01,0,0
+1059010,40,4,"Marietta Transfer Center",,1,2845701,shp-40-51,0,0
+1068090,15,3,"Marietta Transfer Center",,1,2975209,shp-15-51,0,0
+1070070,BLUE,2,"Circ Blue - Battery/Cumberland Transfer Center",,1,2951107,shp-Blue-02,0,0
+107070,15,2,"Cumberland Transfer Center",,0,2949007,shp-15-01,0,0
+108020,10,1,"Marietta Transfer Center",,1,2934102,shp-10-52,0,0
+1085020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2943502,shp-Blue-02,0,0
+1086070,30,2,"Hamilton E. Holmes Station",,0,2948107,shp-30-01,0,0
+1093020,15,1,"Cumberland Transfer Center",,0,2935002,shp-15-01,0,0
+1096090,30,3,"Hamilton E. Holmes Station",,0,2973009,shp-30-01,0,0
+110020,50,1,"Marietta Transfer Center",,1,2935802,shp-50-51,0,0
+1101010,15,4,"Marietta Transfer Center",,1,2844601,shp-15-51,0,0
+1111010,25,4,"Hamilton E. Holmes Station",,0,2870301,shp-25-51,0,0
+1117020,50,1,"Marietta Transfer Center",,1,2935602,shp-50-51,0,0
+1118070,30,2,"Marietta Transfer Center",,1,2949407,shp-30-52,0,0
+112010,40,4,"Marietta Transfer Center",,1,2845601,shp-40-51,0,0
+1124020,30,1,"Hamilton E. Holmes Station",,0,2936402,shp-30-01,0,0
+1126070,45,2,"Marietta Transfer Center",,1,2950707,shp-45-51,0,0
+1133010,15,4,"Cumberland Transfer Center",,0,2844601,shp-15-01,0,0
+1134020,101,1,"Marietta Transfer Center",,1,2940902,shp-101-51,0,0
+1193020,15,1,"Marietta Transfer Center",,1,2936302,shp-15-51,0,0
+1202020,25,1,"Hamilton E. Holmes Station",,0,2943102,shp-25-51,0,0
+1211020,20,1,"Marietta Transfer Center",,1,2942902,shp-20-54,0,0
+1211090,20,3,"Marietta Transfer Center",,1,2981709,shp-20-54,0,0
+1216070,10,2,"Marietta Transfer Center",,1,2948207,shp-10-52,0,0
+1218020,RAPID,1,"Arts Center Station with limited stops",,0,2937102,shp-Rapid-01,0,0
+1219070,40,2,"KSU-Kennesaw Campus",,0,2950507,shp-40-01,0,0
+1222020,30,1,"Marietta Transfer Center",,1,2936002,shp-30-52,0,0
+1228010,RAPID,4,"Marietta Transfer Center limited stops",,0,2846101,shp-Rapid-03,0,0
+1237070,20,2,"Marietta Transfer Center",,1,2949207,shp-20-54,0,0
+1241070,45,2,"Marietta Transfer Center",,1,2950707,shp-45-51,0,0
+1244020,30,1,"Marietta Transfer Center",,1,2936702,shp-30-52,0,0
+1248010,45,4,"KSU-Kennesaw Campus",,0,2845901,shp-45-01,0,0
+130090,45,3,"Marietta Transfer Center",,1,2976609,shp-45-51,0,0
+137070,50,2,"Cumberland Transfer Center",,0,2949107,shp-50-01,0,0
+152020,20,1,"Marietta Transfer Center",,1,2934802,shp-20-54,0,0
+152090,20,3,"Marietta Transfer Center",,1,2973809,shp-20-54,0,0
+158090,50,3,"Marietta Transfer Center",,1,2974609,shp-50-51,0,0
+172070,30,2,"Hamilton E. Holmes Station",,0,2948907,shp-30-01,0,0
+178020,40,1,"Marietta Transfer Center",,1,2937702,shp-40-51,0,0
+178090,40,3,"Marietta Transfer Center",,1,2976509,shp-40-51,0,0
+181090,20,3,"Cumberland Transfer Center",,0,2981709,shp-20-03,0,0
+186010,30,4,"Marietta Transfer Center",,1,2844201,shp-30-52,0,0
+190020,25,1,"Hamilton E. Holmes Station",,0,2943202,shp-25-51,0,0
+198070,15,2,"Marietta Transfer Center",,1,2949807,shp-15-51,0,0
+201020,10,1,"Marietta Transfer Center",,1,2934402,shp-10-52,0,0
+205070,20,2,"Marietta Transfer Center",,1,2949207,shp-20-54,0,0
+212090,15,3,"Cumberland Transfer Center",,0,2974409,shp-15-01,0,0
+213090,15,3,"Cumberland Transfer Center",,0,2975209,shp-15-01,0,0
+216070,10,2,"Arts Center Station",,0,2948207,shp-10-03,0,0
+244070,30,2,"Marietta Transfer Center",,1,2949407,shp-30-52,0,0
+248020,25,1,"Hamilton E. Holmes Station",,0,2943702,shp-25-51,0,0
+250010,15,4,"Marietta Transfer Center",,1,2845301,shp-15-51,0,0
+267010,50,4,"Marietta Transfer Center",,1,2845101,shp-50-51,0,0
+269090,20,3,"Cumberland Transfer Center",,0,2981709,shp-20-03,0,0
+270070,30,2,"Marietta Transfer Center",,1,2948307,shp-30-52,0,0
+27090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977309,shp-Rapid-52,0,0
+274010,50,4,"Marietta Transfer Center",,1,2845101,shp-50-51,0,0
+279010,10,4,"Marietta Transfer Center",,1,2844801,shp-10-52,0,0
+284090,50,3,"Marietta Transfer Center",,1,2974609,shp-50-51,0,0
+289090,30,3,"Hamilton E. Holmes Station",,0,2974309,shp-30-01,0,0
+298070,15,2,"Marietta Transfer Center",,1,2949807,shp-15-51,0,0
+304070,45,2,"KSU-Kennesaw Campus",,0,2950807,shp-45-01,0,0
+307020,30,1,"Hamilton E. Holmes Station",,0,2935902,shp-30-01,0,0
+312020,15,1,"Marietta Transfer Center",,1,2936502,shp-15-51,0,0
+315070,10,2,"Marietta Transfer Center",,1,2949607,shp-10-52,0,0
+321020,50,1,"Cumberland Transfer Center",,0,2936202,shp-50-01,0,0
+321090,50,3,"Cumberland Transfer Center",,0,2975109,shp-50-01,0,0
+330020,20,1,"Cumberland Transfer Center",,0,2935702,shp-20-03,0,0
+336090,30,3,"Marietta Transfer Center",,1,2981509,shp-30-52,0,0
+346090,15,3,"Marietta Transfer Center",,1,2974409,shp-15-51,0,0
+347090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2976909,shp-Rapid-52,0,0
+351020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2943502,shp-Blue-02,0,0
+351090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2982309,shp-Blue-02,0,0
+352020,RAPID,1,"Arts Center Station with limited stops",,0,2940302,shp-Rapid-01,0,0
+358090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2981409,shp-Blue-02,0,0
+363090,30,3,"Marietta Transfer Center",,1,2973009,shp-30-52,0,0
+366090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2981409,shp-Blue-02,0,0
+373020,15,1,"Marietta Transfer Center",,1,2936302,shp-15-51,0,0
+376020,RAPID,1,"Marietta Transfer Center limited stops",,1,2937402,shp-Rapid-51,0,0
+380070,20,2,"Cumberland Transfer Center",,0,2948607,shp-20-03,0,0
+388020,10,1,"Marietta Transfer Center",,1,2935502,shp-10-52,0,0
+395010,RAPID,4,"KSU-Kennesaw Campus limited stops",,1,2846001,shp-Rapid-52,0,0
+397090,20,3,"Marietta Transfer Center",,1,2973809,shp-20-54,0,0
+400010,45,4,"Marietta Transfer Center",,1,2845801,shp-45-51,0,0
+4020,20,1,"Marietta Transfer Center",,1,2934502,shp-20-54,0,0
+420070,RAPID,2,"Arts Center Station with limited stops",,0,2950007,shp-Rapid-01,0,0
+435010,10,4,"Arts Center Station",,0,2845401,shp-10-03,0,0
+1000070,50,2,"Cumberland Transfer Center",,0,2948507,shp-50-01,0,0
+100020,RAPID,1,"Arts Center Station with limited stops",,0,2937402,shp-Rapid-01,0,0
+1008070,10,2,"Arts Center Station",,0,2949307,shp-10-03,0,0
+1009020,20,1,"Cumberland Transfer Center",,0,2934802,shp-20-03,0,0
+1015090,30,3,"Hamilton E. Holmes Station",,0,2981809,shp-30-01,0,0
+1016020,15,1,"Cumberland Transfer Center",,0,2936302,shp-15-01,0,0
+1017070,45,2,"Marietta Transfer Center",,1,2950807,shp-45-51,0,0
+102020,25,1,"Hamilton E. Holmes Station",,0,2943102,shp-25-51,0,0
+102090,25,3,"Hamilton E. Holmes Station",,0,2981909,shp-25-51,0,0
+1028090,RAPID,3,"Marietta Transfer Center limited stops",,1,2979009,shp-Rapid-51,0,0
+1029090,40,3,"Marietta Transfer Center",,1,2976509,shp-40-51,0,0
+103020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938102,shp-Rapid-52,0,0
+1031020,30,1,"Marietta Transfer Center",,1,2936402,shp-30-52,0,0
+105010,RAPID,4,"KSU-Kennesaw Campus limited stops",,1,2846201,shp-Rapid-52,0,0
+1072070,15,2,"Cumberland Transfer Center",,0,2949007,shp-15-01,0,0
+1077070,10,2,"Marietta Transfer Center",,1,2949607,shp-10-52,0,0
+1078020,10,1,"Arts Center Station",,0,2935502,shp-10-03,0,0
+108090,10,3,"Marietta Transfer Center",,1,2973309,shp-10-52,0,0
+1088020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938202,shp-Rapid-52,0,0
+1093090,15,3,"Cumberland Transfer Center",,0,2974009,shp-15-01,0,0
+1097070,20,2,"Marietta Transfer Center",,1,2949207,shp-20-54,0,0
+1099020,100,1,"Civic Center Station/Five Points Station",,0,2941402,shp-100-01,0,0
+1103090,30,3,"Marietta Transfer Center",,1,2974909,shp-30-52,0,0
+1106020,50,1,"Marietta Transfer Center",,1,2935802,shp-50-51,0,0
+1112020,RAPID,1,"Arts Center Station with limited stops",,0,2938402,shp-Rapid-01,0,0
+1115070,50,2,"Marietta Transfer Center",,1,2949107,shp-50-51,0,0
+1122020,40,1,"KSU-Kennesaw Campus",,0,2937702,shp-40-01,0,0
+1122090,40,3,"KSU-Kennesaw Campus",,0,2976509,shp-40-01,0,0
+1123090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2979109,shp-Rapid-52,0,0
+1125010,25,4,"Cumberland Transfer Center",,1,2844901,shp-25-01,0,0
+1129010,30,4,"Hamilton E. Holmes Station",,0,2844201,shp-30-01,0,0
+1131020,30,1,"Hamilton E. Holmes Station",,0,2937002,shp-30-01,0,0
+1138020,40,1,"Marietta Transfer Center",,1,2937902,shp-40-51,0,0
+1138090,40,3,"Marietta Transfer Center",,1,2976709,shp-40-51,0,0
+438070,10,2,"Arts Center Station",,0,2948407,shp-10-03,0,0
+439020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2943502,shp-Blue-02,0,0
+439090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2982309,shp-Blue-02,0,0
+44010,15,4,"Marietta Transfer Center",,1,2844601,shp-15-51,0,0
+443090,30,3,"Hamilton E. Holmes Station",,0,2974209,shp-30-01,0,0
+452020,GREEN,1,"Circulator Green - Battery/Windy Hill",,0,2942302,shp-Green-03,0,0
+456010,45,4,"Marietta Transfer Center",,1,2845901,shp-45-51,0,0
+461070,40,2,"KSU-Kennesaw Campus",,0,2950607,shp-40-01,0,0
+464090,25,3,"Hamilton E. Holmes Station",,0,2982109,shp-25-51,0,0
+467090,20,3,"Marietta Transfer Center",,1,2974709,shp-20-54,0,0
+469020,RAPID,1,"Arts Center Station with limited stops",,0,2938602,shp-Rapid-01,0,0
+476090,20,3,"Cumberland Transfer Center",,0,2974709,shp-20-03,0,0
+484020,10,1,"Marietta Transfer Center",,1,2942902,shp-10-52,0,0
+490090,25,3,"Cumberland Transfer Center",,1,2978809,shp-25-01,0,0
+494090,40,3,"Marietta Transfer Center",,1,2976709,shp-40-51,0,0
+5020,50,1,"Marietta Transfer Center",,1,2936202,shp-50-51,0,0
+503020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938502,shp-Rapid-52,0,0
+512020,50,1,"Marietta Transfer Center",,1,2936202,shp-50-51,0,0
+523020,20,1,"Cumberland Transfer Center",,0,2942902,shp-20-03,0,0
+525070,30,2,"Marietta Transfer Center",,1,2948107,shp-30-52,0,0
+535020,40,1,"Marietta Transfer Center",,1,2937702,shp-40-51,0,0
+536070,50,2,"Cumberland Transfer Center",,0,2949107,shp-50-01,0,0
+54020,30,1,"Hamilton E. Holmes Station",,0,2936602,shp-30-01,0,0
+546020,50,1,"Cumberland Transfer Center",,0,2935102,shp-50-01,0,0
+550020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2937502,shp-Rapid-52,0,0
+551020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2937202,shp-Rapid-52,0,0
+552070,40,2,"Marietta Transfer Center",,1,2950607,shp-40-51,0,0
+570020,10,1,"Marietta Transfer Center",,1,2935502,shp-10-52,0,0
+571020,25,1,"Hamilton E. Holmes Station",,0,2939902,shp-25-51,0,0
+578070,30,2,"Hamilton E. Holmes Station",,0,2948107,shp-30-01,0,0
+579090,50,3,"Marietta Transfer Center",,1,2975109,shp-50-51,0,0
+586090,50,3,"Marietta Transfer Center",,1,2974109,shp-50-51,0,0
+588090,30,3,"Hamilton E. Holmes Station",,0,2975609,shp-30-01,0,0
+589020,10,1,"Arts Center Station",,0,2934902,shp-10-03,0,0
+589090,10,3,"Arts Center Station",,0,2973909,shp-10-03,0,0
+59090,40,3,"KSU-Kennesaw Campus",,0,2976709,shp-40-01,0,0
+612010,20,4,"Cumberland Transfer Center",,0,2844701,shp-20-03,0,0
+617020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938002,shp-Rapid-52,0,0
+622090,30,3,"Marietta Transfer Center",,1,2975509,shp-30-52,0,0
+623020,30,1,"Hamilton E. Holmes Station",,0,2942702,shp-30-01,0,0
+628090,25,3,"Cumberland Transfer Center",,1,2982409,shp-25-01,0,0
+629090,20,3,"Marietta Transfer Center",,1,2974709,shp-20-54,0,0
+63090,GREEN,3,"Circulator Green - Battery/Windy Hill",,0,2982209,shp-Green-05,0,0
+636010,25,4,"Hamilton E. Holmes Station",,0,2870101,shp-25-51,0,0
+642070,RAPID,2,"Arts Center Station with limited stops",,0,2950307,shp-Rapid-01,0,0
+643090,50,3,"Marietta Transfer Center",,1,2974809,shp-50-51,0,0
+645020,RAPID,1,"Arts Center Station with limited stops",,0,2938502,shp-Rapid-02,0,0
+646020,30,1,"Marietta Transfer Center",,1,2942702,shp-30-52,0,0
+649090,30,3,"Marietta Transfer Center",,1,2973209,shp-30-52,0,0
+650020,25,1,"Cumberland Transfer Center",,1,2943602,shp-25-01,0,0
+651070,50,2,"Cumberland Transfer Center",,0,2949107,shp-50-01,0,0
+662070,10,2,"Marietta Transfer Center",,1,2949607,shp-10-52,0,0
+663090,40,3,"Marietta Transfer Center",,1,2976709,shp-40-51,0,0
+671070,RAPID,2,"Arts Center Station with limited stops",,0,2950407,shp-Rapid-01,0,0
+678010,BLUE,4,"Circ Blue - Battery/Cumberland Transfer Center",,1,2846401,shp-Blue-02,0,0
+683090,15,3,"Cumberland Transfer Center",,0,2974409,shp-15-01,0,0
+686070,15,2,"Marietta Transfer Center",,1,2949807,shp-15-51,0,0
+687020,30,1,"Hamilton E. Holmes Station",,0,2936802,shp-30-01,0,0
+698070,GREEN,2,"Circulator Green - Battery/Windy Hill",,0,2951007,shp-Green-03,0,0
+699090,20,3,"Cumberland Transfer Center",,0,2973709,shp-20-03,0,0
+7010,50,4,"Cumberland Transfer Center",,0,2845101,shp-50-01,0,0
+703020,20,1,"Cumberland Transfer Center",,0,2934502,shp-20-03,0,0
+705020,15,1,"Cumberland Transfer Center",,0,2936502,shp-15-01,0,0
+709090,40,3,"Marietta Transfer Center",,1,2976509,shp-40-51,0,0
+710020,15,1,"Marietta Transfer Center",,1,2934302,shp-15-51,0,0
+725010,20,4,"Marietta Transfer Center",,1,2844701,shp-20-54,0,0
+729090,40,3,"KSU-Kennesaw Campus",,0,2976509,shp-40-01,0,0
+733070,25,2,"Hamilton E. Holmes Station",,0,2948807,shp-25-51,0,0
+734020,45,1,"KSU-Kennesaw Campus",,0,2943002,shp-45-01,0,0
+738020,15,1,"Cumberland Transfer Center",,0,2936302,shp-15-01,0,0
+748010,10,4,"Arts Center Station",,0,2844801,shp-10-03,0,0
+749020,20,1,"Cumberland Transfer Center",,0,2934502,shp-20-03,0,0
+751020,45,1,"KSU-Kennesaw Campus",,0,2943002,shp-45-01,0,0
+754020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938302,shp-Rapid-52,0,0
+754090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977109,shp-Rapid-52,0,0
+763070,25,2,"Hamilton E. Holmes Station",,0,2949707,shp-25-51,0,0
+770020,10,1,"Marietta Transfer Center",,1,2934102,shp-10-52,0,0
+77020,50,1,"Cumberland Transfer Center",,0,2935602,shp-50-01,0,0
+775020,10,1,"Marietta Transfer Center",,1,2934402,shp-10-52,0,0
+778070,10,2,"Arts Center Station",,0,2949307,shp-10-03,0,0
+779090,30,3,"Marietta Transfer Center",,1,2974909,shp-30-52,0,0
+782070,45,2,"Marietta Transfer Center",,1,2950807,shp-45-51,0,0
+798010,25,4,"Cumberland Transfer Center",,1,2870101,shp-25-01,0,0
+805010,30,4,"Hamilton E. Holmes Station",,0,2844401,shp-30-01,0,0
+810090,30,3,"Marietta Transfer Center",,1,2974209,shp-30-51,0,0
+812070,40,2,"KSU-Kennesaw Campus",,0,2950507,shp-40-01,0,0
+817090,45,3,"Marietta Transfer Center",,1,2981809,shp-45-51,0,0
+82020,30,1,"Marietta Transfer Center",,1,2936602,shp-30-52,0,0
+825020,45,1,"Marietta Transfer Center",,1,2937802,shp-45-51,0,0
+836020,20,1,"Cumberland Transfer Center",,0,2934802,shp-20-03,0,0
+84020,10,1,"Arts Center Station",,0,2934902,shp-10-03,0,0
+842090,30,3,"Hamilton E. Holmes Station",,0,2973009,shp-30-01,0,0
+847070,30,2,"Marietta Transfer Center",,1,2948307,shp-30-52,0,0
+873090,15,3,"Marietta Transfer Center",,1,2974009,shp-15-51,0,0
+874070,15,2,"Cumberland Transfer Center",,0,2949807,shp-15-01,0,0
+875090,50,3,"Cumberland Transfer Center",,0,2974609,shp-50-01,0,0
+88020,30,1,"Marietta Transfer Center",,1,2933902,shp-30-52,0,0
+887020,25,1,"Cumberland Transfer Center",,1,2943302,shp-25-01,0,0
+890090,15,3,"Marietta Transfer Center",,1,2974009,shp-15-51,0,0
+89090,25,3,"Cumberland Transfer Center",,1,2981509,shp-25-01,0,0
+894020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2943502,shp-Blue-02,0,0
+898010,50,4,"Marietta Transfer Center",,1,2844501,shp-50-51,0,0
+929090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977009,shp-Rapid-52,0,0
+1143090,10,3,"Arts Center Station",,0,2974509,shp-10-03,0,0
+1165090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2979109,shp-Rapid-52,0,0
+117070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950307,shp-Rapid-52,0,0
+1173010,40,4,"KSU-Kennesaw Campus",,0,2845601,shp-40-01,0,0
+1175020,100,1,"Busbee Park & Ride",,1,2942202,shp-100-04,0,0
+1176090,30,3,"Hamilton E. Holmes Station",,0,2973409,shp-30-01,0,0
+118070,50,2,"Cumberland Transfer Center",,0,2949107,shp-50-01,0,0
+1184090,50,3,"Marietta Transfer Center",,1,2974809,shp-50-51,0,0
+1187020,50,1,"Marietta Transfer Center",,1,2935802,shp-50-51,0,0
+119020,20,1,"Cumberland Transfer Center",,0,2935702,shp-20-03,0,0
+1194070,50,2,"Marietta Transfer Center",,1,2948507,shp-50-51,0,0
+1198090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2982309,shp-Blue-02,0,0
+1203090,10,3,"Marietta Transfer Center",,1,2973209,shp-10-52,0,0
+1206020,RAPID,1,"Arts Center Station with limited stops",,0,2938002,shp-Rapid-01,0,0
+1207090,25,3,"Cumberland Transfer Center",,1,2981909,shp-25-01,0,0
+1208090,10,3,"Marietta Transfer Center",,1,2981609,shp-10-52,0,0
+1209010,40,4,"Marietta Transfer Center",,1,2845601,shp-40-51,0,0
+1212020,RAPID,1,"Arts Center Station with limited stops",,0,2938502,shp-Rapid-01,0,0
+1232020,30,1,"Marietta Transfer Center",,1,2936802,shp-30-52,0,0
+1236070,25,2,"Hamilton E. Holmes Station",,0,2947707,shp-25-51,0,0
+1238020,50,1,"Cumberland Transfer Center",,0,2935602,shp-50-01,0,0
+1238090,50,3,"Cumberland Transfer Center",,0,2974609,shp-50-01,0,0
+1240070,40,2,"Marietta Transfer Center",,1,2950507,shp-40-51,0,0
+1242090,10,3,"Arts Center Station",,0,2973609,shp-10-03,0,0
+1244090,30,3,"Marietta Transfer Center",,1,2975609,shp-30-52,0,0
+13010,30,4,"Marietta Transfer Center",,1,2844401,shp-30-52,0,0
+131020,20,1,"Marietta Transfer Center",,1,2934502,shp-20-54,0,0
+134070,30,2,"Hamilton E. Holmes Station",,0,2948107,shp-30-01,0,0
+136020,30,1,"Marietta Transfer Center",,1,2937002,shp-30-52,0,0
+139070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950107,shp-Rapid-52,0,0
+142020,15,1,"Cumberland Transfer Center",,0,2935402,shp-15-01,0,0
+148070,50,2,"Cumberland Transfer Center",,0,2949107,shp-50-01,0,0
+15020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2943502,shp-Blue-02,0,0
+153070,RAPID,2,"Arts Center Station with limited stops",,0,2950407,shp-Rapid-01,0,0
+100090,RAPID,3,"Arts Center Station with limited stops",,0,2976309,shp-Rapid-01,0,0
+1014070,30,2,"Marietta Transfer Center",,1,2948907,shp-30-52,0,0
+1022020,15,1,"Cumberland Transfer Center",,0,2935402,shp-15-01,0,0
+1024070,10,2,"Arts Center Station",,0,2949307,shp-10-03,0,0
+1026090,GREEN,3,"Circulator Green - Battery/Windy Hill",,0,2982209,shp-Green-05,0,0
+1032090,45,3,"KSU-Kennesaw Campus",,0,2976609,shp-45-01,0,0
+1038020,15,1,"Marietta Transfer Center",,1,2934302,shp-15-51,0,0
+104070,30,2,"Hamilton E. Holmes Station",,0,2949407,shp-30-01,0,0
+1043020,10,1,"Arts Center Station",,0,2934102,shp-10-03,0,0
+1043090,10,3,"Arts Center Station",,0,2973309,shp-10-03,0,0
+1044090,45,3,"KSU-Kennesaw Campus",,0,2976609,shp-45-01,0,0
+1046090,10,3,"Arts Center Station",,0,2974509,shp-10-03,0,0
+1051090,15,3,"Cumberland Transfer Center",,0,2974009,shp-15-01,0,0
+106020,25,1,"Hamilton E. Holmes Station",,0,2940102,shp-25-51,0,0
+106090,25,3,"Hamilton E. Holmes Station",,0,2978909,shp-25-51,0,0
+1064010,50,4,"Cumberland Transfer Center",,0,2844501,shp-50-01,0,0
+1065020,10,1,"Arts Center Station",,0,2942802,shp-10-03,0,0
+1073070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950207,shp-Rapid-52,0,0
+1080090,30,3,"Marietta Transfer Center",,1,2975609,shp-30-52,0,0
+1082010,25,4,"Hamilton E. Holmes Station",,0,2845501,shp-25-51,0,0
+1089070,RAPID,2,"Arts Center Station with limited stops",,0,2950107,shp-Rapid-01,0,0
+1091090,10,3,"Marietta Transfer Center",,1,2973909,shp-10-52,0,0
+1112090,RAPID,3,"Arts Center Station with limited stops",,0,2977209,shp-Rapid-01,0,0
+1114020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2940502,shp-Rapid-52,0,0
+1114090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2979309,shp-Rapid-52,0,0
+1127070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2949907,shp-Rapid-52,0,0
+113070,10,2,"Arts Center Station",,0,2949607,shp-10-03,0,0
+1132090,50,3,"Marietta Transfer Center",,1,2974109,shp-50-51,0,0
+1144020,50,1,"Marietta Transfer Center",,1,2935102,shp-50-51,0,0
+1146070,10,2,"Arts Center Station",,0,2949307,shp-10-03,0,0
+1148090,45,3,"Marietta Transfer Center",,1,2981809,shp-45-51,0,0
+1150090,30,3,"Hamilton E. Holmes Station",,0,2975509,shp-30-01,0,0
+1151090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2981409,shp-Blue-02,0,0
+1154020,25,1,"Cumberland Transfer Center",,1,2940102,shp-25-01,0,0
+159090,30,3,"Hamilton E. Holmes Station",,0,2974309,shp-30-01,0,0
+160020,20,1,"Cumberland Transfer Center",,0,2935702,shp-20-03,0,0
+161020,RAPID,1,"Arts Center Station with limited stops",,0,2938202,shp-Rapid-01,0,0
+161090,RAPID,3,"Arts Center Station with limited stops",,0,2977009,shp-Rapid-01,0,0
+165020,40,1,"Marietta Transfer Center",,1,2937702,shp-40-51,0,0
+167020,20,1,"Cumberland Transfer Center",,0,2935702,shp-20-03,0,0
+167090,20,3,"Cumberland Transfer Center",,0,2974709,shp-20-03,0,0
+169020,50,1,"Marietta Transfer Center",,1,2936202,shp-50-51,0,0
+169090,50,3,"Marietta Transfer Center",,1,2975109,shp-50-51,0,0
+173010,BLUE,4,"Circ Blue - Battery/Cumberland Transfer Center",,1,2846401,shp-Blue-02,0,0
+175090,30,3,"Hamilton E. Holmes Station",,0,2981509,shp-30-01,0,0
+187070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950007,shp-Rapid-52,0,0
+191070,10,2,"Arts Center Station",,0,2949607,shp-10-03,0,0
+192070,15,2,"Cumberland Transfer Center",,0,2949007,shp-15-01,0,0
+193090,RAPID,3,"Marietta Transfer Center limited stops",,1,2976109,shp-Rapid-51,0,0
+196090,50,3,"Cumberland Transfer Center",,0,2975109,shp-50-01,0,0
+206070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950107,shp-Rapid-52,0,0
+208010,20,4,"Cumberland Transfer Center",,0,2845201,shp-20-03,0,0
+21090,25,3,"Hamilton E. Holmes Station",,0,2978709,shp-25-51,0,0
+214020,30,1,"Hamilton E. Holmes Station",,0,2936602,shp-30-01,0,0
+22090,20,3,"Cumberland Transfer Center",,0,2973709,shp-20-03,0,0
+224070,20,2,"Marietta Transfer Center",,1,2949207,shp-20-54,0,0
+226090,20,3,"Marietta Transfer Center",,1,2973709,shp-20-54,0,0
+227070,20,2,"Cumberland Transfer Center",,0,2948607,shp-20-03,0,0
+23020,10,1,"Arts Center Station",,0,2935502,shp-10-03,0,0
+231070,RAPID,2,"Marietta Transfer Center limited stops",,1,2950007,shp-Rapid-51,0,0
+238070,BLUE,2,"Circ Blue - Battery/Cumberland Transfer Center",,1,2951107,shp-Blue-02,0,0
+247020,10,1,"Arts Center Station",,0,2934002,shp-10-03,0,0
+253090,40,3,"KSU-Kennesaw Campus",,0,2976709,shp-40-01,0,0
+260070,40,2,"Marietta Transfer Center",,1,2950607,shp-40-51,0,0
+262010,40,4,"Marietta Transfer Center",,1,2845601,shp-40-51,0,0
+28070,RAPID,2,"Marietta Transfer Center limited stops",,1,2950207,shp-Rapid-51,0,0
+29070,50,2,"Cumberland Transfer Center",,0,2948507,shp-50-01,0,0
+300090,RAPID,3,"Arts Center Station with limited stops",,0,2977209,shp-Rapid-01,0,0
+93070,40,2,"KSU-Kennesaw Campus",,0,2950607,shp-40-01,0,0
+932090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2981409,shp-Blue-02,0,0
+939010,BLUE,4,"Circ Blue - Battery/Cumberland Transfer Center",,1,2846401,shp-Blue-02,0,0
+94070,40,2,"Marietta Transfer Center",,1,2950507,shp-40-51,0,0
+943020,45,1,"Marietta Transfer Center",,1,2943002,shp-45-51,0,0
+946090,50,3,"Marietta Transfer Center",,1,2974109,shp-50-51,0,0
+947020,15,1,"Marietta Transfer Center",,1,2935402,shp-15-51,0,0
+952020,30,1,"Hamilton E. Holmes Station",,0,2934002,shp-30-01,0,0
+968020,20,1,"Marietta Transfer Center",,1,2935702,shp-20-54,0,0
+971020,50,1,"Marietta Transfer Center",,1,2935102,shp-50-51,0,0
+977090,20,3,"Cumberland Transfer Center",,0,2974709,shp-20-03,0,0
+987020,25,1,"Cumberland Transfer Center",,1,2939902,shp-25-01,0,0
+992090,20,3,"Cumberland Transfer Center",,0,2973809,shp-20-03,0,0
+993070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950307,shp-Rapid-52,0,0
+998090,30,3,"Marietta Transfer Center",,1,2981809,shp-30-52,0,0
+1010020,45,1,"Marietta Transfer Center",,1,2943002,shp-45-51,0,0
+101090,20,3,"Marietta Transfer Center",,1,2973709,shp-20-54,0,0
+1011070,30,2,"Hamilton E. Holmes Station",,0,2948907,shp-30-01,0,0
+1013070,20,2,"Marietta Transfer Center",,1,2948607,shp-20-54,0,0
+1018090,15,3,"Cumberland Transfer Center",,0,2973509,shp-15-01,0,0
+1021070,30,2,"Hamilton E. Holmes Station",,0,2948107,shp-30-01,0,0
+1027070,25,2,"Cumberland Transfer Center",,1,2948707,shp-25-01,0,0
+1034020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2940302,shp-Rapid-52,0,0
+1034090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2979109,shp-Rapid-52,0,0
+1035010,GREEN,4,"Circulator Green - Battery/Windy Hill",,0,2846301,shp-Green-05,0,0
+1037090,45,3,"Marietta Transfer Center",,1,2976609,shp-45-51,0,0
+1038090,15,3,"Marietta Transfer Center",,1,2973509,shp-15-51,0,0
+1039070,25,2,"Cumberland Transfer Center",,1,2948807,shp-25-01,0,0
+1040090,30,3,"Hamilton E. Holmes Station",,0,2975309,shp-30-01,0,0
+1051020,15,1,"Cumberland Transfer Center",,0,2935002,shp-15-01,0,0
+1063010,RAPID,4,"KSU-Kennesaw Campus limited stops",,1,2846001,shp-Rapid-52,0,0
+1066070,20,2,"Cumberland Transfer Center",,0,2948607,shp-20-03,0,0
+1068020,15,1,"Marietta Transfer Center",,1,2936302,shp-15-51,0,0
+1071020,RAPID,1,"Arts Center Station with limited stops",,0,2938202,shp-Rapid-01,0,0
+1076090,15,3,"Cumberland Transfer Center",,0,2974009,shp-15-01,0,0
+1083090,25,3,"Cumberland Transfer Center",,1,2982009,shp-25-01,0,0
+1084090,30,3,"Marietta Transfer Center",,1,2981509,shp-30-52,0,0
+109090,40,3,"KSU-Kennesaw Campus",,0,2976709,shp-40-01,0,0
+1094020,30,1,"Hamilton E. Holmes Station",,0,2934202,shp-30-01,0,0
+1096020,30,1,"Hamilton E. Holmes Station",,0,2933802,shp-30-01,0,0
+1107090,40,3,"KSU-Kennesaw Campus",,0,2976709,shp-40-01,0,0
+1108020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2940402,shp-Rapid-52,0,0
+1128020,30,1,"Marietta Transfer Center",,1,2934202,shp-30-52,0,0
+1130070,10,2,"Arts Center Station",,0,2948207,shp-10-03,0,0
+1132020,50,1,"Marietta Transfer Center",,1,2935102,shp-50-51,0,0
+1135020,30,1,"Marietta Transfer Center",,1,2934002,shp-30-52,0,0
+1140090,30,3,"Marietta Transfer Center",,1,2975309,shp-30-52,0,0
+1141020,RAPID,1,"Arts Center Station with limited stops",,0,2940302,shp-Rapid-01,0,0
+1141090,RAPID,3,"Arts Center Station with limited stops",,0,2979109,shp-Rapid-01,0,0
+1140020,30,1,"Marietta Transfer Center",,1,2936402,shp-30-52,0,0
+1143020,10,1,"Arts Center Station",,0,2935502,shp-10-03,0,0
+1157070,45,2,"KSU-Kennesaw Campus",,0,2950707,shp-45-01,0,0
+1164010,15,4,"Marietta Transfer Center",,1,2845301,shp-15-51,0,0
+1165020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2940302,shp-Rapid-52,0,0
+1166070,RAPID,2,"Arts Center Station with limited stops",,0,2950007,shp-Rapid-01,0,0
+1170090,RAPID,3,"Arts Center Station with limited stops",,0,2977209,shp-Rapid-01,0,0
+1171090,30,3,"Marietta Transfer Center",,1,2975309,shp-30-52,0,0
+1176020,30,1,"Hamilton E. Holmes Station",,0,2934202,shp-30-01,0,0
+119090,20,3,"Cumberland Transfer Center",,0,2974709,shp-20-03,0,0
+1197020,RAPID,1,"Arts Center Station with limited stops",,0,2938102,shp-Rapid-01,0,0
+1199090,30,3,"Hamilton E. Holmes Station",,0,2975009,shp-30-01,0,0
+1203020,10,1,"Marietta Transfer Center",,1,2934002,shp-10-52,0,0
+1204020,10,1,"Marietta Transfer Center",,1,2934402,shp-10-52,0,0
+1206090,RAPID,3,"Arts Center Station with limited stops",,0,2976809,shp-Rapid-01,0,0
+1214010,25,4,"Hamilton E. Holmes Station",,0,2844901,shp-25-51,0,0
+1221010,20,4,"Marietta Transfer Center",,1,2844701,shp-20-54,0,0
+1229070,25,2,"Hamilton E. Holmes Station",,0,2947907,shp-25-51,0,0
+1247020,45,1,"KSU-Kennesaw Campus",,0,2943002,shp-45-01,0,0
+1247090,45,3,"KSU-Kennesaw Campus",,0,2981809,shp-45-01,0,0
+1250090,45,3,"Marietta Transfer Center",,1,2976609,shp-45-51,0,0
+128020,RAPID,1,"Arts Center Station with limited stops",,0,2938402,shp-Rapid-01,0,0
+135070,25,2,"Cumberland Transfer Center",,1,2947907,shp-25-01,0,0
+141020,20,1,"Marietta Transfer Center",,1,2935702,shp-20-54,0,0
+145010,25,4,"Hamilton E. Holmes Station",,0,2870201,shp-25-51,0,0
+160090,20,3,"Cumberland Transfer Center",,0,2974709,shp-20-03,0,0
+16020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2942602,shp-Blue-02,0,0
+164090,20,3,"Cumberland Transfer Center",,0,2973709,shp-20-03,0,0
+174090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977409,shp-Rapid-52,0,0
+179020,50,1,"Cumberland Transfer Center",,0,2935102,shp-50-01,0,0
+180090,20,3,"Cumberland Transfer Center",,0,2973709,shp-20-03,0,0
+199020,30,1,"Hamilton E. Holmes Station",,0,2935902,shp-30-01,0,0
+2020,15,1,"Marietta Transfer Center",,1,2936302,shp-15-51,0,0
+210010,15,4,"Cumberland Transfer Center",,0,2845301,shp-15-01,0,0
+1005070,10,2,"Marietta Transfer Center",,1,2949607,shp-10-52,0,0
+1010090,45,3,"Marietta Transfer Center",,1,2981809,shp-45-51,0,0
+1025020,20,1,"Marietta Transfer Center",,1,2935702,shp-20-54,0,0
+1029020,40,1,"Marietta Transfer Center",,1,2937702,shp-40-51,0,0
+1030070,40,2,"KSU-Kennesaw Campus",,0,2950607,shp-40-01,0,0
+1037020,45,1,"Marietta Transfer Center",,1,2937802,shp-45-51,0,0
+1045010,45,4,"Marietta Transfer Center",,1,2845901,shp-45-51,0,0
+1048070,GREEN,2,"Circulator Green - Battery/Windy Hill",,0,2951207,shp-Green-05,0,0
+1049070,GREEN,2,"Circulator Green - Battery/Windy Hill",,0,2951007,shp-Green-05,0,0
+1052010,15,4,"Cumberland Transfer Center",,0,2844601,shp-15-01,0,0
+1055020,25,1,"Cumberland Transfer Center",,1,2943702,shp-25-01,0,0
+1061090,30,3,"Hamilton E. Holmes Station",,0,2973109,shp-30-01,0,0
+1065090,10,3,"Arts Center Station",,0,2981609,shp-10-03,0,0
+1070,GREEN,2,"Circulator Green - Battery/Windy Hill",,0,2951007,shp-Green-03,0,0
+1076020,15,1,"Cumberland Transfer Center",,0,2935002,shp-15-01,0,0
+1107020,40,1,"KSU-Kennesaw Campus",,0,2937902,shp-40-01,0,0
+1109070,50,2,"Marietta Transfer Center",,1,2948507,shp-50-51,0,0
+1119020,45,1,"KSU-Kennesaw Campus",,0,2943002,shp-45-01,0,0
+1124090,30,3,"Hamilton E. Holmes Station",,0,2975309,shp-30-01,0,0
+1144090,50,3,"Marietta Transfer Center",,1,2974109,shp-50-51,0,0
+1155010,20,4,"Cumberland Transfer Center",,0,2845201,shp-20-03,0,0
+1161010,GREEN,4,"Circulator Green - Battery/Windy Hill",,0,2846301,shp-Green-05,0,0
+1172010,10,4,"Arts Center Station",,0,2844801,shp-10-03,0,0
+1174010,45,4,"Marietta Transfer Center",,1,2845801,shp-45-51,0,0
+1191010,BLUE,4,"Circ Blue - Battery/Cumberland Transfer Center",,1,2846401,shp-Blue-02,0,0
+1196010,45,4,"KSU-Kennesaw Campus",,0,2845801,shp-45-01,0,0
+1202090,25,3,"Hamilton E. Holmes Station",,0,2981909,shp-25-51,0,0
+1205020,30,1,"Hamilton E. Holmes Station",,0,2936602,shp-30-01,0,0
+1213020,30,1,"Marietta Transfer Center",,1,2942702,shp-30-52,0,0
+1226090,10,3,"Marietta Transfer Center",,1,2973609,shp-10-52,0,0
+1231010,30,4,"Hamilton E. Holmes Station",,0,2845001,shp-30-01,0,0
+126090,20,3,"Cumberland Transfer Center",,0,2973709,shp-20-03,0,0
+130020,45,1,"Marietta Transfer Center",,1,2937802,shp-45-51,0,0
+131090,20,3,"Marietta Transfer Center",,1,2973709,shp-20-54,0,0
+14010,50,4,"Cumberland Transfer Center",,0,2844501,shp-50-01,0,0
+1002090,40,3,"KSU-Kennesaw Campus",,0,2976709,shp-40-01,0,0
+1009090,20,3,"Cumberland Transfer Center",,0,2973809,shp-20-03,0,0
+1025090,20,3,"Marietta Transfer Center",,1,2974709,shp-20-54,0,0
+1041090,15,3,"Marietta Transfer Center",,1,2975209,shp-15-51,0,0
+1042010,50,4,"Marietta Transfer Center",,1,2844501,shp-50-51,0,0
+1047020,15,1,"Marietta Transfer Center",,1,2935402,shp-15-51,0,0
+1058070,10,2,"Arts Center Station",,0,2949307,shp-10-03,0,0
+1067070,30,2,"Marietta Transfer Center",,1,2948107,shp-30-52,0,0
+1071090,RAPID,3,"Arts Center Station with limited stops",,0,2977009,shp-Rapid-01,0,0
+1074070,10,2,"Marietta Transfer Center",,1,2949307,shp-10-52,0,0
+1078090,10,3,"Arts Center Station",,0,2974509,shp-10-03,0,0
+1079070,20,2,"Cumberland Transfer Center",,0,2948607,shp-20-03,0,0
+1085090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2982309,shp-Blue-02,0,0
+1087090,40,3,"Marietta Transfer Center",,1,2976709,shp-40-51,0,0
+1090020,RAPID,1,"Arts Center Station with limited stops",,0,2938102,shp-Rapid-01,0,0
+1090090,RAPID,3,"Arts Center Station with limited stops",,0,2976909,shp-Rapid-01,0,0
+109020,40,1,"KSU-Kennesaw Campus",,0,2937902,shp-40-01,0,0
+1094090,30,3,"Hamilton E. Holmes Station",,0,2973409,shp-30-01,0,0
+1095090,RAPID,3,"Arts Center Station with limited stops",,0,2977209,shp-Rapid-01,0,0
+1100020,30,1,"Hamilton E. Holmes Station",,0,2942702,shp-30-01,0,0
+1102020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938402,shp-Rapid-52,0,0
+1104010,40,4,"KSU-Kennesaw Campus",,0,2845601,shp-40-01,0,0
+1106090,50,3,"Marietta Transfer Center",,1,2974809,shp-50-51,0,0
+111010,RAPID,4,"Marietta Transfer Center limited stops",,1,2846201,shp-Rapid-51,0,0
+1113020,20,1,"Marietta Transfer Center",,1,2935702,shp-20-54,0,0
+1120020,50,1,"Marietta Transfer Center",,1,2935602,shp-50-51,0,0
+1123020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2940302,shp-Rapid-52,0,0
+1139020,30,1,"Marietta Transfer Center",,1,2936402,shp-30-52,0,0
+114020,25,1,"Hamilton E. Holmes Station",,0,2943602,shp-25-51,0,0
+115070,30,2,"Hamilton E. Holmes Station",,0,2949507,shp-30-01,0,0
+1152070,50,2,"Cumberland Transfer Center",,0,2948507,shp-50-01,0,0
+1160010,30,4,"Hamilton E. Holmes Station",,0,2844401,shp-30-01,0,0
+1162070,50,2,"Marietta Transfer Center",,1,2949107,shp-50-51,0,0
+1183020,20,1,"Marietta Transfer Center",,1,2942902,shp-20-54,0,0
+1002020,40,1,"KSU-Kennesaw Campus",,0,2937902,shp-40-01,0,0
+1012010,RAPID,4,"KSU-Kennesaw Campus limited stops",,1,2846201,shp-Rapid-52,0,0
+1015020,30,1,"Hamilton E. Holmes Station",,0,2943002,shp-30-01,0,0
+1016090,15,3,"Cumberland Transfer Center",,0,2975209,shp-15-01,0,0
+1020020,10,1,"Marietta Transfer Center",,1,2934102,shp-10-52,0,0
+1023010,10,4,"Arts Center Station",,0,2844801,shp-10-03,0,0
+1026020,GREEN,1,"Circulator Green - Battery/Windy Hill",,0,2943402,shp-Green-05,0,0
+1032020,45,1,"KSU-Kennesaw Campus",,0,2937802,shp-45-01,0,0
+1046020,10,1,"Arts Center Station",,0,2935502,shp-10-03,0,0
+1050090,RAPID,3,"Arts Center Station with limited stops",,0,2976809,shp-Rapid-01,0,0
+1053070,10,2,"Marietta Transfer Center",,1,2948407,shp-10-52,0,0
+1055090,25,3,"Cumberland Transfer Center",,1,2982509,shp-25-01,0,0
+1057090,45,3,"KSU-Kennesaw Campus",,0,2981809,shp-45-01,0,0
+1069010,50,4,"Cumberland Transfer Center",,0,2845101,shp-50-01,0,0
+1075070,30,2,"Marietta Transfer Center",,1,2948907,shp-30-52,0,0
+1080020,30,1,"Marietta Transfer Center",,1,2936702,shp-30-52,0,0
+1081070,45,2,"KSU-Kennesaw Campus",,0,2950807,shp-45-01,0,0
+1084020,30,1,"Marietta Transfer Center",,1,2942702,shp-30-52,0,0
+1088090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977009,shp-Rapid-52,0,0
+110090,50,3,"Marietta Transfer Center",,1,2974809,shp-50-51,0,0
+11010,20,4,"Cumberland Transfer Center",,0,2844701,shp-20-03,0,0
+1105010,25,4,"Cumberland Transfer Center",,1,2870101,shp-25-01,0,0
+1110070,RAPID,2,"Arts Center Station with limited stops",,0,2950207,shp-Rapid-01,0,0
+1113090,20,3,"Marietta Transfer Center",,1,2974709,shp-20-54,0,0
+1116070,RAPID,2,"Arts Center Station with limited stops",,0,2950107,shp-Rapid-01,0,0
+1120090,50,3,"Marietta Transfer Center",,1,2974609,shp-50-51,0,0
+1121010,30,4,"Hamilton E. Holmes Station",,0,2845001,shp-30-01,0,0
+1128090,30,3,"Marietta Transfer Center",,1,2973409,shp-30-52,0,0
+1131090,30,3,"Hamilton E. Holmes Station",,0,2975909,shp-30-01,0,0
+1135090,30,3,"Marietta Transfer Center",,1,2973209,shp-30-52,0,0
+1136010,30,4,"Hamilton E. Holmes Station",,0,2844401,shp-30-01,0,0
+1139090,30,3,"Marietta Transfer Center",,1,2975309,shp-30-52,0,0
+1142010,40,4,"KSU-Kennesaw Campus",,0,2845701,shp-40-01,0,0
+1145090,20,3,"Cumberland Transfer Center",,0,2973809,shp-20-03,0,0
+1159090,50,3,"Marietta Transfer Center",,1,2974109,shp-50-51,0,0
+1167020,15,1,"Cumberland Transfer Center",,0,2936302,shp-15-01,0,0
+1167090,15,3,"Cumberland Transfer Center",,0,2975209,shp-15-01,0,0
+1168070,45,2,"Marietta Transfer Center",,1,2950707,shp-45-51,0,0
+1169090,30,3,"Hamilton E. Holmes Station",,0,2981609,shp-30-01,0,0
+1180020,20,1,"Cumberland Transfer Center",,0,2934802,shp-20-03,0,0
+1180090,20,3,"Cumberland Transfer Center",,0,2973809,shp-20-03,0,0
+1182020,10,1,"Marietta Transfer Center",,1,2935502,shp-10-52,0,0
+1182090,10,3,"Marietta Transfer Center",,1,2974509,shp-10-52,0,0
+1192020,50,1,"Cumberland Transfer Center",,0,2936202,shp-50-01,0,0
+1193090,15,3,"Marietta Transfer Center",,1,2975209,shp-15-51,0,0
+1198020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2943502,shp-Blue-02,0,0
+1212090,RAPID,3,"Arts Center Station with limited stops",,0,2977309,shp-Rapid-01,0,0
+1220020,10,1,"Marietta Transfer Center",,1,2934002,shp-10-52,0,0
+1222090,30,3,"Marietta Transfer Center",,1,2975009,shp-30-52,0,0
+1223020,40,1,"KSU-Kennesaw Campus",,0,2937902,shp-40-01,0,0
+1223090,40,3,"KSU-Kennesaw Campus",,0,2976709,shp-40-01,0,0
+1227010,GREEN,4,"Circulator Green - Battery/Windy Hill",,0,2846301,shp-Green-05,0,0
+1232090,30,3,"Marietta Transfer Center",,1,2975709,shp-30-52,0,0
+124070,20,2,"Marietta Transfer Center",,1,2948607,shp-20-54,0,0
+1245020,15,1,"Marietta Transfer Center",,1,2935402,shp-15-51,0,0
+1245090,15,3,"Marietta Transfer Center",,1,2974409,shp-15-51,0,0
+127010,30,4,"Marietta Transfer Center",,1,2844201,shp-30-52,0,0
+132020,15,1,"Cumberland Transfer Center",,0,2936502,shp-15-01,0,0
+132090,15,3,"Cumberland Transfer Center",,0,2975409,shp-15-01,0,0
+142090,15,3,"Cumberland Transfer Center",,0,2974409,shp-15-01,0,0
+157070,30,2,"Hamilton E. Holmes Station",,0,2947607,shp-30-01,0,0
+166070,10,2,"Arts Center Station",,0,2948407,shp-10-03,0,0
+170020,101,1,"Marietta Transfer Center",,1,2941502,shp-101-51,0,0
+171020,45,1,"Marietta Transfer Center",,1,2943002,shp-45-51,0,0
+175020,30,1,"Hamilton E. Holmes Station",,0,2942702,shp-30-01,0,0
+179090,50,3,"Cumberland Transfer Center",,0,2974109,shp-50-01,0,0
+182020,25,1,"Cumberland Transfer Center",,1,2943302,shp-25-01,0,0
+197010,40,4,"KSU-Kennesaw Campus",,0,2845601,shp-40-01,0,0
+21020,25,1,"Hamilton E. Holmes Station",,0,2939902,shp-25-51,0,0
+1147090,20,3,"Marietta Transfer Center",,1,2981709,shp-20-54,0,0
+1148020,45,1,"Marietta Transfer Center",,1,2943002,shp-45-51,0,0
+1149070,RAPID,2,"Arts Center Station with limited stops",,0,2950207,shp-Rapid-01,0,0
+1150020,30,1,"Hamilton E. Holmes Station",,0,2936602,shp-30-01,0,0
+1151020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2942602,shp-Blue-02,0,0
+1154090,25,3,"Cumberland Transfer Center",,1,2978909,shp-25-01,0,0
+1169020,30,1,"Hamilton E. Holmes Station",,0,2942802,shp-30-01,0,0
+1178070,30,2,"Hamilton E. Holmes Station",,0,2949407,shp-30-01,0,0
+1187090,50,3,"Marietta Transfer Center",,1,2974809,shp-50-51,0,0
+1195090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977309,shp-Rapid-52,0,0
+1199020,30,1,"Hamilton E. Holmes Station",,0,2936002,shp-30-01,0,0
+1205090,30,3,"Hamilton E. Holmes Station",,0,2975509,shp-30-01,0,0
+1207020,25,1,"Cumberland Transfer Center",,1,2943102,shp-25-01,0,0
+1210010,20,4,"Cumberland Transfer Center",,0,2844701,shp-20-03,0,0
+1213090,30,3,"Marietta Transfer Center",,1,2981509,shp-30-52,0,0
+1215010,45,4,"Marietta Transfer Center",,1,2845801,shp-45-51,0,0
+1220090,10,3,"Marietta Transfer Center",,1,2973209,shp-10-52,0,0
+122070,45,2,"KSU-Kennesaw Campus",,0,2950707,shp-45-01,0,0
+1230020,45,1,"Marietta Transfer Center",,1,2943002,shp-45-51,0,0
+1235070,40,2,"KSU-Kennesaw Campus",,0,2950507,shp-40-01,0,0
+1242020,10,1,"Arts Center Station",,0,2934402,shp-10-03,0,0
+125020,102,1,"Arts Center Station",,0,2941802,shp-102-01,0,0
+129070,10,2,"Marietta Transfer Center",,1,2948407,shp-10-52,0,0
+133070,RAPID,2,"Arts Center Station with limited stops",,0,2950307,shp-Rapid-01,0,0
+136090,30,3,"Marietta Transfer Center",,1,2975909,shp-30-52,0,0
+140070,30,2,"Hamilton E. Holmes Station",,0,2949407,shp-30-01,0,0
+141090,20,3,"Marietta Transfer Center",,1,2974709,shp-20-54,0,0
+149090,GREEN,3,"Circulator Green - Battery/Windy Hill",,0,2981109,shp-Green-05,0,0
+150010,20,4,"Marietta Transfer Center",,1,2844701,shp-20-54,0,0
+15090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2982309,shp-Blue-02,0,0
+154070,10,2,"Arts Center Station",,0,2949307,shp-10-03,0,0
+158020,50,1,"Marietta Transfer Center",,1,2935602,shp-50-51,0,0
+16090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2981409,shp-Blue-02,0,0
+163010,45,4,"Marietta Transfer Center",,1,2845801,shp-45-51,0,0
+30090,40,3,"KSU-Kennesaw Campus",,0,2976509,shp-40-01,0,0
+313090,RAPID,3,"Arts Center Station with limited stops",,0,2976909,shp-Rapid-01,0,0
+314020,25,1,"Cumberland Transfer Center",,1,2942702,shp-25-01,0,0
+314090,25,3,"Cumberland Transfer Center",,1,2981509,shp-25-01,0,0
+319070,25,2,"Cumberland Transfer Center",,1,2947907,shp-25-01,0,0
+322070,15,2,"Marietta Transfer Center",,1,2949807,shp-15-51,0,0
+333010,45,4,"KSU-Kennesaw Campus",,0,2845801,shp-45-01,0,0
+334010,10,4,"Marietta Transfer Center",,1,2845401,shp-10-52,0,0
+335020,30,1,"Marietta Transfer Center",,1,2935902,shp-30-52,0,0
+340020,10,1,"Marietta Transfer Center",,1,2935502,shp-10-52,0,0
+350070,BLUE,2,"Circ Blue - Battery/Cumberland Transfer Center",,1,2950907,shp-Blue-02,0,0
+356090,45,3,"Marietta Transfer Center",,1,2981809,shp-45-51,0,0
+357090,30,3,"Marietta Transfer Center",,1,2973209,shp-30-51,0,0
+366020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2942602,shp-Blue-02,0,0
+368090,30,3,"Marietta Transfer Center",,1,2975009,shp-30-52,0,0
+370020,15,1,"Cumberland Transfer Center",,0,2934302,shp-15-01,0,0
+38090,20,3,"Marietta Transfer Center",,1,2973709,shp-20-54,0,0
+383020,10,1,"Marietta Transfer Center",,1,2935002,shp-10-52,0,0
+385020,30,1,"Marietta Transfer Center",,1,2935202,shp-30-52,0,0
+385090,30,3,"Marietta Transfer Center",,1,2974209,shp-30-52,0,0
+391020,15,1,"Marietta Transfer Center",,1,2936302,shp-15-51,0,0
+392020,GREEN,1,"Circulator Green - Battery/Windy Hill",,0,2942302,shp-Green-03,0,0
+408020,20,1,"Cumberland Transfer Center",,0,2934502,shp-20-03,0,0
+412020,15,1,"Marietta Transfer Center",,1,2935402,shp-15-51,0,0
+419090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977209,shp-Rapid-52,0,0
+427020,10,1,"Arts Center Station",,0,2934902,shp-10-03,0,0
+431070,20,2,"Cumberland Transfer Center",,0,2949207,shp-20-03,0,0
+445010,30,4,"Marietta Transfer Center",,1,2844401,shp-30-52,0,0
+447070,RAPID,2,"Arts Center Station with limited stops",,0,2950007,shp-Rapid-01,0,0
+453010,40,4,"Marietta Transfer Center",,1,2845601,shp-40-51,0,0
+454070,RAPID,2,"Arts Center Station with limited stops",,0,2950107,shp-Rapid-01,0,0
+455070,RAPID,2,"Arts Center Station with limited stops",,0,2950007,shp-Rapid-01,0,0
+470020,20,1,"Marietta Transfer Center",,1,2942902,shp-20-54,0,0
+472020,10,1,"Marietta Transfer Center",,1,2934902,shp-10-52,0,0
+143010,40,4,"Marietta Transfer Center",,1,2845701,shp-40-51,0,0
+144070,30,2,"Marietta Transfer Center",,1,2948907,shp-30-52,0,0
+156070,10,2,"Marietta Transfer Center",,1,2948207,shp-10-52,0,0
+162070,10,2,"Marietta Transfer Center",,1,2949307,shp-10-52,0,0
+164020,20,1,"Cumberland Transfer Center",,0,2934502,shp-20-03,0,0
+168020,15,1,"Cumberland Transfer Center",,0,2936302,shp-15-01,0,0
+177070,RAPID,2,"Arts Center Station with limited stops",,0,2950107,shp-Rapid-01,0,0
+18020,RAPID,1,"Arts Center Station with limited stops",,0,2938202,shp-Rapid-01,0,0
+182090,25,3,"Cumberland Transfer Center",,1,2982109,shp-25-01,0,0
+190090,25,3,"Hamilton E. Holmes Station",,0,2982009,shp-25-51,0,0
+209090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2982309,shp-Blue-02,0,0
+230020,50,1,"Marietta Transfer Center",,1,2935802,shp-50-51,0,0
+230090,50,3,"Marietta Transfer Center",,1,2974809,shp-50-51,0,0
+23090,10,3,"Arts Center Station",,0,2974509,shp-10-03,0,0
+240070,30,2,"Marietta Transfer Center",,1,2949507,shp-30-52,0,0
+243090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977209,shp-Rapid-52,0,0
+249090,15,3,"Marietta Transfer Center",,1,2974009,shp-15-51,0,0
+253020,40,1,"KSU-Kennesaw Campus",,0,2937902,shp-40-01,0,0
+254070,25,2,"Cumberland Transfer Center",,1,2948007,shp-25-01,0,0
+255020,GREEN,1,"Circulator Green - Battery/Windy Hill",,0,2943402,shp-Green-05,0,0
+261090,30,3,"Marietta Transfer Center",,1,2973009,shp-30-52,0,0
+263090,30,3,"Marietta Transfer Center",,1,2974909,shp-30-52,0,0
+27020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938502,shp-Rapid-52,0,0
+278020,30,1,"Hamilton E. Holmes Station",,0,2936702,shp-30-01,0,0
+280020,50,1,"Marietta Transfer Center",,1,2935102,shp-50-51,0,0
+283020,50,1,"Cumberland Transfer Center",,0,2935602,shp-50-01,0,0
+292070,20,2,"Marietta Transfer Center",,1,2948607,shp-20-54,0,0
+293090,20,3,"Marietta Transfer Center",,1,2973809,shp-20-54,0,0
+294090,GREEN,3,"Circulator Green - Battery/Windy Hill",,0,2982209,shp-Green-05,0,0
+310020,50,1,"Cumberland Transfer Center",,0,2935602,shp-50-01,0,0
+312090,15,3,"Marietta Transfer Center",,1,2975409,shp-15-51,0,0
+317010,50,4,"Cumberland Transfer Center",,0,2844501,shp-50-01,0,0
+323090,15,3,"Cumberland Transfer Center",,0,2974409,shp-15-01,0,0
+329020,45,1,"Marietta Transfer Center",,1,2937802,shp-45-51,0,0
+1147020,20,1,"Marietta Transfer Center",,1,2942902,shp-20-54,0,0
+1156070,25,2,"Hamilton E. Holmes Station",,0,2948707,shp-25-51,0,0
+1159020,50,1,"Marietta Transfer Center",,1,2935102,shp-50-51,0,0
+116020,50,1,"Cumberland Transfer Center",,0,2935802,shp-50-01,0,0
+116090,50,3,"Cumberland Transfer Center",,0,2974809,shp-50-01,0,0
+1163070,25,2,"Hamilton E. Holmes Station",,0,2947807,shp-25-51,0,0
+1177070,25,2,"Cumberland Transfer Center",,1,2948007,shp-25-01,0,0
+1179020,20,1,"Marietta Transfer Center",,1,2934502,shp-20-54,0,0
+1181070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950307,shp-Rapid-52,0,0
+1184020,50,1,"Marietta Transfer Center",,1,2935802,shp-50-51,0,0
+1185010,45,4,"KSU-Kennesaw Campus",,0,2845901,shp-45-01,0,0
+1186090,40,3,"KSU-Kennesaw Campus",,0,2976509,shp-40-01,0,0
+1188090,50,3,"Cumberland Transfer Center",,0,2974109,shp-50-01,0,0
+1197090,RAPID,3,"Arts Center Station with limited stops",,0,2976909,shp-Rapid-01,0,0
+1200020,15,1,"Cumberland Transfer Center",,0,2934302,shp-15-01,0,0
+12010,25,4,"Cumberland Transfer Center",,1,2870201,shp-25-01,0,0
+1201090,30,3,"Hamilton E. Holmes Station",,0,2975609,shp-30-01,0,0
+1204090,10,3,"Marietta Transfer Center",,1,2973609,shp-10-52,0,0
+1208020,10,1,"Marietta Transfer Center",,1,2942802,shp-10-52,0,0
+1226020,10,1,"Marietta Transfer Center",,1,2934402,shp-10-52,0,0
+123010,30,4,"Marietta Transfer Center",,1,2844201,shp-30-52,0,0
+1239010,GREEN,4,"Circulator Green - Battery/Windy Hill",,0,2846301,shp-Green-03,0,0
+1243070,25,2,"Hamilton E. Holmes Station",,0,2947807,shp-25-51,0,0
+1246010,25,4,"Cumberland Transfer Center",,1,2870201,shp-25-01,0,0
+1250020,45,1,"Marietta Transfer Center",,1,2937802,shp-45-51,0,0
+147010,20,4,"Cumberland Transfer Center",,0,2844701,shp-20-03,0,0
+149020,GREEN,1,"Circulator Green - Battery/Windy Hill",,0,2942302,shp-Green-05,0,0
+155070,RAPID,2,"Arts Center Station with limited stops",,0,2950207,shp-Rapid-01,0,0
+165090,40,3,"Marietta Transfer Center",,1,2976509,shp-40-51,0,0
+17070,10,2,"Arts Center Station",,0,2949307,shp-10-03,0,0
+180020,20,1,"Cumberland Transfer Center",,0,2934502,shp-20-03,0,0
+18090,RAPID,3,"Arts Center Station with limited stops",,0,2977009,shp-Rapid-01,0,0
+181020,20,1,"Cumberland Transfer Center",,0,2942902,shp-20-03,0,0
+183010,50,4,"Marietta Transfer Center",,1,2844501,shp-50-51,0,0
+219020,10,1,"Marietta Transfer Center",,1,2934102,shp-10-52,0,0
+219090,10,3,"Marietta Transfer Center",,1,2973309,shp-10-52,0,0
+22020,20,1,"Cumberland Transfer Center",,0,2934502,shp-20-03,0,0
+221070,40,2,"Marietta Transfer Center",,1,2950607,shp-40-51,0,0
+232010,10,4,"Marietta Transfer Center",,1,2844801,shp-10-52,0,0
+234020,30,1,"Hamilton E. Holmes Station",,0,2936002,shp-30-01,0,0
+235010,45,4,"Marietta Transfer Center",,1,2845901,shp-45-51,0,0
+237090,30,3,"Hamilton E. Holmes Station",,0,2973209,shp-30-01,0,0
+24010,40,4,"KSU-Kennesaw Campus",,0,2845601,shp-40-01,0,0
+241010,15,4,"Marietta Transfer Center",,1,2845301,shp-15-51,0,0
+25020,25,1,"Hamilton E. Holmes Station",,0,2943302,shp-25-51,0,0
+271090,30,3,"Hamilton E. Holmes Station",,0,2975309,shp-30-01,0,0
+275020,30,1,"Marietta Transfer Center",,1,2936602,shp-30-52,0,0
+275090,30,3,"Marietta Transfer Center",,1,2975509,shp-30-52,0,0
+282020,10,1,"Arts Center Station",,0,2934102,shp-10-03,0,0
+282090,10,3,"Arts Center Station",,0,2973309,shp-10-03,0,0
+283090,50,3,"Cumberland Transfer Center",,0,2974609,shp-50-01,0,0
+284020,50,1,"Marietta Transfer Center",,1,2935602,shp-50-51,0,0
+287020,20,1,"Cumberland Transfer Center",,0,2934502,shp-20-03,0,0
+287090,20,3,"Cumberland Transfer Center",,0,2973709,shp-20-03,0,0
+288070,40,2,"KSU-Kennesaw Campus",,0,2950607,shp-40-01,0,0
+290070,30,2,"Marietta Transfer Center",,1,2949507,shp-30-52,0,0
+293020,20,1,"Marietta Transfer Center",,1,2934802,shp-20-54,0,0
+295070,25,2,"Cumberland Transfer Center",,1,2949707,shp-25-01,0,0
+297020,25,1,"Cumberland Transfer Center",,1,2940002,shp-25-01,0,0
+299070,40,2,"Marietta Transfer Center",,1,2950607,shp-40-51,0,0
+31020,RAPID,1,"Marietta Transfer Center limited stops",,1,2940502,shp-Rapid-51,0,0
+31090,RAPID,3,"Marietta Transfer Center limited stops",,1,2979309,shp-Rapid-51,0,0
+320020,10,1,"Arts Center Station",,0,2934402,shp-10-03,0,0
+325020,45,1,"KSU-Kennesaw Campus",,0,2937802,shp-45-01,0,0
+336020,30,1,"Marietta Transfer Center",,1,2942702,shp-30-52,0,0
+337090,30,3,"Marietta Transfer Center",,1,2973109,shp-30-52,0,0
+346020,15,1,"Marietta Transfer Center",,1,2935402,shp-15-51,0,0
+363020,30,1,"Marietta Transfer Center",,1,2933802,shp-30-52,0,0
+368020,30,1,"Marietta Transfer Center",,1,2936002,shp-30-52,0,0
+214090,30,3,"Hamilton E. Holmes Station",,0,2975509,shp-30-01,0,0
+218010,GREEN,4,"Circulator Green - Battery/Windy Hill",,0,2846301,shp-Green-05,0,0
+220010,10,4,"Marietta Transfer Center",,1,2844801,shp-10-52,0,0
+223090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977009,shp-Rapid-52,0,0
+229070,45,2,"KSU-Kennesaw Campus",,0,2950707,shp-45-01,0,0
+239010,20,4,"Marietta Transfer Center",,1,2845201,shp-20-54,0,0
+245070,10,2,"Marietta Transfer Center",,1,2949307,shp-10-52,0,0
+246070,50,2,"Marietta Transfer Center",,1,2949107,shp-50-51,0,0
+248090,25,3,"Hamilton E. Holmes Station",,0,2982509,shp-25-51,0,0
+25090,25,3,"Hamilton E. Holmes Station",,0,2982109,shp-25-51,0,0
+258020,40,1,"Marietta Transfer Center",,1,2937902,shp-40-51,0,0
+259070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2949907,shp-Rapid-52,0,0
+268010,10,4,"Marietta Transfer Center",,1,2844801,shp-10-52,0,0
+272070,20,2,"Marietta Transfer Center",,1,2949207,shp-20-54,0,0
+281070,25,2,"Hamilton E. Holmes Station",,0,2949707,shp-25-51,0,0
+285020,10,1,"Marietta Transfer Center",,1,2934902,shp-10-52,0,0
+30020,40,1,"KSU-Kennesaw Campus",,0,2937702,shp-40-01,0,0
+302070,10,2,"Arts Center Station",,0,2949307,shp-10-03,0,0
+309070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950007,shp-Rapid-52,0,0
+311070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2949907,shp-Rapid-52,0,0
+32020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938402,shp-Rapid-52,0,0
+335090,30,3,"Marietta Transfer Center",,1,2974909,shp-30-52,0,0
+353090,10,3,"Marietta Transfer Center",,1,2973309,shp-10-52,0,0
+359020,20,1,"Cumberland Transfer Center",,0,2942902,shp-20-03,0,0
+36010,45,4,"Marietta Transfer Center",,1,2845901,shp-45-51,0,0
+364020,15,1,"Marietta Transfer Center",,1,2936502,shp-15-51,0,0
+376090,RAPID,3,"Marietta Transfer Center limited stops",,1,2976309,shp-Rapid-51,0,0
+377020,40,1,"KSU-Kennesaw Campus",,0,2937902,shp-40-01,0,0
+387090,20,3,"Cumberland Transfer Center",,0,2973809,shp-20-03,0,0
+388090,10,3,"Marietta Transfer Center",,1,2974509,shp-10-52,0,0
+397020,20,1,"Marietta Transfer Center",,1,2934802,shp-20-54,0,0
+399070,40,2,"Marietta Transfer Center",,1,2950507,shp-40-51,0,0
+40070,10,2,"Arts Center Station",,0,2948207,shp-10-03,0,0
+403020,15,1,"Cumberland Transfer Center",,0,2936502,shp-15-01,0,0
+404070,30,2,"Marietta Transfer Center",,1,2948307,shp-30-52,0,0
+478070,50,2,"Cumberland Transfer Center",,0,2949107,shp-50-01,0,0
+482090,20,3,"Marietta Transfer Center",,1,2974709,shp-20-54,0,0
+484090,10,3,"Marietta Transfer Center",,1,2981709,shp-10-52,0,0
+499010,25,4,"Hamilton E. Holmes Station",,0,2870201,shp-25-51,0,0
+504020,10,1,"Marietta Transfer Center",,1,2935502,shp-10-52,0,0
+5090,50,3,"Marietta Transfer Center",,1,2975109,shp-50-51,0,0
+513090,RAPID,3,"Arts Center Station with limited stops",,0,2976809,shp-Rapid-01,0,0
+516090,45,3,"Marietta Transfer Center",,1,2981809,shp-45-51,0,0
+518070,GREEN,2,"Circulator Green - Battery/Windy Hill",,0,2951007,shp-Green-05,0,0
+520010,GREEN,4,"Circulator Green - Battery/Windy Hill",,0,2846301,shp-Green-03,0,0
+524010,BLUE,4,"Circ Blue - Battery/Cumberland Transfer Center",,1,2846401,shp-Blue-02,0,0
+532090,RAPID,3,"Arts Center Station with limited stops",,0,2979009,shp-Rapid-01,0,0
+535090,40,3,"Marietta Transfer Center",,1,2976509,shp-40-51,0,0
+538020,50,1,"Cumberland Transfer Center",,0,2935102,shp-50-01,0,0
+556020,40,1,"Marietta Transfer Center",,1,2937902,shp-40-51,0,0
+558010,50,4,"Marietta Transfer Center",,1,2845101,shp-50-51,0,0
+559070,30,2,"Marietta Transfer Center",,1,2949407,shp-30-52,0,0
+573070,50,2,"Cumberland Transfer Center",,0,2948507,shp-50-01,0,0
+583090,15,3,"Cumberland Transfer Center",,0,2974009,shp-15-01,0,0
+588020,30,1,"Hamilton E. Holmes Station",,0,2936702,shp-30-01,0,0
+599010,45,4,"KSU-Kennesaw Campus",,0,2845801,shp-45-01,0,0
+60010,40,4,"Marietta Transfer Center",,1,2845701,shp-40-51,0,0
+603020,10,1,"Arts Center Station",,0,2934102,shp-10-03,0,0
+624070,10,2,"Marietta Transfer Center",,1,2949307,shp-10-52,0,0
+628020,25,1,"Cumberland Transfer Center",,1,2943602,shp-25-01,0,0
+634070,20,2,"Cumberland Transfer Center",,0,2949207,shp-20-03,0,0
+635020,10,1,"Marietta Transfer Center",,1,2942902,shp-10-52,0,0
+647090,25,3,"Cumberland Transfer Center",,1,2978909,shp-25-01,0,0
+648090,10,3,"Marietta Transfer Center",,1,2973909,shp-10-52,0,0
+677090,25,3,"Cumberland Transfer Center",,1,2978809,shp-25-01,0,0
+681070,15,2,"Cumberland Transfer Center",,0,2949007,shp-15-01,0,0
+691090,50,3,"Marietta Transfer Center",,1,2975109,shp-50-51,0,0
+694090,50,3,"Marietta Transfer Center",,1,2974109,shp-50-51,0,0
+708070,45,2,"Marietta Transfer Center",,1,2950807,shp-45-51,0,0
+371020,10,1,"Marietta Transfer Center",,1,2934402,shp-10-52,0,0
+379070,30,2,"Hamilton E. Holmes Station",,0,2948307,shp-30-01,0,0
+381020,15,1,"Cumberland Transfer Center",,0,2936502,shp-15-01,0,0
+387020,20,1,"Cumberland Transfer Center",,0,2934802,shp-20-03,0,0
+390070,BLUE,2,"Circ Blue - Battery/Cumberland Transfer Center",,1,2950907,shp-Blue-02,0,0
+393090,10,3,"Marietta Transfer Center",,1,2973909,shp-10-52,0,0
+403090,15,3,"Cumberland Transfer Center",,0,2975409,shp-15-01,0,0
+4090,20,3,"Marietta Transfer Center",,1,2973709,shp-20-54,0,0
+41020,15,1,"Cumberland Transfer Center",,0,2936302,shp-15-01,0,0
+416090,30,3,"Marietta Transfer Center",,1,2974909,shp-30-52,0,0
+424020,RAPID,1,"Arts Center Station with limited stops",,0,2937202,shp-Rapid-01,0,0
+428010,30,4,"Marietta Transfer Center",,1,2844201,shp-30-52,0,0
+430020,15,1,"Marietta Transfer Center",,1,2935002,shp-15-51,0,0
+440090,30,3,"Marietta Transfer Center",,1,2974909,shp-30-52,0,0
+442070,BLUE,2,"Circ Blue - Battery/Cumberland Transfer Center",,1,2951107,shp-Blue-02,0,0
+46020,10,1,"Marietta Transfer Center",,1,2934902,shp-10-52,0,0
+467020,20,1,"Marietta Transfer Center",,1,2935702,shp-20-54,0,0
+471020,10,1,"Marietta Transfer Center",,1,2935502,shp-10-52,0,0
+474020,50,1,"Cumberland Transfer Center",,0,2935602,shp-50-01,0,0
+479090,30,3,"Marietta Transfer Center",,1,2981509,shp-30-51,0,0
+483090,50,3,"Marietta Transfer Center",,1,2974609,shp-50-51,0,0
+486010,10,4,"Arts Center Station",,0,2844801,shp-10-03,0,0
+487020,40,1,"Marietta Transfer Center",,1,2937702,shp-40-51,0,0
+49070,30,2,"Hamilton E. Holmes Station",,0,2947607,shp-30-01,0,0
+493020,30,1,"Marietta Transfer Center",,1,2942702,shp-30-52,0,0
+494020,40,1,"Marietta Transfer Center",,1,2937902,shp-40-51,0,0
+498070,20,2,"Marietta Transfer Center",,1,2949207,shp-20-54,0,0
+501020,45,1,"Marietta Transfer Center",,1,2937802,shp-45-51,0,0
+511090,30,3,"Hamilton E. Holmes Station",,0,2975509,shp-30-01,0,0
+515020,101,1,"Civic Center Station/Five Points Station",,0,2941202,shp-101-02,0,0
+519020,101,1,"Civic Center Station/Five Points Station",,0,2941602,shp-101-02,0,0
+526020,10,1,"Arts Center Station",,0,2934402,shp-10-03,0,0
+526090,10,3,"Arts Center Station",,0,2973609,shp-10-03,0,0
+528020,15,1,"Cumberland Transfer Center",,0,2936302,shp-15-01,0,0
+1186020,40,1,"KSU-Kennesaw Campus",,0,2937702,shp-40-01,0,0
+1188020,50,1,"Cumberland Transfer Center",,0,2935102,shp-50-01,0,0
+1195020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938502,shp-Rapid-52,0,0
+1200090,15,3,"Cumberland Transfer Center",,0,2973509,shp-15-01,0,0
+120070,20,2,"Marietta Transfer Center",,1,2948607,shp-20-54,0,0
+1201020,30,1,"Hamilton E. Holmes Station",,0,2936702,shp-30-01,0,0
+121070,30,2,"Hamilton E. Holmes Station",,0,2949507,shp-30-01,0,0
+1217070,20,2,"Cumberland Transfer Center",,0,2949207,shp-20-03,0,0
+1218090,RAPID,3,"Arts Center Station with limited stops",,0,2976009,shp-Rapid-01,0,0
+1224010,25,4,"Cumberland Transfer Center",,1,2870301,shp-25-01,0,0
+1230090,45,3,"Marietta Transfer Center",,1,2981809,shp-45-51,0,0
+1233010,10,4,"Arts Center Station",,0,2844801,shp-10-03,0,0
+126020,20,1,"Cumberland Transfer Center",,0,2934502,shp-20-03,0,0
+128090,RAPID,3,"Arts Center Station with limited stops",,0,2977209,shp-Rapid-01,0,0
+138010,10,4,"Arts Center Station",,0,2844801,shp-10-03,0,0
+146010,RAPID,4,"KSU-Kennesaw Campus limited stops",,1,2846101,shp-Rapid-52,0,0
+151010,20,4,"Marietta Transfer Center",,1,2844701,shp-20-54,0,0
+159020,30,1,"Hamilton E. Holmes Station",,0,2935302,shp-30-01,0,0
+189090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2981409,shp-Blue-02,0,0
+201090,10,3,"Marietta Transfer Center",,1,2973609,shp-10-52,0,0
+202070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950407,shp-Rapid-52,0,0
+203070,30,2,"Marietta Transfer Center",,1,2947607,shp-30-52,0,0
+207070,20,2,"Marietta Transfer Center",,1,2949207,shp-20-54,0,0
+209020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2943502,shp-Blue-02,0,0
+213020,15,1,"Cumberland Transfer Center",,0,2936302,shp-15-01,0,0
+215070,10,2,"Marietta Transfer Center",,1,2949307,shp-10-52,0,0
+222010,20,4,"Marietta Transfer Center",,1,2844701,shp-20-54,0,0
+226020,20,1,"Marietta Transfer Center",,1,2934502,shp-20-54,0,0
+236010,40,4,"KSU-Kennesaw Campus",,0,2845601,shp-40-01,0,0
+237020,30,1,"Hamilton E. Holmes Station",,0,2934002,shp-30-01,0,0
+252070,20,2,"Marietta Transfer Center",,1,2948607,shp-20-54,0,0
+256070,40,2,"KSU-Kennesaw Campus",,0,2950507,shp-40-01,0,0
+257010,50,4,"Marietta Transfer Center",,1,2845101,shp-50-51,0,0
+263020,30,1,"Marietta Transfer Center",,1,2935902,shp-30-52,0,0
+168090,15,3,"Cumberland Transfer Center",,0,2975209,shp-15-01,0,0
+171090,45,3,"Marietta Transfer Center",,1,2981809,shp-45-51,0,0
+174020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938602,shp-Rapid-52,0,0
+176070,BLUE,2,"Circ Blue - Battery/Cumberland Transfer Center",,1,2951107,shp-Blue-02,0,0
+184070,40,2,"Marietta Transfer Center",,1,2950607,shp-40-51,0,0
+185070,15,2,"Marietta Transfer Center",,1,2949007,shp-15-51,0,0
+188010,GREEN,4,"Circulator Green - Battery/Windy Hill",,0,2846301,shp-Green-03,0,0
+189020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2942602,shp-Blue-02,0,0
+195020,15,1,"Marietta Transfer Center",,1,2934302,shp-15-51,0,0
+200070,45,2,"KSU-Kennesaw Campus",,0,2950807,shp-45-01,0,0
+20070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950207,shp-Rapid-52,0,0
+2090,15,3,"Marietta Transfer Center",,1,2975209,shp-15-51,0,0
+211010,25,4,"Cumberland Transfer Center",,1,2870301,shp-25-01,0,0
+225020,50,1,"Marietta Transfer Center",,1,2936202,shp-50-51,0,0
+225090,50,3,"Marietta Transfer Center",,1,2975109,shp-50-51,0,0
+228070,45,2,"KSU-Kennesaw Campus",,0,2950707,shp-45-01,0,0
+233010,50,4,"Cumberland Transfer Center",,0,2844501,shp-50-01,0,0
+247090,10,3,"Arts Center Station",,0,2973209,shp-10-03,0,0
+251070,10,2,"Marietta Transfer Center",,1,2948407,shp-10-52,0,0
+261020,30,1,"Marietta Transfer Center",,1,2933802,shp-30-52,0,0
+264070,15,2,"Cumberland Transfer Center",,0,2949007,shp-15-01,0,0
+266090,40,3,"KSU-Kennesaw Campus",,0,2976509,shp-40-01,0,0
+271020,30,1,"Hamilton E. Holmes Station",,0,2936402,shp-30-01,0,0
+273090,50,3,"Cumberland Transfer Center",,0,2974809,shp-50-01,0,0
+276010,BLUE,4,"Circ Blue - Battery/Cumberland Transfer Center",,1,2846401,shp-Blue-02,0,0
+285090,10,3,"Marietta Transfer Center",,1,2973909,shp-10-52,0,0
+289020,30,1,"Hamilton E. Holmes Station",,0,2935302,shp-30-01,0,0
+303010,25,4,"Hamilton E. Holmes Station",,0,2870101,shp-25-51,0,0
+308010,50,4,"Cumberland Transfer Center",,0,2844501,shp-50-01,0,0
+310090,50,3,"Cumberland Transfer Center",,0,2974609,shp-50-01,0,0
+313020,RAPID,1,"Arts Center Station with limited stops",,0,2938102,shp-Rapid-01,0,0
+316070,GREEN,2,"Circulator Green - Battery/Windy Hill",,0,2951207,shp-Green-05,0,0
+326020,30,1,"Marietta Transfer Center",,1,2937002,shp-30-52,0,0
+332070,10,2,"Marietta Transfer Center",,1,2948207,shp-10-52,0,0
+330090,20,3,"Cumberland Transfer Center",,0,2974709,shp-20-03,0,0
+341070,15,2,"Marietta Transfer Center",,1,2949007,shp-15-51,0,0
+342070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950307,shp-Rapid-52,0,0
+347020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938102,shp-Rapid-52,0,0
+348070,20,2,"Marietta Transfer Center",,1,2948607,shp-20-54,0,0
+354090,25,3,"Hamilton E. Holmes Station",,0,2982409,shp-25-51,0,0
+356020,45,1,"Marietta Transfer Center",,1,2943002,shp-45-51,0,0
+357020,30,1,"Marietta Transfer Center",,1,2934002,shp-30-51,0,0
+361070,25,2,"Cumberland Transfer Center",,1,2948707,shp-25-01,0,0
+365020,50,1,"Marietta Transfer Center",,1,2935602,shp-50-51,0,0
+365090,50,3,"Marietta Transfer Center",,1,2974609,shp-50-51,0,0
+367090,30,3,"Hamilton E. Holmes Station",,0,2975309,shp-30-01,0,0
+369090,40,3,"Marietta Transfer Center",,1,2976709,shp-40-51,0,0
+370090,15,3,"Cumberland Transfer Center",,0,2973509,shp-15-01,0,0
+37070,20,2,"Cumberland Transfer Center",,0,2949207,shp-20-03,0,0
+389070,GREEN,2,"Circulator Green - Battery/Windy Hill",,0,2951007,shp-Green-03,0,0
+398090,45,3,"KSU-Kennesaw Campus",,0,2976609,shp-45-01,0,0
+406070,30,2,"Hamilton E. Holmes Station",,0,2948307,shp-30-01,0,0
+415090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2982309,shp-Blue-02,0,0
+416020,30,1,"Marietta Transfer Center",,1,2935902,shp-30-52,0,0
+42010,30,4,"Hamilton E. Holmes Station",,0,2844201,shp-30-01,0,0
+425020,50,1,"Cumberland Transfer Center",,0,2935102,shp-50-01,0,0
+427090,10,3,"Arts Center Station",,0,2973909,shp-10-03,0,0
+436010,40,4,"KSU-Kennesaw Campus",,0,2845701,shp-40-01,0,0
+437070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950107,shp-Rapid-52,0,0
+446070,50,2,"Marietta Transfer Center",,1,2949107,shp-50-51,0,0
+449010,25,4,"Hamilton E. Holmes Station",,0,2844301,shp-25-51,0,0
+464020,25,1,"Hamilton E. Holmes Station",,0,2943302,shp-25-51,0,0
+469090,RAPID,3,"Arts Center Station with limited stops",,0,2977409,shp-Rapid-01,0,0
+470090,20,3,"Marietta Transfer Center",,1,2981709,shp-20-54,0,0
+47070,10,2,"Arts Center Station",,0,2949607,shp-10-03,0,0
+477010,25,4,"Hamilton E. Holmes Station",,0,2870301,shp-25-51,0,0
+485020,30,1,"Hamilton E. Holmes Station",,0,2937002,shp-30-01,0,0
+485090,30,3,"Hamilton E. Holmes Station",,0,2975909,shp-30-01,0,0
+53070,45,2,"KSU-Kennesaw Campus",,0,2950807,shp-45-01,0,0
+533010,10,4,"Marietta Transfer Center",,1,2844801,shp-10-52,0,0
+534070,15,2,"Cumberland Transfer Center",,0,2949807,shp-15-01,0,0
+537010,40,4,"KSU-Kennesaw Campus",,0,2845701,shp-40-01,0,0
+540020,RAPID,1,"Arts Center Station with limited stops",,0,2938602,shp-Rapid-02,0,0
+542010,30,4,"Marietta Transfer Center",,1,2845001,shp-30-52,0,0
+543010,45,4,"KSU-Kennesaw Campus",,0,2845901,shp-45-01,0,0
+553090,20,3,"Marietta Transfer Center",,1,2981709,shp-20-54,0,0
+56020,20,1,"Marietta Transfer Center",,1,2935702,shp-20-54,0,0
+562070,30,2,"Marietta Transfer Center",,1,2947607,shp-30-52,0,0
+564070,BLUE,2,"Circ Blue - Battery/Cumberland Transfer Center",,1,2950907,shp-Blue-02,0,0
+576010,15,4,"Cumberland Transfer Center",,0,2845301,shp-15-01,0,0
+580090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2982309,shp-Blue-02,0,0
+582010,30,4,"Marietta Transfer Center",,1,2844401,shp-30-52,0,0
+59020,40,1,"KSU-Kennesaw Campus",,0,2937902,shp-40-01,0,0
+591020,40,1,"KSU-Kennesaw Campus",,0,2937702,shp-40-01,0,0
+594020,15,1,"Marietta Transfer Center",,1,2934302,shp-15-51,0,0
+596010,20,4,"Cumberland Transfer Center",,0,2844701,shp-20-03,0,0
+600070,50,2,"Cumberland Transfer Center",,0,2949107,shp-50-01,0,0
+615020,10,1,"Marietta Transfer Center",,1,2942902,shp-10-52,0,0
+616090,30,3,"Marietta Transfer Center",,1,2975509,shp-30-52,0,0
+617090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2976809,shp-Rapid-52,0,0
+618020,15,1,"Marietta Transfer Center",,1,2934302,shp-15-51,0,0
+620070,15,2,"Marietta Transfer Center",,1,2949007,shp-15-51,0,0
+626070,45,2,"KSU-Kennesaw Campus",,0,2950707,shp-45-01,0,0
+63020,GREEN,1,"Circulator Green - Battery/Windy Hill",,0,2943402,shp-Green-05,0,0
+635090,10,3,"Marietta Transfer Center",,1,2981709,shp-10-52,0,0
+637020,25,1,"Cumberland Transfer Center",,1,2943102,shp-25-01,0,0
+640010,30,4,"Marietta Transfer Center",,1,2844401,shp-30-52,0,0
+64010,20,4,"Cumberland Transfer Center",,0,2844701,shp-20-03,0,0
+641070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950107,shp-Rapid-52,0,0
+646090,30,3,"Marietta Transfer Center",,1,2981509,shp-30-52,0,0
+65070,50,2,"Marietta Transfer Center",,1,2948507,shp-50-51,0,0
+653020,10,1,"Arts Center Station",,0,2942802,shp-10-03,0,0
+656070,30,2,"Marietta Transfer Center",,1,2948107,shp-30-52,0,0
+19010,RAPID,4,"KSU-Kennesaw Campus limited stops",,1,2846001,shp-Rapid-52,0,0
+193020,RAPID,1,"Marietta Transfer Center limited stops",,1,2937202,shp-Rapid-51,0,0
+194020,RAPID,1,"Arts Center Station with limited stops",,0,2938502,shp-Rapid-01,0,0
+194090,RAPID,3,"Arts Center Station with limited stops",,0,2977309,shp-Rapid-01,0,0
+195090,15,3,"Marietta Transfer Center",,1,2973509,shp-15-51,0,0
+196020,50,1,"Cumberland Transfer Center",,0,2936202,shp-50-01,0,0
+199090,30,3,"Hamilton E. Holmes Station",,0,2974909,shp-30-01,0,0
+204070,30,2,"Hamilton E. Holmes Station",,0,2947607,shp-30-01,0,0
+212020,15,1,"Cumberland Transfer Center",,0,2935402,shp-15-01,0,0
+217010,15,4,"Cumberland Transfer Center",,0,2845301,shp-15-01,0,0
+223020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938202,shp-Rapid-52,0,0
+234090,30,3,"Hamilton E. Holmes Station",,0,2975009,shp-30-01,0,0
+242010,15,4,"Cumberland Transfer Center",,0,2844601,shp-15-01,0,0
+243020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938402,shp-Rapid-52,0,0
+249020,15,1,"Marietta Transfer Center",,1,2935002,shp-15-51,0,0
+255090,GREEN,3,"Circulator Green - Battery/Windy Hill",,0,2982209,shp-Green-05,0,0
+258090,40,3,"Marietta Transfer Center",,1,2976709,shp-40-51,0,0
+26010,30,4,"Marietta Transfer Center",,1,2844201,shp-30-52,0,0
+269020,20,1,"Cumberland Transfer Center",,0,2942902,shp-20-03,0,0
+273020,50,1,"Cumberland Transfer Center",,0,2935802,shp-50-01,0,0
+277010,25,4,"Hamilton E. Holmes Station",,0,2844301,shp-25-51,0,0
+278090,30,3,"Hamilton E. Holmes Station",,0,2975609,shp-30-01,0,0
+291020,RAPID,1,"Arts Center Station with limited stops",,0,2938502,shp-Rapid-01,0,0
+291090,RAPID,3,"Arts Center Station with limited stops",,0,2977309,shp-Rapid-01,0,0
+294020,GREEN,1,"Circulator Green - Battery/Windy Hill",,0,2943402,shp-Green-05,0,0
+297090,25,3,"Cumberland Transfer Center",,1,2978809,shp-25-01,0,0
+301010,20,4,"Cumberland Transfer Center",,0,2845201,shp-20-03,0,0
+305010,15,4,"Cumberland Transfer Center",,0,2845301,shp-15-01,0,0
+306020,25,1,"Hamilton E. Holmes Station",,0,2940002,shp-25-51,0,0
+306090,25,3,"Hamilton E. Holmes Station",,0,2978809,shp-25-51,0,0
+3070,50,2,"Marietta Transfer Center",,1,2949107,shp-50-51,0,0
+307090,30,3,"Hamilton E. Holmes Station",,0,2974909,shp-30-01,0,0
+320090,10,3,"Arts Center Station",,0,2973609,shp-10-03,0,0
+711020,101,1,"Civic Center Station/Five Points Station",,0,2942002,shp-101-02,0,0
+715090,45,3,"Marietta Transfer Center",,1,2981809,shp-45-51,0,0
+716020,30,1,"Hamilton E. Holmes Station",,0,2934202,shp-30-01,0,0
+721010,10,4,"Arts Center Station",,0,2845401,shp-10-03,0,0
+726090,10,3,"Arts Center Station",,0,2973209,shp-10-03,0,0
+731070,25,2,"Hamilton E. Holmes Station",,0,2949707,shp-25-51,0,0
+735090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2981409,shp-Blue-02,0,0
+739020,10,1,"Arts Center Station",,0,2934902,shp-10-03,0,0
+739090,10,3,"Arts Center Station",,0,2973909,shp-10-03,0,0
+74010,20,4,"Marietta Transfer Center",,1,2845201,shp-20-54,0,0
+742090,GREEN,3,"Circulator Green - Battery/Windy Hill",,0,2982209,shp-Green-05,0,0
+743070,BLUE,2,"Circ Blue - Battery/Cumberland Transfer Center",,1,2950907,shp-Blue-02,0,0
+75020,25,1,"Cumberland Transfer Center",,1,2943202,shp-25-01,0,0
+755020,RAPID,1,"Arts Center Station with limited stops",,0,2938302,shp-Rapid-01,0,0
+755090,RAPID,3,"Arts Center Station with limited stops",,0,2977109,shp-Rapid-01,0,0
+758020,10,1,"Arts Center Station",,0,2934402,shp-10-03,0,0
+761020,15,1,"Cumberland Transfer Center",,0,2936502,shp-15-01,0,0
+766070,10,2,"Marietta Transfer Center",,1,2948207,shp-10-52,0,0
+780020,10,1,"Arts Center Station",,0,2934402,shp-10-03,0,0
+781090,10,3,"Arts Center Station",,0,2973609,shp-10-03,0,0
+787020,30,1,"Hamilton E. Holmes Station",,0,2936702,shp-30-01,0,0
+804070,20,2,"Cumberland Transfer Center",,0,2948607,shp-20-03,0,0
+807020,15,1,"Marietta Transfer Center",,1,2935002,shp-15-51,0,0
+816090,10,3,"Arts Center Station",,0,2973309,shp-10-03,0,0
+82090,30,3,"Marietta Transfer Center",,1,2975509,shp-30-52,0,0
+827010,10,4,"Arts Center Station",,0,2845401,shp-10-03,0,0
+835010,40,4,"Marietta Transfer Center",,1,2845701,shp-40-51,0,0
+846070,GREEN,2,"Circulator Green - Battery/Windy Hill",,0,2951207,shp-Green-05,0,0
+848090,20,3,"Cumberland Transfer Center",,0,2973709,shp-20-03,0,0
+85020,50,1,"Marietta Transfer Center",,1,2935602,shp-50-51,0,0
+852020,25,1,"Cumberland Transfer Center",,1,2943302,shp-25-01,0,0
+854020,10,1,"Arts Center Station",,0,2935502,shp-10-03,0,0
+857020,50,1,"Marietta Transfer Center",,1,2935602,shp-50-51,0,0
+857090,50,3,"Marietta Transfer Center",,1,2974609,shp-50-51,0,0
+858090,10,3,"Arts Center Station",,0,2981709,shp-10-03,0,0
+881090,25,3,"Hamilton E. Holmes Station",,0,2978809,shp-25-51,0,0
+886020,40,1,"Marietta Transfer Center",,1,2937702,shp-40-51,0,0
+899070,10,2,"Arts Center Station",,0,2948207,shp-10-03,0,0
+90010,50,4,"Marietta Transfer Center",,1,2845101,shp-50-51,0,0
+914090,30,3,"Marietta Transfer Center",,1,2975309,shp-30-52,0,0
+922020,10,1,"Arts Center Station",,0,2935502,shp-10-03,0,0
+940010,50,4,"Cumberland Transfer Center",,0,2845101,shp-50-01,0,0
+943090,45,3,"Marietta Transfer Center",,1,2981809,shp-45-51,0,0
+950070,25,2,"Cumberland Transfer Center",,1,2947907,shp-25-01,0,0
+953020,30,1,"Marietta Transfer Center",,1,2933902,shp-30-52,0,0
+953090,30,3,"Marietta Transfer Center",,1,2973109,shp-30-52,0,0
+958020,30,1,"Hamilton E. Holmes Station",,0,2936002,shp-30-01,0,0
+959020,RAPID,1,"Arts Center Station with limited stops",,0,2938102,shp-Rapid-01,0,0
+960010,10,4,"Marietta Transfer Center",,1,2844801,shp-10-52,0,0
+963020,100,1,"Civic Center Station/Five Points Station",,0,2940802,shp-100-01,0,0
+968090,20,3,"Marietta Transfer Center",,1,2974709,shp-20-54,0,0
+969020,50,1,"Cumberland Transfer Center/Tip Top",,0,2935802,shp-50-02,0,0
+970020,50,1,"Cumberland Transfer Center",,0,2935802,shp-50-01,0,0
+97020,20,1,"Marietta Transfer Center",,1,2934802,shp-20-54,0,0
+975090,15,3,"Marietta Transfer Center",,1,2975409,shp-15-51,0,0
+981090,45,3,"KSU-Kennesaw Campus",,0,2981809,shp-45-01,0,0
+983020,50,1,"Marietta Transfer Center",,1,2935802,shp-50-51,0,0
+990020,50,1,"Cumberland Transfer Center",,0,2935602,shp-50-01,0,0
+99020,RAPID,1,"Arts Center Station with limited stops",,0,2938502,shp-Rapid-01,0,0
+996090,20,3,"Cumberland Transfer Center",,0,2974709,shp-20-03,0,0
+999070,30,2,"Hamilton E. Holmes Station",,0,2947707,shp-30-01,0,0
+32090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977209,shp-Rapid-52,0,0
+323020,15,1,"Cumberland Transfer Center",,0,2935402,shp-15-01,0,0
+324020,101,1,"Marietta Transfer Center",,1,2942102,shp-101-51,0,0
+328020,RAPID,1,"Arts Center Station with limited stops",,0,2940302,shp-Rapid-01,0,0
+328090,RAPID,3,"Arts Center Station with limited stops",,0,2979109,shp-Rapid-01,0,0
+33020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938002,shp-Rapid-52,0,0
+338010,RAPID,4,"KSU-Kennesaw Campus limited stops",,1,2846101,shp-Rapid-52,0,0
+343070,10,2,"Marietta Transfer Center",,1,2949307,shp-10-52,0,0
+35070,30,2,"Hamilton E. Holmes Station",,0,2948907,shp-30-01,0,0
+358020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2942602,shp-Blue-02,0,0
+359090,20,3,"Cumberland Transfer Center",,0,2981709,shp-20-03,0,0
+364090,15,3,"Marietta Transfer Center",,1,2975409,shp-15-51,0,0
+367020,30,1,"Hamilton E. Holmes Station",,0,2936402,shp-30-01,0,0
+371090,10,3,"Marietta Transfer Center",,1,2973609,shp-10-52,0,0
+372010,45,4,"Marietta Transfer Center",,1,2845801,shp-45-51,0,0
+374010,15,4,"Marietta Transfer Center",,1,2845301,shp-15-51,0,0
+375070,10,2,"Marietta Transfer Center",,1,2949607,shp-10-52,0,0
+383090,10,3,"Marietta Transfer Center",,1,2974009,shp-10-52,0,0
+39070,GREEN,2,"Circulator Green - Battery/Windy Hill",,0,2951207,shp-Green-05,0,0
+392090,GREEN,3,"Circulator Green - Battery/Windy Hill",,0,2981109,shp-Green-03,0,0
+393020,10,1,"Marietta Transfer Center",,1,2934902,shp-10-52,0,0
+396090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2981409,shp-Blue-02,0,0
+401070,15,2,"Marietta Transfer Center",,1,2949007,shp-15-51,0,0
+402010,40,4,"KSU-Kennesaw Campus",,0,2845601,shp-40-01,0,0
+405020,30,1,"Marietta Transfer Center",,1,2934202,shp-30-52,0,0
+409020,102,1,"Arts Center Station",,0,2941202,shp-102-01,0,0
+410020,20,1,"Marietta Transfer Center",,1,2934502,shp-20-54,0,0
+412090,15,3,"Marietta Transfer Center",,1,2974409,shp-15-51,0,0
+417020,30,1,"Hamilton E. Holmes Station",,0,2933902,shp-30-01,0,0
+419020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938402,shp-Rapid-52,0,0
+424090,RAPID,3,"Arts Center Station with limited stops",,0,2976109,shp-Rapid-01,0,0
+425090,50,3,"Cumberland Transfer Center",,0,2974109,shp-50-01,0,0
+429070,10,2,"Marietta Transfer Center",,1,2949307,shp-10-52,0,0
+487090,40,3,"Marietta Transfer Center",,1,2976509,shp-40-51,0,0
+491090,30,3,"Marietta Transfer Center",,1,2973109,shp-30-52,0,0
+496020,50,1,"Marietta Transfer Center",,1,2935602,shp-50-51,0,0
+508070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950007,shp-Rapid-52,0,0
+528090,15,3,"Cumberland Transfer Center",,0,2975209,shp-15-01,0,0
+549070,15,2,"Cumberland Transfer Center",,0,2949007,shp-15-01,0,0
+553020,20,1,"Marietta Transfer Center",,1,2942902,shp-20-54,0,0
+565020,15,1,"Cumberland Transfer Center",,0,2934302,shp-15-01,0,0
+571090,25,3,"Hamilton E. Holmes Station",,0,2978709,shp-25-51,0,0
+580020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2943502,shp-Blue-02,0,0
+587020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2943502,shp-Blue-02,0,0
+587090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2982309,shp-Blue-02,0,0
+593090,30,3,"Marietta Transfer Center",,1,2974309,shp-30-52,0,0
+602010,10,4,"Marietta Transfer Center",,1,2845401,shp-10-52,0,0
+603090,10,3,"Arts Center Station",,0,2973309,shp-10-03,0,0
+605070,10,2,"Marietta Transfer Center",,1,2948207,shp-10-52,0,0
+606020,20,1,"Cumberland Transfer Center",,0,2934802,shp-20-03,0,0
+609010,RAPID,4,"KSU-Kennesaw Campus limited stops",,1,2846101,shp-Rapid-52,0,0
+610010,15,4,"Cumberland Transfer Center",,0,2845301,shp-15-01,0,0
+61090,15,3,"Marietta Transfer Center",,1,2974009,shp-15-51,0,0
+611070,RAPID,2,"Arts Center Station with limited stops",,0,2949907,shp-Rapid-01,0,0
+613010,15,4,"Cumberland Transfer Center",,0,2844601,shp-15-01,0,0
+614070,30,2,"Marietta Transfer Center",,1,2947607,shp-30-52,0,0
+627090,10,3,"Marietta Transfer Center",,1,2974509,shp-10-52,0,0
+629020,20,1,"Marietta Transfer Center",,1,2935702,shp-20-54,0,0
+630070,30,2,"Marietta Transfer Center",,1,2947607,shp-30-52,0,0
+643020,50,1,"Marietta Transfer Center",,1,2935802,shp-50-51,0,0
+648020,10,1,"Marietta Transfer Center",,1,2934902,shp-10-52,0,0
+657010,30,4,"Hamilton E. Holmes Station",,0,2845001,shp-30-01,0,0
+659090,50,3,"Marietta Transfer Center",,1,2974109,shp-50-51,0,0
+66070,10,2,"Arts Center Station",,0,2948207,shp-10-03,0,0
+666090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2982309,shp-Blue-02,0,0
+667010,15,4,"Marietta Transfer Center",,1,2845301,shp-15-51,0,0
+672020,30,1,"Hamilton E. Holmes Station",,0,2936902,shp-30-01,0,0
+41090,15,3,"Cumberland Transfer Center",,0,2975209,shp-15-01,0,0
+413070,45,2,"Marietta Transfer Center",,1,2950707,shp-45-51,0,0
+414070,15,2,"Marietta Transfer Center",,1,2949807,shp-15-51,0,0
+415020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2943502,shp-Blue-02,0,0
+421070,45,2,"KSU-Kennesaw Campus",,0,2950807,shp-45-01,0,0
+422070,10,2,"Marietta Transfer Center",,1,2948207,shp-10-52,0,0
+423010,50,4,"Marietta Transfer Center",,1,2844501,shp-50-51,0,0
+426070,45,2,"Marietta Transfer Center",,1,2950807,shp-45-51,0,0
+43070,45,2,"Marietta Transfer Center",,1,2950707,shp-45-51,0,0
+457070,25,2,"Cumberland Transfer Center",,1,2947607,shp-25-01,0,0
+459070,45,2,"Marietta Transfer Center",,1,2950807,shp-45-51,0,0
+462010,50,4,"Cumberland Transfer Center",,0,2845101,shp-50-01,0,0
+471090,10,3,"Marietta Transfer Center",,1,2974509,shp-10-52,0,0
+48090,GREEN,3,"Circulator Green - Battery/Windy Hill",,0,2981109,shp-Green-05,0,0
+482020,20,1,"Marietta Transfer Center",,1,2935702,shp-20-54,0,0
+490020,25,1,"Cumberland Transfer Center",,1,2940002,shp-25-01,0,0
+495070,10,2,"Arts Center Station",,0,2948407,shp-10-03,0,0
+500070,40,2,"KSU-Kennesaw Campus",,0,2950507,shp-40-01,0,0
+510090,10,3,"Marietta Transfer Center",,1,2973309,shp-10-52,0,0
+511020,30,1,"Hamilton E. Holmes Station",,0,2936602,shp-30-01,0,0
+512090,50,3,"Marietta Transfer Center",,1,2975109,shp-50-51,0,0
+522010,30,4,"Hamilton E. Holmes Station",,0,2844201,shp-30-01,0,0
+531090,40,3,"KSU-Kennesaw Campus",,0,2976709,shp-40-01,0,0
+538090,50,3,"Cumberland Transfer Center",,0,2974109,shp-50-01,0,0
+540090,RAPID,3,"Arts Center Station with limited stops",,0,2977409,shp-Rapid-02,0,0
+546090,50,3,"Cumberland Transfer Center",,0,2974109,shp-50-01,0,0
+55010,15,4,"Marietta Transfer Center",,1,2844601,shp-15-51,0,0
+567070,GREEN,2,"Circulator Green - Battery/Windy Hill",,0,2951007,shp-Green-05,0,0
+568070,20,2,"Cumberland Transfer Center",,0,2949207,shp-20-03,0,0
+57020,40,1,"KSU-Kennesaw Campus",,0,2937702,shp-40-01,0,0
+574070,30,2,"Hamilton E. Holmes Station",,0,2949507,shp-30-01,0,0
+58010,40,4,"Marietta Transfer Center",,1,2845701,shp-40-51,0,0
+581070,50,2,"Cumberland Transfer Center",,0,2948507,shp-50-01,0,0
+594090,15,3,"Marietta Transfer Center",,1,2973509,shp-15-51,0,0
+597020,30,1,"Hamilton E. Holmes Station",,0,2935902,shp-30-01,0,0
+430090,15,3,"Marietta Transfer Center",,1,2974009,shp-15-51,0,0
+441020,30,1,"Hamilton E. Holmes Station",,0,2935902,shp-30-01,0,0
+448070,10,2,"Marietta Transfer Center",,1,2948407,shp-10-52,0,0
+451020,45,1,"KSU-Kennesaw Campus",,0,2943002,shp-45-01,0,0
+451090,45,3,"KSU-Kennesaw Campus",,0,2981809,shp-45-01,0,0
+458010,10,4,"Arts Center Station",,0,2844801,shp-10-03,0,0
+466020,20,1,"Marietta Transfer Center",,1,2934502,shp-20-54,0,0
+472090,10,3,"Marietta Transfer Center",,1,2973909,shp-10-52,0,0
+474090,50,3,"Cumberland Transfer Center",,0,2974609,shp-50-01,0,0
+481010,50,4,"Cumberland Transfer Center",,0,2845101,shp-50-01,0,0
+489090,50,3,"Cumberland Transfer Center",,0,2974809,shp-50-01,0,0
+492070,30,2,"Marietta Transfer Center",,1,2947707,shp-30-52,0,0
+50070,10,2,"Arts Center Station",,0,2948407,shp-10-03,0,0
+505090,30,3,"Hamilton E. Holmes Station",,0,2974909,shp-30-01,0,0
+507070,20,2,"Marietta Transfer Center",,1,2948607,shp-20-54,0,0
+521020,10,1,"Arts Center Station",,0,2942902,shp-10-03,0,0
+527010,45,4,"Marietta Transfer Center",,1,2845901,shp-45-51,0,0
+531020,40,1,"KSU-Kennesaw Campus",,0,2937902,shp-40-01,0,0
+541070,RAPID,2,"Arts Center Station with limited stops",,0,2949907,shp-Rapid-01,0,0
+547090,30,3,"Marietta Transfer Center",,1,2973409,shp-30-52,0,0
+554090,10,3,"Arts Center Station",,0,2974009,shp-10-03,0,0
+566010,40,4,"Marietta Transfer Center",,1,2845701,shp-40-51,0,0
+575070,30,2,"Hamilton E. Holmes Station",,0,2947707,shp-30-01,0,0
+590070,10,2,"Arts Center Station",,0,2948407,shp-10-03,0,0
+606090,20,3,"Cumberland Transfer Center",,0,2973809,shp-20-03,0,0
+607070,15,2,"Cumberland Transfer Center",,0,2949807,shp-15-01,0,0
+616020,30,1,"Marietta Transfer Center",,1,2936602,shp-30-52,0,0
+625010,10,4,"Marietta Transfer Center",,1,2845401,shp-10-52,0,0
+627020,10,1,"Marietta Transfer Center",,1,2935502,shp-10-52,0,0
+632090,15,3,"Cumberland Transfer Center",,0,2973509,shp-15-01,0,0
+652020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2943502,shp-Blue-02,0,0
+653090,10,3,"Arts Center Station",,0,2981609,shp-10-03,0,0
+659020,50,1,"Marietta Transfer Center",,1,2935102,shp-50-51,0,0
+68070,30,2,"Hamilton E. Holmes Station",,0,2947607,shp-30-01,0,0
+691020,50,1,"Marietta Transfer Center",,1,2936202,shp-50-51,0,0
+694020,50,1,"Marietta Transfer Center",,1,2935102,shp-50-51,0,0
+660020,10,1,"Marietta Transfer Center",,1,2934902,shp-10-52,0,0
+660090,10,3,"Marietta Transfer Center",,1,2973909,shp-10-52,0,0
+661010,20,4,"Marietta Transfer Center",,1,2845201,shp-20-54,0,0
+664020,20,1,"Marietta Transfer Center",,1,2934502,shp-20-54,0,0
+665070,40,2,"Marietta Transfer Center",,1,2950507,shp-40-51,0,0
+669090,50,3,"Cumberland Transfer Center",,0,2974609,shp-50-01,0,0
+670090,30,3,"Hamilton E. Holmes Station",,0,2981509,shp-30-01,0,0
+67070,40,2,"KSU-Kennesaw Campus",,0,2950607,shp-40-01,0,0
+672090,30,3,"Hamilton E. Holmes Station",,0,2975809,shp-30-01,0,0
+679070,40,2,"Marietta Transfer Center",,1,2950507,shp-40-51,0,0
+683020,15,1,"Cumberland Transfer Center",,0,2935402,shp-15-01,0,0
+688090,10,3,"Arts Center Station",,0,2974509,shp-10-03,0,0
+690070,15,2,"Marietta Transfer Center",,1,2949007,shp-15-51,0,0
+69010,45,4,"KSU-Kennesaw Campus",,0,2845901,shp-45-01,0,0
+701070,20,2,"Cumberland Transfer Center",,0,2949207,shp-20-03,0,0
+702090,25,3,"Hamilton E. Holmes Station",,0,2978909,shp-25-51,0,0
+704020,102,1,"Acworth Park-N-Ride",,1,2941502,shp-102-51,0,0
+712020,15,1,"Marietta Transfer Center",,1,2934302,shp-15-51,0,0
+715020,45,1,"Marietta Transfer Center",,1,2943002,shp-45-51,0,0
+727070,50,2,"Cumberland Transfer Center",,0,2948507,shp-50-01,0,0
+730010,RAPID,4,"KSU-Kennesaw Campus limited stops",,1,2846101,shp-Rapid-52,0,0
+73020,20,1,"Cumberland Transfer Center",,0,2942902,shp-20-03,0,0
+737090,45,3,"Marietta Transfer Center",,1,2976609,shp-45-51,0,0
+746020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2942602,shp-Blue-02,0,0
+747070,10,2,"Marietta Transfer Center",,1,2948407,shp-10-52,0,0
+750010,20,4,"Cumberland Transfer Center",,0,2845201,shp-20-03,0,0
+759020,30,1,"Marietta Transfer Center",,1,2935302,shp-30-52,0,0
+759090,30,3,"Marietta Transfer Center",,1,2974309,shp-30-52,0,0
+764070,10,2,"Arts Center Station",,0,2949607,shp-10-03,0,0
+765070,RAPID,2,"Arts Center Station with limited stops",,0,2950307,shp-Rapid-01,0,0
+772090,RAPID,3,"Arts Center Station with limited stops",,0,2979209,shp-Rapid-01,0,0
+775090,10,3,"Marietta Transfer Center",,1,2973609,shp-10-52,0,0
+781020,10,1,"Arts Center Station",,0,2934402,shp-10-03,0,0
+784090,30,3,"Marietta Transfer Center",,1,2975609,shp-30-52,0,0
+787090,30,3,"Hamilton E. Holmes Station",,0,2975609,shp-30-01,0,0
+597090,30,3,"Hamilton E. Holmes Station",,0,2974909,shp-30-01,0,0
+601070,40,2,"KSU-Kennesaw Campus",,0,2950507,shp-40-01,0,0
+604010,20,4,"Marietta Transfer Center",,1,2845201,shp-20-54,0,0
+615090,10,3,"Marietta Transfer Center",,1,2981709,shp-10-52,0,0
+619010,RAPID,4,"Marietta Transfer Center limited stops",,0,2846001,shp-Rapid-03,0,0
+62020,20,1,"Cumberland Transfer Center",,0,2935702,shp-20-03,0,0
+62090,20,3,"Cumberland Transfer Center",,0,2974709,shp-20-03,0,0
+622020,30,1,"Marietta Transfer Center",,1,2936602,shp-30-52,0,0
+623090,30,3,"Hamilton E. Holmes Station",,0,2981509,shp-30-01,0,0
+637090,25,3,"Cumberland Transfer Center",,1,2981909,shp-25-01,0,0
+639070,25,2,"Cumberland Transfer Center",,1,2947807,shp-25-01,0,0
+647020,25,1,"Cumberland Transfer Center",,1,2940102,shp-25-01,0,0
+658010,45,4,"KSU-Kennesaw Campus",,0,2845801,shp-45-01,0,0
+663020,40,1,"Marietta Transfer Center",,1,2937902,shp-40-51,0,0
+664090,20,3,"Marietta Transfer Center",,1,2973709,shp-20-54,0,0
+668010,10,4,"Arts Center Station",,0,2845401,shp-10-03,0,0
+669020,50,1,"Cumberland Transfer Center",,0,2935602,shp-50-01,0,0
+675070,10,2,"Arts Center Station",,0,2948207,shp-10-03,0,0
+685010,10,4,"Marietta Transfer Center",,1,2845401,shp-10-52,0,0
+689070,BLUE,2,"Circ Blue - Battery/Cumberland Transfer Center",,1,2951107,shp-Blue-02,0,0
+692070,50,2,"Marietta Transfer Center",,1,2948507,shp-50-51,0,0
+696020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938102,shp-Rapid-52,0,0
+697010,30,4,"Marietta Transfer Center",,1,2845001,shp-30-52,0,0
+700090,30,3,"Marietta Transfer Center",,1,2975809,shp-30-52,0,0
+702020,25,1,"Hamilton E. Holmes Station",,0,2940102,shp-25-51,0,0
+71020,10,1,"Arts Center Station",,0,2942902,shp-10-03,0,0
+71090,10,3,"Arts Center Station",,0,2981709,shp-10-03,0,0
+714020,25,1,"Hamilton E. Holmes Station",,0,2942702,shp-25-51,0,0
+736020,50,1,"Cumberland Transfer Center",,0,2936202,shp-50-01,0,0
+736090,50,3,"Cumberland Transfer Center",,0,2975109,shp-50-01,0,0
+740020,102,1,"Arts Center Station",,0,2940602,shp-102-01,0,0
+745020,10,1,"Arts Center Station",,0,2934102,shp-10-03,0,0
+76020,100,1,"Civic Center Station/Five Points Station",,0,2941002,shp-100-01,0,0
+767020,40,1,"Marietta Transfer Center",,1,2937702,shp-40-51,0,0
+772020,RAPID,1,"Arts Center Station with limited stops",,0,2940402,shp-Rapid-01,0,0
+265010,20,4,"Cumberland Transfer Center",,0,2844701,shp-20-03,0,0
+266020,40,1,"KSU-Kennesaw Campus",,0,2937702,shp-40-01,0,0
+280090,50,3,"Marietta Transfer Center",,1,2974109,shp-50-51,0,0
+296010,15,4,"Cumberland Transfer Center",,0,2844601,shp-15-01,0,0
+300020,RAPID,1,"Arts Center Station with limited stops",,0,2938402,shp-Rapid-01,0,0
+318020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2943502,shp-Blue-02,0,0
+318090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2982309,shp-Blue-02,0,0
+325090,45,3,"KSU-Kennesaw Campus",,0,2976609,shp-45-01,0,0
+326090,30,3,"Marietta Transfer Center",,1,2975909,shp-30-52,0,0
+327070,30,2,"Hamilton E. Holmes Station",,0,2947607,shp-30-01,0,0
+329090,45,3,"Marietta Transfer Center",,1,2976609,shp-45-51,0,0
+33090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2976809,shp-Rapid-52,0,0
+331010,RAPID,4,"Arts Center Station with limited stops",,0,2846101,shp-Rapid-01,0,0
+337020,30,1,"Marietta Transfer Center",,1,2933902,shp-30-52,0,0
+340090,10,3,"Marietta Transfer Center",,1,2974509,shp-10-52,0,0
+349070,10,2,"Arts Center Station",,0,2949307,shp-10-03,0,0
+355070,30,2,"Hamilton E. Holmes Station",,0,2948107,shp-30-01,0,0
+360090,50,3,"Marietta Transfer Center",,1,2974109,shp-50-51,0,0
+362020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938302,shp-Rapid-52,0,0
+369020,40,1,"Marietta Transfer Center",,1,2937902,shp-40-51,0,0
+373090,15,3,"Marietta Transfer Center",,1,2975209,shp-15-51,0,0
+377090,40,3,"KSU-Kennesaw Campus",,0,2976709,shp-40-01,0,0
+381090,15,3,"Cumberland Transfer Center",,0,2975409,shp-15-01,0,0
+382010,10,4,"Arts Center Station",,0,2844801,shp-10-03,0,0
+384070,25,2,"Cumberland Transfer Center",,1,2948807,shp-25-01,0,0
+386010,40,4,"Marietta Transfer Center",,1,2845601,shp-40-51,0,0
+391090,15,3,"Marietta Transfer Center",,1,2975209,shp-15-51,0,0
+394010,10,4,"Arts Center Station",,0,2845401,shp-10-03,0,0
+398020,45,1,"KSU-Kennesaw Campus",,0,2937802,shp-45-01,0,0
+405090,30,3,"Marietta Transfer Center",,1,2973409,shp-30-52,0,0
+411010,RAPID,4,"KSU-Kennesaw Campus limited stops",,1,2846001,shp-Rapid-52,0,0
+417090,30,3,"Hamilton E. Holmes Station",,0,2973109,shp-30-01,0,0
+432020,50,1,"Cumberland Transfer Center",,0,2935102,shp-50-01,0,0
+433020,10,1,"Marietta Transfer Center",,1,2935502,shp-10-52,0,0
+339070,45,2,"Marietta Transfer Center",,1,2950707,shp-45-51,0,0
+34010,RAPID,4,"Arts Center Station with limited stops",,0,2846201,shp-Rapid-01,0,0
+345070,30,2,"Marietta Transfer Center",,1,2948907,shp-30-52,0,0
+352090,RAPID,3,"Arts Center Station with limited stops",,0,2979109,shp-Rapid-01,0,0
+353020,10,1,"Marietta Transfer Center",,1,2934102,shp-10-52,0,0
+354020,25,1,"Hamilton E. Holmes Station",,0,2943602,shp-25-51,0,0
+360020,50,1,"Marietta Transfer Center",,1,2935102,shp-50-51,0,0
+362090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977109,shp-Rapid-52,0,0
+378010,25,4,"Hamilton E. Holmes Station",,0,2844901,shp-25-51,0,0
+38020,20,1,"Marietta Transfer Center",,1,2934502,shp-20-54,0,0
+396020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2942602,shp-Blue-02,0,0
+407070,GREEN,2,"Circulator Green - Battery/Windy Hill",,0,2951207,shp-Green-05,0,0
+408090,20,3,"Cumberland Transfer Center",,0,2973709,shp-20-03,0,0
+410090,20,3,"Marietta Transfer Center",,1,2973709,shp-20-54,0,0
+432090,50,3,"Cumberland Transfer Center",,0,2974109,shp-50-01,0,0
+433090,10,3,"Marietta Transfer Center",,1,2974509,shp-10-52,0,0
+434010,RAPID,4,"Arts Center Station with limited stops",,0,2846001,shp-Rapid-01,0,0
+441090,30,3,"Hamilton E. Holmes Station",,0,2974909,shp-30-01,0,0
+444070,RAPID,2,"Arts Center Station with limited stops",,0,2950307,shp-Rapid-01,0,0
+460020,102,1,"Acworth Park-N-Ride",,1,2941902,shp-102-51,0,0
+463070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950407,shp-Rapid-52,0,0
+466090,20,3,"Marietta Transfer Center",,1,2973709,shp-20-54,0,0
+468010,45,4,"KSU-Kennesaw Campus",,0,2845901,shp-45-01,0,0
+475070,10,2,"Marietta Transfer Center",,1,2949307,shp-10-52,0,0
+480010,15,4,"Marietta Transfer Center",,1,2844601,shp-15-51,0,0
+48020,GREEN,1,"Circulator Green - Battery/Windy Hill",,0,2942302,shp-Green-05,0,0
+483020,50,1,"Marietta Transfer Center",,1,2935602,shp-50-51,0,0
+489020,50,1,"Cumberland Transfer Center",,0,2935802,shp-50-01,0,0
+501090,45,3,"Marietta Transfer Center",,1,2976609,shp-45-51,0,0
+502090,15,3,"Cumberland Transfer Center",,0,2974009,shp-15-01,0,0
+503090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977309,shp-Rapid-52,0,0
+505020,30,1,"Hamilton E. Holmes Station",,0,2935902,shp-30-01,0,0
+506070,10,2,"Marietta Transfer Center",,1,2948407,shp-10-52,0,0
+673090,50,3,"Cumberland Transfer Center",,0,2974109,shp-50-01,0,0
+674010,30,4,"Hamilton E. Holmes Station",,0,2844201,shp-30-01,0,0
+677020,25,1,"Cumberland Transfer Center",,1,2940002,shp-25-01,0,0
+680090,40,3,"KSU-Kennesaw Campus",,0,2976509,shp-40-01,0,0
+684010,25,4,"Cumberland Transfer Center",,1,2844901,shp-25-01,0,0
+693090,40,3,"Marietta Transfer Center",,1,2976709,shp-40-51,0,0
+696090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2976909,shp-Rapid-52,0,0
+709020,40,1,"Marietta Transfer Center",,1,2937702,shp-40-51,0,0
+712090,15,3,"Marietta Transfer Center",,1,2973509,shp-15-51,0,0
+714090,25,3,"Hamilton E. Holmes Station",,0,2981509,shp-25-51,0,0
+717070,20,2,"Marietta Transfer Center",,1,2948607,shp-20-54,0,0
+719020,RAPID,1,"Arts Center Station with limited stops",,0,2937502,shp-Rapid-02,0,0
+722010,30,4,"Marietta Transfer Center",,1,2845001,shp-30-52,0,0
+723090,RAPID,3,"Marietta Transfer Center limited stops",,1,2977409,shp-Rapid-51,0,0
+732070,50,2,"Cumberland Transfer Center",,0,2949107,shp-50-01,0,0
+734090,45,3,"KSU-Kennesaw Campus",,0,2981809,shp-45-01,0,0
+738090,15,3,"Cumberland Transfer Center",,0,2975209,shp-15-01,0,0
+757090,30,3,"Hamilton E. Holmes Station",,0,2975009,shp-30-01,0,0
+762070,10,2,"Arts Center Station",,0,2949607,shp-10-03,0,0
+767090,40,3,"Marietta Transfer Center",,1,2976509,shp-40-51,0,0
+768010,30,4,"Hamilton E. Holmes Station",,0,2844401,shp-30-01,0,0
+771090,10,3,"Arts Center Station",,0,2973909,shp-10-03,0,0
+777020,30,1,"Hamilton E. Holmes Station",,0,2936602,shp-30-01,0,0
+777090,30,3,"Hamilton E. Holmes Station",,0,2975509,shp-30-01,0,0
+779020,30,1,"Marietta Transfer Center",,1,2935902,shp-30-52,0,0
+783020,50,1,"Cumberland Transfer Center",,0,2936202,shp-50-01,0,0
+784020,30,1,"Marietta Transfer Center",,1,2936702,shp-30-52,0,0
+802020,25,1,"Hamilton E. Holmes Station",,0,2943202,shp-25-51,0,0
+803070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950207,shp-Rapid-52,0,0
+8070,25,2,"Cumberland Transfer Center",,1,2947807,shp-25-01,0,0
+815020,15,1,"Cumberland Transfer Center",,0,2934302,shp-15-01,0,0
+815090,15,3,"Cumberland Transfer Center",,0,2973509,shp-15-01,0,0
+820020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938202,shp-Rapid-52,0,0
+828090,RAPID,3,"Arts Center Station with limited stops",,0,2976909,shp-Rapid-01,0,0
+440020,30,1,"Marietta Transfer Center",,1,2935902,shp-30-52,0,0
+443020,30,1,"Hamilton E. Holmes Station",,0,2935202,shp-30-01,0,0
+450070,45,2,"KSU-Kennesaw Campus",,0,2950807,shp-45-01,0,0
+45010,RAPID,4,"Arts Center Station with limited stops",,0,2846201,shp-Rapid-01,0,0
+452090,GREEN,3,"Circulator Green - Battery/Windy Hill",,0,2981109,shp-Green-03,0,0
+46090,10,3,"Marietta Transfer Center",,1,2973909,shp-10-52,0,0
+465010,RAPID,4,"Arts Center Station with limited stops",,0,2846101,shp-Rapid-01,0,0
+473070,25,2,"Hamilton E. Holmes Station",,0,2947907,shp-25-51,0,0
+476020,20,1,"Cumberland Transfer Center",,0,2935702,shp-20-03,0,0
+479020,30,1,"Marietta Transfer Center",,1,2942702,shp-30-51,0,0
+488070,40,2,"KSU-Kennesaw Campus",,0,2950507,shp-40-01,0,0
+491020,30,1,"Marietta Transfer Center",,1,2933902,shp-30-52,0,0
+493090,30,3,"Marietta Transfer Center",,1,2981509,shp-30-52,0,0
+496090,50,3,"Marietta Transfer Center",,1,2974609,shp-50-51,0,0
+497070,30,2,"Marietta Transfer Center",,1,2947707,shp-30-52,0,0
+502020,15,1,"Cumberland Transfer Center",,0,2935002,shp-15-01,0,0
+504090,10,3,"Marietta Transfer Center",,1,2974509,shp-10-52,0,0
+509020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2940302,shp-Rapid-52,0,0
+509090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2979109,shp-Rapid-52,0,0
+510020,10,1,"Marietta Transfer Center",,1,2934102,shp-10-52,0,0
+51010,15,4,"Marietta Transfer Center",,1,2844601,shp-15-51,0,0
+516020,45,1,"Marietta Transfer Center",,1,2943002,shp-45-51,0,0
+52020,25,1,"Cumberland Transfer Center",,1,2939902,shp-25-01,0,0
+523090,20,3,"Cumberland Transfer Center",,0,2981709,shp-20-03,0,0
+529020,101,1,"Marietta Transfer Center",,1,2941102,shp-101-51,0,0
+545020,15,1,"Marietta Transfer Center",,1,2936302,shp-15-51,0,0
+545090,15,3,"Marietta Transfer Center",,1,2975209,shp-15-51,0,0
+547020,30,1,"Marietta Transfer Center",,1,2934202,shp-30-52,0,0
+548070,50,2,"Marietta Transfer Center",,1,2948507,shp-50-51,0,0
+551090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2976109,shp-Rapid-52,0,0
+555070,10,2,"Marietta Transfer Center",,1,2949307,shp-10-52,0,0
+556090,40,3,"Marietta Transfer Center",,1,2976709,shp-40-51,0,0
+557070,30,2,"Marietta Transfer Center",,1,2948107,shp-30-52,0,0
+56090,20,3,"Marietta Transfer Center",,1,2974709,shp-20-54,0,0
+561070,30,2,"Marietta Transfer Center",,1,2948107,shp-30-52,0,0
+829010,RAPID,4,"KSU-Kennesaw Campus limited stops",,1,2846201,shp-Rapid-52,0,0
+830020,45,1,"KSU-Kennesaw Campus",,0,2937802,shp-45-01,0,0
+833070,40,2,"Marietta Transfer Center",,1,2950607,shp-40-51,0,0
+836090,20,3,"Cumberland Transfer Center",,0,2973809,shp-20-03,0,0
+838090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2976809,shp-Rapid-52,0,0
+84090,10,3,"Arts Center Station",,0,2973909,shp-10-03,0,0
+845090,50,3,"Cumberland Transfer Center",,0,2974109,shp-50-01,0,0
+851020,30,1,"Marietta Transfer Center",,1,2936602,shp-30-52,0,0
+851090,30,3,"Marietta Transfer Center",,1,2975509,shp-30-52,0,0
+859070,25,2,"Hamilton E. Holmes Station",,0,2948007,shp-25-51,0,0
+865020,RAPID,1,"Arts Center Station with limited stops",,0,2940502,shp-Rapid-01,0,0
+865090,RAPID,3,"Arts Center Station with limited stops",,0,2979309,shp-Rapid-01,0,0
+905070,15,2,"Marietta Transfer Center",,1,2949007,shp-15-51,0,0
+91010,25,4,"Cumberland Transfer Center",,1,2870301,shp-25-01,0,0
+915020,30,1,"Hamilton E. Holmes Station",,0,2936402,shp-30-01,0,0
+920020,15,1,"Marietta Transfer Center",,1,2934302,shp-15-51,0,0
+924010,40,4,"KSU-Kennesaw Campus",,0,2845701,shp-40-01,0,0
+931070,30,2,"Marietta Transfer Center",,1,2948307,shp-30-52,0,0
+938010,50,4,"Marietta Transfer Center",,1,2844501,shp-50-51,0,0
+946020,50,1,"Marietta Transfer Center",,1,2935102,shp-50-51,0,0
+955020,10,1,"Arts Center Station",,0,2934902,shp-10-03,0,0
+972090,10,3,"Arts Center Station",,0,2974509,shp-10-03,0,0
+975020,15,1,"Marietta Transfer Center",,1,2936502,shp-15-51,0,0
+976090,40,3,"KSU-Kennesaw Campus",,0,2976709,shp-40-01,0,0
+978070,10,2,"Arts Center Station",,0,2948207,shp-10-03,0,0
+987090,25,3,"Cumberland Transfer Center",,1,2978709,shp-25-01,0,0
+990090,50,3,"Cumberland Transfer Center",,0,2974609,shp-50-01,0,0
+996020,20,1,"Cumberland Transfer Center",,0,2935702,shp-20-03,0,0
+695010,20,4,"Marietta Transfer Center",,1,2845201,shp-20-54,0,0
+713090,30,3,"Hamilton E. Holmes Station",,0,2974909,shp-30-01,0,0
+718070,30,2,"Hamilton E. Holmes Station",,0,2948907,shp-30-01,0,0
+72070,RAPID,2,"Arts Center Station with limited stops",,0,2949907,shp-Rapid-01,0,0
+723020,RAPID,1,"Marietta Transfer Center limited stops",,1,2938602,shp-Rapid-51,0,0
+724020,102,1,"Acworth Park-N-Ride",,1,2941702,shp-102-51,0,0
+737020,45,1,"Marietta Transfer Center",,1,2937802,shp-45-51,0,0
+753070,10,2,"Arts Center Station",,0,2948407,shp-10-03,0,0
+769070,10,2,"Arts Center Station",,0,2949607,shp-10-03,0,0
+770090,10,3,"Marietta Transfer Center",,1,2973309,shp-10-52,0,0
+77090,50,3,"Cumberland Transfer Center",,0,2974609,shp-50-01,0,0
+773020,GREEN,1,"Circulator Green - Battery/Windy Hill",,0,2942302,shp-Green-03,0,0
+773090,GREEN,3,"Circulator Green - Battery/Windy Hill",,0,2981109,shp-Green-03,0,0
+78010,RAPID,4,"Arts Center Station with limited stops",,0,2846001,shp-Rapid-01,0,0
+790070,15,2,"Cumberland Transfer Center",,0,2949807,shp-15-01,0,0
+791070,RAPID,2,"Arts Center Station with limited stops",,0,2950407,shp-Rapid-01,0,0
+795070,15,2,"Cumberland Transfer Center",,0,2949007,shp-15-01,0,0
+797090,10,3,"Arts Center Station",,0,2973209,shp-10-03,0,0
+799070,30,2,"Marietta Transfer Center",,1,2948907,shp-30-52,0,0
+806090,10,3,"Marietta Transfer Center",,1,2973609,shp-10-52,0,0
+808010,45,4,"KSU-Kennesaw Campus",,0,2845801,shp-45-01,0,0
+811020,45,1,"Marietta Transfer Center",,1,2937802,shp-45-51,0,0
+831020,10,1,"Arts Center Station",,0,2934902,shp-10-03,0,0
+831090,10,3,"Arts Center Station",,0,2973909,shp-10-03,0,0
+839020,100,1,"Civic Center Station/Five Points Station",,0,2940602,shp-100-01,0,0
+841020,10,1,"Marietta Transfer Center",,1,2934102,shp-10-52,0,0
+841090,10,3,"Marietta Transfer Center",,1,2973309,shp-10-52,0,0
+843090,RAPID,3,"Arts Center Station with limited stops",,0,2979109,shp-Rapid-01,0,0
+849070,15,2,"Marietta Transfer Center",,1,2949807,shp-15-51,0,0
+852090,25,3,"Cumberland Transfer Center",,1,2982109,shp-25-01,0,0
+853090,20,3,"Marietta Transfer Center",,1,2973709,shp-20-54,0,0
+86090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2981409,shp-Blue-02,0,0
+863090,20,3,"Marietta Transfer Center",,1,2974709,shp-20-54,0,0
+870010,20,4,"Cumberland Transfer Center",,0,2845201,shp-20-03,0,0
+793020,GREEN,1,"Circulator Green - Battery/Windy Hill",,0,2943402,shp-Green-05,0,0
+793090,GREEN,3,"Circulator Green - Battery/Windy Hill",,0,2982209,shp-Green-05,0,0
+797020,10,1,"Arts Center Station",,0,2934002,shp-10-03,0,0
+80070,RAPID,2,"Arts Center Station with limited stops",,0,2950407,shp-Rapid-01,0,0
+806020,10,1,"Marietta Transfer Center",,1,2934402,shp-10-52,0,0
+810020,30,1,"Marietta Transfer Center",,1,2935202,shp-30-51,0,0
+818020,20,1,"Marietta Transfer Center",,1,2942902,shp-20-54,0,0
+818090,20,3,"Marietta Transfer Center",,1,2981709,shp-20-54,0,0
+819010,RAPID,4,"Arts Center Station with limited stops",,0,2846101,shp-Rapid-01,0,0
+820090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977009,shp-Rapid-52,0,0
+828020,RAPID,1,"Arts Center Station with limited stops",,0,2938102,shp-Rapid-01,0,0
+83010,10,4,"Arts Center Station",,0,2845401,shp-10-03,0,0
+843020,RAPID,1,"Arts Center Station with limited stops",,0,2940302,shp-Rapid-01,0,0
+85090,50,3,"Marietta Transfer Center",,1,2974609,shp-50-51,0,0
+860070,15,2,"Cumberland Transfer Center",,0,2949807,shp-15-01,0,0
+864070,15,2,"Marietta Transfer Center",,1,2949007,shp-15-51,0,0
+873020,15,1,"Marietta Transfer Center",,1,2935002,shp-15-51,0,0
+877090,30,3,"Hamilton E. Holmes Station",,0,2975309,shp-30-01,0,0
+879090,20,3,"Cumberland Transfer Center",,0,2981709,shp-20-03,0,0
+880020,30,1,"Marietta Transfer Center",,1,2936002,shp-30-52,0,0
+893020,50,1,"Cumberland Transfer Center",,0,2935102,shp-50-01,0,0
+893090,50,3,"Cumberland Transfer Center",,0,2974109,shp-50-01,0,0
+895070,30,2,"Hamilton E. Holmes Station",,0,2949407,shp-30-01,0,0
+897070,40,2,"Marietta Transfer Center",,1,2950507,shp-40-51,0,0
+901020,50,1,"Cumberland Transfer Center",,0,2936202,shp-50-01,0,0
+907020,50,1,"Marietta Transfer Center",,1,2936202,shp-50-51,0,0
+915090,30,3,"Hamilton E. Holmes Station",,0,2975309,shp-30-01,0,0
+920090,15,3,"Marietta Transfer Center",,1,2973509,shp-15-51,0,0
+936020,25,1,"Hamilton E. Holmes Station",,0,2940102,shp-25-51,0,0
+937020,RAPID,1,"Arts Center Station with limited stops",,0,2938002,shp-Rapid-01,0,0
+937090,RAPID,3,"Arts Center Station with limited stops",,0,2976809,shp-Rapid-01,0,0
+942010,20,4,"Marietta Transfer Center",,1,2845201,shp-20-54,0,0
+958090,30,3,"Hamilton E. Holmes Station",,0,2975009,shp-30-01,0,0
+969090,50,3,"Cumberland Transfer Center/Tip Top",,0,2974809,shp-50-02,0,0
+774090,20,3,"Marietta Transfer Center",,1,2973809,shp-20-54,0,0
+776090,25,3,"Hamilton E. Holmes Station",,0,2982009,shp-25-51,0,0
+783090,50,3,"Cumberland Transfer Center",,0,2975109,shp-50-01,0,0
+786070,BLUE,2,"Circ Blue - Battery/Cumberland Transfer Center",,1,2951107,shp-Blue-02,0,0
+792010,RAPID,4,"Arts Center Station with limited stops",,0,2846001,shp-Rapid-01,0,0
+794070,40,2,"KSU-Kennesaw Campus",,0,2950507,shp-40-01,0,0
+796070,20,2,"Cumberland Transfer Center",,0,2948607,shp-20-03,0,0
+807090,15,3,"Marietta Transfer Center",,1,2974009,shp-15-51,0,0
+81070,45,2,"KSU-Kennesaw Campus",,0,2950807,shp-45-01,0,0
+825090,45,3,"Marietta Transfer Center",,1,2976609,shp-45-51,0,0
+834070,10,2,"Marietta Transfer Center",,1,2948207,shp-10-52,0,0
+838020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938002,shp-Rapid-52,0,0
+844070,25,2,"Cumberland Transfer Center",,1,2949707,shp-25-01,0,0
+848020,20,1,"Cumberland Transfer Center",,0,2934502,shp-20-03,0,0
+854090,10,3,"Arts Center Station",,0,2974509,shp-10-03,0,0
+855070,10,2,"Marietta Transfer Center",,1,2948207,shp-10-52,0,0
+856070,25,2,"Hamilton E. Holmes Station",,0,2948707,shp-25-51,0,0
+858020,10,1,"Arts Center Station",,0,2942902,shp-10-03,0,0
+86020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2942602,shp-Blue-02,0,0
+871070,40,2,"Marietta Transfer Center",,1,2950607,shp-40-51,0,0
+876010,10,4,"Marietta Transfer Center",,1,2844801,shp-10-52,0,0
+877020,30,1,"Hamilton E. Holmes Station",,0,2936402,shp-30-01,0,0
+878090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2976909,shp-Rapid-52,0,0
+880090,30,3,"Marietta Transfer Center",,1,2975009,shp-30-52,0,0
+88090,30,3,"Marietta Transfer Center",,1,2973109,shp-30-52,0,0
+882010,RAPID,4,"Arts Center Station with limited stops",,0,2846201,shp-Rapid-01,0,0
+883010,40,4,"KSU-Kennesaw Campus",,0,2845701,shp-40-01,0,0
+889010,BLUE,4,"Circ Blue - Battery/Cumberland Transfer Center",,1,2846401,shp-Blue-02,0,0
+909020,25,1,"Hamilton E. Holmes Station",,0,2943602,shp-25-51,0,0
+919010,30,4,"Hamilton E. Holmes Station",,0,2845001,shp-30-01,0,0
+921010,25,4,"Cumberland Transfer Center",,1,2844301,shp-25-01,0,0
+930020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938002,shp-Rapid-52,0,0
+935010,50,4,"Cumberland Transfer Center",,0,2845101,shp-50-01,0,0
+941070,25,2,"Cumberland Transfer Center",,1,2948007,shp-25-01,0,0
+565090,15,3,"Cumberland Transfer Center",,0,2973509,shp-15-01,0,0
+569020,20,1,"Cumberland Transfer Center",,0,2935702,shp-20-03,0,0
+569090,20,3,"Cumberland Transfer Center",,0,2974709,shp-20-03,0,0
+572020,10,1,"Marietta Transfer Center",,1,2942802,shp-10-52,0,0
+577010,15,4,"Marietta Transfer Center",,1,2845301,shp-15-51,0,0
+579020,50,1,"Marietta Transfer Center",,1,2936202,shp-50-51,0,0
+583020,15,1,"Cumberland Transfer Center",,0,2935002,shp-15-01,0,0
+585070,RAPID,2,"Marietta Transfer Center limited stops",,1,2950407,shp-Rapid-51,0,0
+591090,40,3,"KSU-Kennesaw Campus",,0,2976509,shp-40-01,0,0
+592070,RAPID,2,"Arts Center Station with limited stops",,0,2950207,shp-Rapid-01,0,0
+598010,10,4,"Marietta Transfer Center",,1,2845401,shp-10-52,0,0
+608010,10,4,"Marietta Transfer Center",,1,2845401,shp-10-52,0,0
+61020,15,1,"Marietta Transfer Center",,1,2935002,shp-15-51,0,0
+632020,15,1,"Cumberland Transfer Center",,0,2934302,shp-15-01,0,0
+638020,45,1,"KSU-Kennesaw Campus",,0,2937802,shp-45-01,0,0
+638090,45,3,"KSU-Kennesaw Campus",,0,2976609,shp-45-01,0,0
+644010,50,4,"Marietta Transfer Center",,1,2845101,shp-50-51,0,0
+649020,30,1,"Marietta Transfer Center",,1,2934002,shp-30-52,0,0
+650090,25,3,"Cumberland Transfer Center",,1,2982409,shp-25-01,0,0
+666020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2943502,shp-Blue-02,0,0
+670020,30,1,"Hamilton E. Holmes Station",,0,2942702,shp-30-01,0,0
+673020,50,1,"Cumberland Transfer Center",,0,2935102,shp-50-01,0,0
+676010,RAPID,4,"Arts Center Station with limited stops",,0,2846001,shp-Rapid-01,0,0
+682010,45,4,"KSU-Kennesaw Campus",,0,2845801,shp-45-01,0,0
+687090,30,3,"Hamilton E. Holmes Station",,0,2975709,shp-30-01,0,0
+688020,10,1,"Arts Center Station",,0,2935502,shp-10-03,0,0
+693020,40,1,"Marietta Transfer Center",,1,2937902,shp-40-51,0,0
+700020,30,1,"Marietta Transfer Center",,1,2936902,shp-30-52,0,0
+703090,20,3,"Cumberland Transfer Center",,0,2973709,shp-20-03,0,0
+707070,25,2,"Hamilton E. Holmes Station",,0,2948807,shp-25-51,0,0
+710090,15,3,"Marietta Transfer Center",,1,2973509,shp-15-51,0,0
+713020,30,1,"Hamilton E. Holmes Station",,0,2935902,shp-30-01,0,0
+719090,RAPID,3,"Arts Center Station with limited stops",,0,2976409,shp-Rapid-02,0,0
+726020,10,1,"Arts Center Station",,0,2934002,shp-10-03,0,0
+729020,40,1,"KSU-Kennesaw Campus",,0,2937702,shp-40-01,0,0
+513020,RAPID,1,"Arts Center Station with limited stops",,0,2938002,shp-Rapid-01,0,0
+514020,100,1,"Busbee Park & Ride",,1,2941902,shp-100-04,0,0
+517070,10,2,"Arts Center Station",,0,2948207,shp-10-03,0,0
+52090,25,3,"Cumberland Transfer Center",,1,2978709,shp-25-01,0,0
+521090,10,3,"Arts Center Station",,0,2981709,shp-10-03,0,0
+530020,10,1,"Arts Center Station",,0,2934102,shp-10-03,0,0
+530090,10,3,"Arts Center Station",,0,2973309,shp-10-03,0,0
+532020,RAPID,1,"Arts Center Station with limited stops",,0,2940202,shp-Rapid-01,0,0
+539020,100,1,"Civic Center Station/Five Points Station",,0,2940802,shp-100-01,0,0
+54090,30,3,"Hamilton E. Holmes Station",,0,2975509,shp-30-01,0,0
+550090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2976409,shp-Rapid-52,0,0
+554020,10,1,"Arts Center Station",,0,2935002,shp-10-03,0,0
+560020,RAPID,1,"Arts Center Station with limited stops",,0,2937302,shp-Rapid-01,0,0
+560090,RAPID,3,"Arts Center Station with limited stops",,0,2976209,shp-Rapid-01,0,0
+563070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950407,shp-Rapid-52,0,0
+570090,10,3,"Marietta Transfer Center",,1,2974509,shp-10-52,0,0
+57090,40,3,"KSU-Kennesaw Campus",,0,2976509,shp-40-01,0,0
+572090,10,3,"Marietta Transfer Center",,1,2981609,shp-10-52,0,0
+586020,50,1,"Marietta Transfer Center",,1,2935102,shp-50-51,0,0
+593020,30,1,"Marietta Transfer Center",,1,2935302,shp-30-52,0,0
+595070,10,2,"Arts Center Station",,0,2948407,shp-10-03,0,0
+6010,15,4,"Marietta Transfer Center",,1,2844601,shp-15-51,0,0
+618090,15,3,"Marietta Transfer Center",,1,2973509,shp-15-51,0,0
+631070,15,2,"Cumberland Transfer Center",,0,2949807,shp-15-01,0,0
+633070,30,2,"Hamilton E. Holmes Station",,0,2948107,shp-30-01,0,0
+645090,RAPID,3,"Arts Center Station with limited stops",,0,2977309,shp-Rapid-02,0,0
+652090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2982309,shp-Blue-02,0,0
+654020,GREEN,1,"Circulator Green - Battery/Windy Hill",,0,2943402,shp-Green-05,0,0
+654090,GREEN,3,"Circulator Green - Battery/Windy Hill",,0,2982209,shp-Green-05,0,0
+655010,40,4,"Marietta Transfer Center",,1,2845601,shp-40-51,0,0
+680020,40,1,"KSU-Kennesaw Campus",,0,2937702,shp-40-01,0,0
+699020,20,1,"Cumberland Transfer Center",,0,2934502,shp-20-03,0,0
+70070,30,2,"Marietta Transfer Center",,1,2947607,shp-30-52,0,0
+705090,15,3,"Cumberland Transfer Center",,0,2975409,shp-15-01,0,0
+988090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2976209,shp-Rapid-52,0,0
+989020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938002,shp-Rapid-52,0,0
+994070,30,2,"Hamilton E. Holmes Station",,0,2949507,shp-30-01,0,0
+944090,30,3,"Hamilton E. Holmes Station",,0,2973109,shp-30-01,0,0
+945090,RAPID,3,"Arts Center Station with limited stops",,0,2977009,shp-Rapid-01,0,0
+95090,GREEN,3,"Circulator Green - Battery/Windy Hill",,0,2981109,shp-Green-05,0,0
+952090,30,3,"Hamilton E. Holmes Station",,0,2973209,shp-30-01,0,0
+965020,10,1,"Marietta Transfer Center",,1,2934002,shp-10-52,0,0
+967070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2950007,shp-Rapid-52,0,0
+972020,10,1,"Arts Center Station",,0,2935502,shp-10-03,0,0
+973010,45,4,"Marietta Transfer Center",,1,2845801,shp-45-51,0,0
+98070,GREEN,2,"Circulator Green - Battery/Windy Hill",,0,2951207,shp-Green-05,0,0
+983090,50,3,"Marietta Transfer Center",,1,2974809,shp-50-51,0,0
+992020,20,1,"Cumberland Transfer Center",,0,2934802,shp-20-03,0,0
+998020,30,1,"Marietta Transfer Center",,1,2943002,shp-30-52,0,0
+872010,10,4,"Arts Center Station",,0,2845401,shp-10-03,0,0
+878020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938102,shp-Rapid-52,0,0
+886090,40,3,"Marietta Transfer Center",,1,2976509,shp-40-51,0,0
+887090,25,3,"Cumberland Transfer Center",,1,2982109,shp-25-01,0,0
+89020,25,1,"Cumberland Transfer Center",,1,2942702,shp-25-01,0,0
+891020,15,1,"Marietta Transfer Center",,1,2936502,shp-15-51,0,0
+892010,25,4,"Cumberland Transfer Center",,1,2845501,shp-25-01,0,0
+894090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2982309,shp-Blue-02,0,0
+902020,45,1,"KSU-Kennesaw Campus",,0,2937802,shp-45-01,0,0
+904020,50,1,"Cumberland Transfer Center",,0,2935802,shp-50-01,0,0
+906070,20,2,"Marietta Transfer Center",,1,2949207,shp-20-54,0,0
+908070,30,2,"Marietta Transfer Center",,1,2948907,shp-30-52,0,0
+911020,20,1,"Marietta Transfer Center",,1,2934802,shp-20-54,0,0
+916090,15,3,"Marietta Transfer Center",,1,2975409,shp-15-51,0,0
+918020,20,1,"Marietta Transfer Center",,1,2934802,shp-20-54,0,0
+922090,10,3,"Arts Center Station",,0,2974509,shp-10-03,0,0
+923020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2942602,shp-Blue-02,0,0
+923090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2981409,shp-Blue-02,0,0
+926020,102,1,"Acworth Park-N-Ride",,1,2940902,shp-102-51,0,0
+932020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2942602,shp-Blue-02,0,0
+936090,25,3,"Hamilton E. Holmes Station",,0,2978909,shp-25-51,0,0
+948070,GREEN,2,"Circulator Green - Battery/Windy Hill",,0,2951007,shp-Green-05,0,0
+949020,40,1,"Marietta Transfer Center",,1,2937702,shp-40-51,0,0
+954020,100,1,"Busbee Park & Ride",,1,2941702,shp-100-04,0,0
+956070,10,2,"Arts Center Station",,0,2949607,shp-10-03,0,0
+959090,RAPID,3,"Arts Center Station with limited stops",,0,2976909,shp-Rapid-01,0,0
+96020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938202,shp-Rapid-52,0,0
+96090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977009,shp-Rapid-52,0,0
+964020,30,1,"Hamilton E. Holmes Station",,0,2933902,shp-30-01,0,0
+965090,10,3,"Marietta Transfer Center",,1,2973209,shp-10-52,0,0
+979020,RAPID,1,"Arts Center Station with limited stops",,0,2940302,shp-Rapid-02,0,0
+979090,RAPID,3,"Arts Center Station with limited stops",,0,2979109,shp-Rapid-02,0,0
+980010,15,4,"Cumberland Transfer Center",,0,2844601,shp-15-01,0,0
+735020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2942602,shp-Blue-02,0,0
+741070,RAPID,2,"KSU-Kennesaw Campus limited stops",,1,2949907,shp-Rapid-52,0,0
+742020,GREEN,1,"Circulator Green - Battery/Windy Hill",,0,2943402,shp-Green-05,0,0
+751090,45,3,"KSU-Kennesaw Campus",,0,2981809,shp-45-01,0,0
+756070,RAPID,2,"Arts Center Station with limited stops",,0,2949907,shp-Rapid-01,0,0
+757020,30,1,"Hamilton E. Holmes Station",,0,2936002,shp-30-01,0,0
+758090,10,3,"Arts Center Station",,0,2973609,shp-10-03,0,0
+760070,30,2,"Hamilton E. Holmes Station",,0,2948307,shp-30-01,0,0
+761090,15,3,"Cumberland Transfer Center",,0,2975409,shp-15-01,0,0
+771020,10,1,"Arts Center Station",,0,2934902,shp-10-03,0,0
+788020,30,1,"Marietta Transfer Center",,1,2936002,shp-30-52,0,0
+789070,10,2,"Marietta Transfer Center",,1,2948407,shp-10-52,0,0
+79070,30,2,"Marietta Transfer Center",,1,2949507,shp-30-52,0,0
+802090,25,3,"Hamilton E. Holmes Station",,0,2982009,shp-25-51,0,0
+809070,50,2,"Marietta Transfer Center",,1,2949107,shp-50-51,0,0
+813020,30,1,"Marietta Transfer Center",,1,2936602,shp-30-52,0,0
+813090,30,3,"Marietta Transfer Center",,1,2975509,shp-30-52,0,0
+816020,10,1,"Arts Center Station",,0,2934102,shp-10-03,0,0
+822070,30,2,"Marietta Transfer Center",,1,2947707,shp-30-52,0,0
+823070,45,2,"Marietta Transfer Center",,1,2950707,shp-45-51,0,0
+824020,50,1,"Cumberland Transfer Center",,0,2935602,shp-50-01,0,0
+824090,50,3,"Cumberland Transfer Center",,0,2974609,shp-50-01,0,0
+830090,45,3,"KSU-Kennesaw Campus",,0,2976609,shp-45-01,0,0
+832010,20,4,"Marietta Transfer Center",,1,2844701,shp-20-54,0,0
+853020,20,1,"Marietta Transfer Center",,1,2934502,shp-20-54,0,0
+861070,50,2,"Marietta Transfer Center",,1,2948507,shp-50-51,0,0
+866070,40,2,"KSU-Kennesaw Campus",,0,2950607,shp-40-01,0,0
+867070,25,2,"Hamilton E. Holmes Station",,0,2948707,shp-25-51,0,0
+869010,10,4,"Arts Center Station",,0,2845401,shp-10-03,0,0
+875020,50,1,"Cumberland Transfer Center",,0,2935602,shp-50-01,0,0
+879020,20,1,"Cumberland Transfer Center",,0,2942902,shp-20-03,0,0
+884070,45,2,"Marietta Transfer Center",,1,2950807,shp-45-51,0,0
+900070,50,2,"Marietta Transfer Center",,1,2948507,shp-50-51,0,0
+9010,15,4,"Cumberland Transfer Center",,0,2845301,shp-15-01,0,0
+903010,20,4,"Cumberland Transfer Center",,0,2845201,shp-20-03,0,0
+716090,30,3,"Hamilton E. Holmes Station",,0,2973409,shp-30-01,0,0
+720020,30,1,"Marietta Transfer Center",,1,2936402,shp-30-52,0,0
+720090,30,3,"Marietta Transfer Center",,1,2975309,shp-30-52,0,0
+728010,10,4,"Marietta Transfer Center",,1,2844801,shp-10-52,0,0
+73090,20,3,"Cumberland Transfer Center",,0,2981709,shp-20-03,0,0
+744010,BLUE,4,"Circ Blue - Battery/Cumberland Transfer Center",,1,2846401,shp-Blue-02,0,0
+745090,10,3,"Arts Center Station",,0,2973309,shp-10-03,0,0
+746090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2981409,shp-Blue-02,0,0
+749090,20,3,"Cumberland Transfer Center",,0,2973709,shp-20-03,0,0
+75090,25,3,"Cumberland Transfer Center",,1,2982009,shp-25-01,0,0
+752070,10,2,"Marietta Transfer Center",,1,2949607,shp-10-52,0,0
+774020,20,1,"Marietta Transfer Center",,1,2934802,shp-20-54,0,0
+776020,25,1,"Hamilton E. Holmes Station",,0,2943202,shp-25-51,0,0
+780090,10,3,"Arts Center Station",,0,2973609,shp-10-03,0,0
+785070,45,2,"KSU-Kennesaw Campus",,0,2950707,shp-45-01,0,0
+788090,30,3,"Marietta Transfer Center",,1,2975009,shp-30-52,0,0
+800010,10,4,"Marietta Transfer Center",,1,2845401,shp-10-52,0,0
+801010,50,4,"Cumberland Transfer Center",,0,2844501,shp-50-01,0,0
+811090,45,3,"Marietta Transfer Center",,1,2976609,shp-45-51,0,0
+817020,45,1,"Marietta Transfer Center",,1,2943002,shp-45-51,0,0
+821010,RAPID,4,"Arts Center Station with limited stops",,0,2846201,shp-Rapid-01,0,0
+826020,BLUE,1,"Circ Blue - Battery/Cumberland Transfer Center",,1,2942602,shp-Blue-02,0,0
+826090,BLUE,3,"Circ Blue - Battery/Cumberland Transfer Center",,1,2981409,shp-Blue-02,0,0
+837020,100,1,"Busbee Park & Ride",,1,2941302,shp-100-04,0,0
+840020,30,1,"Marietta Transfer Center",,1,2942802,shp-30-52,0,0
+840090,30,3,"Marietta Transfer Center",,1,2981609,shp-30-52,0,0
+842020,30,1,"Hamilton E. Holmes Station",,0,2933802,shp-30-01,0,0
+845020,50,1,"Cumberland Transfer Center",,0,2935102,shp-50-01,0,0
+850010,GREEN,4,"Circulator Green - Battery/Windy Hill",,0,2846301,shp-Green-03,0,0
+862070,20,2,"Cumberland Transfer Center",,0,2949207,shp-20-03,0,0
+863020,20,1,"Marietta Transfer Center",,1,2935702,shp-20-54,0,0
+868070,50,2,"Marietta Transfer Center",,1,2949107,shp-50-51,0,0
+87020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2940302,shp-Rapid-52,0,0
+87090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2979109,shp-Rapid-52,0,0
+907090,50,3,"Marietta Transfer Center",,1,2975109,shp-50-51,0,0
+909090,25,3,"Hamilton E. Holmes Station",,0,2982409,shp-25-51,0,0
+911090,20,3,"Marietta Transfer Center",,1,2973809,shp-20-54,0,0
+912020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938502,shp-Rapid-52,0,0
+912090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2977309,shp-Rapid-52,0,0
+914020,30,1,"Marietta Transfer Center",,1,2936402,shp-30-52,0,0
+917070,BLUE,2,"Circ Blue - Battery/Cumberland Transfer Center",,1,2950907,shp-Blue-02,0,0
+918090,20,3,"Marietta Transfer Center",,1,2973809,shp-20-54,0,0
+92010,30,4,"Marietta Transfer Center",,1,2845001,shp-30-52,0,0
+925070,40,2,"Marietta Transfer Center",,1,2950507,shp-40-51,0,0
+928070,25,2,"Hamilton E. Holmes Station",,0,2948007,shp-25-51,0,0
+930090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2976809,shp-Rapid-52,0,0
+945020,RAPID,1,"Arts Center Station with limited stops",,0,2938202,shp-Rapid-01,0,0
+947090,15,3,"Marietta Transfer Center",,1,2974409,shp-15-51,0,0
+949090,40,3,"Marietta Transfer Center",,1,2976509,shp-40-51,0,0
+95020,GREEN,1,"Circulator Green - Battery/Windy Hill",,0,2942302,shp-Green-05,0,0
+951010,50,4,"Marietta Transfer Center",,1,2844501,shp-50-51,0,0
+961020,100,1,"Busbee Park & Ride",,1,2940702,shp-100-04,0,0
+964090,30,3,"Hamilton E. Holmes Station",,0,2973109,shp-30-01,0,0
+970090,50,3,"Cumberland Transfer Center",,0,2974809,shp-50-01,0,0
+97090,20,3,"Marietta Transfer Center",,1,2973809,shp-20-54,0,0
+971090,50,3,"Marietta Transfer Center",,1,2974109,shp-50-51,0,0
+976020,40,1,"KSU-Kennesaw Campus",,0,2937902,shp-40-01,0,0
+982070,45,2,"KSU-Kennesaw Campus",,0,2950707,shp-45-01,0,0
+986090,40,3,"Marietta Transfer Center",,1,2976709,shp-40-51,0,0
+99090,RAPID,3,"Arts Center Station with limited stops",,0,2977309,shp-Rapid-01,0,0
+995020,15,1,"Cumberland Transfer Center",,0,2935002,shp-15-01,0,0
+997090,50,3,"Cumberland Transfer Center/Tip Top",,0,2975109,shp-50-02,0,0
+984070,50,2,"Marietta Transfer Center",,1,2948507,shp-50-51,0,0
+989090,RAPID,3,"KSU-Kennesaw Campus limited stops",,1,2976809,shp-Rapid-52,0,0
+991070,25,2,"Hamilton E. Holmes Station",,0,2947607,shp-25-51,0,0
+997020,50,1,"Cumberland Transfer Center/Tip Top",,0,2936202,shp-50-02,0,0
+881020,25,1,"Hamilton E. Holmes Station",,0,2940002,shp-25-51,0,0
+888020,45,1,"KSU-Kennesaw Campus",,0,2943002,shp-45-01,0,0
+888090,45,3,"KSU-Kennesaw Campus",,0,2981809,shp-45-01,0,0
+890020,15,1,"Marietta Transfer Center",,1,2935002,shp-15-51,0,0
+891090,15,3,"Marietta Transfer Center",,1,2975409,shp-15-51,0,0
+896020,102,1,"Arts Center Station",,0,2941002,shp-102-01,0,0
+901090,50,3,"Cumberland Transfer Center",,0,2975109,shp-50-01,0,0
+902090,45,3,"KSU-Kennesaw Campus",,0,2976609,shp-45-01,0,0
+904090,50,3,"Cumberland Transfer Center",,0,2974809,shp-50-01,0,0
+910070,20,2,"Cumberland Transfer Center",,0,2948607,shp-20-03,0,0
+913010,25,4,"Hamilton E. Holmes Station",,0,2845501,shp-25-51,0,0
+916020,15,1,"Marietta Transfer Center",,1,2936502,shp-15-51,0,0
+927070,25,2,"Cumberland Transfer Center",,1,2947707,shp-25-01,0,0
+929020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2938202,shp-Rapid-52,0,0
+934070,20,2,"Cumberland Transfer Center",,0,2949207,shp-20-03,0,0
+944020,30,1,"Hamilton E. Holmes Station",,0,2933902,shp-30-01,0,0
+955090,10,3,"Arts Center Station",,0,2973909,shp-10-03,0,0
+957070,50,2,"Marietta Transfer Center",,1,2949107,shp-50-51,0,0
+962010,10,4,"Marietta Transfer Center",,1,2845401,shp-10-52,0,0
+966010,40,4,"KSU-Kennesaw Campus",,0,2845701,shp-40-01,0,0
+974010,30,4,"Hamilton E. Holmes Station",,0,2844201,shp-30-01,0,0
+977020,20,1,"Cumberland Transfer Center",,0,2935702,shp-20-03,0,0
+981020,45,1,"KSU-Kennesaw Campus",,0,2943002,shp-45-01,0,0
+985070,30,2,"Marietta Transfer Center",,1,2948107,shp-30-52,0,0
+986020,40,1,"Marietta Transfer Center",,1,2937902,shp-40-51,0,0
+988020,RAPID,1,"KSU-Kennesaw Campus limited stops",,1,2937302,shp-Rapid-52,0,0
+995090,15,3,"Cumberland Transfer Center",,0,2974009,shp-15-01,0,0

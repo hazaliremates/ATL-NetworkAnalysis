@@ -1,0 +1,182 @@
+,route_short_name,route_long_name,carrier
+0,400,Cumming - Downtown,xpress
+1,401,Cumming - Perimeter,xpress
+2,410,Sugarloaf Mills - Lindbergh Cent,xpress
+3,411,Hamilton Mill/Mall of GA - MT,xpress
+4,412,Sugarloaf Mills - Midtown,xpress
+5,413,Hamilton Mill/Mall of GA - DT,xpress
+6,414,Ham Mill/Mall of GA/Sugarloaf-MT,xpress
+7,416,Dacula - Downtown,xpress
+8,417,Sugarloaf Mills - Perimeter,xpress
+9,419,Snellville/Hewatt/Stone Mtn - DT,xpress
+10,423,E Conyer/W Conyer/Panola - MT,xpress
+11,426,E Conyer/W Conyer/Panola - DT,xpress
+12,428,W Conyers/Panola - Perimeter,xpress
+13,430,McDonough - Downtown,xpress
+14,431,BrandsMart/Stockbridge - MT,xpress
+15,432,BrandsMart/Stockbridge - DT,xpress
+16,440,Hampton/Jonesboro - DT/MT,xpress
+17,441,Jonesboro - Downtown/Midtown,xpress
+18,442,Riverdale - Downtown,xpress
+19,453,Newnan/Union City - DT/MT,xpress
+20,463,W Douglas/Douglas MMTC - DT/MT,xpress
+21,476,Hiram/Powder Springs - DT/MT,xpress
+22,480,Acworth/Town Center - Downtown,xpress
+23,483,Woodstock/Town Center - Midtown,xpress
+24,484,Hickory Grove  - Midtown,xpress
+25,485,Hickory Grove - Downtown,xpress
+26,490,Woodstock - Downtown,xpress
+27,999,Test Route,xpress
+28,9999,Test Route NORTH OPS,xpress
+29,99999,Test Route for COBB Garage,xpress
+30,1,Marietta Blvd/Joseph E Lowery Blvd,marta
+31,2,Ponce de Leon Avenue / Druid Hills,marta
+32,3,Martin Luther King Jr Dr/Auburn Ave,marta
+33,4,Moreland Avenue,marta
+34,5,Piedmont Road / Sandy Springs,marta
+35,6,Clifton Road / Emory,marta
+36,8,North Druid Hills Road,marta
+37,9,Boulevard / Tilson Road,marta
+38,12,Howell Mill Road / Cumberland,marta
+39,14,14th Street / Blandtown,marta
+40,15,Candler Road,marta
+41,19,Clairmont Road / Howard Avenue,marta
+42,21,Memorial Drive,marta
+43,24,McAfee / Hosea Williams,marta
+44,25,Peachtree Boulevard,marta
+45,26,Marietta Street / Perry Boulevard,marta
+46,27,Cheshire Bridge Road,marta
+47,30,LaVista Road,marta
+48,32,Bouldercrest,marta
+49,34,Gresham Road,marta
+50,36,N Decatur Road / Virginia Highland,marta
+51,37,Defoors Ferry Road,marta
+52,39,Buford Highway,marta
+53,40,Peachtree Street / Downtown,marta
+54,42,Pryor Road,marta
+55,47,I-85 Access Road,marta
+56,49,McDonough Boulevard,marta
+57,50,Donald Lee Hollowell Parkway,marta
+58,51,Joseph E Boone Boulevard,marta
+59,55,Jonesboro Road,marta
+60,58,Hollywood Road / Lucile Avenue,marta
+61,60,Hightower Road,marta
+62,66,Lynhurst Drive / Princeton Lakes,marta
+63,68,Benjamin E Mays Drive,marta
+64,71,Cascade Road,marta
+65,73,Fulton Industrial,marta
+66,74,Flat Shoals Road,marta
+67,75,Lawrenceville Highway,marta
+68,78,Cleveland Avenue,marta
+69,79,Sylvan Hills,marta
+70,81,Venetian Hills / Delowe Drive,marta
+71,82,Camp Creek / South Fulton Parkway,marta
+72,83,Campbellton Road,marta
+73,84,Washington Rd/Camp Crk Marketplace,marta
+74,85,Roswell,marta
+75,86,Fairington Road,marta
+76,87,Roswell Road / Sandy Springs,marta
+77,89,Old National Highway,marta
+78,93,Headland Drive / Main Street,marta
+79,94,Northside Drive,marta
+80,95,Metropolitan Parkway,marta
+81,102,North Avenue / Little Five Points,marta
+82,103,Peeler Road,marta
+83,104,Winters Chapel Road,marta
+84,107,Glenwood,marta
+85,110,Peachtree Road / Buckhead,marta
+86,111,Snapfinger Woods,marta
+87,114,Columbia Drive,marta
+88,115,Covington Highway,marta
+89,116,Redan Road,marta
+90,117,Rockbridge Road / Panola Road,marta
+91,119,Hairston Road / Stone Mtn Village,marta
+92,120,East Ponce De Leon Avenue,marta
+93,121,Memorial Drive / N Hairston Road,marta
+94,123,Church Street,marta
+95,124,Pleasantdale Road,marta
+96,125,Clarkston,marta
+97,126,Embry Hills,marta
+98,132,Tilly Mill Road,marta
+99,133,Shallowford Road,marta
+100,140,North Point Parkway,marta
+101,141,Haynes Bridge Road / Milton,marta
+102,142,East Holcomb Bridge Road,marta
+103,143,Windward Park & Ride,marta
+104,148,Mount Vernon Highway,marta
+105,150,Dunwoody Village,marta
+106,153,James Jackson Parkway,marta
+107,155,Pittsburgh,marta
+108,162,Myrtle Drive / Alison Court,marta
+109,165,Fairburn Road,marta
+110,172,Sylvan Road / Virginia Avenue,marta
+111,178,Empire Blvd / Southside Ind Park,marta
+112,180,Roosevelt Highway,marta
+113,181,Washington Road / Fairburn,marta
+114,183,Greenbriar,marta
+115,185,Alpharetta,marta
+116,186,Rainbow Drive / South DeKalb,marta
+117,188,Oakley Industrial,marta
+118,189,Flat Shoals Road / Scofield Road,marta
+119,191,Riverdale / ATL Intl Terminal,marta
+120,192,Old Dixie / Tara Boulevard,marta
+121,193,Morrow / Jonesboro,marta
+122,194,Conley Road / Mt Zion,marta
+123,195,Forest Parkway,marta
+124,196,Upper Riverdale,marta
+125,197,Battle Creek Road,marta
+126,198,Southlake Parkway,marta
+127,201,Six Flags Over Georgia,marta
+128,221,Memorial Drive Limited,marta
+129,295,Metropolitan Campus Express,marta
+130,800,Lovejoy,marta
+131,809,Monroe Drive / Boulevard,marta
+132,813,Atlanta University Center,marta
+133,816,North Highland Avenue,marta
+134,823,Belvedere,marta
+135,825,Johnson Ferry Road,marta
+136,832,Grant Park,marta
+137,850,Carroll Heights / Fairburn Heights,marta
+138,853,Center Hill,marta
+139,856,Baker Hills / Wilson Mill Meadows,marta
+140,865,Boulder Park Drive,marta
+141,867,Peyton Forest / Dixie Hills,marta
+142,899,Old Fourth Ward,marta
+143,ATLSC,Atlanta Streetcar,marta
+144,BLUE,BLUE,marta
+145,GOLD,GOLD,marta
+146,GREEN,GREEN,marta
+147,RED,RED,marta
+148,10,Arts Center Station/Marietta TC,clinc
+149,100,Civic Center Station/Busbee P&R,clinc
+150,101,Civic Center/Five Points/MTC,clinc
+151,102,Arts Center Station/Acworth P&R,clinc
+152,15,CTC - MTC via Windy Hill,clinc
+153,20,CTC - MTC via S. Cobb Drive,clinc
+154,25,Hamilton E. Holmes Station/CTC,clinc
+155,30,Hamilton E. Holmes Station/MTC,clinc
+156,40,KSU-Kennesaw - MTC via Marietta,clinc
+157,45,KSU-Kennesaw - MTC via US 41,clinc
+158,50,CTC - MTC via Powers Ferry,clinc
+159,999,Test Route,clinc
+160,BLUE,Cumberland Transfer CTC/Battery,clinc
+161,GREEN,Battery/Windy Hill,clinc
+162,RAPID,Arts Station/KSU-Kennesaw Rapid,clinc
+163,10A,Sug - GTC - Dora via Satellite,gwinnett
+164,20,Beaver Ruin - Doraville,gwinnett
+165,30,Lilburn - GTC,gwinnett
+166,35,Peachtree Pkwy - Doraville,gwinnett
+167,40,Lawrenceville - GTC - Sugarloaf Mills,gwinnett
+168,45,GGC,gwinnett
+169,10B,Sug - GTC - Dora via Remington,gwinnett
+170,101,I-985 P&R - Downtown Atlanta,gwinnett
+171,102,Indian Trail P&R - Downtown Atlanta,gwinnett
+172,103,Sugarloaf Mills P&R - Downtown Atlanta,gwinnett
+173,110,Indian Trail P&R - Emory,gwinnett
+174,SWPR,Express PM Sweeper,gwinnett
+175,103A,Rev Commute Atlanta - Sugarloaf Mills,gwinnett
+176,,ParPlan Route,douglas
+177,,Route 10,douglas
+178,,Route 20,douglas
+179,,Route 30,douglas
+180,,Route 40,douglas

@@ -1,0 +1,11 @@
+{
+  "nodes": 8108,
+  "edges": 9863,
+  "density": 0.00030009939213975097,
+  "components": 17,
+  "degree_assortativity_undirected": 0.02916645079208781,
+  "degree_assortativity_in_in": 0.16018115496970084,
+  "degree_assortativity_in_out": 0.176934565949438,
+  "degree_assortativity_out_in": 0.18942253203360548,
+  "degree_assortativity_out_out": 0.1639651999382408
+}

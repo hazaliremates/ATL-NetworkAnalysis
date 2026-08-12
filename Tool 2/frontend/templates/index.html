@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlanta Metro Transit Route Planner</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .hero-section {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            margin: 20px 0;
+            padding: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.95);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 20px;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border: none;
+            border-radius: 25px;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-outline-primary:hover {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border-color: #667eea;
+        }
+        
+        .form-control {
+            border-radius: 15px;
+            border: 2px solid #e9ecef;
+            padding: 12px 20px;
+            transition: border-color 0.3s ease;
+        }
+        
+        .form-control:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+        }
+        
+        .text-white {
+            color: white !important;
+        }
+        
+        .agency-badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin: 2px;
+        }
+        
+        .marta { background: #004d9f; color: white; }
+        .cobblinc { background: #28a745; color: white; }
+        .gwinnett { background: #ffc107; color: black; }
+        .douglas { background: #dc3545; color: white; }
+        
+        .route-step {
+            padding: 15px;
+            border-left: 4px solid #667eea;
+            margin: 10px 0;
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 0 10px 10px 0;
+        }
+        
+        .loading {
+            display: none;
+        }
+        
+        .route-results {
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        
+        .quick-location-btn {
+            transition: all 0.2s ease;
+            border-radius: 20px;
+        }
+        
+        .quick-location-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Map Styles */
+        #map {
+            height: 450px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .map-controls {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .agency-filter {
+            margin: 5px;
+        }
+        
+        .agency-filter input[type="checkbox"] {
+            margin-right: 8px;
+        }
+        
+        .marta-color { color: #004d9f; }
+        .cobblinc-color { color: #28a745; }
+        .gwinnett-color { color: #ffc107; }
+        .douglas-color { color: #dc3545; }
+        
+        .legend {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            padding: 15px;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            max-width: 200px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        
+        .map-container {
+            position: relative;
+        }
+        
+        .custom-popup {
+            border-radius: 10px;
+        }
+        
+        /* Route visualization styles */
+        .route-line {
+            stroke-width: 4;
+            stroke-opacity: 0.8;
+            fill: none;
+        }
+        
+        .route-marker {
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+        
+        .origin-marker {
+            background-color: #007bff;
+        }
+        
+        .destination-marker {
+            background-color: #6f42c1;
+        }
+        
+        .transfer-marker {
+            background-color: #fd7e14;
+        }
+        
+        .route-popup {
+            max-width: 250px;
+        }
+        
+        .route-step-marker {
+            background-color: #667eea;
+        }
+        
+        .search-marker {
+            background-color: #17a2b8;
+            color: white;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+        
+        .route-card {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .route-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        }
+        
+        .route-card.selected {
+            border: 3px solid #667eea;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: rgba(0, 0, 0, 0.1); backdrop-filter: blur(10px);">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/">
+                <i class="fas fa-subway me-2"></i>
+                Atlanta Metro Transit
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active" href="#home">
+                    <i class="fas fa-home me-1"></i>Home
+                </a>
+                <a class="nav-link" href="analysis" onclick="showAnalysis()">
+                    <i class="fas fa-chart-line me-1"></i>Analysis
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero-section text-center text-white">
+            <h1 class="display-4 fw-bold mb-4">
+                <i class="fas fa-route me-3"></i>
+                Atlanta Metro Transit Hub
+            </h1>
+            <p class="lead mb-4">
+                Comprehensive transit planning with route optimization and visualization
+            </p>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <span class="agency-badge marta">MARTA</span>
+                    <span class="agency-badge cobblinc">CobbLinc</span>
+                    <span class="agency-badge gwinnett">Gwinnett Transit</span>
+                    <span class="agency-badge douglas">Connect Douglas</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="row">
+            <!-- Route Planner Form -->
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">
+                            <i class="fas fa-directions me-2"></i>
+                            Plan Your Trip
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <form id="routePlannerForm">
+                            <!-- Origin Address Input -->
+                            <div class="mb-3">
+                                <label class="form-label fw-bold">
+                                    <i class="fas fa-map-marker-alt text-success me-2"></i>
+                                    From
+                                </label>
+                                <input type="text" class="form-control" id="originAddress" 
+                                       placeholder="e.g., 1234 Peachtree St NE, Atlanta, GA">
+                            </div>
+                            
+                            <!-- Destination Address Input -->
+                            <div class="mb-3">
+                                <label class="form-label fw-bold">
+                                    <i class="fas fa-flag-checkered text-danger me-2"></i>
+                                    To
+                                </label>
+                                <input type="text" class="form-control" id="destinationAddress" 
+                                       placeholder="e.g., Hartsfield-Jackson Airport">
+                            </div>
+                            
+                            <!-- Quick Location Buttons -->
+                            <div class="mb-3">
+                                <label class="form-label fw-bold">
+                                    <i class="fas fa-star me-2"></i>
+                                    Quick Destinations
+                                </label>
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                        <button type="button" class="btn btn-sm btn-outline-primary w-100 quick-location-btn" 
+                                                onclick="setQuickLocation('Hartsfield-Jackson Atlanta International Airport')">
+                                            <i class="fas fa-plane me-1"></i>Airport
+                                        </button>
+                                    </div>
+                                    <div class="col-6">
+                                        <button type="button" class="btn btn-sm btn-outline-success w-100 quick-location-btn" 
+                                                onclick="setQuickLocation('Georgia Institute of Technology, Atlanta, GA')">
+                                            <i class="fas fa-graduation-cap me-1"></i>Tech
+                                        </button>
+                                    </div>
+                                    <div class="col-6">
+                                        <button type="button" class="btn btn-sm btn-outline-info w-100 quick-location-btn" 
+                                                onclick="setQuickLocation('CNN Center, Atlanta, GA')">
+                                            <i class="fas fa-building me-1"></i>CNN
+                                        </button>
+                                    </div>
+                                    <div class="col-6">
+                                        <button type="button" class="btn btn-sm btn-outline-warning w-100 quick-location-btn" 
+                                                onclick="setQuickLocation('Mercedes-Benz Stadium, Atlanta, GA')">
+                                            <i class="fas fa-football-ball me-1"></i>Stadium
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Route Preferences -->
+                            <div class="mb-3">
+                                <label class="form-label fw-bold">Preferences</label>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <select class="form-control mb-2" id="optimizeFor">
+                                            <option value="time">⚡ Fastest Route</option>
+                                            <option value="transfers">🔄 Fewest Transfers</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <input type="number" class="form-control" id="maxWalkingDistance" 
+                                                   value="1.0" step="0.1" min="0.1" max="10.0" 
+                                                   placeholder="Max walking">
+                                            <span class="input-group-text">km</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary w-100">
+                                <i class="fas fa-search me-2"></i>
+                                Find Routes
+                            </button>
+                        </form>
+                        
+                        <div class="loading text-center mt-3">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <p class="mt-2">Planning your route...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Map Section -->
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <h4 class="mb-0">
+                            <i class="fas fa-map-marked-alt me-2"></i>
+                            Route Map & Network
+                        </h4>
+                    </div>
+                    <div class="card-body p-0">
+                        <!-- Map Controls -->
+                        <div class="map-controls m-3">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <div class="d-flex flex-wrap align-items-center">
+                                        <label class="agency-filter">
+                                            <input type="checkbox" id="filterMARTA" checked>
+                                            <span class="marta-color fw-bold">MARTA</span>
+                                        </label>
+                                        <label class="agency-filter">
+                                            <input type="checkbox" id="filterCobbLinc" checked>
+                                            <span class="cobblinc-color fw-bold">CobbLinc</span>
+                                        </label>
+                                        <label class="agency-filter">
+                                            <input type="checkbox" id="filterGwinnett" checked>
+                                            <span class="gwinnett-color fw-bold">Gwinnett</span>
+                                        </label>
+                                        <label class="agency-filter">
+                                            <input type="checkbox" id="filterDouglas" checked>
+                                            <span class="douglas-color fw-bold">Douglas</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <input type="text" class="form-control form-control-sm" id="searchLocation" 
+                                                   placeholder="Search location...">
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-primary btn-sm w-100" onclick="searchLocation()">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Map Container -->
+                        <div class="map-container">
+                            <div id="map"></div>
+                            <div class="legend">
+                                <h6 class="fw-bold mb-3">Legend</h6>
+                                <div class="legend-item">
+                                    <div class="legend-color" style="background-color: #004d9f;"></div>
+                                    <span>MARTA</span>
+                                </div>
+                                <div class="legend-item">
+                                    <div class="legend-color" style="background-color: #28a745;"></div>
+                                    <span>CobbLinc</span>
+                                </div>
+                                <div class="legend-item">
+                                    <div class="legend-color" style="background-color: #ffc107;"></div>
+                                    <span>Gwinnett</span>
+                                </div>
+                                <div class="legend-item">
+                                    <div class="legend-color" style="background-color: #dc3545;"></div>
+                                    <span>Douglas</span>
+                                </div>
+                                <hr class="my-2">
+                                <div class="legend-item">
+                                    <div class="legend-color" style="background-color: #007bff;"></div>
+                                    <span>Origin</span>
+                                </div>
+                                <div class="legend-item">
+                                    <div class="legend-color" style="background-color: #6f42c1;"></div>
+                                    <span>Destination</span>
+                                </div>
+                                <div class="legend-item">
+                                    <div class="legend-color" style="background-color: #fd7e14;"></div>
+                                    <span>Transfer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Route Results -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        <h4 class="mb-0">
+                            <i class="fas fa-list-alt me-2"></i>
+                            Route Options
+                        </h4>
+                    </div>
+                    <div class="card-body route-results" id="routeResults">
+                        <div class="text-center text-muted">
+                            <i class="fas fa-info-circle fa-3x mb-3"></i>
+                            <p>Enter your origin and destination to see route options</p>
+                            <div class="small">
+                                <strong>Tips for better results:</strong><br>
+                                • Use complete street addresses when possible<br>
+                                • Try popular landmarks if addresses don't work<br>
+                                • Increase walking distance for more options
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5 py-4" style="background: rgba(0, 0, 0, 0.1); backdrop-filter: blur(10px);">
+        <div class="container text-center text-white">
+            <p class="mb-0">
+                &copy; 2025 Atlanta Metro Transit Hub 
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // Global variables
+        let map;
+        let stopsLayerGroup;
+        let routeLayerGroup;
+        let allStopsData = [];
+        let currentRoute = null;
+        let currentRoutes = [];
+        let selectedRouteIndex = -1;
+        
+        // Agency colors
+        const agencyColors = {
+            'MARTA': '#004d9f',
+            'CobbLinc': '#28a745',
+            'Gwinnett County Transit': '#ffc107',
+            'Connect Douglas': '#dc3545'
+        };
+
+        // Initialize map
+        function initMap() {
+            // Create map centered on Atlanta
+            map = L.map('map').setView([33.7490, -84.3880], 11);
+            
+            // Add tile layer
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+            
+            // Initialize layer groups
+            stopsLayerGroup = L.layerGroup().addTo(map);
+            routeLayerGroup = L.layerGroup().addTo(map);
+            
+            // Load transit data
+            loadTransitData();
+        }
+
+        // Load transit stops data
+        async function loadTransitData() {
+            try {
+                const response = await fetch('/api/map-data');
+                const data = await response.json();
+                
+                if (data.error) {
+                    console.error('Error loading transit data:', data.error);
+                    return;
+                }
+                
+                allStopsData = data.stops || [];
+                
+                // Center map on data
+                if (data.center) {
+                    map.setView([data.center.lat, data.center.lon], 11);
+                }
+                
+                // Display stops
+                displayStops();
+                
+            } catch (error) {
+                console.error('Error loading transit data:', error);
+            }
+        }
+
+        // Display stops on map
+        function displayStops() {
+            if (!stopsLayerGroup) return;
+            
+            // Clear existing stops
+            stopsLayerGroup.clearLayers();
+            
+            // Get filter states
+            const filters = {
+                'MARTA': document.getElementById('filterMARTA')?.checked || true,
+                'CobbLinc': document.getElementById('filterCobbLinc')?.checked || true,
+                'Gwinnett County Transit': document.getElementById('filterGwinnett')?.checked || true,
+                'Connect Douglas': document.getElementById('filterDouglas')?.checked || true
+            };
+            
+            // Add stops to map
+            allStopsData.forEach(stop => {
+                // Check if this agency should be displayed
+                if (!filters[stop.agency]) {
+                    return;
+                }
+                
+                const color = agencyColors[stop.agency] || '#666666';
+                
+                // Create marker
+                const marker = L.circleMarker([stop.lat, stop.lon], {
+                    radius: 5,
+                    fillColor: color,
+                    color: '#ffffff',
+                    weight: 2,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                });
+                
+                // Create popup content
+                const popupContent = `
+                    <div class="custom-popup">
+                        <h6 class="fw-bold mb-2">${stop.name}</h6>
+                        <p class="mb-1">
+                            <span class="badge" style="background-color: ${color}; color: white;">
+                                ${stop.agency}
+                            </span>
+                        </p>
+                        <div class="small text-muted">
+                            <i class="fas fa-map-marker-alt me-1"></i>
+                            ${stop.lat.toFixed(4)}, ${stop.lon.toFixed(4)}
+                        </div>
+                    </div>
+                `;
+                
+                marker.bindPopup(popupContent);
+                marker.addTo(stopsLayerGroup);
+            });
+        }
+
+        // Clear route visualization
+        function clearRouteVisualization() {
+            if (routeLayerGroup) {
+                routeLayerGroup.clearLayers();
+            }
+            currentRoute = null;
+            selectedRouteIndex = -1;
+            
+            // Remove selected class from all route cards
+            document.querySelectorAll('.route-card').forEach(card => {
+                card.classList.remove('selected');
+            });
+        }
+
+        // Visualize route on map
+        function visualizeRoute(route, routeIndex) {
+            if (!route || !route.path_coordinates) return;
+            
+            clearRouteVisualization();
+            currentRoute = route;
+            selectedRouteIndex = routeIndex;
+            
+            // Highlight selected route card
+            const routeCard = document.querySelector(`[data-route-index="${routeIndex}"]`);
+            if (routeCard) {
+                routeCard.classList.add('selected');
+            }
+            
+            const coordinates = route.path_coordinates;
+            const routeColors = ['#e74c3c', '#3498db', '#2ecc71', '#f39c12', '#9b59b6'];
+            const routeColor = routeColors[routeIndex % routeColors.length];
+            
+            // Draw route line
+            const routeLine = L.polyline(coordinates, {
+                color: routeColor,
+                weight: 4,
+                opacity: 0.8,
+                dashArray: '10, 5'
+            }).addTo(routeLayerGroup);
+            
+            // Add origin marker
+            if (coordinates.length > 0) {
+                const originMarker = L.circleMarker(coordinates[0], {
+                    radius: 10,
+                    fillColor: '#007bff',
+                    color: '#ffffff',
+                    weight: 3,
+                    opacity: 1,
+                    fillOpacity: 1
+                }).addTo(routeLayerGroup);
+                
+                originMarker.bindPopup(`
+                    <div class="route-popup">
+                        <h6><i class="fas fa-map-marker-alt me-2" style="color: #007bff;"></i>Origin</h6>
+                        <p class="mb-0">Route ${routeIndex + 1} starts here</p>
+                    </div>
+                `);
+            }
+            
+            // Add destination marker
+            if (coordinates.length > 1) {
+                const destMarker = L.circleMarker(coordinates[coordinates.length - 1], {
+                    radius: 10,
+                    fillColor: '#6f42c1',
+                    color: '#ffffff',
+                    weight: 3,
+                    opacity: 1,
+                    fillOpacity: 1
+                }).addTo(routeLayerGroup);
+                
+                destMarker.bindPopup(`
+                    <div class="route-popup">
+                        <h6><i class="fas fa-flag-checkered me-2" style="color: #6f42c1;"></i>Destination</h6>
+                        <p class="mb-0">Route ${routeIndex + 1} ends here</p>
+                    </div>
+                `);
+            }
+            
+            // Add transfer points and route stops
+            if (route.steps) {
+                route.steps.forEach((step, index) => {
+                    if (step.type === 'transit' && step.stops && step.stops.length > 0) {
+                        // Mark first stop of each transit segment as potential transfer
+                        if (index > 0) {
+                            const firstStop = step.stops[0];
+                            const transferMarker = L.circleMarker([firstStop.lat, firstStop.lon], {
+                                radius: 8,
+                                fillColor: '#fd7e14',
+                                color: '#ffffff',
+                                weight: 3,
+                                opacity: 1,
+                                fillOpacity: 1
+                            }).addTo(routeLayerGroup);
+                            
+                            transferMarker.bindPopup(`
+                                <div class="route-popup">
+                                    <h6><i class="fas fa-exchange-alt me-2" style="color: #fd7e14;"></i>Transfer Point</h6>
+                                    <p class="mb-1"><strong>${firstStop.name}</strong></p>
+                                    <p class="mb-0 small text-muted">${step.instruction}</p>
+                                </div>
+                            `);
+                        }
+                        
+                        // Add markers for key stops along the route
+                        step.stops.forEach((stop, stopIndex) => {
+                            if (stopIndex % 3 === 0) { // Show every 3rd stop to avoid clutter
+                                const stopMarker = L.circleMarker([stop.lat, stop.lon], {
+                                    radius: 6,
+                                    fillColor: routeColor,
+                                    color: '#ffffff',
+                                    weight: 2,
+                                    opacity: 1,
+                                    fillOpacity: 0.8
+                                }).addTo(routeLayerGroup);
+                                
+                                stopMarker.bindPopup(`
+                                    <div class="route-popup">
+                                        <h6><i class="fas fa-bus me-2"></i>${stop.name}</h6>
+                                        <p class="mb-0 small text-muted">${step.route} - ${step.agency}</p>
+                                    </div>
+                                `);
+                            }
+                        });
+                    }
+                });
+            }
+            
+            // Fit map to show the entire route
+            if (coordinates.length > 1) {
+                const bounds = L.latLngBounds(coordinates);
+                map.fitBounds(bounds, { padding: [20, 20] });
+            }
+        }
+
+        // Quick location setter function
+        function setQuickLocation(address) {
+            const currentOrigin = document.getElementById('originAddress').value;
+            const currentDestination = document.getElementById('destinationAddress').value;
+            
+            // If origin is empty, fill it; otherwise fill destination
+            if (!currentOrigin.trim()) {
+                document.getElementById('originAddress').value = address;
+            } else {
+                document.getElementById('destinationAddress').value = address;
+            }
+        }
+
+        // Route Planner functionality
+        document.getElementById('routePlannerForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const origin = document.getElementById('originAddress').value.trim();
+            const destination = document.getElementById('destinationAddress').value.trim();
+            const optimize = document.getElementById('optimizeFor').value;
+            const maxWalking = parseFloat(document.getElementById('maxWalkingDistance').value);
+            
+            if (!origin || !destination) {
+                showError('Please enter both origin and destination addresses');
+                return;
+            }
+            
+            // Clear previous route visualization
+            clearRouteVisualization();
+            
+            // Show loading
+            showLoading(true);
+            
+            try {
+                const response = await fetch('/api/plan-trip', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        origin: { address: origin },
+                        destination: { address: destination },
+                        preferences: {
+                            optimize: optimize,
+                            max_walking_km: maxWalking
+                        }
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.error) {
+                    if (data.error === 'No nearby transit stops found') {
+                        showError(`No transit stops found within ${maxWalking}km of your locations. Try:<br>
+                            • Increasing the walking distance to 2-3km<br>
+                            • Using major landmarks or popular destinations<br>
+                            • Checking your address spelling`);
+                    } else if (data.error === 'Invalid origin or destination coordinates') {
+                        showError(`Could not find one or both addresses. Please try:<br>
+                            • <strong>Full addresses:</strong> 1234 Peachtree St NE, Atlanta, GA<br>
+                            • <strong>Landmarks:</strong> Hartsfield-Jackson Airport, Georgia Tech<br>
+                            • <strong>Neighborhoods:</strong> Buckhead, Midtown Atlanta<br>
+                            • <strong>Businesses:</strong> CNN Center, World of Coca-Cola`);
+                    } else {
+                        showError(data.error);
+                    }
+                    return;
+                }
+                
+                displayRoutes(data.routes);
+                
+                // Visualize the first route on map by default
+                if (data.routes && data.routes.length > 0) {
+                    visualizeRoute(data.routes[0], 0);
+                }
+                
+            } catch (error) {
+                console.error('Route planning error:', error);
+                showError('Network error. Please check your connection and try again.');
+            } finally {
+                showLoading(false);
+            }
+        });
+
+        function showError(message) {
+            document.getElementById('routeResults').innerHTML = `
+                <div class="alert alert-warning">
+                    <i class="fas fa-exclamation-triangle me-2"></i>
+                    ${message}
+                </div>
+            `;
+        }
+
+        function showLoading(show) {
+            const loadingEl = document.querySelector('.loading');
+            const submitBtn = document.querySelector('button[type="submit"]');
+            
+            if (show) {
+                loadingEl.style.display = 'block';
+                submitBtn.disabled = true;
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Planning Route...';
+                document.getElementById('routeResults').innerHTML = '<div class="text-center"><div class="spinner-border text-primary"></div><p class="mt-2">Finding the best routes...</p></div>';
+            } else {
+                loadingEl.style.display = 'none';
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = '<i class="fas fa-search me-2"></i>Find Routes';
+            }
+        }
+        
+        function displayRoutes(routes) {
+            const resultsDiv = document.getElementById('routeResults');
+            
+            if (!routes || routes.length === 0) {
+                resultsDiv.innerHTML = `
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle me-2"></i>
+                        No routes found. Try:
+                        <ul class="mb-0 mt-2">
+                            <li>Increasing the walking distance</li>
+                            <li>Using popular landmarks or attractions</li>
+                            <li>Checking address spelling</li>
+                            <li>Trying nearby major streets</li>
+                        </ul>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Store routes globally for map visualization
+            currentRoutes = routes;
+            
+            let html = '<div class="alert alert-success mb-3"><i class="fas fa-check-circle me-2"></i>Found ' + routes.length + ' route option' + (routes.length > 1 ? 's' : '') + '</div>';
+            
+            routes.forEach((route, index) => {
+                const totalTime = Math.round(route.total_time_minutes);
+                const transfers = route.transfers;
+                
+                html += `
+                    <div class="card mb-3 shadow-sm route-card" data-route-index="${index}" onclick="selectRoute(${index})">
+                        <div class="card-header bg-primary text-white">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <h6 class="mb-0">
+                                        <i class="fas fa-route me-2"></i>Route ${index + 1}
+                                        <button class="btn btn-sm btn-outline-light ms-2" onclick="event.stopPropagation(); visualizeRoute(currentRoutes[${index}], ${index})">
+                                            <i class="fas fa-eye me-1"></i>View on Map
+                                        </button>
+                                    </h6>
+                                </div>
+                                <div class="col-auto">
+                                    <span class="badge bg-light text-primary me-2">
+                                        <i class="fas fa-clock me-1"></i>${totalTime} min
+                                    </span>
+                                    <span class="badge bg-light text-primary">
+                                        <i class="fas fa-exchange-alt me-1"></i>${transfers} transfer${transfers !== 1 ? 's' : ''}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                `;
+                
+                route.steps.forEach((step, stepIndex) => {
+                    if (step.type === 'walk') {
+                        html += `
+                            <div class="route-step bg-warning bg-opacity-10 border-start border-warning border-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-walking text-warning me-3 fs-5"></i>
+                                    <div class="flex-grow-1">
+                                        <strong>${step.instruction}</strong>
+                                        <div class="text-muted small">
+                                            <i class="fas fa-clock me-1"></i>${Math.round(step.duration_minutes)} min
+                                            <i class="fas fa-map-marker-alt ms-2 me-1"></i>${step.distance_km.toFixed(2)} km
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    } else if (step.type === 'transit') {
+                        const agencyColor = agencyColors[step.agency] || '#667eea';
+                        html += `
+                            <div class="route-step bg-primary bg-opacity-10 border-start border-primary border-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-bus text-primary me-3 fs-5"></i>
+                                    <div class="flex-grow-1">
+                                        <strong>${step.instruction}</strong>
+                                        <div class="text-muted small">
+                                            <span class="badge" style="background-color: ${agencyColor}; color: white; font-size: 0.7em;">
+                                                ${step.agency}
+                                            </span>
+                                            <i class="fas fa-clock ms-2 me-1"></i>${Math.round(step.duration_minutes)} min
+                                            ${step.stops ? `<i class="fas fa-map-pin ms-2 me-1"></i>${step.stops.length} stops` : ''}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    }
+                    
+                    // Add connector arrow between steps (except for last step)
+                    if (stepIndex < route.steps.length - 1) {
+                        html += '<div class="text-center my-2"><i class="fas fa-arrow-down text-muted"></i></div>';
+                    }
+                });
+                
+                html += `
+                        </div>
+                    </div>
+                `;
+            });
+            
+            resultsDiv.innerHTML = html;
+        }
+
+        // Show Analysis Section
+        function showAnalysis() {
+            // Create analysis modal or redirect to analysis page
+            const analysisModal = document.createElement('div');
+            analysisModal.innerHTML = `
+                <div class="modal fade" id="analysisModal" tabindex="-1">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header bg-primary text-white">
+                                <h5 class="modal-title">
+                                    <i class="fas fa-chart-line me-2"></i>
+                                    Network Analysis
+                                </h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="card">
+                                            <div class="card-header bg-info text-white">
+                                                <h6 class="mb-0">Network Statistics</h6>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="row text-center">
+                                                    <div class="col-6">
+                                                        <div class="h4 text-primary" id="modalTotalStops">-</div>
+                                                        <div class="small text-muted">Total Stops</div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="h4 text-primary" id="modalTotalConnections">-</div>
+                                                        <div class="small text-muted">Connections</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card">
+                                            <div class="card-header bg-success text-white">
+                                                <h6 class="mb-0">Agency Distribution</h6>
+                                            </div>
+                                            <div class="card-body" id="modalAgencyChart">
+                                                <div class="text-center">
+                                                    <div class="spinner-border text-primary" role="status"></div>
+                                                    <p class="mt-2">Loading data...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <div class="card-header bg-warning text-dark">
+                                                <h6 class="mb-0">Key Insights</h6>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="text-center">
+                                                            <i class="fas fa-network-wired fa-3x text-primary mb-2"></i>
+                                                            <h6>Multi-Modal Network</h6>
+                                                            <p class="small text-muted">Integrated bus and rail systems across 4 agencies</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="text-center">
+                                                            <i class="fas fa-route fa-3x text-success mb-2"></i>
+                                                            <h6>Smart Routing</h6>
+                                                            <p class="small text-muted">AI-powered route optimization with real-time transfers</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="text-center">
+                                                            <i class="fas fa-map-marked-alt fa-3x text-info mb-2"></i>
+                                                            <h6>Regional Coverage</h6>
+                                                            <p class="small text-muted">Comprehensive coverage across Atlanta metro area</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            document.body.appendChild(analysisModal);
+            const modal = new bootstrap.Modal(document.getElementById('analysisModal'));
+            modal.show();
+            
+            // Load analysis data
+            loadAnalysisData();
+            
+            // Clean up modal when closed
+            document.getElementById('analysisModal').addEventListener('hidden.bs.modal', function() {
+                document.body.removeChild(analysisModal);
+            });
+        }
+        
+        // Load analysis data for modal
+        async function loadAnalysisData() {
+            try {
+                const response = await fetch('/api/network-analysis');
+                const data = await response.json();
+                
+                // Update statistics
+                if (data.total_stops) {
+                    document.getElementById('modalTotalStops').textContent = data.total_stops.toLocaleString();
+                }
+                if (data.total_connections) {
+                    document.getElementById('modalTotalConnections').textContent = data.total_connections.toLocaleString();
+                }
+                
+                // Update agency chart
+                displayModalAgencyChart(data.agencies);
+                
+            } catch (error) {
+                console.error('Error loading analysis data:', error);
+                document.getElementById('modalAgencyChart').innerHTML = '<p class="text-muted">Unable to load analysis data</p>';
+            }
+        }
+        
+        // Display agency chart in modal
+        function displayModalAgencyChart(agencies) {
+            const chartDiv = document.getElementById('modalAgencyChart');
+            
+            if (!agencies) {
+                chartDiv.innerHTML = '<p class="text-muted">No agency data available</p>';
+                return;
+            }
+            
+            let html = '';
+            
+            for (const [agency, count] of Object.entries(agencies)) {
+                const color = agencyColors[agency] || '#6c757d';
+                const percentage = (count / Object.values(agencies).reduce((a, b) => a + b, 0) * 100).toFixed(1);
+                
+                html += `
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between align-items-center mb-1">
+                            <span class="fw-bold">${agency}</span>
+                            <span class="text-muted">${count.toLocaleString()} stops</span>
+                        </div>
+                        <div class="progress" style="height: 20px;">
+                            <div class="progress-bar" style="width: ${percentage}%; background-color: ${color};">
+                                ${percentage}%
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            chartDiv.innerHTML = html;
+        }
+        function selectRoute(index) {
+            if (currentRoutes && currentRoutes[index]) {
+                visualizeRoute(currentRoutes[index], index);
+            }
+        }
+
+        // Search for location
+        async function searchLocation() {
+            const query = document.getElementById('searchLocation').value;
+            if (!query) return;
+            
+            try {
+                const response = await fetch('/api/geocode', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ address: query })
+                });
+                
+                const data = await response.json();
+                
+                if (data.lat && data.lon) {
+                    map.setView([data.lat, data.lon], 15);
+                    
+                    // Add search result marker
+                    const searchMarker = L.marker([data.lat, data.lon], {
+                        icon: L.divIcon({
+                            html: '<i class="fas fa-search"></i>',
+                            iconSize: [30, 30],
+                            className: 'search-marker'
+                        })
+                    }).addTo(routeLayerGroup);
+                    
+                    searchMarker.bindPopup(`
+                        <div>
+                            <h6><i class="fas fa-search me-2"></i>Search Result</h6>
+                            <p class="mb-2">${data.formatted_address || query}</p>
+                            <button class="btn btn-sm btn-success" onclick="findNearbyStops(${data.lat}, ${data.lon})">
+                                <i class="fas fa-subway me-1"></i>Find Transit
+                            </button>
+                        </div>
+                    `).openPopup();
+                } else {
+                    alert('Location not found');
+                }
+                
+            } catch (error) {
+                console.error('Error searching location:', error);
+                alert('Error searching location');
+            }
+        }
+        
+        // Find nearby stops
+        async function findNearbyStops(lat, lon) {
+            try {
+                const response = await fetch(`/api/stops/nearby?lat=${lat}&lon=${lon}&max_distance=1.0`);
+                const data = await response.json();
+                
+                if (data.stops && data.stops.length > 0) {
+                    let popupContent = `
+                        <div>
+                            <h6><i class="fas fa-subway me-2"></i>Nearby Transit Stops</h6>
+                            <div style="max-height: 200px; overflow-y: auto;">
+                    `;
+                    
+                    data.stops.forEach(stop => {
+                        const color = agencyColors[stop.agency] || '#666666';
+                        popupContent += `
+                            <div class="mb-2 p-2 border-bottom">
+                                <div class="fw-bold">${stop.name}</div>
+                                <span class="badge" style="background-color: ${color}; color: white; font-size: 0.7em;">
+                                    ${stop.agency}
+                                </span>
+                                <div class="small text-muted">
+                                    <i class="fas fa-walking me-1"></i>${(stop.distance_km * 1000).toFixed(0)}m away
+                                </div>
+                            </div>
+                        `;
+                    });
+                    
+                    popupContent += `
+                            </div>
+                        </div>
+                    `;
+                    
+                    L.popup()
+                        .setLatLng([lat, lon])
+                        .setContent(popupContent)
+                        .openOn(map);
+                } else {
+                    alert('No nearby transit stops found');
+                }
+                
+            } catch (error) {
+                console.error('Error finding nearby stops:', error);
+            }
+        }
+        
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize map
+            initMap();
+            
+            // Add filter event listeners
+            ['filterMARTA', 'filterCobbLinc', 'filterGwinnett', 'filterDouglas'].forEach(id => {
+                const element = document.getElementById(id);
+                if (element) {
+                    element.addEventListener('change', displayStops);
+                }
+            });
+            
+            // Add enter key support for search
+            const searchElement = document.getElementById('searchLocation');
+            if (searchElement) {
+                searchElement.addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                        searchLocation();
+                    }
+                });
+            }
+            
+            // Add enter key support for route planning
+            ['originAddress', 'destinationAddress'].forEach(id => {
+                const element = document.getElementById(id);
+                if (element) {
+                    element.addEventListener('keypress', function(e) {
+                        if (e.key === 'Enter') {
+                            document.getElementById('routePlannerForm').dispatchEvent(new Event('submit'));
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,698 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding
+4,920004,"Cumberland Transfer Center",,33.878192,-84.470052,,,,,,0
+5,920005,"Cumberland Blvd at Spring Hill Pkwy",,33.881341,-84.474656,,,,,,0
+6,920006,"Spring Rd at Cumberland Blvd",,33.884320,-84.474393,,,,,,0
+7,920007,"Cobb Pkwy at Windy Ridge Pkwy",,33.889173,-84.474429,,,,,,0
+8,920008,"Cobb Pkwy at Herodian Way",,33.891985,-84.477051,,,,,,0
+10,920010,"Cobb Pkwy at Kenwood Creek",,33.895461,-84.480275,,,,,,0
+11,920011,"Cobb Pkwy at Lake Park Dr",,33.898112,-84.482741,,,,,,0
+12,920012,"Cobb Pkwy at Ed Voyles Honda",,33.900788,-84.485218,,,,,,0
+13,920013,"Cobb Pkwy at Windy Hill Rd",,33.903622,-84.487816,,,,,,0
+14,920014,"Cobb Pkwy at Terrell Mill Rd",,33.906234,-84.490296,,,,,,0
+15,920015,"Cobb Pkwy at Airport Industrial Park Dr",,33.907798,-84.491697,,,,,,0
+16,920016,"Cobb Pkwy at Cumberland Point Dr",,33.909978,-84.493755,,,,,,0
+17,920017,"Cobb Pkwy at After Cumberland Pt Dr",,33.911318,-84.494970,,,,,,0
+18,920018,"Cobb Pkwy at Davis Ln",,33.913177,-84.496669,,,,,,0
+19,920019,"Cobb Pkwy at Franklin Rd",,33.915345,-84.498672,,,,,,0
+20,920020,"Cobb Pkwy at Franklin Dr",,33.917848,-84.501013,,,,,,0
+21,920021,"Cobb Pkwy at Spinks Dr",,33.924089,-84.506014,,,,,,0
+22,920022,"Cobb Pkwy at Wylie Rd",,33.927752,-84.508009,,,,,,0
+23,920023,"Cobb Pkwy at Barclay Cir",,33.929795,-84.509080,,,,,,0
+24,920024,"Cobb Pkwy at After Barclay Circle",,33.931709,-84.510100,,,,,,0
+25,920025,"Cobb Pkwy at New Hope Rd",,33.935876,-84.512393,,,,,,0
+26,920026,"Cobb Pkwy at Amf Marietta Lanes",,33.938208,-84.513651,,,,,,0
+27,920027,"S Marietta Pkwy at Martin Ct",,33.942509,-84.519031,,,,,,0
+28,920028,"S Marietta Pkwy at Lockheed Ave",,33.941611,-84.522803,,,,,,0
+29,920029,"S Marietta Pkwy at Lake Dr",,33.941002,-84.525803,,,,,,0
+30,920030,"Marietta Transfer Center",,33.941682,-84.529481,,,,,,0
+31,920031,"S Marietta Pkwy at Hudson Rd",,33.940698,-84.524690,,,,,,0
+32,920032,"S Marietta Pkwy at Rossbacher Way",,33.941607,-84.522289,,,,,,0
+33,920033,"S Marietta Pkwy at Technology Pkwy",,33.942236,-84.518214,,,,,,0
+34,920034,"Cobb Pkwy at S Marietta Pkwy",,33.939742,-84.514676,,,,,,0
+35,920035,"Cobb Pkwy at Life's Way",,33.935024,-84.512218,,,,,,0
+36,920036,"Cobb Pkwy at Former Team Nissan",,33.932489,-84.510817,,,,,,0
+37,920037,"Cobb Pkwy at Wylie Rd",,33.928021,-84.508456,,,,,,0
+38,920038,"Cobb Pkwy at Spinks Dr",,33.924052,-84.506339,,,,,,0
+39,920039,"Cobb Pkwy at Franklin Dr",,33.918986,-84.502400,,,,,,0
+40,920040,"Cobb Pkwy at Franklin Dr",,33.917158,-84.500727,,,,,,0
+41,920041,"Cobb Pkwy at Franklin Rd",,33.914991,-84.498727,,,,,,0
+42,920042,"Cobb Pkwy at Enterprise Way",,33.912661,-84.496551,,,,,,0
+43,920043,"Cobb Pkwy at Cumberland Point Dr",,33.910004,-84.494111,,,,,,0
+44,920044,"Cobb Pkwy at Airport Industrial Park Dr",,33.907637,-84.491941,,,,,,0
+45,920045,"Cobb Pkwy at Caswell Pkwy",,33.906958,-84.491324,,,,,,0
+46,920046,"Cobb Pkwy at Terrell Mill Rd",,33.905177,-84.489630,,,,,,0
+47,920047,"Cobb Pkwy at Windy Hill Rd",,33.901550,-84.486320,,,,,,0
+48,920048,"Cobb Pkwy at Steve Rayman Chevrolet",,33.900247,-84.485125,,,,,,0
+49,920049,"Cobb Pkwy at Lake Park Dr",,33.897861,-84.482928,,,,,,0
+50,920050,"Cobb Pkwy at 2330 Cobb Apartment Homes",,33.895007,-84.480249,,,,,,0
+51,920051,"Cobb Pkwy at Hargrove Rd",,33.891794,-84.477325,,,,,,0
+54,920054,"Spring Rd at Cobb Pkwy",,33.885680,-84.472797,,,,,,0
+55,920055,"Cumberland Blvd at Spring Hill Pkwy",,33.880431,-84.473949,,,,,,0
+62,920062,"Powers Ferry Rd at Custom Signs Building",,33.908492,-84.465270,,,,,,0
+63,920063,"Windy Hill Rd at Powers Ferry Rd",,33.905200,-84.466151,,,,,,0
+64,920064,"Windy Hill Rd at S Park Pl",,33.901140,-84.477329,,,,,,0
+65,920065,"Windy Hill Rd at S Park Pl",,33.901405,-84.479352,,,,,,0
+66,920066,"Windy Hill Rd at Venlo Ave",,33.903744,-84.483656,,,,,,0
+67,920067,"Windy Hill Rd at Cobb Pkwy",,33.903486,-84.486145,,,,,,0
+68,920068,"Windy Hill Rd at Chris Volvo",,33.901815,-84.489663,,,,,,0
+69,920069,"Windy Hill Rd at Roswell St",,33.896390,-84.498935,,,,,,0
+70,920070,"Windy Hill Rd at Atlanta Rd",,33.894477,-84.521588,,,,,,0
+71,920071,"Windy Hill Rd at Belmont Cir",,33.894437,-84.525831,,,,,,0
+72,920072,"Windy Hill Rd at San Fernando Dr",,33.894569,-84.532642,,,,,,0
+73,920073,"Windy Hill Rd at Old Concord Rd",,33.894646,-84.540567,,,,,,0
+74,920074,"Windy Hill Rd at Wakita Dr",,33.894741,-84.547232,,,,,,0
+75,920075,"Windy Hill Rd at Bouldercrest Dr",,33.894836,-84.550689,,,,,,0
+76,920076,"Windy Hill Rd at Larose Dr",,33.894904,-84.555667,,,,,,0
+77,920077,"Windy Hill Rd at Kennedy Ln",,33.894985,-84.563586,,,,,,0
+78,920078,"Windy Hill Rd at Beverly Ln",,33.895179,-84.572018,,,,,,0
+79,920079,"Austell Rd at Arkose Dr",,33.896503,-84.575211,,,,,,0
+80,920080,"County Services Pkwy at Kurt Dr",,33.899230,-84.573930,,,,,,0
+81,920081,"County Services Pkwy at Al Bishop Dr",,33.904023,-84.581810,,,,,,0
+82,920082,"County Services Pkwy at Cobb Co Composting Facilit",,33.909617,-84.582165,,,,,,0
+83,920083,"County Services Pkwy at Cobb County Health Dept",,33.912412,-84.581897,,,,,,0
+84,920084,"County Services Pkwy at Department Of Motor Vehicl",,33.914560,-84.582035,,,,,,0
+85,920085,"Powder Springs Rd at Cunningham Rd",,33.921592,-84.578512,,,,,,0
+86,920086,"Powder Springs Rd at Bellemeade Dr",,33.923763,-84.575328,,,,,,0
+87,920087,"Powder Springs Rd at Natchez Trace",,33.925107,-84.573437,,,,,,0
+88,920088,"Powder Springs Rd at Longwood Dr",,33.927403,-84.569990,,,,,,0
+89,920089,"Powder Springs St at Booth Rd",,33.931112,-84.563939,,,,,,0
+90,920090,"Powder Springs St at Springs Landing Apts",,33.933006,-84.560707,,,,,,0
+91,920091,"Powder Springs St at Chestnut Hill Rd",,33.934022,-84.559015,,,,,,0
+92,920092,"Powder Springs St at Sandtown Rd",,33.935305,-84.556875,,,,,,0
+93,920093,"Powder Springs St at Garrison Rd",,33.938205,-84.553680,,,,,,0
+94,920094,"Powder Springs St at W Gramling St",,33.940084,-84.552229,,,,,,0
+95,920095,"Powder Springs St at W Dixie Ave",,33.941648,-84.551918,,,,,,0
+96,920096,"Powder Springs St at Hedges St",,33.942807,-84.551670,,,,,,0
+97,920097,"Powder Springs St at Griggs St",,33.944399,-84.551139,,,,,,0
+99,920099,"Roswell St at Anderson St",,33.951634,-84.547073,,,,,,0
+100,920100,"Roswell St at Cole St",,33.950386,-84.543554,,,,,,0
+101,920101,"Fairground St at Pierce St",,33.949281,-84.536036,,,,,,0
+102,920102,"Fairground St at Frasier St",,33.947025,-84.535882,,,,,,0
+104,920104,"S Marietta Pkwy at Parkway Plaza",,33.943044,-84.532894,,,,,,0
+105,920105,"Fairground St at S Marietta Pkwy",,33.944133,-84.535071,,,,,,0
+106,920106,"Fairground St at Frasier St",,33.946208,-84.535500,,,,,,0
+107,920107,"Fairground St at Pierce St",,33.949059,-84.535852,,,,,,0
+108,920108,"Roswell St at Rogers St",,33.950527,-84.538147,,,,,,0
+109,920109,"Roswell St at Lakewood Dr",,33.950314,-84.541485,,,,,,0
+112,920112,"Powder Springs St at Griggs St",,33.944541,-84.551279,,,,,,0
+113,920113,"Powder Springs St at W Gramling St",,33.940999,-84.552279,,,,,,0
+114,920114,"Powder Springs St at Sandtown Rd",,33.936284,-84.555872,,,,,,0
+115,920115,"Powder Springs St at Chestnut Hill Rd",,33.934042,-84.559508,,,,,,0
+116,920116,"Powder Springs St at Booth Rd",,33.931205,-84.564173,,,,,,0
+117,920117,"Powder Springs St at Laurel Springs Ln",,33.927014,-84.570970,,,,,,0
+118,920118,"Powder Springs Rd at Baltimore Pl",,33.923527,-84.576185,,,,,,0
+119,920119,"Powder Springs St at Cunningham Rd",,33.922274,-84.578003,,,,,,0
+120,920120,"Powder Springs Rd at Chapel Dr",,33.921488,-84.579057,,,,,,0
+121,920121,"County Services Pkwy at Cobb County Public Safety",,33.914559,-84.582234,,,,,,0
+122,920122,"COUNTY SERVICES PKWY + COBB COUNTY HEALTH DEPARTMENT",,33.912355,-84.582236,,,,,,0
+123,920123,"County Services Pkwy at Cobb County Park And Recre",,33.909676,-84.582437,,,,,,0
+124,920124,"County Services Pkwy at Al Bishop Dr",,33.903894,-84.582092,,,,,,0
+125,920125,"County Services Pkwy at Austell Rd",,33.898654,-84.573372,,,,,,0
+126,920126,"Austell Rd at Arkose Dr",,33.897035,-84.575092,,,,,,0
+127,920127,"Windy Hill Rd at Cherrywood Ln",,33.894943,-84.572017,,,,,,0
+128,920128,"Windy Hill Rd at Favor Rd",,33.894780,-84.564717,,,,,,0
+129,920129,"Windy Hill Rd at Larose Dr",,33.894692,-84.556247,,,,,,0
+130,920130,"Windy Hill Rd at Benson Poole Rd",,33.894481,-84.544480,,,,,,0
+131,920131,"Windy Hill Rd at Old Concord Rd",,33.894420,-84.540506,,,,,,0
+132,920132,"Windy Hill Rd at Beaver Creek Rd",,33.894312,-84.530768,,,,,,0
+133,920133,"Windy Hill Rd at Belmont Cir",,33.894198,-84.524070,,,,,,0
+134,920134,"Windy Hill Rd at Roswell St",,33.895618,-84.499780,,,,,,0
+135,920135,"Windy Hill Rd at Cobb Pkwy",,33.902476,-84.487678,,,,,,0
+136,920136,"Windy Hill Rd at Cobb Pkwy",,33.903350,-84.484770,,,,,,0
+137,920137,"Windy Hill Rd at N Park Pl",,33.903154,-84.481771,,,,,,0
+138,920138,"Windy Hill Rd at S Park Pl",,33.901218,-84.479583,,,,,,0
+139,920139,"Windy Hill Rd at Corporate Plaza Pkwy",,33.901005,-84.478043,,,,,,0
+142,920142,"Windy Hill Rd at Powers Ferry Rd",,33.904928,-84.466065,,,,,,0
+144,920144,"Spring Rd SE at Galleria Ln",,33.883419,-84.482110,,,,,,0
+145,920145,"Spring Rd SE at Carolyn Dr",,33.883474,-84.486879,,,,,,0
+146,920146,"Spring Rd SE at Cumberland Valley Dr",,33.883808,-84.499663,,,,,,0
+147,920147,"Spring Rd at Jonquil Dr",,33.882256,-84.505051,,,,,,0
+148,920148,"Concord Rd SE at Atlanta Rd",,33.880345,-84.514041,,,,,,0
+149,920149,"Concord Rd Se + Khuan's Hair Design/Arkle Veterina",,33.876264,-84.524750,,,,,,0
+150,920150,"S Cobb Dr at Mill Pond Rd",,33.860916,-84.518737,,,,,,0
+151,920151,"S Cobb Dr",,33.856839,-84.514417,,,,,,0
+152,920152,"S Cobb Dr at King Springs Rd",,33.860915,-84.518323,,,,,,0
+153,920153,"S Cobb Dr at Lake Dr",,33.871064,-84.528043,,,,,,0
+154,920154,"S Cobb Dr at Concord Rd",,33.876113,-84.531386,,,,,,0
+155,920155,"S Cobb Dr at Ask-Kay Dr",,33.880092,-84.532941,,,,,,0
+156,920156,"S Cobb Dr at Plaza Dr",,33.882983,-84.534007,,,,,,0
+157,920157,"S Cobb Dr at Powder Springs St",,33.887313,-84.535645,,,,,,0
+158,920158,"S Cobb Dr at Glendale Pl",,33.892518,-84.537598,,,,,,0
+159,920159,"S Cobb Dr at Windy Hill Rd",,33.895111,-84.538572,,,,,,0
+160,920160,"S Cobb Dr at Old Concord Rd",,33.900251,-84.540545,,,,,,0
+161,920161,"S Cobb Dr at Pat Mell Rd",,33.903282,-84.541694,,,,,,0
+162,920162,"S Cobb Dr at Dink Ln",,33.904546,-84.542198,,,,,,0
+163,920163,"S Cobb Dr at Harmony Meadows Apartments",,33.905972,-84.542750,,,,,,0
+164,920164,"S Cobb Dr at Waldrep Cir",,33.909288,-84.544099,,,,,,0
+165,920165,"S Cobb Dr at Oak St",,33.912974,-84.546494,,,,,,0
+166,920166,"S Cobb Dr at Oak St",,33.914248,-84.547255,,,,,,0
+167,920167,"S Cobb Dr at Barber Rd",,33.916169,-84.548166,,,,,,0
+168,920168,"S Cobb Dr at Austell Rd",,33.917588,-84.548508,,,,,,0
+169,920169,"S Cobb Dr at Walthall Ave",,33.922635,-84.550114,,,,,,0
+170,920170,"S Cobb Dr at Leader Rd",,33.923661,-84.550360,,,,,,0
+171,920171,"S Cobb Dr at Leader Rd",,33.926667,-84.551122,,,,,,0
+172,920172,"S Cobb Dr at Beech Rd",,33.928544,-84.550969,,,,,,0
+173,920173,"S Cobb Dr at Carruth Dr",,33.930551,-84.550204,,,,,,0
+174,920174,"S Cobb Dr at Appleton Dr",,33.932384,-84.548626,,,,,,0
+175,920175,"S Cobb Dr at Pearl St",,33.934861,-84.543260,,,,,,0
+176,920176,"Fairground St at Commerce Park Dr",,33.939939,-84.535062,,,,,,0
+177,920177,"Fairground St at S Marietta Pkwy",,33.942369,-84.534996,,,,,,0
+178,920178,"Fairground St at Commerce Park Dr",,33.942022,-84.535233,,,,,,0
+179,920179,"Fairground St at Glover St",,33.938682,-84.535245,,,,,,0
+180,920180,"Fairground St at S Cobb Dr",,33.933293,-84.501717,,,,,,0
+181,920181,"S Cobb Dr at Atlanta St",,33.935476,-84.542102,,,,,,0
+182,920182,"S Cobb Dr at Pearl St",,33.934211,-84.546298,,,,,,0
+183,920183,"S Cobb Dr at Appleton Dr",,33.933153,-84.547994,,,,,,0
+184,920184,"S Cobb Dr at Lakeside Apts",,33.931856,-84.549599,,,,,,0
+185,920185,"S Cobb Dr at Beech Rd",,33.929462,-84.551022,,,,,,0
+186,920186,"S Cobb Dr at Booth Rd",,33.925613,-84.551281,,,,,,0
+187,920187,"S Cobb Dr at Walthall Ave",,33.921552,-84.550105,,,,,,0
+188,920188,"S Cobb Dr at Austell Rd",,33.916048,-84.548415,,,,,,0
+189,920189,"S Cobb Dr at Oak St",,33.912303,-84.546352,,,,,,0
+190,920190,"S Cobb Dr at Waldrep Cir",,33.909237,-84.544393,,,,,,0
+191,920191,"S Cobb Dr at Harmony Meadows Apts",,33.905832,-84.543003,,,,,,0
+192,920192,"S Cobb Dr at Pat Mell Rd",,33.903887,-84.542285,,,,,,0
+193,920193,"S Cobb Dr at Benson Poole Rd",,33.899815,-84.540755,,,,,,0
+194,920194,"S Cobb Dr at Windy Hill Rd",,33.895349,-84.539049,,,,,,0
+195,920195,"S Cobb Dr at Glendale Pl",,33.891941,-84.537768,,,,,,0
+196,920196,"S Cobb Dr at Powder Springs St",,33.886909,-84.535841,,,,,,0
+197,920197,"S Cobb Dr at Plaza Dr",,33.883517,-84.534562,,,,,,0
+198,920198,"S Cobb Dr at Ask-Kay Dr",,33.880355,-84.533374,,,,,,0
+199,920199,"S Cobb Dr at Church Rd",,33.877259,-84.532203,,,,,,0
+200,920200,"S Cobb Dr at Concord Rd",,33.873048,-84.530305,,,,,,0
+201,920201,"Concord Rd SE at Mccaulley Rd",,33.875809,-84.521949,,,,,,0
+202,920202,"Spring Rd SE at Atlanta Rd",,33.880119,-84.511788,,,,,,0
+203,920203,"Spring Rd SE at Jonquil Dr",,33.881977,-84.505063,,,,,,0
+204,920204,"Spring Rd SE at Village Pkwy",,33.883567,-84.499212,,,,,,0
+205,920205,"Spring Rd SE at Campbell Rd",,33.883209,-84.487046,,,,,,0
+207,920207,"S Service Rd at Riverside Pkwy",,33.772895,-84.558302,,,,,,0
+208,920208,"Six Flags Dr at Riverside Pkwy",,33.776795,-84.564228,,,,,,0
+209,920209,"Six Flags Dr at Six Flags Pkwy",,33.777413,-84.565623,,,,,,0
+210,920210,"Six Flags Dr at Elsner Rd",,33.778090,-84.569922,,,,,,0
+211,920211,"Six Flags Dr at Factory Shoals Rd",,33.778339,-84.573849,,,,,,0
+212,920212,"S Cobb Dr at King Springs Rd",,33.858315,-84.516189,,,,,,0
+213,920213,"S Cobb Dr at Cooper Lake Rd",,33.846522,-84.504687,,,,,,0
+214,920214,"Factory Shoals Rd at Britt Rd",,33.795733,-84.571738,,,,,,0
+215,920215,"Factory Shoals Rd at Mableton Pkwy",,33.801064,-84.567653,,,,,,0
+216,920216,"Mableton Pkwy at Old Powder Springs Rd",,33.806776,-84.570459,,,,,,0
+217,920217,"Mableton Pkwy at Old Gordon Road",,33.812338,-84.572025,,,,,,0
+218,920218,"Mableton Pkwy at Veterans Memorial Hwy",,33.817320,-84.574996,,,,,,0
+219,920219,"Floyd Rd at Veterans Memorial Hwy",,33.819437,-84.576022,,,,,,0
+220,920220,"Floyd Rd at Fontaine Rd",,33.823400,-84.575381,,,,,,0
+221,920221,"Mable House Park And Ride",,33.826399,-84.575606,,,,,,0
+222,920222,"Floyd Rd at Ayres Rd",,33.832173,-84.575768,,,,,,0
+223,920223,"Floyd Rd at White Blvd",,33.835740,-84.576019,,,,,,0
+224,920224,"Floyd Rd at Hicks Rd",,33.841300,-84.579228,,,,,,0
+225,920225,"Floyd Rd at Bates Rd",,33.847145,-84.585255,,,,,,0
+226,920226,"Floyd Rd at Trestle Dr",,33.852485,-84.588237,,,,,,0
+227,920227,"Floyd Rd at East-West Conn",,33.855025,-84.588853,,,,,,0
+228,920228,"East-West Connector at Floyd Rd",,33.855401,-84.593453,,,,,,0
+229,920229,"East-West Connector at Hospital South Dr",,33.855081,-84.599392,,,,,,0
+230,920230,"Austell Rd at East-West Conn",,33.855059,-84.602307,,,,,,0
+231,920231,"Austell Rd at Hospital South Dr",,33.856538,-84.601410,,,,,,0
+232,920232,"Austell Rd at Story Pl SW",,33.859818,-84.598800,,,,,,0
+233,920233,"Austell Rd at Floyd Rd",,33.864048,-84.595137,,,,,,0
+234,920234,"Austell Rd at Mimosa Dr",,33.867181,-84.592816,,,,,,0
+235,920235,"Austell Rd at Amy Ln",,33.869179,-84.591502,,,,,,0
+236,920236,"Austell Rd at Westbrook Mobile Homes",,33.871301,-84.590820,,,,,,0
+237,920237,"Austell Rd at Lanier Dr",,33.873424,-84.590273,,,,,,0
+238,920238,"Austell Rd at Byers Dr",,33.878334,-84.588989,,,,,,0
+239,920239,"Austell Rd at Milford Church Rd",,33.881373,-84.588228,,,,,,0
+240,920240,"Austell Rd at Crest Ridge Rd",,33.885601,-84.586123,,,,,,0
+241,920241,"Austell Rd at E Callaway Rd",,33.888364,-84.583265,,,,,,0
+242,920242,"Austell Rd at Hicks Rd",,33.891022,-84.578676,,,,,,0
+243,920243,"Austell Rd at County Services Pkwy",,33.898234,-84.573161,,,,,,0
+244,920244,"Austell Rd at Lorene Dr",,33.900438,-84.570360,,,,,,0
+245,920245,"Austell Rd at Pat Mell Rd",,33.903480,-84.566523,,,,,,0
+246,920246,"Austell Rd at Cunningham Rd",,33.905192,-84.563855,,,,,,0
+247,920247,"Austell Rd at Austell Circle",,33.909264,-84.559292,,,,,,0
+248,920248,"Austell Rd at Sandtown Rd",,33.911220,-84.557548,,,,,,0
+249,920249,"Austell Rd at Cochran Rd",,33.913879,-84.554398,,,,,,0
+250,920250,"Austell Rd at Knox Dr",,33.915435,-84.552524,,,,,,0
+251,920251,"Austell Rd at Pair St",,33.917616,-84.550611,,,,,,0
+253,920253,"Atlanta Rd at Austell Rd",,33.922812,-84.542669,,,,,,0
+254,920254,"Atlanta St at S Cobb Dr",,33.936406,-84.541104,,,,,,0
+255,920255,"S Marietta Pkwy at Atlanta St",,33.947669,-84.547814,,,,,,0
+256,920256,"S Marietta Pkwy at Manget St",,33.943184,-84.539164,,,,,,0
+257,920257,"S Marietta Pkwy at Manget St",,33.943372,-84.540347,,,,,,0
+258,920258,"Atlanta St at S Marietta Pkwy",,33.946572,-84.548101,,,,,,0
+259,920259,"Atlanta St at S Cobb Dr",,33.937246,-84.541954,,,,,,0
+260,920260,"Atlanta Rd at Clay Dr",,33.923606,-84.542825,,,,,,0
+261,920261,"Austell Rd at Joyner Ave",,33.921534,-84.544699,,,,,,0
+262,920262,"Austell Rd at S Cobb Dr",,33.919167,-84.548506,,,,,,0
+263,920263,"Austell Rd at Pair St",,33.918395,-84.550192,,,,,,0
+264,920264,"Austell Rd at Sandtown Rd",,33.913878,-84.554838,,,,,,0
+265,920265,"Austell Rd at Austell Cir",,33.909252,-84.559610,,,,,,0
+266,920266,"Austell Rd at Cunningham Rd",,33.905594,-84.563709,,,,,,0
+267,920267,"Austell Rd at Pat Mell Rd",,33.903564,-84.566836,,,,,,0
+268,920268,"Austell Rd at Kurt Dr",,33.900412,-84.570725,,,,,,0
+269,920269,"Austell Rd at Windy Hill Rd",,33.894903,-84.576746,,,,,,0
+270,920270,"Austell Rd at Callaway Rd",,33.888784,-84.583087,,,,,,0
+271,920271,"Austell Rd at Waymar Dr",,33.885733,-84.586382,,,,,,0
+272,920272,"Austell Rd at Milford Church Rd",,33.882404,-84.588331,,,,,,0
+273,920273,"Austell Rd at Pair Rd",,33.876805,-84.589686,,,,,,0
+274,920274,"Austell Rd at Raes Creek Rd",,33.871353,-84.591104,,,,,,0
+275,920275,"Austell Rd at Mimosa Dr",,33.867740,-84.592783,,,,,,0
+276,920276,"Austell Rd at Reed Dr",,33.865100,-84.594613,,,,,,0
+277,920277,"Austell Rd SW at Hurt Rd SW",,33.861833,-84.597431,,,,,,0
+278,920278,"Austell Rd SW at Mulkey Rd SW",,33.857710,-84.600987,,,,,,0
+279,920279,"Austell Rd at Hospital South Dr",,33.856222,-84.601936,,,,,,0
+280,920280,"East-West Connector at Brookwood Dr",,33.854898,-84.598895,,,,,,0
+281,920281,"East-West Connector at Floyd Rd",,33.856004,-84.590449,,,,,,0
+282,920282,"Floyd Rd at Willowbrook Lane",,33.852914,-84.588462,,,,,,0
+283,920283,"Floyd Rd at Floyd Dr",,33.846682,-84.585110,,,,,,0
+284,920284,"Floyd Rd at Hicks Rd",,33.840616,-84.578469,,,,,,0
+285,920285,"Floyd Rd at Nickajack Rd",,33.833436,-84.576109,,,,,,0
+286,920286,"Floyd Rd at Patterns Dr",,33.831256,-84.576015,,,,,,0
+287,920287,"Floyd Rd at Mableton Park & Ride - Ob",,33.825578,-84.576088,,,,,,0
+288,920288,"Floyd Rd at Fontaine Rd",,33.822620,-84.575689,,,,,,0
+289,920289,"Floyd Rd at Veterans Memorial Hwy",,33.819532,-84.576361,,,,,,0
+290,920290,"Mableton Pkwy at Glore Cir",,33.816822,-84.574746,,,,,,0
+291,920291,"Mableton Pkwy at Old Alabama Rd",,33.811485,-84.572163,,,,,,0
+292,920292,"Mableton Pkwy at Old Powder Springs Rd",,33.808630,-84.571747,,,,,,0
+293,920293,"Mableton Pkwy SW at Lane Dr",,33.805208,-84.569443,,,,,,0
+294,920294,"Mableton Pkwy at Factory Shoals Rd",,33.802119,-84.567700,,,,,,0
+295,920295,"Factory Shoals Rd at S Gordon Rd",,33.789832,-84.575821,,,,,,0
+296,920296,"Six Flags Dr at Whisper Ct",,33.778103,-84.573876,,,,,,0
+297,920297,"Six Flags Dr at Elsner Rd",,33.777703,-84.570613,,,,,,0
+298,920298,"Six Flags Dr at Six Flags Pkwy",,33.777439,-84.565888,,,,,,0
+302,920302,"Frey Rd at Campus Loop",,34.041960,-84.580850,,,,,,0
+306,920306,"Busbee Dr at Townpark Ln",,34.036262,-84.575076,,,,,,0
+307,920307,"Cumberland Blvd at S Cobb Dr",,33.844404,-84.499633,,,,,,0
+308,920308,"Busbee Pkwy at PGA Superstore",,34.024933,-84.567859,,,,,,0
+309,920309,"Ring Rd at Jc Penney Entrance",,34.018570,-84.565940,,,,,,0
+310,920310,"Busbee Pkwy at Town Center Dr",,34.013541,-84.566452,,,,,,0
+311,920311,"Cumberland Pkwy at Atlanta Rd",,33.848808,-84.491810,,,,,,0
+312,920312,"Barrett Pkwy at Mall Blvd",,34.013433,-84.562022,,,,,,0
+313,920313,"Barrett Pkwy at Barrett Creek Dr",,34.013862,-84.555592,,,,,,0
+314,920314,"Barrett Pkwy at Bells Ferry Rd",,34.013776,-84.549608,,,,,,0
+315,920315,"Bells Ferry Rd at Barrett Pkwy",,34.012720,-84.548520,,,,,,0
+316,920316,"Bells Ferry Rd at Arnold Ave",,34.001971,-84.545457,,,,,,0
+317,920317,"Bells Ferry Rd at Laurel Hills Preserve",,33.999476,-84.546227,,,,,,0
+318,920318,"Bells Ferry Rd at Oak Harbor Trl",,33.996969,-84.547654,,,,,,0
+319,920319,"Bells Ferry Rd at Bridgestone Dr",,33.992571,-84.550297,,,,,,0
+320,920320,"Bells Ferry Rd at Cobb Pkwy",,33.982434,-84.557829,,,,,,0
+321,920321,"Church St Ext at Loudermilk Dr",,33.978337,-84.557015,,,,,,0
+322,920322,"Church St Ext at Elizabeth St",,33.973646,-84.551878,,,,,,0
+323,920323,"Church St at Whitcher St",,33.969193,-84.550450,,,,,,0
+324,920324,"Church St at Hillside Ave",,33.965397,-84.550136,,,,,,0
+325,920325,"Church St at Sessions St",,33.961234,-84.550187,,,,,,0
+326,920326,"Church St at Kennesaw Ave",,33.957150,-84.550280,,,,,,0
+327,920327,"Cumberland Pkwy at Beech Haven Tr",,33.849055,-84.482543,,,,,,0
+328,920328,"Cumberland Blvd at Magnolia Vinings Apts",,33.852173,-84.481218,,,,,,0
+329,920329,"S Service Rd at Riverside Pkwy",,33.772811,-84.557991,,,,,,0
+330,920330,"Cherokee St at Montgomery St",,33.959921,-84.548697,,,,,,0
+331,920331,"Cherokee St at Freyer Rd",,33.963483,-84.547958,,,,,,0
+332,920332,"Cherokee St at Chicopee Dr",,33.965694,-84.547839,,,,,,0
+333,920333,"Cherokee St at Lewis Dr",,33.969712,-84.549983,,,,,,0
+334,920334,"Church St Ext at Elizabeth St",,33.974282,-84.552198,,,,,,0
+335,920335,"Bells Ferry Rd at Old 41 Hwy",,33.979777,-84.558720,,,,,,0
+336,920336,"Bells Ferry Rd at Cobb Pkwy",,33.982040,-84.557783,,,,,,0
+337,920337,"Bells Ferry Rd at Adair Dr",,33.986491,-84.555177,,,,,,0
+338,920338,"Bells Ferry Rd at Bridgestone Dr",,33.993403,-84.549626,,,,,,0
+339,920339,"Bells Ferry Rd at Mark Ave",,33.998017,-84.546810,,,,,,0
+340,920340,"Bells Ferry Rd at Arnold Ave",,34.001499,-84.545394,,,,,,0
+341,920341,"Bells Ferry Rd at Bristol Ln",,34.009637,-84.547401,,,,,,0
+342,920342,"Bells Ferry Rd at Highoak Dr",,34.012531,-84.548368,,,,,,0
+343,920343,"Barrett Pkwy at Prado Ln",,34.014207,-84.551489,,,,,,0
+344,920344,"Barrett Pkwy at Chastain Meadows Pkwy",,34.014144,-84.554989,,,,,,0
+345,920345,"Barrett Pkwy at Busbee Pkwy",,34.012556,-84.563748,,,,,,0
+346,920346,"Busbee Pkwy at Town Center Dr",,34.013064,-84.565517,,,,,,0
+347,920347,"Busbee Pkwy at Garden Ridge",,34.023401,-84.567565,,,,,,0
+348,920348,"Busbee Pkwy at Big Shanty Rd",,34.026891,-84.567659,,,,,,0
+349,920349,"Busbee Dr at KSU Center",,34.031517,-84.572619,,,,,,0
+350,920350,"Busbee Dr at Townpark Ln",,34.036139,-84.574757,,,,,,0
+354,920354,"Frey Rd at KSU Central Parking Deck",,34.042310,-84.581170,,,,,,0
+355,920355,"Cumberland Blvd at Publix",,33.862219,-84.477647,,,,,,0
+361,920361,"Vaughn Rd at Barrett Corners Dr",,34.001536,-84.590739,,,,,,0
+362,920362,"Cobb Pkwy at White Circle",,33.988213,-84.574191,,,,,,0
+363,920363,"Cobb Pkwy at Bells Ferry Rd",,33.980365,-84.556902,,,,,,0
+364,920364,"Cobb Pkwy at Elizabeth Church Rd",,33.978599,-84.552823,,,,,,0
+365,920365,"Cobb Pkwy at Industrial Park Dr",,33.975807,-84.546580,,,,,,0
+366,920366,"Cobb Pkwy at Allgood Rd",,33.968884,-84.537801,,,,,,0
+367,920367,"Cobb Pkwy at Abc Recycling",,33.966181,-84.534724,,,,,,0
+373,920373,"Cobb Pkwy at Seminole Pl",,33.966187,-84.534359,,,,,,0
+374,920374,"Cobb Pkwy at Industrial Park Dr",,33.971332,-84.540005,,,,,,0
+375,920375,"Cobb Pkwy at Industrial Park Dr",,33.974633,-84.543799,,,,,,0
+376,920376,"Cobb Pkwy at Kennestone Circle",,33.979480,-84.553976,,,,,,0
+377,920377,"Cobb Pkwy at Bells Ferry Rd",,33.982135,-84.559837,,,,,,0
+378,920378,"Cobb Pkwy at White Cir",,33.990969,-84.577769,,,,,,0
+379,920379,"Vaughn Rd at Roberts Blvd",,34.003956,-84.590498,,,,,,0
+380,920380,"Barrett Pkwy at Barrett Lakes Blvd",,34.003385,-84.578497,,,,,,0
+385,920385,"Busbee Pkwy at Big Shanty Rd",,34.026743,-84.568012,,,,,,0
+386,920386,"Busbee Pkwy at Town Center Dr",,34.021515,-84.567862,,,,,,0
+389,920389,"Akers Mill Rd at Galleria Dr",,33.883328,-84.461925,,,,,,0
+390,920390,"Akers Mill Rd at Cobb Galleria Pkwy",,33.884467,-84.460286,,,,,,0
+392,920392,"Akers Mill Rd at Towercreek Pkwy",,33.891929,-84.454638,,,,,,0
+393,920393,"Akers Mill Rd at Akers Dr",,33.893634,-84.453278,,,,,,0
+394,920394,"Akers Mill Rd at Walton On The Chattahoochee",,33.896732,-84.449777,,,,,,0
+395,920395,"Akers Mill Rd at Powers Ferry Rd",,33.898661,-84.447461,,,,,,0
+396,920396,"Powers Ferry Rd at Rivers Apartments",,33.901430,-84.449618,,,,,,0
+397,920397,"Powers Ferry Rd at Windy Ridge Pkwy",,33.902679,-84.455079,,,,,,0
+398,920398,"Powers Ferry Rd at Parkwood Circle",,33.903782,-84.460111,,,,,,0
+399,920399,"Powers Ferry Rd at Windy Hill Rd",,33.905159,-84.463241,,,,,,0
+400,920400,"Powers Ferry Rd at Powers Ridge Office Park",,33.909087,-84.465008,,,,,,0
+401,920401,"Powers Ferry Rd at Wildwood Pkwy",,33.913529,-84.465036,,,,,,0
+403,920403,"Powers Ferry Rd at Terrell Mill Rd",,33.920701,-84.467321,,,,,,0
+404,920404,"Powers Ferry Rd at Powers Ferry Common",,33.922125,-84.467809,,,,,,0
+405,920405,"Delk Rd at Powers Ferry Rd",,33.924098,-84.470608,,,,,,0
+406,920406,"Delk Rd at Brunswick Bowling Lane",,33.923004,-84.474009,,,,,,0
+407,920407,"Delk Rd at Bentley Rd",,33.922602,-84.476314,,,,,,0
+408,920408,"Delk Rd at Northchase Pkwy",,33.922790,-84.479936,,,,,,0
+409,920409,"Delk Rd at Powers Ferry Pl",,33.922801,-84.482060,,,,,,0
+410,920410,"Franklin Gateway Se at Kingston Ct",,33.924658,-84.491960,,,,,,0
+411,920411,"Franklin Rd at Autumn View Apartments",,33.927046,-84.492550,,,,,,0
+412,920412,"Franklin Rd at Franklin Plaza",,33.928117,-84.493623,,,,,,0
+413,920413,"Franklin Gateway Se at Franklin Ct",,33.931443,-84.497462,,,,,,0
+414,920414,"Franklin Gateway Se at Citgo Gas Station",,33.932667,-84.499875,,,,,,0
+415,920415,"Franklin Rd at Ashton Place Apartments",,33.934372,-84.503111,,,,,,0
+416,920416,"Franklin Rd at Twin Brooks Dr",,33.935936,-84.504280,,,,,,0
+417,920417,"Franklin Rd at Parkway Pl",,33.937918,-84.506870,,,,,,0
+418,920418,"S Marietta Pkwy at Wylie Rd",,33.940328,-84.511622,,,,,,0
+419,920419,"Cobb Pkwy at S Marietta Pkwy",,33.942688,-84.515986,,,,,,0
+420,920420,"Cobb Pkwy at Freys Gin Rd",,33.945353,-84.517437,,,,,,0
+421,920421,"Cobb Pkwy at Marietta Trade Center",,33.946174,-84.517911,,,,,,0
+422,920422,"Cobb Pkwy at Marietta Trade Center",,33.948364,-84.519088,,,,,,0
+426,920426,"Cobb Pkwy at N Marietta Pkwy",,33.961888,-84.529577,,,,,,0
+427,920427,"Cobb Pkwy at Seminole Pl",,33.964290,-84.532245,,,,,,0
+432,920432,"Fairground St at Rigby St",,33.956728,-84.535637,,,,,,0
+433,920433,"Fairground St at Lawrence St",,33.953691,-84.534771,,,,,,0
+434,920434,"Fairground St at Fort St",,33.953890,-84.534548,,,,,,0
+438,920438,"Cobb Pkwy at Seminole Dr",,33.964266,-84.532577,,,,,,0
+439,920439,"Cobb Pkwy at N Marietta Pkwy",,33.961977,-84.530108,,,,,,0
+443,920443,"Cobb Pkwy at Marietta Trade Center",,33.945779,-84.518059,,,,,,0
+444,920444,"S Marietta Pkwy at Cobb Pkwy",,33.940751,-84.513625,,,,,,0
+445,920445,"S Marietta Pkwy at Wylie Rd",,33.939924,-84.511723,,,,,,0
+446,920446,"Franklin Rd at S Marietta Pkwy",,33.938535,-84.507670,,,,,,0
+447,920447,"Franklin Rd at Ridge Points Apartments",,33.934019,-84.503011,,,,,,0
+448,920448,"Franklin Rd at Cinnamon Ridge",,33.932374,-84.499626,,,,,,0
+449,920449,"Franklin Rd at Franklin Ct",,33.930163,-84.496391,,,,,,0
+450,920450,"Franklin Rd at Marquis Place",,33.927772,-84.493600,,,,,,0
+451,920451,"Franklin Rd at Delk Industrial Blvd",,33.926289,-84.492354,,,,,,0
+452,920452,"Franklin Rd at Kingston Ct",,33.924562,-84.492160,,,,,,0
+453,920453,"Delk Rd at Franklin Rd",,33.922529,-84.490931,,,,,,0
+454,920454,"Delk Rd at Northchase Pkwy",,33.922510,-84.479652,,,,,,0
+455,920455,"Delk Rd at Bentley Rd",,33.922560,-84.475138,,,,,,0
+456,920456,"Delk Rd at Powers Ferry Rd",,33.923958,-84.469975,,,,,,0
+457,920457,"Powers Ferry Rd at Powers Ferry Common",,33.922060,-84.468081,,,,,,0
+458,920458,"Powers Ferry Rd at Terrell Mill Rd",,33.918880,-84.467228,,,,,,0
+459,920459,"Powers Ferry Rd at Terrell Mill Rd",,33.916973,-84.466689,,,,,,0
+460,920460,"Powers Ferry Rd at Wildwood Pkwy",,33.913253,-84.465376,,,,,,0
+461,920461,"Powers Ferry Rd at Windy Hill Rd",,33.904987,-84.463593,,,,,,0
+462,920462,"Powers Ferry Rd at Parkwood Circle",,33.903484,-84.460138,,,,,,0
+463,920463,"Powers Ferry Rd at Shadowood Pkwy",,33.902289,-84.454548,,,,,,0
+464,920464,"Powers Ferry Rd at Shadowood Office Park",,33.901162,-84.449621,,,,,,0
+465,920465,"Akers Mill Rd at Walton On The Chattahoochee",,33.897102,-84.449609,,,,,,0
+466,920466,"Akers Mill Rd at The Columns at Akers Mill",,33.895492,-84.451443,,,,,,0
+468,920468,"Cobb Galleria Pkwy at Riverwood Pkwy",,33.881004,-84.456565,,,,,,0
+469,920469,"Akers Mill Rd at Galleria Dr",,33.883675,-84.461856,,,,,,0
+470,920470,"Spring Rd Se at Spring Creek Pl",,33.883587,-84.491642,,,,,,0
+471,920471,"Spring Rd at Spring Creek Pl",,33.883352,-84.490825,,,,,,0
+474,920479,"Spring St at Luckie St",,33.758280,-84.390686,,,,,,0
+476,920481,"Spring St at John Portman Blvd",,33.761081,-84.388996,,,,,,0
+477,920482,"Spring St at Baker St",,33.762194,-84.388966,,,,,,0
+478,920483,"West Peachtree St at 3Rd St",,33.773604,-84.387223,,,,,,0
+479,920484,"West Peachtree St at 4th St",,33.774890,-84.387259,,,,,,0
+482,920487,"West Peachtree St at 14Th St",,33.787129,-84.387548,,,,,,0
+485,920492,"Centennial Olympic Park Dr at Andrew Young Intl Bl",,33.759924,-84.392159,,,,,,0
+486,920493,"Marietta St at Ted Turner Dr",,33.757017,-84.392883,,,,,,0
+496,920512,"MLK Jr Dr at Forsyth St",,33.752779,-84.393352,,,,,,0
+511,920533,"Cumberland Pkwy at The Pointe at Vinings",,33.875734,-84.474146,,,,,,0
+513,920535,"Akers Mill Rd at Towercreek Pkwy",,33.891872,-84.454888,,,,,,0
+516,920538,"Roswell St at Alexander St",,33.951038,-84.545026,,,,,,0
+517,920539,"Six Flags Dr at Riverside Pkwy",,33.776252,-84.563511,,,,,,0
+518,920540,"Church St Ext at Loudermilk Dr",,33.978527,-84.557189,,,,,,0
+520,920542,"Vaughn Rd at Cobb Pkwy",,34.001634,-84.590604,,,,,,0
+522,920544,"Busbee Park-N-Ride",,34.029135,-84.569824,,,,,,0
+524,920546,"Circle 75 Pkwy at 1000 Building",,33.889609,-84.466237,,,,,,0
+525,920547,"Circle 75 Pkwy at Windy Hill Rd",,33.899977,-84.474933,,,,,,0
+531,920553,"Circle 75 Pkwy at 900 Building",,33.887837,-84.468759,,,,,,0
+534,920556,"Interstate North Pkwy at 150 Building",,33.901372,-84.465904,,,,,,0
+535,920557,"Interstate North Pkwy at Windy Hill Rd",,33.903672,-84.466101,,,,,,0
+536,920558,"Windy Ridge Pkwy at Parkwood Cir",,33.904323,-84.459040,,,,,,0
+537,920559,"Interstate North Pkwy at Marriott",,33.897538,-84.467030,,,,,,0
+540,920562,"Acworth Park & Ride",,34.077294,-84.656416,,,,,,0
+541,920563,"Akers Mill Rd at The Columns Entrance",,33.894395,-84.452408,,,,,,0
+542,920564,"Powers Ferry Rd at Carithers Flowers",,33.910684,-84.465001,,,,,,0
+543,920565,"Windy Hill Rd at Windy Ridge Pkwy",,33.906339,-84.462203,,,,,,0
+546,920568,"Franklin Rd at Twin Brooks Dr",,33.935775,-84.504527,,,,,,0
+548,920570,"Cumberland Blvd at Publix",,33.862770,-84.477456,,,,,,0
+549,920571,"Cumberland Pkwy at Paces Walk Se",,33.859898,-84.479607,,,,,,0
+550,920572,"Cobb Pkwy at Ga 280 Delk On-Ramp",,33.919595,-84.502662,,,,,,0
+551,920573,"S Cobb Dr at Walthall Ave",,33.922692,-84.550405,,,,,,0
+552,920574,"Floyd Rd at White Blvd",,33.836128,-84.576340,,,,,,0
+553,920575,"Church St Ext at Cobb Emc Pkwy",,33.976757,-84.554618,,,,,,0
+554,920576,"Cherokee St at Forest Ave",,33.956222,-84.549023,,,,,,0
+556,920578,"N Marietta Pkwy at Amy Dr",,33.959195,-84.532527,,,,,,0
+557,920579,"Cumberland Blvd at Magnolia Apts",,33.852029,-84.481429,,,,,,0
+558,920580,"Cumberland Pkwy at Beech Haven Tr",,33.848751,-84.484285,,,,,,0
+559,920581,"Cobb Pkwy at White Cir",,33.986538,-84.569792,,,,,,0
+560,920582,"Cobb Pkwy at Barrett Pkwy",,33.997787,-84.586073,,,,,,0
+561,920583,"Cumberland Blvd at Bridgehaven Dr",,33.849251,-84.490213,,,,,,0
+562,920584,"Cumberland Pkwy at Atlanta Rd",,33.848842,-84.494460,,,,,,0
+563,920585,"Cumberland Pkwy at S Cobb Dr",,33.844708,-84.499742,,,,,,0
+564,920586,"S Cobb Dr at Cooper Lake Rd",,33.846564,-84.504241,,,,,,0
+565,920587,"Cumberland Pkwy at Adams Lake Blvd",,33.875571,-84.473919,,,,,,0
+566,920590,"S Cobb Dr at Ridgeview / Emory",,33.855307,-84.512867,,,,,,0
+568,920599,"Windy Hill Rd at N Park Pl",,33.902992,-84.481078,,,,,,0
+569,920600,"County Services Pkwy at Cobb Co Dot",,33.906604,-84.582528,,,,,,0
+570,920601,"Windy Hill Rd at N Park Pl",,33.902297,-84.480814,,,,,,0
+571,920602,"Windy Hill Rd at Wildwood Pkwy",,33.911297,-84.460094,,,,,,0
+572,920603,"Austell Rd at Darnell Rd",,33.920305,-84.546358,,,,,,0
+574,920605,"Atlanta Rd at Perrin Rd",,33.931193,-84.540392,,,,,,0
+575,920606,"Atlanta St at Pearl St",,33.946217,-84.547586,,,,,,0
+577,920608,"Bells Ferry Rd at Bristol Ln",,34.009850,-84.547695,,,,,,0
+578,920609,"Bells Ferry Rd at Manuel Dr",,33.990447,-84.551575,,,,,,0
+579,920610,"Bells Ferry Rd at Turner Rd",,33.988255,-84.553667,,,,,,0
+580,920611,"Bells Ferry Rd at Cottage Way",,33.986494,-84.555438,,,,,,0
+581,920612,"Bells Ferry Rd at Field Pkwy",,33.984413,-84.556560,,,,,,0
+582,920613,"Church St at Vann St",,33.972112,-84.550994,,,,,,0
+583,920614,"N Marietta Pkwy at Fairground St",,33.958710,-84.535920,,,,,,0
+584,920615,"Roberts Blvd at Cobb Place Blvd",,34.004162,-84.585827,,,,,,0
+587,920618,"Austell Rd at Dorothy Dr",,33.890292,-84.580588,,,,,,0
+588,920619,"Factory Shoals Rd at Britt Rd",,33.795633,-84.572094,,,,,,0
+589,920620,"S Service Rd at Six Flags Pkwy",,33.771752,-84.553071,,,,,,0
+590,920623,"Bells Ferry Rd at Old Bells Ferry Rd",,33.984547,-84.556267,,,,,,0
+591,920624,"Bells Ferry Rd at Dickson Rd",,33.987799,-84.554008,,,,,,0
+592,920625,"Bells Ferry Rd at Manuel Dr",,33.990509,-84.551420,,,,,,0
+593,920626,"Bells Ferry Rd at Skip Wells Park",,34.006717,-84.546194,,,,,,0
+594,920627,"Busbee Park-N-Ride",,34.029359,-84.570409,,,,,,0
+598,920631,"Barrett Pkwy at Cobb Place Blvd",,34.007713,-84.571797,,,,,,0
+599,920632,"Barrett Pkwy at Barrett Lakes Blvd",,34.005030,-84.576487,,,,,,0
+600,920633,"Roberts Blvd at Cobb Place Blvd",,34.004440,-84.586938,,,,,,0
+601,920634,"Vaughn Rd at Bentley Pl",,34.003015,-84.590740,,,,,,0
+602,920635,"Cobb Pkwy at Barrett Pkwy",,33.997730,-84.586570,,,,,,0
+603,920636,"Cobb Pkwy at Pete Scoggin Pkwy",,33.986020,-84.569367,,,,,,0
+604,920638,"N Marietta Pkwy at Amy Dr",,33.959097,-84.533502,,,,,,0
+606,920640,"Circle 75 Pkwy at 900 Building",,33.887899,-84.468264,,,,,,0
+613,920647,"Circle 75 Pkwy at Herodian Way",,33.895225,-84.468248,,,,,,0
+615,920649,"Circle 75 Pkwy at 1000 Building Entrance",,33.889828,-84.466362,,,,,,0
+616,920650,"Busbee Pkwy at Town Center Dr",,34.021992,-84.567602,,,,,,0
+617,920651,"Fairground St at Rigby St",,33.956488,-84.535000,,,,,,0
+620,920654,"County Services Pkwy at Cobb Co Trash Transfer Stn",,33.906682,-84.582242,,,,,,0
+626,920660,"Interstate North Pkwy at 180 Building",,33.900116,-84.468340,,,,,,0
+627,920661,"Interstate North Pkwy at 180 Building",,33.900693,-84.466903,,,,,,0
+628,920662,"Interstate North Pkwy at 150 Building",,33.902242,-84.465529,,,,,,0
+629,920663,"Atlanta Rd at E Dixie Ave",,33.941255,-84.544274,,,,,,0
+630,920664,"Atlanta Rd at E Dixie Ave",,33.940842,-84.544015,,,,,,0
+631,920665,"Cherokee St at Blackwell St",,33.957660,-84.548965,,,,,,0
+632,920666,"Bells Ferry Rd at Oak Harbor Trl",,33.996883,-84.547530,,,,,,0
+634,920668,"Busbee Dr at KSU Center",,34.031998,-84.573249,,,,,,0
+637,920674,"Akers Mill Rd at Powers Ferry Rd",,33.898446,-84.447964,,,,,,0
+645,920776,"Blair Bridge Rd at S Gordon Rd",,33.789184,-84.580426,,,,,,0
+646,920777,"Blair Bridge Rd at Hembree Dr",,33.786524,-84.587196,,,,,,0
+647,920778,"Blair Bridge Rd at Blairs View Dr",,33.782245,-84.593889,,,,,,0
+648,920779,"Riverside Pkwy at Lake Crossing",,33.779583,-84.592585,,,,,,0
+649,920780,"Six Flags Dr at Summer Stone Ln",,33.777773,-84.589712,,,,,,0
+650,920781,"Six Flags Dr at Winterglen Ln",,33.777657,-84.584502,,,,,,0
+651,920782,"Six Flags Dr at Pine View Way",,33.778479,-84.580589,,,,,,0
+652,920783,"Six Flags Dr at Factory Shoals Rd",,33.778525,-84.575948,,,,,,0
+653,920784,"Six Flags Dr at Factory Shoals Rd",,33.778675,-84.576743,,,,,,0
+654,920785,"Six Flags Dr at Springchase St",,33.778655,-84.579752,,,,,,0
+655,920786,"Six Flags Dr at Winterglen Lane",,33.777876,-84.586011,,,,,,0
+656,920787,"Six Flags Dr at Winterbrook Way",,33.778464,-84.590581,,,,,,0
+657,920788,"Blair Bridge Rd at Six Flags Dr",,33.782243,-84.593649,,,,,,0
+658,920789,"Blair Bridge Rd at Pleasant Dr",,33.786406,-84.587189,,,,,,0
+659,920790,"Blair Bridge Rd at William Rd",,33.787861,-84.583454,,,,,,0
+660,920791,"Blair Bridge Rd at S Gordon Rd",,33.789092,-84.580323,,,,,,0
+661,920792,"County Services Pkwy at Cobb Co Juvenile Detention",,33.916609,-84.582412,,,,,,0
+662,920793,"Cherokee St at Canton Rd",,33.968607,-84.548366,,,,,,0
+666,920797,"S Marietta Pkwy at Franklin Rd",,33.939597,-84.508808,,,,,,0
+668,920805,"County Services Pkwy at Cobb County Juvenile Deten",,33.916621,-84.582205,,,,,,0
+669,920807,"S Cobb Dr at Magnolia Dr",,33.866197,-84.523839,,,,,,0
+670,920808,"Atlanta Rd at Generals Rd",,33.930255,-84.540718,,,,,,0
+671,920809,"S Cobb Dr at Mccaulley Rd",,33.866500,-84.523693,,,,,,0
+672,920810,"Spring Rd SE at Woodruff Dr",,33.883162,-84.482543,,,,,,0
+673,920811,"Factory Shoals Rd at S Gordon Rd",,33.789667,-84.575589,,,,,,0
+676,920814,"Circle 75 Pkwy at Days Inn",,33.898448,-84.473384,,,,,,0
+678,920816,"Circle 75 Pkwy at Herodian Way",,33.895769,-84.468956,,,,,,0
+687,920826,"Windy Hill Rd at The Towers At Wildwood Plaza",,33.913022,-84.461093,,,,,,0
+688,920827,"Windy Hill Rd at Wildwood Pkwy",,33.910894,-84.460298,,,,,,0
+689,920828,"Windy Hill Rd at Village Pkwy",,33.899488,-84.493967,,,,,,0
+690,920829,"Windy Hill Rd at Village Pkwy",,33.899215,-84.494008,,,,,,0
+691,920830,"Spring Rd SE at Sports Ave SE",,33.883132,-84.477243,,,,,,0
+692,920831,"Spring St at Sports Ave",,33.883357,-84.477408,,,,,,0
+703,920855,"H E Holmes Dr at Mlk Jr Dr",,33.752284,-84.467609,,,,,,0
+707,920892,"S Marietta Pkwy at Waverly Way",,33.949614,-84.551068,,,,,,0
+708,920893,"S Marietta Pkwy at Roswell Street",,33.951858,-84.551922,,,,,,0
+710,920895,"S Marietta Pkwy at Crescent Cir",,33.950103,-84.551649,,,,,,0
+711,920898,"Powder Springs St at Bellemeade Dr",,33.925234,-84.573757,,,,,,0
+717,920907,"Arts Center Station",,33.789418,-84.387120,,,,,,0
+720,920910,"Hamilton E. Holmes Station",,33.754200,-84.470550,,,,,,0
+746,920913,"Concord Rd SE at King Springs Rd",,33.876238,-84.520777,,,,,,0
+747,920914,"Concord Rd SE at S Cobb Dr",,33.874756,-84.529389,,,,,,0
+748,920915,"Concord Rd at Smyrna Fire Station No 2",,33.871962,-84.534190,,,,,,0
+749,920916,"Concord Rd SE at N Cooper Lake Rd",,33.868485,-84.537814,,,,,,0
+750,920917,"Hurt Rd SE at Springbrook Trl",,33.867744,-84.545457,,,,,,0
+751,920918,"Hurt Rd SE at Landrum Dr",,33.868895,-84.552965,,,,,,0
+752,920919,"Hurt Rd SW at Brooks Ct",,33.869941,-84.555129,,,,,,0
+753,920920,"Hurt Rd SW at Mallard Glen",,33.869986,-84.557644,,,,,,0
+754,920921,"Hurt Rd SW at Harris Rd",,33.869955,-84.561046,,,,,,0
+756,920923,"Hurt Rd at Hurt Rd",,33.864542,-84.569612,,,,,,0
+757,920924,"Hurt Rd at Donald Rd",,33.863692,-84.574364,,,,,,0
+758,920925,"Hurt Rd at Hicks Rd",,33.864429,-84.576695,,,,,,0
+759,920926,"Hurt Rd at Tranquil Dr",,33.864686,-84.581920,,,,,,0
+760,920927,"Hurt Rd at Dyer Parke Ln SW",,33.864431,-84.586372,,,,,,0
+761,920928,"Hurt Rd at Settlers Walk Way",,33.863495,-84.590108,,,,,,0
+762,920929,"Hurt Rd at Floyd Rd",,33.862241,-84.593962,,,,,,0
+763,920930,"Austell Rd at Orange Hill Rd",,33.850868,-84.606343,,,,,,0
+764,920931,"Austell Rd at Anderson Mill Rd",,33.849192,-84.607815,,,,,,0
+765,920932,"Austell Rd at Elmwood Dr",,33.845959,-84.609344,,,,,,0
+766,920933,"Austell Rd at Seayes Rd",,33.839288,-84.611244,,,,,,0
+767,920934,"Austell Rd at Evergreen Dr",,33.836561,-84.611548,,,,,,0
+768,920935,"Austell Rd at Clay Rd",,33.831948,-84.612574,,,,,,0
+769,920936,"Austell Rd at Perkerson Mill Rd SW",,33.828282,-84.614421,,,,,,0
+770,920937,"Austell Rd at Bishop Row SW",,33.821105,-84.617793,,,,,,0
+771,920938,"Austell Rd at Landington Dr",,33.818832,-84.618190,,,,,,0
+772,920939,"Maxham Rd at Salt Springs Pl",,33.812178,-84.619478,,,,,,0
+773,920940,"Maxham Rd at Salt Springs Pl",,33.810061,-84.619842,,,,,,0
+774,920941,"Maxham Rd at Pontiac Cir",,33.807898,-84.620026,,,,,,0
+775,920943,"Old Alabama Rd SW at South Gordon Rd SW",,33.804717,-84.611042,,,,,,0
+776,920944,"Old Alabama Rd Sw at James Rd",,33.808041,-84.598255,,,,,,0
+777,920945,"Old Alabama Rd SW at S Glenn Forest SW",,33.808179,-84.590236,,,,,,0
+778,920946,"Old Alabama Rd at Pebblebrook High School",,33.807530,-84.581596,,,,,,0
+779,920947,"Old Alabama Rd SW at Pisgah Rd SW",,33.808944,-84.577976,,,,,,0
+780,920948,"Old Alabama Rd SW at Old Powder Springs Rd SW",,33.809453,-84.575444,,,,,,0
+781,920949,"Mableton Pkwy Sw at Community Rd",,33.800272,-84.566574,,,,,,0
+782,920950,"Mableton Pkwy at Gordon Valley Lane",,33.795823,-84.562692,,,,,,0
+783,920951,"Mableton Pkwy at South Gordon Rd",,33.793867,-84.560947,,,,,,0
+784,920952,"S Gordon Rd at Riverside Intermediate School",,33.790847,-84.563161,,,,,,0
+785,920953,"Hillcrest Dr SE at Shenandoah Trail",,33.789016,-84.564268,,,,,,0
+786,920954,"Hillcrest Dr SE at Bonnes Dr SW",,33.787141,-84.559046,,,,,,0
+787,920955,"Hillcrest Dr SE at Wilhelmia Dr",,33.785320,-84.555661,,,,,,0
+788,920956,"Hillcrest Dr SE at Hillcrest Chase Ln",,33.781720,-84.551161,,,,,,0
+789,920957,"Hillcrest Dr SE at Six Flags Pkwy",,33.778826,-84.545960,,,,,,0
+790,920958,"Six Flags Pkwy SW at Silver Arrow Cir",,33.775675,-84.550112,,,,,,0
+791,920959,"Six Flags Pkwy SW at Silver Arrow Cir",,33.775478,-84.550113,,,,,,0
+792,920960,"Six Flags Pkwy SW at Bishop Rd",,33.777999,-84.546799,,,,,,0
+793,920961,"Hillcrest Dr SE at Hillcrest Chase Ln",,33.781677,-84.550821,,,,,,0
+794,920962,"Hillcrest Dr SE at Satterlee Woods Ln",,33.783447,-84.553185,,,,,,0
+795,920963,"Hillcrest Dr SE at Brumley Cove Dr",,33.784506,-84.554439,,,,,,0
+796,920964,"Hillcrest Dr SE at Bridgewood Dr",,33.786951,-84.557870,,,,,,0
+797,920965,"Hillcrest Dr SE at South Gordon Rd",,33.789358,-84.564532,,,,,,0
+798,920966,"S Gordon Rd at Riverside Intermediate School",,33.790785,-84.562967,,,,,,0
+799,920967,"Mableton Pkwy SW at South Gordon Rd SW",,33.794214,-84.560914,,,,,,0
+800,920968,"Mableton Pkwy SW at Twain Cir",,33.799468,-84.565473,,,,,,0
+801,920969,"Mableton Pkwy SW at Factory Schoals Rd SW",,33.801628,-84.567175,,,,,,0
+802,920970,"Old Alabama Rd at Mableton Pkwy",,33.810656,-84.572635,,,,,,0
+803,920971,"Old Alabama Rd SW at Old Powder Springs Rd SW",,33.809659,-84.575005,,,,,,0
+804,920972,"Old Alabama Rd SW at Pisgah Rd",,33.809111,-84.577649,,,,,,0
+805,920973,"Old Alabama Rd SW at Sunset Blvd",,33.808301,-84.580309,,,,,,0
+806,920974,"Old Alabama Rd SW at Dunn Rd",,33.808162,-84.589127,,,,,,0
+807,920975,"Old Alabama Rd SW at James Rd",,33.808178,-84.597878,,,,,,0
+808,920976,"Old Alabama Rd SW at Hickory Hill Dr",,33.804757,-84.611458,,,,,,0
+809,920977,"Old Alabama Rd at Shadygrove Walk (Not 25 Timepoin",,33.802802,-84.617774,,,,,,0
+810,920978,"Maxham Rd at Poldar Way",,33.808303,-84.619678,,,,,,0
+811,920979,"Maxham Rd at Maxham Rd",,33.812614,-84.619066,,,,,,0
+812,920980,"Austell Rd at Landington Dr",,33.819274,-84.617896,,,,,,0
+813,920981,"Austell Rd at Perkerson Mill Rd SW",,33.827724,-84.614382,,,,,,0
+814,920982,"Austell Rd at Austell Plaza",,33.830285,-84.613073,,,,,,0
+815,920983,"Austell Rd at Roberta Cir Ext",,33.836599,-84.611289,,,,,,0
+816,920984,"Austell Rd at Stallion Pkwy SW",,33.838909,-84.610982,,,,,,0
+817,920985,"Austell Rd at Elmwood Dr",,33.846174,-84.609039,,,,,,0
+818,920986,"Austell Rd at Lowes",,33.851094,-84.605742,,,,,,0
+819,920987,"Austell Rd at Orange Grove Pl",,33.848115,-84.608289,,,,,,0
+820,920988,"Hurt Rd at Floyd Rd",,33.861811,-84.595280,,,,,,0
+821,920989,"Hurt Rd at Creek Forest Ln",,33.862818,-84.591580,,,,,,0
+822,920990,"Hurt Rd at Dyer Parke Ln SW",,33.864216,-84.585332,,,,,,0
+823,920991,"Hurt Rd at Tranquil Dr",,33.864577,-84.581808,,,,,,0
+824,920992,"Hurt Rd at Hicks Rd",,33.863723,-84.575908,,,,,,0
+825,920993,"Hurt Rd at Donald Rd",,33.863539,-84.573609,,,,,,0
+826,920994,"Hurt Rd at S Hurt Rd",,33.864383,-84.569810,,,,,,0
+828,920996,"Hurt Rd SW at Lakeshore Dr",,33.869832,-84.561049,,,,,,0
+829,920997,"Hurt Rd SW at Lakeshore Dr",,33.869859,-84.558367,,,,,,0
+830,920998,"Hurt Rd SW at Brooks Ct",,33.869744,-84.554468,,,,,,0
+831,920999,"Hurt Rd SE at Lucia Dr",,33.868329,-84.550350,,,,,,0
+832,921000,"Hurt Rd SE at Springbrook Trail",,33.867566,-84.544776,,,,,,0
+833,921001,"Hurt Rd at Hurt Rd",,33.867173,-84.540780,,,,,,0
+834,921002,"Concord Rd at Alcott Dr",,33.869383,-84.536889,,,,,,0
+835,921003,"Concord Rd SE at S Cobb Dr",,33.874526,-84.529186,,,,,,0
+836,921004,"Cumberland Blvd at Cotton St",,33.887091,-84.476188,,,,,,0
+837,921005,"Cumberland Blvd at Spring Rd",,33.886696,-84.476126,,,,,,0
+844,921012,"Cumberland Blvd at Residence Inn Loop",,33.885727,-84.476594,,,,,,0
+845,921013,"Cumberland Blvd at Cotton St",,33.884909,-84.476825,,,,,,0
+846,921014,"Cumberland Pkwy at Home Services at Home Depot Par",,33.869210,-84.475457,,,,,,0
+847,921015,"Cumberland Pkwy at Kaiser Permanente",,33.866997,-84.476801,,,,,,0
+848,921016,"Cumberland Pkwy at Unipro Corporate Office / Kaise",,33.867220,-84.476507,,,,,,0
+849,921017,"Cumberland Pkwy at Home Services at Home Depot Par",,33.869383,-84.475674,,,,,,0
+869,921018,"Cumberland Blvd at Akers Mill Rd SE",,33.877939,-84.464877,,,,,,0
+870,921019,"Cumberland Blvd at Stillhouse Creek Dr/Riverwood P",,33.877510,-84.463560,,,,,,0
+871,921020,"Cumberland Blvd at Walton Riverwood Ln SE / First",,33.875775,-84.459242,,,,,,0
+873,921022,"Cobb Pkwy at Galleria Pkwy",,33.881835,-84.465853,,,,,,0
+875,921024,"Windy Ridge Pkwy at Boy Scouts of America",,33.893423,-84.465567,,,,,,0
+876,921025,"Interstate N Pkwy at Windy Ridge Pkwy SE / Cobb Ch",,33.895602,-84.464396,,,,,,0
+878,921027,"Akers Mill Rd at Cumberland Blvd",,33.888799,-84.456165,,,,,,0
+882,921031,"Windy Ridge Pkwy at Circle 75 Pkwy",,33.892803,-84.466848,,,,,,0
+886,921035,"Cumberland Pkwy SE at Hampton Inn",,33.877813,-84.472589,,,,,,0
+887,921036,"Cumberland Pkwy SE at Mt Wilkinson Pkwy",,33.871785,-84.474494,,,,,,0
+900,921041,"Windy Ridge Pkwy / 2500 Windy Ridge Building",,33.903972,-84.457258,,,,,,0
+901,921042,"Windy Ridge Pkwy / 2300 Windy Ridge Buiding",,33.905200,-84.460422,,,,,,0
+922,921043,"Cobb Galleria Pkwy at Cumberland Blvd",,33.879440,-84.455150,,,,,,0
+923,921044,"Heritage Ct at Windy Ridge Pkwy",,33.888530,-84.470740,,,,,,0
+928,920942,"Old Alabama Rd at Cardell Rd",,33.801808,-84.619246,,,,,,0
+929,921099,"Cumberland Pkwy at Mt Wilkinson Pkwy",,33.871957,-84.474893,,,,,,0
+931,921101,"Roswell St at Waddell St",,33.952302,-84.548003,,,,,,0
+932,921102,"S Marietta Pkwy at Whitlock Ave",,33.951666,-84.552145,,,,,,0
+933,921103,"Rossbacher Way at East Visitor Parking",,33.941130,-84.519940,,,,,,0
+934,921104,"Aviation Rd at S Park Dr",,33.945710,-84.526660,,,,,,0
+935,921105,"Aviation Rd at S Park Dr",,33.945116,-84.527021,,,,,,0
+936,921106,"Roswell St at Dodd St",,33.951050,-84.522196,,,,,,0
+937,921107,"Roswell St at Cobb Pkwy",,33.950825,-84.521569,,,,,,0
+938,921108,"Barrett Pkwy at Cobb Place Blvd",,34.007215,-84.571882,,,,,,0
+939,921109,"Cherokee St at Lawrence St",,33.953542,-84.548892,,,,,,0
+940,921110,"Windy Hill Rd at Bouldercrest Dr",,33.894638,-84.552188,,,,,,0
+941,921111,"Aviation Rd at Roswell St",,33.950339,-84.527911,,,,,,0
+942,921112,"Aviation Rd at Roswell St",,33.950511,-84.527854,,,,,,0
+943,921113,"Gresham Rd at Woolco Dr Tt",,33.955170,-84.517248,,,,,,0
+944,921114,"Cobb Pkwy at Industrial Park Dr",,33.970944,-84.540036,,,,,,0
+947,921118,"S Cobb Dr at Ridge Rd / Smyrna Towers",,33.854527,-84.512610,,,,,,0
+967,600001,"Baker St at Peachtree St",,33.762306,-84.387180,,,,,,0
+968,600002,"Central Ave at Wall St",,33.752412,-84.388429,,,,,,0
+969,600004,"Forsyth Street at Martin Luther King Junior Drive",,33.752241,-84.393960,,,,,,0
+970,600005,"John Portman Blvd at Courtland St",,33.760901,-84.384659,,,,,,0
+971,600006,"Peachtree Center Ave at Auburn Ave",,33.755261,-84.386054,,,,,,0
+972,600007,"Civic Center Station (West Peachtreet Street)",,33.766731,-84.387403,,,,,,0
+973,600008,"Civic Center Station (West Peachtreet Street)",,33.766146,-84.387608,,,,,,0
+974,600011,"West Peachtree Street at Peachtree Place",,33.780654,-84.387333,,,,,,0
+975,600012,"West Peachtree St at 5th St",,33.776185,-84.387253,,,,,,0
+976,600013,"North Avenue Station (West Peachtree Street)",,33.771924,-84.387247,,,,,,0
+977,600015,"Washington Street at Martin Luther King Junior Drive",,33.750359,-84.388304,,,,,,0
+978,600018,"10th Street Northeast at Williams Street",,33.781629,-84.390228,,,,,,0
+979,600019,"17th Street Northwest at Market Street Northwest",,33.791061,-84.394768,,,,,,0
+980,600020,"17th Street Northwest at Village Street",,33.789471,-84.402987,,,,,,0
+981,600021,"Akers Mill Road at Cumberland Boulevard",,33.879359,-84.464390,,,,,,0
+982,600022,"Akers Mill Road at Cumberland Boulevard",,33.879222,-84.464601,,,,,,0
+983,600023,"Burton Rd at Hamilton E Holmes Dr",,33.755722,-84.468801,,,,,,0
+984,600028,"Courtland St at Auburn Ave",,33.755912,-84.384348,,,,,,0
+985,600029,"Courtland St at Ellis St",,33.758500,-84.384307,,,,,,0
+986,600030,"Courtland Street at Gilmer St",,33.753111,-84.385795,,,,,,0
+987,600031,"Five Points Station (Forsyth Street at Alabama Street)",,33.754283,-84.392213,,,,,,0
+988,600032,"Five Points Station (Forsyth Street at Alabama Street)",,33.754070,-84.392577,,,,,,0
+989,600034,"Hamilton E Holmes Dr NW at Burton Rd NW",,33.755636,-84.468430,,,,,,0
+990,600035,"Marietta Street Northwest at Fairlie Street Northwest",,33.755620,-84.391408,,,,,,0
+991,600036,"Marietta Street Northwest at Ted Turner Drive",,33.756927,-84.392485,,,,,,0
+992,600038,"Martin Luther King Junior Drive at Stone Hurst Place",,33.752733,-84.469535,,,,,,0
+993,600039,"Martin Luther King Junior Drive at Peachtree Street",,33.751932,-84.391726,,,,,,0
+994,600053,"Peachtree St at Baker St",,33.762633,-84.387348,,,,,,0
+995,600056,"Six Flags Parkway at Service Road",,33.771951,-84.552428,,,,,,0
+996,600057,"Ted Turner Drive at West Peachtree Place",,33.763940,-84.388931,,,,,,0

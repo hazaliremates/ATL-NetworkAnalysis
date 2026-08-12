@@ -1,0 +1,43 @@
+
+ATLANTA TRANSIT NETWORK ANALYSIS REPORT
+=======================================
+Generated on: 2025-07-20 23:47:53
+
+BASIC NETWORK METRICS:
+- Total Nodes: 8108
+- Total Edges: 9863
+- Network Density: 0.000300
+- Connected Components: 17
+
+CENTRALITY ANALYSIS:
+- Total nodes analyzed: 8108
+- Top PageRank nodes identified
+- Betweenness centrality calculated for all nodes
+
+DEGREE ASSORTATIVITY:
+- Undirected: 0.029166
+
+NETWORK ROBUSTNESS:
+- Degree centrality attack simulation completed
+- Closeness centrality attack simulation completed
+- Network fragmentation visualizations created
+
+GENERATED FILES:
+Images:
+- pagerank_visualization.png - PageRank-based node coloring
+- degree_distribution.png - Degree distribution analysis
+- network_attacks.png - Attack simulation results
+- network_after_degree_attack.png - Network after degree attack
+- network_after_closeness_attack.png - Network after closeness attack
+- full_network.png - Complete network visualization
+
+Data Files:
+- basic_metrics.json - Basic network statistics
+- centrality_analysis.csv - Centrality measures for all nodes
+- centrality_text_output.txt - Formatted centrality results
+- degree_distribution.json - Degree distribution data
+- attack_simulation.json - Attack simulation results
+- connectivity_analysis.txt - Connectivity analysis
+- analysis_summary.txt - This summary report
+
+All files are saved in: static/analysis_results/

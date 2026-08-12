@@ -1,0 +1,2366 @@
+route_id,service_id,trip_id,trip_headsign,direction_id,block_id,shape_id,wheelchair_accessible,bikes_allowed
+10,2,t212-b65-sl2,"Doraville MARTA",,101,2501_shp,0,0
+10,2,t217-b66-sl2,"Sugarloaf Mills",,102,2470_shp,0,0
+10,2,t258-b67-sl2,"Doraville MARTA",,103,2501_shp,0,0
+10,2,t25D-b68-sl2,"Sugarloaf Mills",,104,2470_shp,0,0
+10,2,t276-b66-sl2,"Doraville MARTA",,102,2501_shp,0,0
+10,2,t27B-b65-sl2,"Sugarloaf Mills",,101,2470_shp,0,0
+10,2,t2BC-b68-sl2,"Doraville MARTA",,104,2501_shp,0,0
+10,2,t2C1-b67-sl2,"Sugarloaf Mills",,103,2470_shp,0,0
+10,2,t2DA-b65-sl2,"Doraville MARTA",,101,2501_shp,0,0
+10,2,t2DF-b66-sl2,"Sugarloaf Mills",,102,2470_shp,0,0
+10,2,t320-b67-sl2,"Doraville MARTA",,103,2501_shp,0,0
+10,2,t320-b68-sl2,"Sugarloaf Mills",,104,2470_shp,0,0
+10,2,t33E-b66-sl2,"Doraville MARTA",,102,2501_shp,0,0
+10,2,t343-b65-sl2,"Sugarloaf Mills",,101,2470_shp,0,0
+10,2,t384-b68-sl2,"Doraville MARTA",,104,2501_shp,0,0
+10,2,t3A2-b65-sl2,"Doraville MARTA",,101,2501_shp,0,0
+10,2,t3A7-b66-sl2,"Sugarloaf Mills",,102,2470_shp,0,0
+10,2,t406-b66-sl2,"Doraville MARTA",,102,2501_shp,0,0
+10,2,t40B-b65-sl2,"Sugarloaf Mills",,101,2470_shp,0,0
+10,2,t46A-b65-sl2,"Doraville MARTA",,101,2501_shp,0,0
+10,2,t46F-b66-sl2,"Sugarloaf Mills",,102,2470_shp,0,0
+10,2,t4CE-b66-sl2,"Doraville MARTA",,102,2501_shp,0,0
+10,2,t4D3-b65-sl2,"Sugarloaf Mills",,101,2470_shp,0,0
+10,2,t532-b65-sl2,"Doraville MARTA",,101,2501_shp,0,0
+10,2,t537-b66-sl2,"Sugarloaf Mills",,102,2470_shp,0,0
+10,2,t596-b66-sl2,"Doraville MARTA",,102,2501_shp,0,0
+10,2,t59B-b65-sl2,"Sugarloaf Mills",,101,2470_shp,0,0
+10,2,t5FA-b65-sl2,"Doraville MARTA",,101,2501_shp,0,0
+10,2,t5FF-b66-sl2,"Sugarloaf Mills",,102,2470_shp,0,0
+10,2,t640-b69-sl2,"Doraville MARTA",,105,2501_shp,0,0
+10,2,t645-b6A-sl2,"Sugarloaf Mills",,106,2470_shp,0,0
+10,2,t65E-b66-sl2,"Doraville MARTA",,102,2501_shp,0,0
+10,2,t663-b65-sl2,"Sugarloaf Mills",,101,2470_shp,0,0
+10,2,t6A4-b6A-sl2,"Doraville MARTA",,106,2501_shp,0,0
+10,2,t6A9-b69-sl2,"Sugarloaf Mills",,105,2470_shp,0,0
+10,2,t6C2-b65-sl2,"Doraville MARTA",,101,2501_shp,0,0
+10,2,t6C7-b66-sl2,"Sugarloaf Mills",,102,2470_shp,0,0
+10,2,t708-b69-sl2,"Doraville MARTA",,105,2501_shp,0,0
+10,2,t70D-b6A-sl2,"Sugarloaf Mills",,106,2470_shp,0,0
+10,2,t726-b66-sl2,"Doraville MARTA",,102,2501_shp,0,0
+10,2,t72B-b65-sl2,"Sugarloaf Mills",,101,2470_shp,0,0
+10,2,t771-b69-sl2,"Transit Center",,105,2491_shp,0,0
+10,2,t78A-b65-sl2,"Doraville MARTA",,101,2501_shp,0,0
+10,2,t78F-b66-sl2,"Sugarloaf Mills",,102,2470_shp,0,0
+10,2,t7EE-b66-sl2,"Doraville MARTA",,102,2501_shp,0,0
+10,2,t7F8-b65-sl2,"Sugarloaf Mills",,101,2470_shp,0,0
+10,2,t852-b66-sl2,"Transit Center",,102,2491_shp,0,0
+10,2,t857-b65-sl2,"Doraville MARTA",,101,2501_shp,0,0
+10,3,t212-b65-sl3,"Doraville MARTA",,101,2501_shp,0,0
+10,3,t217-b66-sl3,"Sugarloaf Mills",,102,2470_shp,0,0
+10,3,t258-b67-sl3,"Doraville MARTA",,103,2501_shp,0,0
+10,3,t25D-b68-sl3,"Sugarloaf Mills",,104,2470_shp,0,0
+10,3,t276-b66-sl3,"Doraville MARTA",,102,2501_shp,0,0
+10,3,t27B-b65-sl3,"Sugarloaf Mills",,101,2470_shp,0,0
+10,3,t2BC-b68-sl3,"Doraville MARTA",,104,2501_shp,0,0
+10,3,t2C1-b67-sl3,"Sugarloaf Mills",,103,2470_shp,0,0
+10,3,t2DA-b65-sl3,"Doraville MARTA",,101,2501_shp,0,0
+10,3,t2DF-b66-sl3,"Sugarloaf Mills",,102,2470_shp,0,0
+10,3,t320-b67-sl3,"Doraville MARTA",,103,2501_shp,0,0
+10,3,t320-b68-sl3,"Sugarloaf Mills",,104,2470_shp,0,0
+10,3,t33E-b66-sl3,"Doraville MARTA",,102,2501_shp,0,0
+10,3,t343-b65-sl3,"Sugarloaf Mills",,101,2470_shp,0,0
+10,3,t384-b68-sl3,"Doraville MARTA",,104,2501_shp,0,0
+10,3,t3A2-b65-sl3,"Doraville MARTA",,101,2501_shp,0,0
+10,3,t3A7-b66-sl3,"Sugarloaf Mills",,102,2470_shp,0,0
+10,3,t406-b66-sl3,"Doraville MARTA",,102,2501_shp,0,0
+10,3,t40B-b65-sl3,"Sugarloaf Mills",,101,2470_shp,0,0
+10,3,t46A-b65-sl3,"Doraville MARTA",,101,2501_shp,0,0
+10,3,t46F-b66-sl3,"Sugarloaf Mills",,102,2470_shp,0,0
+10,3,t4CE-b66-sl3,"Doraville MARTA",,102,2501_shp,0,0
+10,3,t4D3-b65-sl3,"Sugarloaf Mills",,101,2470_shp,0,0
+10,3,t532-b65-sl3,"Doraville MARTA",,101,2501_shp,0,0
+10,3,t537-b66-sl3,"Sugarloaf Mills",,102,2470_shp,0,0
+10,3,t596-b66-sl3,"Doraville MARTA",,102,2501_shp,0,0
+10,3,t59B-b65-sl3,"Sugarloaf Mills",,101,2470_shp,0,0
+10,3,t5FA-b65-sl3,"Doraville MARTA",,101,2501_shp,0,0
+10,3,t5FF-b66-sl3,"Sugarloaf Mills",,102,2470_shp,0,0
+10,3,t640-b69-sl3,"Doraville MARTA",,105,2501_shp,0,0
+10,3,t645-b6A-sl3,"Sugarloaf Mills",,106,2470_shp,0,0
+10,3,t65E-b66-sl3,"Doraville MARTA",,102,2501_shp,0,0
+10,3,t663-b65-sl3,"Sugarloaf Mills",,101,2470_shp,0,0
+10,3,t6A4-b6A-sl3,"Doraville MARTA",,106,2501_shp,0,0
+10,3,t6A9-b69-sl3,"Sugarloaf Mills",,105,2470_shp,0,0
+10,3,t6C2-b65-sl3,"Doraville MARTA",,101,2501_shp,0,0
+10,3,t6C7-b66-sl3,"Sugarloaf Mills",,102,2470_shp,0,0
+10,3,t708-b69-sl3,"Doraville MARTA",,105,2501_shp,0,0
+10,3,t70D-b6A-sl3,"Sugarloaf Mills",,106,2470_shp,0,0
+10,3,t726-b66-sl3,"Doraville MARTA",,102,2501_shp,0,0
+10,3,t72B-b65-sl3,"Sugarloaf Mills",,101,2470_shp,0,0
+10,3,t771-b69-sl3,"Transit Center",,105,2491_shp,0,0
+10,3,t78A-b65-sl3,"Doraville MARTA",,101,2501_shp,0,0
+10,3,t78F-b66-sl3,"Sugarloaf Mills",,102,2470_shp,0,0
+10,3,t7EE-b66-sl3,"Doraville MARTA",,102,2501_shp,0,0
+10,3,t7F8-b65-sl3,"Sugarloaf Mills",,101,2470_shp,0,0
+10,3,t852-b66-sl3,"Transit Center",,102,2491_shp,0,0
+10,3,t857-b65-sl3,"Doraville MARTA",,101,2501_shp,0,0
+10,4,t212-b65-sl4,"Doraville MARTA",,101,2501_shp,0,0
+10,4,t217-b66-sl4,"Sugarloaf Mills",,102,2470_shp,0,0
+10,4,t258-b67-sl4,"Doraville MARTA",,103,2501_shp,0,0
+10,4,t25D-b68-sl4,"Sugarloaf Mills",,104,2470_shp,0,0
+10,4,t276-b66-sl4,"Doraville MARTA",,102,2501_shp,0,0
+10,4,t27B-b65-sl4,"Sugarloaf Mills",,101,2470_shp,0,0
+10,4,t2BC-b68-sl4,"Doraville MARTA",,104,2501_shp,0,0
+10,4,t2C1-b67-sl4,"Sugarloaf Mills",,103,2470_shp,0,0
+10,4,t2DA-b65-sl4,"Doraville MARTA",,101,2501_shp,0,0
+10,4,t2DF-b66-sl4,"Sugarloaf Mills",,102,2470_shp,0,0
+10,4,t320-b67-sl4,"Doraville MARTA",,103,2501_shp,0,0
+10,4,t320-b68-sl4,"Sugarloaf Mills",,104,2470_shp,0,0
+50,3,t5EB-b1F7-sl3,"Doraville MARTA",,503,2440_shp,0,0
+50,3,t609-b1F9-sl3,"Doraville MARTA",,505,2440_shp,0,0
+50,3,t64F-b1F8-sl3,"Doraville MARTA",,504,2440_shp,0,0
+50,3,t654-b1F7-sl3,"Sugarloaf Mills",,503,2535_shp,0,0
+50,3,t66D-b1FB-sl3,"Doraville MARTA",,507,2440_shp,0,0
+50,3,t672-b1F9-sl3,"Sugarloaf Mills",,505,2535_shp,0,0
+50,3,t6B3-b1F7-sl3,"Doraville MARTA",,503,2440_shp,0,0
+50,3,t6B8-b1F8-sl3,"Sugarloaf Mills",,504,2535_shp,0,0
+50,3,t6D1-b1F9-sl3,"Doraville MARTA",,505,2440_shp,0,0
+50,3,t6D6-b1FB-sl3,"Sugarloaf Mills",,507,2535_shp,0,0
+50,3,t717-b1F8-sl3,"Doraville MARTA",,504,2440_shp,0,0
+50,3,t71C-b1F7-sl3,"Sugarloaf Mills",,503,2535_shp,0,0
+50,3,t77B-b1F7-sl3,"Doraville MARTA",,503,2440_shp,0,0
+50,3,t780-b1F8-sl3,"Transit Center",,504,2534_shp,0,0
+50,3,t7D0-b1F8-sl3,"Doraville MARTA",,504,2524_shp,0,0
+50,4,t267-b1F5-sl4,"Doraville MARTA",,501,2440_shp,0,0
+50,4,t26C-b1F6-sl4,"Sugarloaf Mills",,502,2535_shp,0,0
+50,4,t285-b1F7-sl4,"Doraville MARTA",,503,2440_shp,0,0
+50,4,t28A-b1F8-sl4,"Sugarloaf Mills",,504,2535_shp,0,0
+50,4,t2CB-b1F6-sl4,"Doraville MARTA",,502,2440_shp,0,0
+50,4,t2D0-b1F5-sl4,"Sugarloaf Mills",,501,2535_shp,0,0
+50,4,t2E9-b1F8-sl4,"Doraville MARTA",,504,2440_shp,0,0
+50,4,t2EE-b1F7-sl4,"Sugarloaf Mills",,503,2535_shp,0,0
+50,4,t334-b1F6-sl4,"Sugarloaf Mills",,502,2535_shp,0,0
+50,4,t34D-b1F7-sl4,"Doraville MARTA",,503,2440_shp,0,0
+50,4,t352-b1F8-sl4,"Sugarloaf Mills",,504,2535_shp,0,0
+50,4,t3B6-b1F7-sl4,"Sugarloaf Mills",,503,2535_shp,0,0
+50,4,t3E8-b1F8-sl4,"Doraville MARTA",,504,2440_shp,0,0
+50,4,t44C-b1F7-sl4,"Doraville MARTA",,503,2440_shp,0,0
+50,4,t451-b1F8-sl4,"Sugarloaf Mills",,504,2535_shp,0,0
+50,4,t4B0-b1F8-sl4,"Doraville MARTA",,504,2440_shp,0,0
+50,4,t4B5-b1F7-sl4,"Sugarloaf Mills",,503,2535_shp,0,0
+50,4,t514-b1F7-sl4,"Doraville MARTA",,503,2440_shp,0,0
+50,4,t519-b1F8-sl4,"Sugarloaf Mills",,504,2535_shp,0,0
+50,4,t578-b1F8-sl4,"Doraville MARTA",,504,2440_shp,0,0
+50,4,t57D-b1F7-sl4,"Sugarloaf Mills",,503,2535_shp,0,0
+50,4,t5E1-b1F8-sl4,"Sugarloaf Mills",,504,2535_shp,0,0
+50,4,t5EB-b1F7-sl4,"Doraville MARTA",,503,2440_shp,0,0
+50,4,t609-b1F9-sl4,"Doraville MARTA",,505,2440_shp,0,0
+50,4,t64F-b1F8-sl4,"Doraville MARTA",,504,2440_shp,0,0
+50,4,t654-b1F7-sl4,"Sugarloaf Mills",,503,2535_shp,0,0
+50,4,t66D-b1FB-sl4,"Doraville MARTA",,507,2440_shp,0,0
+50,4,t672-b1F9-sl4,"Sugarloaf Mills",,505,2535_shp,0,0
+50,4,t6B3-b1F7-sl4,"Doraville MARTA",,503,2440_shp,0,0
+50,4,t6B8-b1F8-sl4,"Sugarloaf Mills",,504,2535_shp,0,0
+50,4,t6D1-b1F9-sl4,"Doraville MARTA",,505,2440_shp,0,0
+50,4,t6D6-b1FB-sl4,"Sugarloaf Mills",,507,2535_shp,0,0
+50,4,t717-b1F8-sl4,"Doraville MARTA",,504,2440_shp,0,0
+50,4,t71C-b1F7-sl4,"Sugarloaf Mills",,503,2535_shp,0,0
+50,4,t77B-b1F7-sl4,"Doraville MARTA",,503,2440_shp,0,0
+50,4,t780-b1F8-sl4,"Transit Center",,504,2534_shp,0,0
+50,4,t7D0-b1F8-sl4,"Doraville MARTA",,504,2524_shp,0,0
+50,5,t267-b1F5-sl5,"Doraville MARTA",,501,2440_shp,0,0
+50,5,t26C-b1F6-sl5,"Sugarloaf Mills",,502,2535_shp,0,0
+50,5,t285-b1F7-sl5,"Doraville MARTA",,503,2440_shp,0,0
+50,5,t28A-b1F8-sl5,"Sugarloaf Mills",,504,2535_shp,0,0
+50,5,t2CB-b1F6-sl5,"Doraville MARTA",,502,2440_shp,0,0
+50,5,t2D0-b1F5-sl5,"Sugarloaf Mills",,501,2535_shp,0,0
+50,5,t2E9-b1F8-sl5,"Doraville MARTA",,504,2440_shp,0,0
+50,5,t2EE-b1F7-sl5,"Sugarloaf Mills",,503,2535_shp,0,0
+50,5,t334-b1F6-sl5,"Sugarloaf Mills",,502,2535_shp,0,0
+50,5,t34D-b1F7-sl5,"Doraville MARTA",,503,2440_shp,0,0
+50,5,t352-b1F8-sl5,"Sugarloaf Mills",,504,2535_shp,0,0
+50,5,t3B6-b1F7-sl5,"Sugarloaf Mills",,503,2535_shp,0,0
+50,5,t3E8-b1F8-sl5,"Doraville MARTA",,504,2440_shp,0,0
+50,5,t44C-b1F7-sl5,"Doraville MARTA",,503,2440_shp,0,0
+50,5,t451-b1F8-sl5,"Sugarloaf Mills",,504,2535_shp,0,0
+50,5,t4B0-b1F8-sl5,"Doraville MARTA",,504,2440_shp,0,0
+50,5,t4B5-b1F7-sl5,"Sugarloaf Mills",,503,2535_shp,0,0
+50,5,t514-b1F7-sl5,"Doraville MARTA",,503,2440_shp,0,0
+50,5,t519-b1F8-sl5,"Sugarloaf Mills",,504,2535_shp,0,0
+50,5,t578-b1F8-sl5,"Doraville MARTA",,504,2440_shp,0,0
+50,5,t57D-b1F7-sl5,"Sugarloaf Mills",,503,2535_shp,0,0
+50,5,t5E1-b1F8-sl5,"Sugarloaf Mills",,504,2535_shp,0,0
+50,5,t5EB-b1F7-sl5,"Doraville MARTA",,503,2440_shp,0,0
+50,5,t609-b1F9-sl5,"Doraville MARTA",,505,2440_shp,0,0
+50,5,t64F-b1F8-sl5,"Doraville MARTA",,504,2440_shp,0,0
+50,5,t654-b1F7-sl5,"Sugarloaf Mills",,503,2535_shp,0,0
+50,5,t66D-b1FB-sl5,"Doraville MARTA",,507,2440_shp,0,0
+50,5,t672-b1F9-sl5,"Sugarloaf Mills",,505,2535_shp,0,0
+50,5,t6B3-b1F7-sl5,"Doraville MARTA",,503,2440_shp,0,0
+50,5,t6B8-b1F8-sl5,"Sugarloaf Mills",,504,2535_shp,0,0
+50,5,t6D1-b1F9-sl5,"Doraville MARTA",,505,2440_shp,0,0
+50,5,t6D6-b1FB-sl5,"Sugarloaf Mills",,507,2535_shp,0,0
+50,5,t717-b1F8-sl5,"Doraville MARTA",,504,2440_shp,0,0
+50,5,t71C-b1F7-sl5,"Sugarloaf Mills",,503,2535_shp,0,0
+50,5,t77B-b1F7-sl5,"Doraville MARTA",,503,2440_shp,0,0
+50,5,t780-b1F8-sl5,"Transit Center",,504,2534_shp,0,0
+50,5,t7D0-b1F8-sl5,"Doraville MARTA",,504,2524_shp,0,0
+50,6,t267-b1F5-sl6,"Doraville MARTA",,501,2440_shp,0,0
+50,6,t26C-b1F6-sl6,"Sugarloaf Mills",,502,2535_shp,0,0
+50,6,t285-b1F7-sl6,"Doraville MARTA",,503,2440_shp,0,0
+50,6,t28A-b1F8-sl6,"Sugarloaf Mills",,504,2535_shp,0,0
+50,6,t2CB-b1F6-sl6,"Doraville MARTA",,502,2440_shp,0,0
+50,6,t2D0-b1F5-sl6,"Sugarloaf Mills",,501,2535_shp,0,0
+50,6,t2E9-b1F8-sl6,"Doraville MARTA",,504,2440_shp,0,0
+50,6,t2EE-b1F7-sl6,"Sugarloaf Mills",,503,2535_shp,0,0
+50,6,t334-b1F6-sl6,"Sugarloaf Mills",,502,2535_shp,0,0
+50,6,t34D-b1F7-sl6,"Doraville MARTA",,503,2440_shp,0,0
+50,6,t352-b1F8-sl6,"Sugarloaf Mills",,504,2535_shp,0,0
+50,6,t3B6-b1F7-sl6,"Sugarloaf Mills",,503,2535_shp,0,0
+50,6,t3E8-b1F8-sl6,"Doraville MARTA",,504,2440_shp,0,0
+50,6,t44C-b1F7-sl6,"Doraville MARTA",,503,2440_shp,0,0
+50,6,t451-b1F8-sl6,"Sugarloaf Mills",,504,2535_shp,0,0
+50,6,t4B0-b1F8-sl6,"Doraville MARTA",,504,2440_shp,0,0
+50,6,t4B5-b1F7-sl6,"Sugarloaf Mills",,503,2535_shp,0,0
+50,6,t514-b1F7-sl6,"Doraville MARTA",,503,2440_shp,0,0
+50,6,t519-b1F8-sl6,"Sugarloaf Mills",,504,2535_shp,0,0
+50,6,t578-b1F8-sl6,"Doraville MARTA",,504,2440_shp,0,0
+50,6,t57D-b1F7-sl6,"Sugarloaf Mills",,503,2535_shp,0,0
+50,6,t5E1-b1F8-sl6,"Sugarloaf Mills",,504,2535_shp,0,0
+50,6,t5EB-b1F7-sl6,"Doraville MARTA",,503,2440_shp,0,0
+50,6,t609-b1F9-sl6,"Doraville MARTA",,505,2440_shp,0,0
+50,6,t64F-b1F8-sl6,"Doraville MARTA",,504,2440_shp,0,0
+50,6,t654-b1F7-sl6,"Sugarloaf Mills",,503,2535_shp,0,0
+50,6,t66D-b1FB-sl6,"Doraville MARTA",,507,2440_shp,0,0
+50,6,t672-b1F9-sl6,"Sugarloaf Mills",,505,2535_shp,0,0
+50,6,t6B3-b1F7-sl6,"Doraville MARTA",,503,2440_shp,0,0
+50,6,t6B8-b1F8-sl6,"Sugarloaf Mills",,504,2535_shp,0,0
+50,6,t6D1-b1F9-sl6,"Doraville MARTA",,505,2440_shp,0,0
+50,6,t6D6-b1FB-sl6,"Sugarloaf Mills",,507,2535_shp,0,0
+50,6,t717-b1F8-sl6,"Doraville MARTA",,504,2440_shp,0,0
+50,6,t71C-b1F7-sl6,"Sugarloaf Mills",,503,2535_shp,0,0
+50,6,t77B-b1F7-sl6,"Doraville MARTA",,503,2440_shp,0,0
+50,6,t780-b1F8-sl6,"Transit Center",,504,2534_shp,0,0
+50,6,t7D0-b1F8-sl6,"Doraville MARTA",,504,2524_shp,0,0
+50,7,t276-b1F5-sl7,"Doraville MARTA",,501,2440_shp,0,0
+50,7,t27B-b1F6-sl7,"Sugarloaf Mills",,502,2535_shp,0,0
+50,7,t2DA-b1F6-sl7,"Doraville MARTA",,502,2440_shp,0,0
+50,7,t2DF-b1F5-sl7,"Sugarloaf Mills",,501,2535_shp,0,0
+50,7,t33E-b1F5-sl7,"Doraville MARTA",,501,2440_shp,0,0
+50,7,t343-b1F6-sl7,"Sugarloaf Mills",,502,2535_shp,0,0
+50,7,t3A2-b1F6-sl7,"Doraville MARTA",,502,2440_shp,0,0
+50,7,t3A7-b1F5-sl7,"Sugarloaf Mills",,501,2535_shp,0,0
+50,7,t406-b1F5-sl7,"Doraville MARTA",,501,2440_shp,0,0
+50,7,t40B-b1F6-sl7,"Sugarloaf Mills",,502,2535_shp,0,0
+50,7,t46A-b1F6-sl7,"Doraville MARTA",,502,2440_shp,0,0
+50,7,t46F-b1F5-sl7,"Sugarloaf Mills",,501,2535_shp,0,0
+50,7,t4CE-b1F5-sl7,"Doraville MARTA",,501,2440_shp,0,0
+50,7,t4D3-b1F6-sl7,"Sugarloaf Mills",,502,2535_shp,0,0
+50,7,t532-b1F6-sl7,"Doraville MARTA",,502,2440_shp,0,0
+50,7,t537-b1F5-sl7,"Sugarloaf Mills",,501,2535_shp,0,0
+50,7,t596-b1F5-sl7,"Doraville MARTA",,501,2440_shp,0,0
+50,7,t59B-b1F6-sl7,"Sugarloaf Mills",,502,2535_shp,0,0
+50,7,t5FA-b1F6-sl7,"Doraville MARTA",,502,2440_shp,0,0
+50,7,t5FF-b1F5-sl7,"Sugarloaf Mills",,501,2535_shp,0,0
+50,7,t65E-b1F5-sl7,"Doraville MARTA",,501,2440_shp,0,0
+50,7,t663-b1F6-sl7,"Sugarloaf Mills",,502,2535_shp,0,0
+50,7,t6C2-b1F6-sl7,"Doraville MARTA",,502,2440_shp,0,0
+50,7,t6C7-b1F5-sl7,"Sugarloaf Mills",,501,2535_shp,0,0
+50,7,t726-b1F5-sl7,"Doraville MARTA",,501,2440_shp,0,0
+50,7,t72B-b1F6-sl7,"Sugarloaf Mills",,502,2535_shp,0,0
+50,7,t78A-b1F6-sl7,"Doraville MARTA",,502,2440_shp,0,0
+50,7,t78F-b1F5-sl7,"Sugarloaf Mills",,501,2535_shp,0,0
+50,7,t7EE-b1F5-sl7,"Doraville MARTA",,501,2440_shp,0,0
+50,7,t7F3-b1F6-sl7,"Sugarloaf Mills",,502,2535_shp,0,0
+101,2,t208-b3F8-sl2,"Downtown Atlanta",,1016,2497_shp,0,0
+101,2,t226-b3F3-sl2,"Downtown Atlanta",,1011,2497_shp,0,0
+101,2,t26C-b3F4-sl2,"Downtown Atlanta",,1012,2497_shp,0,0
+101,2,t28A-b3F5-sl2,"Downtown Atlanta",,1013,2497_shp,0,0
+101,2,t2D0-b3F6-sl2,"Downtown Atlanta",,1014,2497_shp,0,0
+101,2,t2DF-b3F8-sl2,"Downtown Atlanta",,1016,2497_shp,0,0
+101,2,t2EE-b3F7-sl2,"Downtown Atlanta",,1015,2497_shp,0,0
+101,2,t339-b3F4-sl2,"Downtown Atlanta",,1012,2497_shp,0,0
+101,2,t5AF-b1393-sl2,"I-985 P&R",,5011,2504_shp,0,0
+101,2,t5F5-b1394-sl2,"I-985 P&R",,5012,2504_shp,0,0
+101,2,t613-b1395-sl2,"I-985 P&R",,5013,2504_shp,0,0
+101,2,t659-b1396-sl2,"I-985 P&R",,5014,2504_shp,0,0
+101,2,t677-b139D-sl2,"I-985 P&R",,5021,2504_shp,0,0
+101,2,t6BD-b13A9-sl2,"I-985 P&R",,5033,2504_shp,0,0
+101,2,t6DB-b139E-sl2,"I-985 P&R",,5022,2504_shp,0,0
+101,2,t717-b13AE-sl2,"I-985 P&R",,5038,2504_shp,0,0
+101,3,t208-b3F8-sl3,"Downtown Atlanta",,1016,2497_shp,0,0
+101,3,t226-b3F3-sl3,"Downtown Atlanta",,1011,2497_shp,0,0
+101,3,t26C-b3F4-sl3,"Downtown Atlanta",,1012,2497_shp,0,0
+101,3,t28A-b3F5-sl3,"Downtown Atlanta",,1013,2497_shp,0,0
+101,3,t2D0-b3F6-sl3,"Downtown Atlanta",,1014,2497_shp,0,0
+101,3,t2DF-b3F8-sl3,"Downtown Atlanta",,1016,2497_shp,0,0
+101,3,t2EE-b3F7-sl3,"Downtown Atlanta",,1015,2497_shp,0,0
+101,3,t339-b3F4-sl3,"Downtown Atlanta",,1012,2497_shp,0,0
+101,3,t5AF-b1393-sl3,"I-985 P&R",,5011,2504_shp,0,0
+101,3,t5F5-b1394-sl3,"I-985 P&R",,5012,2504_shp,0,0
+101,3,t613-b1395-sl3,"I-985 P&R",,5013,2504_shp,0,0
+101,3,t659-b1396-sl3,"I-985 P&R",,5014,2504_shp,0,0
+101,3,t677-b139D-sl3,"I-985 P&R",,5021,2504_shp,0,0
+101,3,t6BD-b13A9-sl3,"I-985 P&R",,5033,2504_shp,0,0
+101,3,t6DB-b139E-sl3,"I-985 P&R",,5022,2504_shp,0,0
+101,3,t717-b13AE-sl3,"I-985 P&R",,5038,2504_shp,0,0
+101,4,t208-b3F8-sl4,"Downtown Atlanta",,1016,2497_shp,0,0
+101,4,t226-b3F3-sl4,"Downtown Atlanta",,1011,2497_shp,0,0
+101,4,t26C-b3F4-sl4,"Downtown Atlanta",,1012,2497_shp,0,0
+101,4,t28A-b3F5-sl4,"Downtown Atlanta",,1013,2497_shp,0,0
+101,4,t2D0-b3F6-sl4,"Downtown Atlanta",,1014,2497_shp,0,0
+101,4,t2DF-b3F8-sl4,"Downtown Atlanta",,1016,2497_shp,0,0
+101,4,t2EE-b3F7-sl4,"Downtown Atlanta",,1015,2497_shp,0,0
+101,4,t339-b3F4-sl4,"Downtown Atlanta",,1012,2497_shp,0,0
+101,4,t5AF-b1393-sl4,"I-985 P&R",,5011,2504_shp,0,0
+101,4,t5F5-b1394-sl4,"I-985 P&R",,5012,2504_shp,0,0
+101,4,t613-b1395-sl4,"I-985 P&R",,5013,2504_shp,0,0
+101,4,t659-b1396-sl4,"I-985 P&R",,5014,2504_shp,0,0
+101,4,t677-b139D-sl4,"I-985 P&R",,5021,2504_shp,0,0
+101,4,t6BD-b13A9-sl4,"I-985 P&R",,5033,2504_shp,0,0
+101,4,t6DB-b139E-sl4,"I-985 P&R",,5022,2504_shp,0,0
+101,4,t717-b13AE-sl4,"I-985 P&R",,5038,2504_shp,0,0
+101,5,t208-b3F8-sl5,"Downtown Atlanta",,1016,2497_shp,0,0
+101,5,t226-b3F3-sl5,"Downtown Atlanta",,1011,2497_shp,0,0
+101,5,t26C-b3F4-sl5,"Downtown Atlanta",,1012,2497_shp,0,0
+101,5,t28A-b3F5-sl5,"Downtown Atlanta",,1013,2497_shp,0,0
+101,5,t2D0-b3F6-sl5,"Downtown Atlanta",,1014,2497_shp,0,0
+101,5,t2DF-b3F8-sl5,"Downtown Atlanta",,1016,2497_shp,0,0
+101,5,t2EE-b3F7-sl5,"Downtown Atlanta",,1015,2497_shp,0,0
+101,5,t339-b3F4-sl5,"Downtown Atlanta",,1012,2497_shp,0,0
+101,5,t5AF-b1393-sl5,"I-985 P&R",,5011,2504_shp,0,0
+101,5,t5F5-b1394-sl5,"I-985 P&R",,5012,2504_shp,0,0
+101,5,t613-b1395-sl5,"I-985 P&R",,5013,2504_shp,0,0
+101,5,t659-b1396-sl5,"I-985 P&R",,5014,2504_shp,0,0
+101,5,t677-b139D-sl5,"I-985 P&R",,5021,2504_shp,0,0
+101,5,t6BD-b13A9-sl5,"I-985 P&R",,5033,2504_shp,0,0
+101,5,t6DB-b139E-sl5,"I-985 P&R",,5022,2504_shp,0,0
+101,5,t717-b13AE-sl5,"I-985 P&R",,5038,2504_shp,0,0
+101,6,t208-b3F8-sl6,"Downtown Atlanta",,1016,2497_shp,0,0
+101,6,t226-b3F3-sl6,"Downtown Atlanta",,1011,2497_shp,0,0
+101,6,t26C-b3F4-sl6,"Downtown Atlanta",,1012,2497_shp,0,0
+101,6,t28A-b3F5-sl6,"Downtown Atlanta",,1013,2497_shp,0,0
+101,6,t2D0-b3F6-sl6,"Downtown Atlanta",,1014,2497_shp,0,0
+101,6,t2DF-b3F8-sl6,"Downtown Atlanta",,1016,2497_shp,0,0
+101,6,t2EE-b3F7-sl6,"Downtown Atlanta",,1015,2497_shp,0,0
+101,6,t339-b3F4-sl6,"Downtown Atlanta",,1012,2497_shp,0,0
+101,6,t5AF-b1393-sl6,"I-985 P&R",,5011,2504_shp,0,0
+101,6,t5F5-b1394-sl6,"I-985 P&R",,5012,2504_shp,0,0
+101,6,t613-b1395-sl6,"I-985 P&R",,5013,2504_shp,0,0
+101,6,t659-b1396-sl6,"I-985 P&R",,5014,2504_shp,0,0
+101,6,t677-b139D-sl6,"I-985 P&R",,5021,2504_shp,0,0
+101,6,t6BD-b13A9-sl6,"I-985 P&R",,5033,2504_shp,0,0
+101,6,t6DB-b139E-sl6,"I-985 P&R",,5022,2504_shp,0,0
+101,6,t717-b13AE-sl6,"I-985 P&R",,5038,2504_shp,0,0
+102,2,t212-b400-sl2,"Downtown Atlanta",,1024,2486_shp,0,0
+102,2,t258-b3FD-sl2,"Downtown Atlanta",,1021,2486_shp,0,0
+102,2,t276-b3FE-sl2,"Downtown Atlanta",,1022,2486_shp,0,0
+102,2,t2BC-b3FF-sl2,"Downtown Atlanta",,1023,2486_shp,0,0
+102,2,t2DA-b3FD-sl2,"Downtown Atlanta",,1021,2486_shp,0,0
+102,2,t320-b3F3-sl2,"Downtown Atlanta",,1011,2486_shp,0,0
+102,2,t5DC-b139D-sl2,"Indian Trail P&R",,5021,2536_shp,0,0
+102,2,t640-b139E-sl2,"Indian Trail P&R",,5022,2536_shp,0,0
+102,2,t65E-b139F-sl2,"Indian Trail P&R",,5023,2536_shp,0,0
+102,2,t6A4-b13A8-sl2,"Indian Trail P&R",,5032,2536_shp,0,0
+102,2,t6C2-b13A0-sl2,"Indian Trail P&R",,5024,2536_shp,0,0
+102,2,t708-b13F0-sl2,"Indian Trail P&R",,5104,2536_shp,0,0
+102,3,t212-b400-sl3,"Downtown Atlanta",,1024,2486_shp,0,0
+102,3,t258-b3FD-sl3,"Downtown Atlanta",,1021,2486_shp,0,0
+102,3,t276-b3FE-sl3,"Downtown Atlanta",,1022,2486_shp,0,0
+102,3,t2BC-b3FF-sl3,"Downtown Atlanta",,1023,2486_shp,0,0
+102,3,t2DA-b3FD-sl3,"Downtown Atlanta",,1021,2486_shp,0,0
+102,3,t320-b3F3-sl3,"Downtown Atlanta",,1011,2486_shp,0,0
+102,3,t5DC-b139D-sl3,"Indian Trail P&R",,5021,2536_shp,0,0
+102,3,t640-b139E-sl3,"Indian Trail P&R",,5022,2536_shp,0,0
+102,3,t65E-b139F-sl3,"Indian Trail P&R",,5023,2536_shp,0,0
+102,3,t6A4-b13A8-sl3,"Indian Trail P&R",,5032,2536_shp,0,0
+102,3,t6C2-b13A0-sl3,"Indian Trail P&R",,5024,2536_shp,0,0
+102,3,t708-b13F0-sl3,"Indian Trail P&R",,5104,2536_shp,0,0
+102,4,t212-b400-sl4,"Downtown Atlanta",,1024,2486_shp,0,0
+102,4,t258-b3FD-sl4,"Downtown Atlanta",,1021,2486_shp,0,0
+102,4,t276-b3FE-sl4,"Downtown Atlanta",,1022,2486_shp,0,0
+102,4,t2BC-b3FF-sl4,"Downtown Atlanta",,1023,2486_shp,0,0
+102,4,t2DA-b3FD-sl4,"Downtown Atlanta",,1021,2486_shp,0,0
+102,4,t320-b3F3-sl4,"Downtown Atlanta",,1011,2486_shp,0,0
+102,4,t5DC-b139D-sl4,"Indian Trail P&R",,5021,2536_shp,0,0
+102,4,t640-b139E-sl4,"Indian Trail P&R",,5022,2536_shp,0,0
+102,4,t65E-b139F-sl4,"Indian Trail P&R",,5023,2536_shp,0,0
+102,4,t6A4-b13A8-sl4,"Indian Trail P&R",,5032,2536_shp,0,0
+102,4,t6C2-b13A0-sl4,"Indian Trail P&R",,5024,2536_shp,0,0
+102,4,t708-b13F0-sl4,"Indian Trail P&R",,5104,2536_shp,0,0
+102,5,t212-b400-sl5,"Downtown Atlanta",,1024,2486_shp,0,0
+102,5,t258-b3FD-sl5,"Downtown Atlanta",,1021,2486_shp,0,0
+102,5,t276-b3FE-sl5,"Downtown Atlanta",,1022,2486_shp,0,0
+102,5,t2BC-b3FF-sl5,"Downtown Atlanta",,1023,2486_shp,0,0
+102,5,t2DA-b3FD-sl5,"Downtown Atlanta",,1021,2486_shp,0,0
+102,5,t320-b3F3-sl5,"Downtown Atlanta",,1011,2486_shp,0,0
+102,5,t5DC-b139D-sl5,"Indian Trail P&R",,5021,2536_shp,0,0
+102,5,t640-b139E-sl5,"Indian Trail P&R",,5022,2536_shp,0,0
+102,5,t65E-b139F-sl5,"Indian Trail P&R",,5023,2536_shp,0,0
+102,5,t6A4-b13A8-sl5,"Indian Trail P&R",,5032,2536_shp,0,0
+102,5,t6C2-b13A0-sl5,"Indian Trail P&R",,5024,2536_shp,0,0
+102,5,t708-b13F0-sl5,"Indian Trail P&R",,5104,2536_shp,0,0
+102,6,t212-b400-sl6,"Downtown Atlanta",,1024,2486_shp,0,0
+102,6,t258-b3FD-sl6,"Downtown Atlanta",,1021,2486_shp,0,0
+102,6,t276-b3FE-sl6,"Downtown Atlanta",,1022,2486_shp,0,0
+102,6,t2BC-b3FF-sl6,"Downtown Atlanta",,1023,2486_shp,0,0
+102,6,t2DA-b3FD-sl6,"Downtown Atlanta",,1021,2486_shp,0,0
+102,6,t320-b3F3-sl6,"Downtown Atlanta",,1011,2486_shp,0,0
+102,6,t5DC-b139D-sl6,"Indian Trail P&R",,5021,2536_shp,0,0
+102,6,t640-b139E-sl6,"Indian Trail P&R",,5022,2536_shp,0,0
+102,6,t65E-b139F-sl6,"Indian Trail P&R",,5023,2536_shp,0,0
+102,6,t6A4-b13A8-sl6,"Indian Trail P&R",,5032,2536_shp,0,0
+102,6,t6C2-b13A0-sl6,"Indian Trail P&R",,5024,2536_shp,0,0
+102,6,t708-b13F0-sl6,"Indian Trail P&R",,5104,2536_shp,0,0
+103,2,t1FE-b3FF-sl2,"Downtown Atlanta",,1023,2529_shp,0,0
+103,2,t212-b40B-sl2,"Downtown Atlanta",,1035,2529_shp,0,0
+103,2,t226-b407-sl2,"Downtown Atlanta",,1031,2529_shp,0,0
+103,2,t26C-b408-sl2,"Downtown Atlanta",,1032,2529_shp,0,0
+103,2,t280-b409-sl2,"Downtown Atlanta",,1033,2529_shp,0,0
+103,2,t28A-b40C-sl2,"Downtown Atlanta",,1036,2529_shp,0,0
+103,2,t2BC-b44E-sl2,"Downtown Atlanta",,1102,2529_shp,0,0
+103,2,t2D0-b40A-sl2,"Downtown Atlanta",,1034,2529_shp,0,0
+103,2,t2E4-b400-sl2,"Downtown Atlanta",,1024,2529_shp,0,0
+103,2,t2EE-b40B-sl2,"Downtown Atlanta",,1035,2529_shp,0,0
+103,2,t320-b3FE-sl2,"Downtown Atlanta",,1022,2529_shp,0,0
+103,2,t334-b407-sl2,"Downtown Atlanta",,1031,2529_shp,0,0
+103,2,t352-b44F-sl2,"Downtown Atlanta",,1103,2529_shp,0,0
+103,2,t389-b3FF-sl2,"Downtown Atlanta",,1023,2529_shp,0,0
+103,2,t5A7-b13A7-sl2,"Sugarloaf Mills",,5031,2460_shp,0,0
+103,2,t5E3-b13A8-sl2,"Sugarloaf Mills",,5032,2460_shp,0,0
+103,2,t5F7-b13A9-sl2,"Sugarloaf Mills",,5033,2460_shp,0,0
+103,2,t601-b13AE-sl2,"Sugarloaf Mills",,5038,2460_shp,0,0
+103,2,t60B-b13AA-sl2,"Sugarloaf Mills",,5034,2460_shp,0,0
+103,2,t647-b13AB-sl2,"Sugarloaf Mills",,5035,2460_shp,0,0
+103,2,t65B-b13AC-sl2,"Sugarloaf Mills",,5036,2460_shp,0,0
+103,2,t66F-b13A7-sl2,"Sugarloaf Mills",,5031,2460_shp,0,0
+103,2,t6A6-b1393-sl2,"Sugarloaf Mills",,5011,2460_shp,0,0
+103,2,t6B5-b13AD-sl2,"Sugarloaf Mills",,5037,2460_shp,0,0
+103,2,t6DD-b1394-sl2,"Sugarloaf Mills",,5012,2460_shp,0,0
+103,3,t1FE-b3FF-sl3,"Downtown Atlanta",,1023,2529_shp,0,0
+103,3,t212-b40B-sl3,"Downtown Atlanta",,1035,2529_shp,0,0
+103,3,t226-b407-sl3,"Downtown Atlanta",,1031,2529_shp,0,0
+103,3,t26C-b408-sl3,"Downtown Atlanta",,1032,2529_shp,0,0
+103,3,t280-b409-sl3,"Downtown Atlanta",,1033,2529_shp,0,0
+103,3,t28A-b40C-sl3,"Downtown Atlanta",,1036,2529_shp,0,0
+103,3,t2BC-b44E-sl3,"Downtown Atlanta",,1102,2529_shp,0,0
+103,3,t2D0-b40A-sl3,"Downtown Atlanta",,1034,2529_shp,0,0
+103,3,t2E4-b400-sl3,"Downtown Atlanta",,1024,2529_shp,0,0
+103,3,t2EE-b40B-sl3,"Downtown Atlanta",,1035,2529_shp,0,0
+103,3,t320-b3FE-sl3,"Downtown Atlanta",,1022,2529_shp,0,0
+103,3,t334-b407-sl3,"Downtown Atlanta",,1031,2529_shp,0,0
+103,3,t352-b44F-sl3,"Downtown Atlanta",,1103,2529_shp,0,0
+103,3,t389-b3FF-sl3,"Downtown Atlanta",,1023,2529_shp,0,0
+103,3,t5A7-b13A7-sl3,"Sugarloaf Mills",,5031,2460_shp,0,0
+103,3,t5E3-b13A8-sl3,"Sugarloaf Mills",,5032,2460_shp,0,0
+103,3,t5F7-b13A9-sl3,"Sugarloaf Mills",,5033,2460_shp,0,0
+103,3,t601-b13AE-sl3,"Sugarloaf Mills",,5038,2460_shp,0,0
+103,3,t60B-b13AA-sl3,"Sugarloaf Mills",,5034,2460_shp,0,0
+103,3,t647-b13AB-sl3,"Sugarloaf Mills",,5035,2460_shp,0,0
+103,3,t65B-b13AC-sl3,"Sugarloaf Mills",,5036,2460_shp,0,0
+103,3,t66F-b13A7-sl3,"Sugarloaf Mills",,5031,2460_shp,0,0
+103,3,t6A6-b1393-sl3,"Sugarloaf Mills",,5011,2460_shp,0,0
+103,3,t6B5-b13AD-sl3,"Sugarloaf Mills",,5037,2460_shp,0,0
+103,3,t6DD-b1394-sl3,"Sugarloaf Mills",,5012,2460_shp,0,0
+103,4,t1FE-b3FF-sl4,"Downtown Atlanta",,1023,2529_shp,0,0
+103,4,t212-b40B-sl4,"Downtown Atlanta",,1035,2529_shp,0,0
+103,4,t226-b407-sl4,"Downtown Atlanta",,1031,2529_shp,0,0
+103,4,t26C-b408-sl4,"Downtown Atlanta",,1032,2529_shp,0,0
+103,4,t280-b409-sl4,"Downtown Atlanta",,1033,2529_shp,0,0
+103,4,t28A-b40C-sl4,"Downtown Atlanta",,1036,2529_shp,0,0
+103,4,t2BC-b44E-sl4,"Downtown Atlanta",,1102,2529_shp,0,0
+103,4,t2D0-b40A-sl4,"Downtown Atlanta",,1034,2529_shp,0,0
+103,4,t2E4-b400-sl4,"Downtown Atlanta",,1024,2529_shp,0,0
+103,4,t2EE-b40B-sl4,"Downtown Atlanta",,1035,2529_shp,0,0
+103,4,t320-b3FE-sl4,"Downtown Atlanta",,1022,2529_shp,0,0
+103,4,t334-b407-sl4,"Downtown Atlanta",,1031,2529_shp,0,0
+103,4,t352-b44F-sl4,"Downtown Atlanta",,1103,2529_shp,0,0
+103,4,t389-b3FF-sl4,"Downtown Atlanta",,1023,2529_shp,0,0
+103,4,t5A7-b13A7-sl4,"Sugarloaf Mills",,5031,2460_shp,0,0
+103,4,t5E3-b13A8-sl4,"Sugarloaf Mills",,5032,2460_shp,0,0
+103,4,t5F7-b13A9-sl4,"Sugarloaf Mills",,5033,2460_shp,0,0
+103,4,t601-b13AE-sl4,"Sugarloaf Mills",,5038,2460_shp,0,0
+103,4,t60B-b13AA-sl4,"Sugarloaf Mills",,5034,2460_shp,0,0
+103,4,t647-b13AB-sl4,"Sugarloaf Mills",,5035,2460_shp,0,0
+103,4,t65B-b13AC-sl4,"Sugarloaf Mills",,5036,2460_shp,0,0
+103,4,t66F-b13A7-sl4,"Sugarloaf Mills",,5031,2460_shp,0,0
+103,4,t6A6-b1393-sl4,"Sugarloaf Mills",,5011,2460_shp,0,0
+103,4,t6B5-b13AD-sl4,"Sugarloaf Mills",,5037,2460_shp,0,0
+103,4,t6DD-b1394-sl4,"Sugarloaf Mills",,5012,2460_shp,0,0
+103,5,t1FE-b3FF-sl5,"Downtown Atlanta",,1023,2529_shp,0,0
+103,5,t212-b40B-sl5,"Downtown Atlanta",,1035,2529_shp,0,0
+103,5,t226-b407-sl5,"Downtown Atlanta",,1031,2529_shp,0,0
+103,5,t26C-b408-sl5,"Downtown Atlanta",,1032,2529_shp,0,0
+103,5,t280-b409-sl5,"Downtown Atlanta",,1033,2529_shp,0,0
+103,5,t28A-b40C-sl5,"Downtown Atlanta",,1036,2529_shp,0,0
+103,5,t2BC-b44E-sl5,"Downtown Atlanta",,1102,2529_shp,0,0
+103,5,t2D0-b40A-sl5,"Downtown Atlanta",,1034,2529_shp,0,0
+103,5,t2E4-b400-sl5,"Downtown Atlanta",,1024,2529_shp,0,0
+103,5,t2EE-b40B-sl5,"Downtown Atlanta",,1035,2529_shp,0,0
+103,5,t320-b3FE-sl5,"Downtown Atlanta",,1022,2529_shp,0,0
+103,5,t334-b407-sl5,"Downtown Atlanta",,1031,2529_shp,0,0
+103,5,t352-b44F-sl5,"Downtown Atlanta",,1103,2529_shp,0,0
+103,5,t389-b3FF-sl5,"Downtown Atlanta",,1023,2529_shp,0,0
+103,5,t5A7-b13A7-sl5,"Sugarloaf Mills",,5031,2460_shp,0,0
+103,5,t5E3-b13A8-sl5,"Sugarloaf Mills",,5032,2460_shp,0,0
+103,5,t5F7-b13A9-sl5,"Sugarloaf Mills",,5033,2460_shp,0,0
+103,5,t601-b13AE-sl5,"Sugarloaf Mills",,5038,2460_shp,0,0
+103,5,t60B-b13AA-sl5,"Sugarloaf Mills",,5034,2460_shp,0,0
+103,5,t647-b13AB-sl5,"Sugarloaf Mills",,5035,2460_shp,0,0
+103,5,t65B-b13AC-sl5,"Sugarloaf Mills",,5036,2460_shp,0,0
+103,5,t66F-b13A7-sl5,"Sugarloaf Mills",,5031,2460_shp,0,0
+103,5,t6A6-b1393-sl5,"Sugarloaf Mills",,5011,2460_shp,0,0
+103,5,t6B5-b13AD-sl5,"Sugarloaf Mills",,5037,2460_shp,0,0
+103,5,t6DD-b1394-sl5,"Sugarloaf Mills",,5012,2460_shp,0,0
+103,6,t1FE-b3FF-sl6,"Downtown Atlanta",,1023,2529_shp,0,0
+103,6,t212-b40B-sl6,"Downtown Atlanta",,1035,2529_shp,0,0
+103,6,t226-b407-sl6,"Downtown Atlanta",,1031,2529_shp,0,0
+103,6,t26C-b408-sl6,"Downtown Atlanta",,1032,2529_shp,0,0
+103,6,t280-b409-sl6,"Downtown Atlanta",,1033,2529_shp,0,0
+103,6,t28A-b40C-sl6,"Downtown Atlanta",,1036,2529_shp,0,0
+103,6,t2BC-b44E-sl6,"Downtown Atlanta",,1102,2529_shp,0,0
+103,6,t2D0-b40A-sl6,"Downtown Atlanta",,1034,2529_shp,0,0
+103,6,t2E4-b400-sl6,"Downtown Atlanta",,1024,2529_shp,0,0
+103,6,t2EE-b40B-sl6,"Downtown Atlanta",,1035,2529_shp,0,0
+103,6,t320-b3FE-sl6,"Downtown Atlanta",,1022,2529_shp,0,0
+103,6,t334-b407-sl6,"Downtown Atlanta",,1031,2529_shp,0,0
+103,6,t352-b44F-sl6,"Downtown Atlanta",,1103,2529_shp,0,0
+103,6,t389-b3FF-sl6,"Downtown Atlanta",,1023,2529_shp,0,0
+103,6,t5A7-b13A7-sl6,"Sugarloaf Mills",,5031,2460_shp,0,0
+103,6,t5E3-b13A8-sl6,"Sugarloaf Mills",,5032,2460_shp,0,0
+103,6,t5F7-b13A9-sl6,"Sugarloaf Mills",,5033,2460_shp,0,0
+103,6,t601-b13AE-sl6,"Sugarloaf Mills",,5038,2460_shp,0,0
+103,6,t60B-b13AA-sl6,"Sugarloaf Mills",,5034,2460_shp,0,0
+103,6,t647-b13AB-sl6,"Sugarloaf Mills",,5035,2460_shp,0,0
+103,6,t65B-b13AC-sl6,"Sugarloaf Mills",,5036,2460_shp,0,0
+103,6,t66F-b13A7-sl6,"Sugarloaf Mills",,5031,2460_shp,0,0
+103,6,t6A6-b1393-sl6,"Sugarloaf Mills",,5011,2460_shp,0,0
+103,6,t6B5-b13AD-sl6,"Sugarloaf Mills",,5037,2460_shp,0,0
+103,6,t6DD-b1394-sl6,"Sugarloaf Mills",,5012,2460_shp,0,0
+110,2,t1FE-b44D-sl2,"Emory/CDC",,1101,2456_shp,0,0
+110,2,t21C-b44E-sl2,"Emory/CDC",,1102,2456_shp,0,0
+110,2,t262-b450-sl2,"Emory/CDC",,1104,2456_shp,0,0
+110,2,t26C-b3F7-sl2,"Emory/CDC",,1015,2514_shp,0,0
+110,2,t280-b44D-sl2,"Emory/CDC",,1101,2456_shp,0,0
+110,2,t2C1-b44F-sl2,"Emory/CDC",,1103,2449_shp,0,0
+110,2,t2EE-b450-sl2,"Emory/CDC",,1104,2514_shp,0,0
+110,2,t320-b408-sl2,"Emory/CDC",,1032,2456_shp,0,0
+110,2,t5E3-b13ED-sl2,"Sugarloaf Mills",,5101,2444_shp,0,0
+110,2,t5FF-b13EF-sl2,"Sugarloaf Mills",,5103,2444_shp,0,0
+110,2,t647-b13EE-sl2,"Sugarloaf Mills",,5102,2444_shp,0,0
+110,2,t65E-b13F0-sl2,"Indian Trail P&R",,5104,2527_shp,0,0
+110,2,t66D-b13F1-sl2,"Sugarloaf Mills",,5105,2467_shp,0,0
+110,2,t6AB-b13ED-sl2,"Sugarloaf Mills",,5101,2444_shp,0,0
+110,2,t6C7-b13EF-sl2,"Sugarloaf Mills",,5103,2444_shp,0,0
+110,2,t71E-b13EE-sl2,"Sugarloaf Mills",,5102,2444_shp,0,0
+110,2,t773-b139D-sl2,"Sugarloaf Mills",,5021,2444_shp,0,0
+110,3,t1FE-b44D-sl3,"Emory/CDC",,1101,2456_shp,0,0
+110,3,t21C-b44E-sl3,"Emory/CDC",,1102,2456_shp,0,0
+110,3,t262-b450-sl3,"Emory/CDC",,1104,2456_shp,0,0
+110,3,t26C-b3F7-sl3,"Emory/CDC",,1015,2514_shp,0,0
+110,3,t280-b44D-sl3,"Emory/CDC",,1101,2456_shp,0,0
+110,3,t2C1-b44F-sl3,"Emory/CDC",,1103,2449_shp,0,0
+110,3,t2EE-b450-sl3,"Emory/CDC",,1104,2514_shp,0,0
+110,3,t320-b408-sl3,"Emory/CDC",,1032,2456_shp,0,0
+110,3,t5E3-b13ED-sl3,"Sugarloaf Mills",,5101,2444_shp,0,0
+110,3,t5FF-b13EF-sl3,"Sugarloaf Mills",,5103,2444_shp,0,0
+110,3,t647-b13EE-sl3,"Sugarloaf Mills",,5102,2444_shp,0,0
+110,3,t65E-b13F0-sl3,"Indian Trail P&R",,5104,2527_shp,0,0
+110,3,t66D-b13F1-sl3,"Sugarloaf Mills",,5105,2467_shp,0,0
+110,3,t6AB-b13ED-sl3,"Sugarloaf Mills",,5101,2444_shp,0,0
+110,3,t6C7-b13EF-sl3,"Sugarloaf Mills",,5103,2444_shp,0,0
+110,3,t71E-b13EE-sl3,"Sugarloaf Mills",,5102,2444_shp,0,0
+110,3,t773-b139D-sl3,"Sugarloaf Mills",,5021,2444_shp,0,0
+110,4,t1FE-b44D-sl4,"Emory/CDC",,1101,2456_shp,0,0
+110,4,t21C-b44E-sl4,"Emory/CDC",,1102,2456_shp,0,0
+110,4,t262-b450-sl4,"Emory/CDC",,1104,2456_shp,0,0
+110,4,t26C-b3F7-sl4,"Emory/CDC",,1015,2514_shp,0,0
+110,4,t280-b44D-sl4,"Emory/CDC",,1101,2456_shp,0,0
+110,4,t2C1-b44F-sl4,"Emory/CDC",,1103,2449_shp,0,0
+110,4,t2EE-b450-sl4,"Emory/CDC",,1104,2514_shp,0,0
+110,4,t320-b408-sl4,"Emory/CDC",,1032,2456_shp,0,0
+110,4,t5E3-b13ED-sl4,"Sugarloaf Mills",,5101,2444_shp,0,0
+110,4,t5FF-b13EF-sl4,"Sugarloaf Mills",,5103,2444_shp,0,0
+110,4,t647-b13EE-sl4,"Sugarloaf Mills",,5102,2444_shp,0,0
+110,4,t65E-b13F0-sl4,"Indian Trail P&R",,5104,2527_shp,0,0
+110,4,t66D-b13F1-sl4,"Sugarloaf Mills",,5105,2467_shp,0,0
+110,4,t6AB-b13ED-sl4,"Sugarloaf Mills",,5101,2444_shp,0,0
+110,4,t6C7-b13EF-sl4,"Sugarloaf Mills",,5103,2444_shp,0,0
+110,4,t71E-b13EE-sl4,"Sugarloaf Mills",,5102,2444_shp,0,0
+110,4,t773-b139D-sl4,"Sugarloaf Mills",,5021,2444_shp,0,0
+110,5,t1FE-b44D-sl5,"Emory/CDC",,1101,2456_shp,0,0
+110,5,t21C-b44E-sl5,"Emory/CDC",,1102,2456_shp,0,0
+110,5,t262-b450-sl5,"Emory/CDC",,1104,2456_shp,0,0
+110,5,t26C-b3F7-sl5,"Emory/CDC",,1015,2514_shp,0,0
+110,5,t280-b44D-sl5,"Emory/CDC",,1101,2456_shp,0,0
+110,5,t2C1-b44F-sl5,"Emory/CDC",,1103,2449_shp,0,0
+110,5,t2EE-b450-sl5,"Emory/CDC",,1104,2514_shp,0,0
+110,5,t320-b408-sl5,"Emory/CDC",,1032,2456_shp,0,0
+110,5,t5E3-b13ED-sl5,"Sugarloaf Mills",,5101,2444_shp,0,0
+110,5,t5FF-b13EF-sl5,"Sugarloaf Mills",,5103,2444_shp,0,0
+110,5,t647-b13EE-sl5,"Sugarloaf Mills",,5102,2444_shp,0,0
+110,5,t65E-b13F0-sl5,"Indian Trail P&R",,5104,2527_shp,0,0
+110,5,t66D-b13F1-sl5,"Sugarloaf Mills",,5105,2467_shp,0,0
+110,5,t6AB-b13ED-sl5,"Sugarloaf Mills",,5101,2444_shp,0,0
+110,5,t6C7-b13EF-sl5,"Sugarloaf Mills",,5103,2444_shp,0,0
+110,5,t71E-b13EE-sl5,"Sugarloaf Mills",,5102,2444_shp,0,0
+110,5,t773-b139D-sl5,"Sugarloaf Mills",,5021,2444_shp,0,0
+110,6,t1FE-b44D-sl6,"Emory/CDC",,1101,2456_shp,0,0
+110,6,t21C-b44E-sl6,"Emory/CDC",,1102,2456_shp,0,0
+110,6,t262-b450-sl6,"Emory/CDC",,1104,2456_shp,0,0
+110,6,t26C-b3F7-sl6,"Emory/CDC",,1015,2514_shp,0,0
+110,6,t280-b44D-sl6,"Emory/CDC",,1101,2456_shp,0,0
+110,6,t2C1-b44F-sl6,"Emory/CDC",,1103,2449_shp,0,0
+110,6,t2EE-b450-sl6,"Emory/CDC",,1104,2514_shp,0,0
+110,6,t320-b408-sl6,"Emory/CDC",,1032,2456_shp,0,0
+110,6,t5E3-b13ED-sl6,"Sugarloaf Mills",,5101,2444_shp,0,0
+110,6,t5FF-b13EF-sl6,"Sugarloaf Mills",,5103,2444_shp,0,0
+110,6,t647-b13EE-sl6,"Sugarloaf Mills",,5102,2444_shp,0,0
+110,6,t65E-b13F0-sl6,"Indian Trail P&R",,5104,2527_shp,0,0
+110,6,t66D-b13F1-sl6,"Sugarloaf Mills",,5105,2467_shp,0,0
+110,6,t6AB-b13ED-sl6,"Sugarloaf Mills",,5101,2444_shp,0,0
+110,6,t6C7-b13EF-sl6,"Sugarloaf Mills",,5103,2444_shp,0,0
+110,6,t71E-b13EE-sl6,"Sugarloaf Mills",,5102,2444_shp,0,0
+110,6,t773-b139D-sl6,"Sugarloaf Mills",,5021,2444_shp,0,0
+202,2,t72D-b13AA-sl2,"Sweeper",,5034,2461_shp,0,0
+202,2,t773-b13A8-sl2,"Sweeper",,5032,2461_shp,0,0
+202,2,t791-b13AD-sl2,"Sweeper",,5037,2461_shp,0,0
+202,3,t72D-b13AA-sl3,"Sweeper",,5034,2461_shp,0,0
+202,3,t773-b13A8-sl3,"Sweeper",,5032,2461_shp,0,0
+202,3,t791-b13AD-sl3,"Sweeper",,5037,2461_shp,0,0
+202,4,t72D-b13AA-sl4,"Sweeper",,5034,2461_shp,0,0
+202,4,t773-b13A8-sl4,"Sweeper",,5032,2461_shp,0,0
+202,4,t791-b13AD-sl4,"Sweeper",,5037,2461_shp,0,0
+202,5,t72D-b13AA-sl5,"Sweeper",,5034,2461_shp,0,0
+202,5,t773-b13A8-sl5,"Sweeper",,5032,2461_shp,0,0
+202,5,t791-b13AD-sl5,"Sweeper",,5037,2461_shp,0,0
+202,6,t72D-b13AA-sl6,"Sweeper",,5034,2461_shp,0,0
+202,6,t773-b13A8-sl6,"Sweeper",,5032,2461_shp,0,0
+202,6,t791-b13AD-sl6,"Sweeper",,5037,2461_shp,0,0
+203,2,t2BC-b407-sl2,"Sugarloaf Mills",,1031,2451_shp,0,0
+203,2,t325-b409-sl2,"Sugarloaf Mills",,1033,2451_shp,0,0
+203,2,t5E6-b139F-sl2,"Downtown Atlanta",,5023,2464_shp,0,0
+203,2,t6B3-b13AA-sl2,"Downtown Atlanta",,5034,2464_shp,0,0
+203,3,t2BC-b407-sl3,"Sugarloaf Mills",,1031,2451_shp,0,0
+203,3,t325-b409-sl3,"Sugarloaf Mills",,1033,2451_shp,0,0
+203,3,t5E6-b139F-sl3,"Downtown Atlanta",,5023,2464_shp,0,0
+203,3,t6B3-b13AA-sl3,"Downtown Atlanta",,5034,2464_shp,0,0
+203,4,t2BC-b407-sl4,"Sugarloaf Mills",,1031,2451_shp,0,0
+203,4,t325-b409-sl4,"Sugarloaf Mills",,1033,2451_shp,0,0
+203,4,t5E6-b139F-sl4,"Downtown Atlanta",,5023,2464_shp,0,0
+203,4,t6B3-b13AA-sl4,"Downtown Atlanta",,5034,2464_shp,0,0
+203,5,t2BC-b407-sl5,"Sugarloaf Mills",,1031,2451_shp,0,0
+203,5,t325-b409-sl5,"Sugarloaf Mills",,1033,2451_shp,0,0
+203,5,t5E6-b139F-sl5,"Downtown Atlanta",,5023,2464_shp,0,0
+203,5,t6B3-b13AA-sl5,"Downtown Atlanta",,5034,2464_shp,0,0
+203,6,t2BC-b407-sl6,"Sugarloaf Mills",,1031,2451_shp,0,0
+203,6,t325-b409-sl6,"Sugarloaf Mills",,1033,2451_shp,0,0
+203,6,t5E6-b139F-sl6,"Downtown Atlanta",,5023,2464_shp,0,0
+203,6,t6B3-b13AA-sl6,"Downtown Atlanta",,5034,2464_shp,0,0
+10,4,t33E-b66-sl4,"Doraville MARTA",,102,2501_shp,0,0
+10,4,t343-b65-sl4,"Sugarloaf Mills",,101,2470_shp,0,0
+10,4,t384-b68-sl4,"Doraville MARTA",,104,2501_shp,0,0
+10,4,t3A2-b65-sl4,"Doraville MARTA",,101,2501_shp,0,0
+10,4,t3A7-b66-sl4,"Sugarloaf Mills",,102,2470_shp,0,0
+10,4,t406-b66-sl4,"Doraville MARTA",,102,2501_shp,0,0
+10,4,t40B-b65-sl4,"Sugarloaf Mills",,101,2470_shp,0,0
+10,4,t46A-b65-sl4,"Doraville MARTA",,101,2501_shp,0,0
+10,4,t46F-b66-sl4,"Sugarloaf Mills",,102,2470_shp,0,0
+10,4,t4CE-b66-sl4,"Doraville MARTA",,102,2501_shp,0,0
+10,4,t4D3-b65-sl4,"Sugarloaf Mills",,101,2470_shp,0,0
+10,4,t532-b65-sl4,"Doraville MARTA",,101,2501_shp,0,0
+10,4,t537-b66-sl4,"Sugarloaf Mills",,102,2470_shp,0,0
+10,4,t596-b66-sl4,"Doraville MARTA",,102,2501_shp,0,0
+10,4,t59B-b65-sl4,"Sugarloaf Mills",,101,2470_shp,0,0
+10,4,t5FA-b65-sl4,"Doraville MARTA",,101,2501_shp,0,0
+10,4,t5FF-b66-sl4,"Sugarloaf Mills",,102,2470_shp,0,0
+10,4,t640-b69-sl4,"Doraville MARTA",,105,2501_shp,0,0
+10,4,t645-b6A-sl4,"Sugarloaf Mills",,106,2470_shp,0,0
+10,4,t65E-b66-sl4,"Doraville MARTA",,102,2501_shp,0,0
+10,4,t663-b65-sl4,"Sugarloaf Mills",,101,2470_shp,0,0
+10,4,t6A4-b6A-sl4,"Doraville MARTA",,106,2501_shp,0,0
+10,4,t6A9-b69-sl4,"Sugarloaf Mills",,105,2470_shp,0,0
+10,4,t6C2-b65-sl4,"Doraville MARTA",,101,2501_shp,0,0
+10,4,t6C7-b66-sl4,"Sugarloaf Mills",,102,2470_shp,0,0
+10,4,t708-b69-sl4,"Doraville MARTA",,105,2501_shp,0,0
+10,4,t70D-b6A-sl4,"Sugarloaf Mills",,106,2470_shp,0,0
+10,4,t726-b66-sl4,"Doraville MARTA",,102,2501_shp,0,0
+10,4,t72B-b65-sl4,"Sugarloaf Mills",,101,2470_shp,0,0
+10,4,t771-b69-sl4,"Transit Center",,105,2491_shp,0,0
+10,4,t78A-b65-sl4,"Doraville MARTA",,101,2501_shp,0,0
+10,4,t78F-b66-sl4,"Sugarloaf Mills",,102,2470_shp,0,0
+10,4,t7EE-b66-sl4,"Doraville MARTA",,102,2501_shp,0,0
+10,4,t7F8-b65-sl4,"Sugarloaf Mills",,101,2470_shp,0,0
+10,4,t852-b66-sl4,"Transit Center",,102,2491_shp,0,0
+10,4,t857-b65-sl4,"Doraville MARTA",,101,2501_shp,0,0
+10,5,t212-b65-sl5,"Doraville MARTA",,101,2501_shp,0,0
+10,5,t217-b66-sl5,"Sugarloaf Mills",,102,2470_shp,0,0
+10,5,t258-b67-sl5,"Doraville MARTA",,103,2501_shp,0,0
+10,5,t25D-b68-sl5,"Sugarloaf Mills",,104,2470_shp,0,0
+10,5,t276-b66-sl5,"Doraville MARTA",,102,2501_shp,0,0
+10,5,t27B-b65-sl5,"Sugarloaf Mills",,101,2470_shp,0,0
+10,5,t2BC-b68-sl5,"Doraville MARTA",,104,2501_shp,0,0
+10,5,t2C1-b67-sl5,"Sugarloaf Mills",,103,2470_shp,0,0
+10,5,t2DA-b65-sl5,"Doraville MARTA",,101,2501_shp,0,0
+10,5,t2DF-b66-sl5,"Sugarloaf Mills",,102,2470_shp,0,0
+10,5,t320-b67-sl5,"Doraville MARTA",,103,2501_shp,0,0
+10,5,t320-b68-sl5,"Sugarloaf Mills",,104,2470_shp,0,0
+10,5,t33E-b66-sl5,"Doraville MARTA",,102,2501_shp,0,0
+10,5,t343-b65-sl5,"Sugarloaf Mills",,101,2470_shp,0,0
+10,5,t384-b68-sl5,"Doraville MARTA",,104,2501_shp,0,0
+10,5,t3A2-b65-sl5,"Doraville MARTA",,101,2501_shp,0,0
+10,5,t3A7-b66-sl5,"Sugarloaf Mills",,102,2470_shp,0,0
+10,5,t406-b66-sl5,"Doraville MARTA",,102,2501_shp,0,0
+10,5,t40B-b65-sl5,"Sugarloaf Mills",,101,2470_shp,0,0
+10,5,t46A-b65-sl5,"Doraville MARTA",,101,2501_shp,0,0
+10,5,t46F-b66-sl5,"Sugarloaf Mills",,102,2470_shp,0,0
+10,5,t4CE-b66-sl5,"Doraville MARTA",,102,2501_shp,0,0
+10,5,t4D3-b65-sl5,"Sugarloaf Mills",,101,2470_shp,0,0
+10,5,t532-b65-sl5,"Doraville MARTA",,101,2501_shp,0,0
+10,5,t537-b66-sl5,"Sugarloaf Mills",,102,2470_shp,0,0
+10,5,t596-b66-sl5,"Doraville MARTA",,102,2501_shp,0,0
+10,5,t59B-b65-sl5,"Sugarloaf Mills",,101,2470_shp,0,0
+10,5,t5FA-b65-sl5,"Doraville MARTA",,101,2501_shp,0,0
+10,5,t5FF-b66-sl5,"Sugarloaf Mills",,102,2470_shp,0,0
+10,5,t640-b69-sl5,"Doraville MARTA",,105,2501_shp,0,0
+10,5,t645-b6A-sl5,"Sugarloaf Mills",,106,2470_shp,0,0
+10,5,t65E-b66-sl5,"Doraville MARTA",,102,2501_shp,0,0
+10,5,t663-b65-sl5,"Sugarloaf Mills",,101,2470_shp,0,0
+10,5,t6A4-b6A-sl5,"Doraville MARTA",,106,2501_shp,0,0
+10,5,t6A9-b69-sl5,"Sugarloaf Mills",,105,2470_shp,0,0
+10,5,t6C2-b65-sl5,"Doraville MARTA",,101,2501_shp,0,0
+10,5,t6C7-b66-sl5,"Sugarloaf Mills",,102,2470_shp,0,0
+10,5,t708-b69-sl5,"Doraville MARTA",,105,2501_shp,0,0
+10,5,t70D-b6A-sl5,"Sugarloaf Mills",,106,2470_shp,0,0
+10,5,t726-b66-sl5,"Doraville MARTA",,102,2501_shp,0,0
+10,5,t72B-b65-sl5,"Sugarloaf Mills",,101,2470_shp,0,0
+10,5,t771-b69-sl5,"Transit Center",,105,2491_shp,0,0
+10,5,t78A-b65-sl5,"Doraville MARTA",,101,2501_shp,0,0
+10,5,t78F-b66-sl5,"Sugarloaf Mills",,102,2470_shp,0,0
+10,5,t7EE-b66-sl5,"Doraville MARTA",,102,2501_shp,0,0
+10,5,t7F8-b65-sl5,"Sugarloaf Mills",,101,2470_shp,0,0
+10,5,t852-b66-sl5,"Transit Center",,102,2491_shp,0,0
+10,5,t857-b65-sl5,"Doraville MARTA",,101,2501_shp,0,0
+10,6,t212-b65-sl6,"Doraville MARTA",,101,2501_shp,0,0
+10,6,t217-b66-sl6,"Sugarloaf Mills",,102,2470_shp,0,0
+10,6,t258-b67-sl6,"Doraville MARTA",,103,2501_shp,0,0
+10,6,t25D-b68-sl6,"Sugarloaf Mills",,104,2470_shp,0,0
+10,6,t276-b66-sl6,"Doraville MARTA",,102,2501_shp,0,0
+10,6,t27B-b65-sl6,"Sugarloaf Mills",,101,2470_shp,0,0
+10,6,t2BC-b68-sl6,"Doraville MARTA",,104,2501_shp,0,0
+10,6,t2C1-b67-sl6,"Sugarloaf Mills",,103,2470_shp,0,0
+10,6,t2DA-b65-sl6,"Doraville MARTA",,101,2501_shp,0,0
+10,6,t2DF-b66-sl6,"Sugarloaf Mills",,102,2470_shp,0,0
+10,6,t320-b67-sl6,"Doraville MARTA",,103,2501_shp,0,0
+10,6,t320-b68-sl6,"Sugarloaf Mills",,104,2470_shp,0,0
+10,6,t33E-b66-sl6,"Doraville MARTA",,102,2501_shp,0,0
+10,6,t343-b65-sl6,"Sugarloaf Mills",,101,2470_shp,0,0
+10,6,t384-b68-sl6,"Doraville MARTA",,104,2501_shp,0,0
+10,6,t3A2-b65-sl6,"Doraville MARTA",,101,2501_shp,0,0
+10,6,t3A7-b66-sl6,"Sugarloaf Mills",,102,2470_shp,0,0
+10,6,t406-b66-sl6,"Doraville MARTA",,102,2501_shp,0,0
+10,6,t40B-b65-sl6,"Sugarloaf Mills",,101,2470_shp,0,0
+10,6,t46A-b65-sl6,"Doraville MARTA",,101,2501_shp,0,0
+10,6,t46F-b66-sl6,"Sugarloaf Mills",,102,2470_shp,0,0
+10,6,t4CE-b66-sl6,"Doraville MARTA",,102,2501_shp,0,0
+10,6,t4D3-b65-sl6,"Sugarloaf Mills",,101,2470_shp,0,0
+10,6,t532-b65-sl6,"Doraville MARTA",,101,2501_shp,0,0
+10,6,t537-b66-sl6,"Sugarloaf Mills",,102,2470_shp,0,0
+10,6,t596-b66-sl6,"Doraville MARTA",,102,2501_shp,0,0
+10,6,t59B-b65-sl6,"Sugarloaf Mills",,101,2470_shp,0,0
+10,6,t5FA-b65-sl6,"Doraville MARTA",,101,2501_shp,0,0
+10,6,t5FF-b66-sl6,"Sugarloaf Mills",,102,2470_shp,0,0
+10,6,t640-b69-sl6,"Doraville MARTA",,105,2501_shp,0,0
+10,6,t645-b6A-sl6,"Sugarloaf Mills",,106,2470_shp,0,0
+10,6,t65E-b66-sl6,"Doraville MARTA",,102,2501_shp,0,0
+10,6,t663-b65-sl6,"Sugarloaf Mills",,101,2470_shp,0,0
+10,6,t6A4-b6A-sl6,"Doraville MARTA",,106,2501_shp,0,0
+10,6,t6A9-b69-sl6,"Sugarloaf Mills",,105,2470_shp,0,0
+10,6,t6C2-b65-sl6,"Doraville MARTA",,101,2501_shp,0,0
+10,6,t6C7-b66-sl6,"Sugarloaf Mills",,102,2470_shp,0,0
+10,6,t708-b69-sl6,"Doraville MARTA",,105,2501_shp,0,0
+10,6,t70D-b6A-sl6,"Sugarloaf Mills",,106,2470_shp,0,0
+10,6,t726-b66-sl6,"Doraville MARTA",,102,2501_shp,0,0
+10,6,t72B-b65-sl6,"Sugarloaf Mills",,101,2470_shp,0,0
+10,6,t771-b69-sl6,"Transit Center",,105,2491_shp,0,0
+10,6,t78A-b65-sl6,"Doraville MARTA",,101,2501_shp,0,0
+10,6,t78F-b66-sl6,"Sugarloaf Mills",,102,2470_shp,0,0
+10,6,t7EE-b66-sl6,"Doraville MARTA",,102,2501_shp,0,0
+10,6,t7F8-b65-sl6,"Sugarloaf Mills",,101,2470_shp,0,0
+10,6,t852-b66-sl6,"Transit Center",,102,2491_shp,0,0
+10,6,t857-b65-sl6,"Doraville MARTA",,101,2501_shp,0,0
+10,7,t258-b65-sl7,"Doraville MARTA",,101,2501_shp,0,0
+10,7,t25D-b66-sl7,"Sugarloaf Mills",,102,2470_shp,0,0
+10,7,t2BC-b66-sl7,"Doraville MARTA",,102,2501_shp,0,0
+10,7,t2C1-b65-sl7,"Sugarloaf Mills",,101,2470_shp,0,0
+10,7,t320-b65-sl7,"Doraville MARTA",,101,2501_shp,0,0
+10,7,t325-b66-sl7,"Sugarloaf Mills",,102,2470_shp,0,0
+10,7,t384-b66-sl7,"Doraville MARTA",,102,2501_shp,0,0
+10,7,t389-b65-sl7,"Sugarloaf Mills",,101,2470_shp,0,0
+10,7,t3E8-b65-sl7,"Doraville MARTA",,101,2501_shp,0,0
+10,7,t3ED-b66-sl7,"Sugarloaf Mills",,102,2470_shp,0,0
+10,7,t44C-b66-sl7,"Doraville MARTA",,102,2501_shp,0,0
+10,7,t451-b65-sl7,"Sugarloaf Mills",,101,2470_shp,0,0
+10,7,t4B0-b65-sl7,"Doraville MARTA",,101,2501_shp,0,0
+10,7,t4B5-b66-sl7,"Sugarloaf Mills",,102,2470_shp,0,0
+10,7,t514-b66-sl7,"Doraville MARTA",,102,2501_shp,0,0
+10,7,t519-b65-sl7,"Sugarloaf Mills",,101,2470_shp,0,0
+10,7,t578-b65-sl7,"Doraville MARTA",,101,2501_shp,0,0
+10,7,t57D-b66-sl7,"Sugarloaf Mills",,102,2470_shp,0,0
+10,7,t5DC-b66-sl7,"Doraville MARTA",,102,2501_shp,0,0
+10,7,t5E1-b65-sl7,"Sugarloaf Mills",,101,2470_shp,0,0
+10,7,t640-b65-sl7,"Doraville MARTA",,101,2501_shp,0,0
+10,7,t645-b66-sl7,"Sugarloaf Mills",,102,2470_shp,0,0
+10,7,t6A4-b66-sl7,"Doraville MARTA",,102,2501_shp,0,0
+10,7,t6A9-b65-sl7,"Sugarloaf Mills",,101,2470_shp,0,0
+10,7,t708-b65-sl7,"Doraville MARTA",,101,2501_shp,0,0
+10,7,t70D-b66-sl7,"Sugarloaf Mills",,102,2470_shp,0,0
+10,7,t76C-b66-sl7,"Doraville MARTA",,102,2501_shp,0,0
+10,7,t771-b65-sl7,"Sugarloaf Mills",,101,2470_shp,0,0
+10,7,t7D0-b65-sl7,"Doraville MARTA",,101,2501_shp,0,0
+10,7,t7D5-b66-sl7,"Sugarloaf Mills",,102,2470_shp,0,0
+10,7,t834-b66-sl7,"Doraville MARTA",,102,2501_shp,0,0
+10,7,t839-b65-sl7,"Sugarloaf Mills",,101,2470_shp,0,0
+20,2,t217-bC9-sl2,"Doraville MARTA",,201,2532_shp,0,0
+20,2,t21C-bCA-sl2,"Beaver Ruin",,202,2488_shp,0,0
+20,2,t25D-bCB-sl2,"Doraville MARTA",,203,2532_shp,0,0
+20,2,t262-bCC-sl2,"Beaver Ruin",,204,2488_shp,0,0
+20,2,t27B-bCA-sl2,"Doraville MARTA",,202,2532_shp,0,0
+20,2,t280-bC9-sl2,"Beaver Ruin",,201,2488_shp,0,0
+20,2,t2C6-bCB-sl2,"Beaver Ruin",,203,2488_shp,0,0
+20,2,t2C6-bCC-sl2,"Doraville MARTA",,204,2532_shp,0,0
+20,2,t2E9-bC9-sl2,"Doraville MARTA",,201,2532_shp,0,0
+20,2,t2E9-bCA-sl2,"Beaver Ruin",,202,2488_shp,0,0
+20,2,t32F-bCB-sl2,"Doraville MARTA",,203,2532_shp,0,0
+20,2,t334-bCC-sl2,"Beaver Ruin",,204,2488_shp,0,0
+20,2,t352-bC9-sl2,"Beaver Ruin",,201,2488_shp,0,0
+20,2,t357-bCA-sl2,"Doraville MARTA",,202,2532_shp,0,0
+20,2,t398-bCB-sl2,"Beaver Ruin",,203,2488_shp,0,0
+20,2,t398-bCC-sl2,"Doraville MARTA",,204,2532_shp,0,0
+20,2,t3B6-bC9-sl2,"Doraville MARTA",,201,2532_shp,0,0
+20,2,t3B6-bCA-sl2,"Beaver Ruin",,202,2488_shp,0,0
+20,2,t3F7-bCC-sl2,"Beaver Ruin",,204,2488_shp,0,0
+20,2,t3FC-bCB-sl2,"Doraville MARTA",,203,2532_shp,0,0
+20,2,t415-bC9-sl2,"Beaver Ruin",,201,2488_shp,0,0
+20,2,t41A-bCA-sl2,"Doraville MARTA",,202,2532_shp,0,0
+20,2,t45B-bCB-sl2,"Beaver Ruin",,203,2488_shp,0,0
+20,2,t460-bCC-sl2,"Doraville MARTA",,204,2532_shp,0,0
+20,2,t479-bCA-sl2,"Beaver Ruin",,202,2488_shp,0,0
+20,2,t47E-bC9-sl2,"Doraville MARTA",,201,2532_shp,0,0
+20,2,t4BF-bCC-sl2,"Beaver Ruin",,204,2488_shp,0,0
+20,2,t4BF-bCD-sl2,"Doraville MARTA",,205,2532_shp,0,0
+20,2,t4DD-bC9-sl2,"Beaver Ruin",,201,2488_shp,0,0
+20,2,t4DD-bCF-sl2,"Doraville MARTA",,207,2532_shp,0,0
+20,2,t523-bCD-sl2,"Beaver Ruin",,205,2488_shp,0,0
+20,2,t523-bD1-sl2,"Doraville MARTA",,209,2532_shp,0,0
+20,2,t541-bCE-sl2,"Doraville MARTA",,206,2532_shp,0,0
+20,2,t541-bCF-sl2,"Beaver Ruin",,207,2488_shp,0,0
+20,2,t587-bCD-sl2,"Doraville MARTA",,205,2532_shp,0,0
+20,2,t587-bD1-sl2,"Beaver Ruin",,209,2488_shp,0,0
+20,2,t5A5-bCE-sl2,"Beaver Ruin",,206,2488_shp,0,0
+20,2,t5A5-bCF-sl2,"Doraville MARTA",,207,2532_shp,0,0
+20,2,t5EB-bCD-sl2,"Beaver Ruin",,205,2488_shp,0,0
+20,2,t5EB-bD1-sl2,"Doraville MARTA",,209,2532_shp,0,0
+20,2,t609-bCE-sl2,"Doraville MARTA",,206,2532_shp,0,0
+20,2,t609-bCF-sl2,"Beaver Ruin",,207,2488_shp,0,0
+20,2,t654-bD1-sl2,"Beaver Ruin",,209,2488_shp,0,0
+20,2,t65E-bCD-sl2,"Doraville MARTA",,205,2532_shp,0,0
+20,2,t672-bCE-sl2,"Beaver Ruin",,206,2488_shp,0,0
+20,2,t677-bCF-sl2,"Doraville MARTA",,207,2532_shp,0,0
+20,2,t6C7-bCD-sl2,"Beaver Ruin",,205,2488_shp,0,0
+20,2,t6C7-bD1-sl2,"Doraville MARTA",,209,2532_shp,0,0
+20,2,t70D-bCE-sl2,"Doraville MARTA",,206,2532_shp,0,0
+20,2,t70D-bCF-sl2,"Beaver Ruin",,207,2488_shp,0,0
+20,2,t735-bCD-sl2,"Doraville MARTA",,205,2532_shp,0,0
+20,2,t771-bCE-sl2,"Beaver Ruin",,206,2488_shp,0,0
+20,2,t77B-bCF-sl2,"Doraville MARTA",,207,2532_shp,0,0
+20,2,t7D5-bCF-sl2,"Beaver Ruin",,207,2488_shp,0,0
+20,2,t7DF-bCE-sl2,"Doraville MARTA",,206,2532_shp,0,0
+20,2,t839-bCE-sl2,"Beaver Ruin",,206,2488_shp,0,0
+20,2,t843-bCF-sl2,"Doraville MARTA",,207,2532_shp,0,0
+20,3,t217-bC9-sl3,"Doraville MARTA",,201,2532_shp,0,0
+20,3,t21C-bCA-sl3,"Beaver Ruin",,202,2488_shp,0,0
+20,3,t25D-bCB-sl3,"Doraville MARTA",,203,2532_shp,0,0
+20,3,t262-bCC-sl3,"Beaver Ruin",,204,2488_shp,0,0
+20,3,t27B-bCA-sl3,"Doraville MARTA",,202,2532_shp,0,0
+20,3,t280-bC9-sl3,"Beaver Ruin",,201,2488_shp,0,0
+20,3,t2C6-bCB-sl3,"Beaver Ruin",,203,2488_shp,0,0
+20,3,t2C6-bCC-sl3,"Doraville MARTA",,204,2532_shp,0,0
+20,3,t2E9-bC9-sl3,"Doraville MARTA",,201,2532_shp,0,0
+20,3,t2E9-bCA-sl3,"Beaver Ruin",,202,2488_shp,0,0
+20,3,t32F-bCB-sl3,"Doraville MARTA",,203,2532_shp,0,0
+20,3,t334-bCC-sl3,"Beaver Ruin",,204,2488_shp,0,0
+20,3,t352-bC9-sl3,"Beaver Ruin",,201,2488_shp,0,0
+20,3,t357-bCA-sl3,"Doraville MARTA",,202,2532_shp,0,0
+20,3,t398-bCB-sl3,"Beaver Ruin",,203,2488_shp,0,0
+20,3,t398-bCC-sl3,"Doraville MARTA",,204,2532_shp,0,0
+20,3,t3B6-bC9-sl3,"Doraville MARTA",,201,2532_shp,0,0
+20,3,t3B6-bCA-sl3,"Beaver Ruin",,202,2488_shp,0,0
+20,3,t3F7-bCC-sl3,"Beaver Ruin",,204,2488_shp,0,0
+20,3,t3FC-bCB-sl3,"Doraville MARTA",,203,2532_shp,0,0
+20,3,t415-bC9-sl3,"Beaver Ruin",,201,2488_shp,0,0
+20,3,t41A-bCA-sl3,"Doraville MARTA",,202,2532_shp,0,0
+20,3,t45B-bCB-sl3,"Beaver Ruin",,203,2488_shp,0,0
+20,3,t460-bCC-sl3,"Doraville MARTA",,204,2532_shp,0,0
+20,3,t479-bCA-sl3,"Beaver Ruin",,202,2488_shp,0,0
+20,3,t47E-bC9-sl3,"Doraville MARTA",,201,2532_shp,0,0
+20,3,t4BF-bCC-sl3,"Beaver Ruin",,204,2488_shp,0,0
+20,3,t4BF-bCD-sl3,"Doraville MARTA",,205,2532_shp,0,0
+20,3,t4DD-bC9-sl3,"Beaver Ruin",,201,2488_shp,0,0
+20,3,t4DD-bCF-sl3,"Doraville MARTA",,207,2532_shp,0,0
+20,3,t523-bCD-sl3,"Beaver Ruin",,205,2488_shp,0,0
+20,3,t523-bD1-sl3,"Doraville MARTA",,209,2532_shp,0,0
+20,3,t541-bCE-sl3,"Doraville MARTA",,206,2532_shp,0,0
+20,3,t541-bCF-sl3,"Beaver Ruin",,207,2488_shp,0,0
+20,3,t587-bCD-sl3,"Doraville MARTA",,205,2532_shp,0,0
+20,3,t587-bD1-sl3,"Beaver Ruin",,209,2488_shp,0,0
+20,3,t5A5-bCE-sl3,"Beaver Ruin",,206,2488_shp,0,0
+20,3,t5A5-bCF-sl3,"Doraville MARTA",,207,2532_shp,0,0
+20,3,t5EB-bCD-sl3,"Beaver Ruin",,205,2488_shp,0,0
+20,3,t5EB-bD1-sl3,"Doraville MARTA",,209,2532_shp,0,0
+20,3,t609-bCE-sl3,"Doraville MARTA",,206,2532_shp,0,0
+20,3,t609-bCF-sl3,"Beaver Ruin",,207,2488_shp,0,0
+20,3,t654-bD1-sl3,"Beaver Ruin",,209,2488_shp,0,0
+20,3,t65E-bCD-sl3,"Doraville MARTA",,205,2532_shp,0,0
+20,3,t672-bCE-sl3,"Beaver Ruin",,206,2488_shp,0,0
+20,3,t677-bCF-sl3,"Doraville MARTA",,207,2532_shp,0,0
+20,3,t6C7-bCD-sl3,"Beaver Ruin",,205,2488_shp,0,0
+20,3,t6C7-bD1-sl3,"Doraville MARTA",,209,2532_shp,0,0
+20,3,t70D-bCE-sl3,"Doraville MARTA",,206,2532_shp,0,0
+20,3,t70D-bCF-sl3,"Beaver Ruin",,207,2488_shp,0,0
+20,3,t735-bCD-sl3,"Doraville MARTA",,205,2532_shp,0,0
+20,3,t771-bCE-sl3,"Beaver Ruin",,206,2488_shp,0,0
+20,3,t77B-bCF-sl3,"Doraville MARTA",,207,2532_shp,0,0
+20,3,t7D5-bCF-sl3,"Beaver Ruin",,207,2488_shp,0,0
+20,3,t7DF-bCE-sl3,"Doraville MARTA",,206,2532_shp,0,0
+20,3,t839-bCE-sl3,"Beaver Ruin",,206,2488_shp,0,0
+20,3,t843-bCF-sl3,"Doraville MARTA",,207,2532_shp,0,0
+20,4,t217-bC9-sl4,"Doraville MARTA",,201,2532_shp,0,0
+20,4,t21C-bCA-sl4,"Beaver Ruin",,202,2488_shp,0,0
+20,4,t25D-bCB-sl4,"Doraville MARTA",,203,2532_shp,0,0
+20,4,t262-bCC-sl4,"Beaver Ruin",,204,2488_shp,0,0
+20,4,t27B-bCA-sl4,"Doraville MARTA",,202,2532_shp,0,0
+20,4,t280-bC9-sl4,"Beaver Ruin",,201,2488_shp,0,0
+20,4,t2C6-bCB-sl4,"Beaver Ruin",,203,2488_shp,0,0
+20,4,t2C6-bCC-sl4,"Doraville MARTA",,204,2532_shp,0,0
+20,4,t2E9-bC9-sl4,"Doraville MARTA",,201,2532_shp,0,0
+20,4,t2E9-bCA-sl4,"Beaver Ruin",,202,2488_shp,0,0
+20,4,t32F-bCB-sl4,"Doraville MARTA",,203,2532_shp,0,0
+20,4,t334-bCC-sl4,"Beaver Ruin",,204,2488_shp,0,0
+20,4,t352-bC9-sl4,"Beaver Ruin",,201,2488_shp,0,0
+20,4,t357-bCA-sl4,"Doraville MARTA",,202,2532_shp,0,0
+20,4,t398-bCB-sl4,"Beaver Ruin",,203,2488_shp,0,0
+20,4,t398-bCC-sl4,"Doraville MARTA",,204,2532_shp,0,0
+20,4,t3B6-bC9-sl4,"Doraville MARTA",,201,2532_shp,0,0
+20,4,t3B6-bCA-sl4,"Beaver Ruin",,202,2488_shp,0,0
+20,4,t3F7-bCC-sl4,"Beaver Ruin",,204,2488_shp,0,0
+20,4,t3FC-bCB-sl4,"Doraville MARTA",,203,2532_shp,0,0
+20,4,t415-bC9-sl4,"Beaver Ruin",,201,2488_shp,0,0
+20,4,t41A-bCA-sl4,"Doraville MARTA",,202,2532_shp,0,0
+20,4,t45B-bCB-sl4,"Beaver Ruin",,203,2488_shp,0,0
+20,4,t460-bCC-sl4,"Doraville MARTA",,204,2532_shp,0,0
+20,4,t479-bCA-sl4,"Beaver Ruin",,202,2488_shp,0,0
+20,4,t47E-bC9-sl4,"Doraville MARTA",,201,2532_shp,0,0
+20,4,t4BF-bCC-sl4,"Beaver Ruin",,204,2488_shp,0,0
+20,4,t4BF-bCD-sl4,"Doraville MARTA",,205,2532_shp,0,0
+20,4,t4DD-bC9-sl4,"Beaver Ruin",,201,2488_shp,0,0
+20,4,t4DD-bCF-sl4,"Doraville MARTA",,207,2532_shp,0,0
+20,4,t523-bCD-sl4,"Beaver Ruin",,205,2488_shp,0,0
+20,4,t523-bD1-sl4,"Doraville MARTA",,209,2532_shp,0,0
+20,4,t541-bCE-sl4,"Doraville MARTA",,206,2532_shp,0,0
+20,4,t541-bCF-sl4,"Beaver Ruin",,207,2488_shp,0,0
+20,4,t587-bCD-sl4,"Doraville MARTA",,205,2532_shp,0,0
+20,4,t587-bD1-sl4,"Beaver Ruin",,209,2488_shp,0,0
+20,4,t5A5-bCE-sl4,"Beaver Ruin",,206,2488_shp,0,0
+20,4,t5A5-bCF-sl4,"Doraville MARTA",,207,2532_shp,0,0
+20,4,t5EB-bCD-sl4,"Beaver Ruin",,205,2488_shp,0,0
+20,4,t5EB-bD1-sl4,"Doraville MARTA",,209,2532_shp,0,0
+20,4,t609-bCE-sl4,"Doraville MARTA",,206,2532_shp,0,0
+20,4,t609-bCF-sl4,"Beaver Ruin",,207,2488_shp,0,0
+20,4,t654-bD1-sl4,"Beaver Ruin",,209,2488_shp,0,0
+20,4,t65E-bCD-sl4,"Doraville MARTA",,205,2532_shp,0,0
+20,4,t672-bCE-sl4,"Beaver Ruin",,206,2488_shp,0,0
+20,4,t677-bCF-sl4,"Doraville MARTA",,207,2532_shp,0,0
+20,4,t6C7-bCD-sl4,"Beaver Ruin",,205,2488_shp,0,0
+20,4,t6C7-bD1-sl4,"Doraville MARTA",,209,2532_shp,0,0
+20,4,t70D-bCE-sl4,"Doraville MARTA",,206,2532_shp,0,0
+20,4,t70D-bCF-sl4,"Beaver Ruin",,207,2488_shp,0,0
+20,4,t735-bCD-sl4,"Doraville MARTA",,205,2532_shp,0,0
+20,4,t771-bCE-sl4,"Beaver Ruin",,206,2488_shp,0,0
+20,4,t77B-bCF-sl4,"Doraville MARTA",,207,2532_shp,0,0
+20,4,t7D5-bCF-sl4,"Beaver Ruin",,207,2488_shp,0,0
+20,4,t7DF-bCE-sl4,"Doraville MARTA",,206,2532_shp,0,0
+20,4,t839-bCE-sl4,"Beaver Ruin",,206,2488_shp,0,0
+20,4,t843-bCF-sl4,"Doraville MARTA",,207,2532_shp,0,0
+20,5,t217-bC9-sl5,"Doraville MARTA",,201,2532_shp,0,0
+20,5,t21C-bCA-sl5,"Beaver Ruin",,202,2488_shp,0,0
+20,5,t25D-bCB-sl5,"Doraville MARTA",,203,2532_shp,0,0
+20,5,t262-bCC-sl5,"Beaver Ruin",,204,2488_shp,0,0
+20,5,t27B-bCA-sl5,"Doraville MARTA",,202,2532_shp,0,0
+20,5,t280-bC9-sl5,"Beaver Ruin",,201,2488_shp,0,0
+20,5,t2C6-bCB-sl5,"Beaver Ruin",,203,2488_shp,0,0
+20,5,t2C6-bCC-sl5,"Doraville MARTA",,204,2532_shp,0,0
+20,5,t2E9-bC9-sl5,"Doraville MARTA",,201,2532_shp,0,0
+20,5,t2E9-bCA-sl5,"Beaver Ruin",,202,2488_shp,0,0
+20,5,t32F-bCB-sl5,"Doraville MARTA",,203,2532_shp,0,0
+20,5,t334-bCC-sl5,"Beaver Ruin",,204,2488_shp,0,0
+20,5,t352-bC9-sl5,"Beaver Ruin",,201,2488_shp,0,0
+20,5,t357-bCA-sl5,"Doraville MARTA",,202,2532_shp,0,0
+20,5,t398-bCB-sl5,"Beaver Ruin",,203,2488_shp,0,0
+20,5,t398-bCC-sl5,"Doraville MARTA",,204,2532_shp,0,0
+20,5,t3B6-bC9-sl5,"Doraville MARTA",,201,2532_shp,0,0
+20,5,t3B6-bCA-sl5,"Beaver Ruin",,202,2488_shp,0,0
+20,5,t3F7-bCC-sl5,"Beaver Ruin",,204,2488_shp,0,0
+20,5,t3FC-bCB-sl5,"Doraville MARTA",,203,2532_shp,0,0
+20,5,t415-bC9-sl5,"Beaver Ruin",,201,2488_shp,0,0
+20,5,t41A-bCA-sl5,"Doraville MARTA",,202,2532_shp,0,0
+20,5,t45B-bCB-sl5,"Beaver Ruin",,203,2488_shp,0,0
+20,5,t460-bCC-sl5,"Doraville MARTA",,204,2532_shp,0,0
+20,5,t479-bCA-sl5,"Beaver Ruin",,202,2488_shp,0,0
+20,5,t47E-bC9-sl5,"Doraville MARTA",,201,2532_shp,0,0
+20,5,t4BF-bCC-sl5,"Beaver Ruin",,204,2488_shp,0,0
+20,5,t4BF-bCD-sl5,"Doraville MARTA",,205,2532_shp,0,0
+20,5,t4DD-bC9-sl5,"Beaver Ruin",,201,2488_shp,0,0
+20,5,t4DD-bCF-sl5,"Doraville MARTA",,207,2532_shp,0,0
+20,5,t523-bCD-sl5,"Beaver Ruin",,205,2488_shp,0,0
+20,5,t523-bD1-sl5,"Doraville MARTA",,209,2532_shp,0,0
+20,5,t541-bCE-sl5,"Doraville MARTA",,206,2532_shp,0,0
+20,5,t541-bCF-sl5,"Beaver Ruin",,207,2488_shp,0,0
+20,5,t587-bCD-sl5,"Doraville MARTA",,205,2532_shp,0,0
+20,5,t587-bD1-sl5,"Beaver Ruin",,209,2488_shp,0,0
+20,5,t5A5-bCE-sl5,"Beaver Ruin",,206,2488_shp,0,0
+20,5,t5A5-bCF-sl5,"Doraville MARTA",,207,2532_shp,0,0
+20,5,t5EB-bCD-sl5,"Beaver Ruin",,205,2488_shp,0,0
+20,5,t5EB-bD1-sl5,"Doraville MARTA",,209,2532_shp,0,0
+20,5,t609-bCE-sl5,"Doraville MARTA",,206,2532_shp,0,0
+20,5,t609-bCF-sl5,"Beaver Ruin",,207,2488_shp,0,0
+20,5,t654-bD1-sl5,"Beaver Ruin",,209,2488_shp,0,0
+20,5,t65E-bCD-sl5,"Doraville MARTA",,205,2532_shp,0,0
+20,5,t672-bCE-sl5,"Beaver Ruin",,206,2488_shp,0,0
+20,5,t677-bCF-sl5,"Doraville MARTA",,207,2532_shp,0,0
+20,5,t6C7-bCD-sl5,"Beaver Ruin",,205,2488_shp,0,0
+20,5,t6C7-bD1-sl5,"Doraville MARTA",,209,2532_shp,0,0
+20,5,t70D-bCE-sl5,"Doraville MARTA",,206,2532_shp,0,0
+20,5,t70D-bCF-sl5,"Beaver Ruin",,207,2488_shp,0,0
+20,5,t735-bCD-sl5,"Doraville MARTA",,205,2532_shp,0,0
+20,5,t771-bCE-sl5,"Beaver Ruin",,206,2488_shp,0,0
+20,5,t77B-bCF-sl5,"Doraville MARTA",,207,2532_shp,0,0
+20,5,t7D5-bCF-sl5,"Beaver Ruin",,207,2488_shp,0,0
+20,5,t7DF-bCE-sl5,"Doraville MARTA",,206,2532_shp,0,0
+20,5,t839-bCE-sl5,"Beaver Ruin",,206,2488_shp,0,0
+20,5,t843-bCF-sl5,"Doraville MARTA",,207,2532_shp,0,0
+20,6,t217-bC9-sl6,"Doraville MARTA",,201,2532_shp,0,0
+20,6,t21C-bCA-sl6,"Beaver Ruin",,202,2488_shp,0,0
+20,6,t25D-bCB-sl6,"Doraville MARTA",,203,2532_shp,0,0
+20,6,t262-bCC-sl6,"Beaver Ruin",,204,2488_shp,0,0
+20,6,t27B-bCA-sl6,"Doraville MARTA",,202,2532_shp,0,0
+20,6,t280-bC9-sl6,"Beaver Ruin",,201,2488_shp,0,0
+20,6,t2C6-bCB-sl6,"Beaver Ruin",,203,2488_shp,0,0
+20,6,t2C6-bCC-sl6,"Doraville MARTA",,204,2532_shp,0,0
+20,6,t2E9-bC9-sl6,"Doraville MARTA",,201,2532_shp,0,0
+20,6,t2E9-bCA-sl6,"Beaver Ruin",,202,2488_shp,0,0
+20,6,t32F-bCB-sl6,"Doraville MARTA",,203,2532_shp,0,0
+20,6,t334-bCC-sl6,"Beaver Ruin",,204,2488_shp,0,0
+20,6,t352-bC9-sl6,"Beaver Ruin",,201,2488_shp,0,0
+20,6,t357-bCA-sl6,"Doraville MARTA",,202,2532_shp,0,0
+20,6,t398-bCB-sl6,"Beaver Ruin",,203,2488_shp,0,0
+20,6,t398-bCC-sl6,"Doraville MARTA",,204,2532_shp,0,0
+20,6,t3B6-bC9-sl6,"Doraville MARTA",,201,2532_shp,0,0
+20,6,t3B6-bCA-sl6,"Beaver Ruin",,202,2488_shp,0,0
+20,6,t3F7-bCC-sl6,"Beaver Ruin",,204,2488_shp,0,0
+20,6,t3FC-bCB-sl6,"Doraville MARTA",,203,2532_shp,0,0
+20,6,t415-bC9-sl6,"Beaver Ruin",,201,2488_shp,0,0
+20,6,t41A-bCA-sl6,"Doraville MARTA",,202,2532_shp,0,0
+20,6,t45B-bCB-sl6,"Beaver Ruin",,203,2488_shp,0,0
+20,6,t460-bCC-sl6,"Doraville MARTA",,204,2532_shp,0,0
+20,6,t479-bCA-sl6,"Beaver Ruin",,202,2488_shp,0,0
+20,6,t47E-bC9-sl6,"Doraville MARTA",,201,2532_shp,0,0
+20,6,t4BF-bCC-sl6,"Beaver Ruin",,204,2488_shp,0,0
+20,6,t4BF-bCD-sl6,"Doraville MARTA",,205,2532_shp,0,0
+20,6,t4DD-bC9-sl6,"Beaver Ruin",,201,2488_shp,0,0
+20,6,t4DD-bCF-sl6,"Doraville MARTA",,207,2532_shp,0,0
+20,6,t523-bCD-sl6,"Beaver Ruin",,205,2488_shp,0,0
+20,6,t523-bD1-sl6,"Doraville MARTA",,209,2532_shp,0,0
+20,6,t541-bCE-sl6,"Doraville MARTA",,206,2532_shp,0,0
+20,6,t541-bCF-sl6,"Beaver Ruin",,207,2488_shp,0,0
+20,6,t587-bCD-sl6,"Doraville MARTA",,205,2532_shp,0,0
+20,6,t587-bD1-sl6,"Beaver Ruin",,209,2488_shp,0,0
+20,6,t5A5-bCE-sl6,"Beaver Ruin",,206,2488_shp,0,0
+20,6,t5A5-bCF-sl6,"Doraville MARTA",,207,2532_shp,0,0
+20,6,t5EB-bCD-sl6,"Beaver Ruin",,205,2488_shp,0,0
+20,6,t5EB-bD1-sl6,"Doraville MARTA",,209,2532_shp,0,0
+20,6,t609-bCE-sl6,"Doraville MARTA",,206,2532_shp,0,0
+20,6,t609-bCF-sl6,"Beaver Ruin",,207,2488_shp,0,0
+20,6,t654-bD1-sl6,"Beaver Ruin",,209,2488_shp,0,0
+20,6,t65E-bCD-sl6,"Doraville MARTA",,205,2532_shp,0,0
+20,6,t672-bCE-sl6,"Beaver Ruin",,206,2488_shp,0,0
+20,6,t677-bCF-sl6,"Doraville MARTA",,207,2532_shp,0,0
+20,6,t6C7-bCD-sl6,"Beaver Ruin",,205,2488_shp,0,0
+20,6,t6C7-bD1-sl6,"Doraville MARTA",,209,2532_shp,0,0
+20,6,t70D-bCE-sl6,"Doraville MARTA",,206,2532_shp,0,0
+20,6,t70D-bCF-sl6,"Beaver Ruin",,207,2488_shp,0,0
+20,6,t735-bCD-sl6,"Doraville MARTA",,205,2532_shp,0,0
+20,6,t771-bCE-sl6,"Beaver Ruin",,206,2488_shp,0,0
+20,6,t77B-bCF-sl6,"Doraville MARTA",,207,2532_shp,0,0
+20,6,t7D5-bCF-sl6,"Beaver Ruin",,207,2488_shp,0,0
+20,6,t7DF-bCE-sl6,"Doraville MARTA",,206,2532_shp,0,0
+20,6,t839-bCE-sl6,"Beaver Ruin",,206,2488_shp,0,0
+20,6,t843-bCF-sl6,"Doraville MARTA",,207,2532_shp,0,0
+20,7,t261-bC9-sl7,"Doraville MARTA",,201,2532_shp,0,0
+20,7,t262-bCA-sl7,"Beaver Ruin",,202,2488_shp,0,0
+20,7,t2C5-bCA-sl7,"Doraville MARTA",,202,2532_shp,0,0
+20,7,t2C6-bC9-sl7,"Beaver Ruin",,201,2488_shp,0,0
+20,7,t329-bC9-sl7,"Doraville MARTA",,201,2532_shp,0,0
+20,7,t32A-bCA-sl7,"Beaver Ruin",,202,2488_shp,0,0
+20,7,t38D-bCA-sl7,"Doraville MARTA",,202,2532_shp,0,0
+20,7,t38E-bC9-sl7,"Beaver Ruin",,201,2488_shp,0,0
+20,7,t3F1-bC9-sl7,"Doraville MARTA",,201,2532_shp,0,0
+20,7,t3F2-bCA-sl7,"Beaver Ruin",,202,2488_shp,0,0
+20,7,t455-bCA-sl7,"Doraville MARTA",,202,2532_shp,0,0
+20,7,t456-bC9-sl7,"Beaver Ruin",,201,2488_shp,0,0
+20,7,t4B9-bC9-sl7,"Doraville MARTA",,201,2532_shp,0,0
+20,7,t4BA-bCA-sl7,"Beaver Ruin",,202,2488_shp,0,0
+20,7,t51D-bCA-sl7,"Doraville MARTA",,202,2532_shp,0,0
+20,7,t51E-bC9-sl7,"Beaver Ruin",,201,2488_shp,0,0
+20,7,t581-bC9-sl7,"Doraville MARTA",,201,2532_shp,0,0
+20,7,t582-bCA-sl7,"Beaver Ruin",,202,2488_shp,0,0
+20,7,t5E5-bCC-sl7,"Doraville MARTA",,204,2532_shp,0,0
+20,7,t5E6-bC9-sl7,"Beaver Ruin",,201,2488_shp,0,0
+20,7,t649-bCB-sl7,"Doraville MARTA",,203,2532_shp,0,0
+20,7,t64A-bCC-sl7,"Beaver Ruin",,204,2488_shp,0,0
+20,7,t6AD-bCC-sl7,"Doraville MARTA",,204,2532_shp,0,0
+20,7,t6AE-bCB-sl7,"Beaver Ruin",,203,2488_shp,0,0
+20,7,t711-bCB-sl7,"Doraville MARTA",,203,2532_shp,0,0
+20,7,t712-bCC-sl7,"Beaver Ruin",,204,2488_shp,0,0
+20,7,t775-bCC-sl7,"Doraville MARTA",,204,2532_shp,0,0
+20,7,t776-bCB-sl7,"Beaver Ruin",,203,2488_shp,0,0
+30,2,t208-b12D-sl2,"Live Oak Pkwy",,301,2489_shp,0,0
+30,2,t226-b12E-sl2,"Live Oak Pkwy",,302,2489_shp,0,0
+30,2,t22B-b12F-sl2,"Transit Center",,303,2526_shp,0,0
+30,2,t26C-b130-sl2,"Live Oak Pkwy",,304,2489_shp,0,0
+30,2,t271-b12D-sl2,"Transit Center",,301,2526_shp,0,0
+30,2,t28A-b131-sl2,"Live Oak Pkwy",,305,2489_shp,0,0
+30,2,t28F-b12E-sl2,"Transit Center",,302,2526_shp,0,0
+30,2,t2D0-b191-sl2,"Live Oak Pkwy",,401,2489_shp,0,0
+30,2,t2D5-b130-sl2,"Transit Center",,304,2526_shp,0,0
+30,2,t2EE-b193-sl2,"Live Oak Pkwy",,403,2489_shp,0,0
+30,2,t2F3-b131-sl2,"Transit Center",,305,2526_shp,0,0
+30,2,t334-b192-sl2,"Live Oak Pkwy",,402,2489_shp,0,0
+30,2,t339-b191-sl2,"Transit Center",,401,2526_shp,0,0
+30,2,t352-b194-sl2,"Live Oak Pkwy",,404,2489_shp,0,0
+30,2,t355-b193-sl2,"Transit Center",,403,2526_shp,0,0
+30,2,t398-b12F-sl2,"Live Oak Pkwy",,303,2489_shp,0,0
+30,2,t39B-b192-sl2,"Transit Center",,402,2526_shp,0,0
+30,2,t3B6-b12D-sl2,"Live Oak Pkwy",,301,2489_shp,0,0
+30,2,t3B9-b194-sl2,"Transit Center",,404,2526_shp,0,0
+30,2,t3FC-b192-sl2,"Live Oak Pkwy",,402,2489_shp,0,0
+30,2,t3FF-b12F-sl2,"Transit Center",,303,2526_shp,0,0
+30,2,t41A-b194-sl2,"Live Oak Pkwy",,404,2489_shp,0,0
+30,2,t41D-b12D-sl2,"Transit Center",,301,2526_shp,0,0
+30,2,t460-b12F-sl2,"Live Oak Pkwy",,303,2489_shp,0,0
+30,2,t463-b192-sl2,"Transit Center",,402,2526_shp,0,0
+30,2,t47E-b12D-sl2,"Live Oak Pkwy",,301,2489_shp,0,0
+30,2,t481-b194-sl2,"Transit Center",,404,2526_shp,0,0
+30,2,t4C4-b192-sl2,"Live Oak Pkwy",,402,2489_shp,0,0
+30,2,t4C7-b12F-sl2,"Transit Center",,303,2526_shp,0,0
+30,2,t4E2-b194-sl2,"Live Oak Pkwy",,404,2489_shp,0,0
+30,2,t4E5-b12D-sl2,"Transit Center",,301,2526_shp,0,0
+30,2,t528-b12F-sl2,"Live Oak Pkwy",,303,2489_shp,0,0
+30,2,t52B-b192-sl2,"Transit Center",,402,2526_shp,0,0
+30,2,t546-b12D-sl2,"Live Oak Pkwy",,301,2489_shp,0,0
+30,2,t549-b194-sl2,"Transit Center",,404,2526_shp,0,0
+30,2,t58C-b192-sl2,"Live Oak Pkwy",,402,2489_shp,0,0
+30,2,t593-b12F-sl2,"Transit Center",,303,2526_shp,0,0
+30,2,t5AA-b194-sl2,"Live Oak Pkwy",,404,2489_shp,0,0
+30,2,t5B1-b12D-sl2,"Transit Center",,301,2526_shp,0,0
+30,2,t5F0-b132-sl2,"Live Oak Pkwy",,306,2489_shp,0,0
+30,2,t5F7-b192-sl2,"Transit Center",,402,2526_shp,0,0
+30,2,t615-b194-sl2,"Transit Center",,404,2526_shp,0,0
+30,2,t640-b12E-sl2,"Live Oak Pkwy",,302,2489_shp,0,0
+30,2,t65B-b132-sl2,"Transit Center",,306,2526_shp,0,0
+30,2,t65E-b130-sl2,"Live Oak Pkwy",,304,2489_shp,0,0
+30,2,t6A9-b131-sl2,"Live Oak Pkwy",,305,2489_shp,0,0
+30,2,t6AB-b12E-sl2,"Transit Center",,302,2526_shp,0,0
+30,2,t6C7-b191-sl2,"Live Oak Pkwy",,401,2489_shp,0,0
+30,2,t6C9-b130-sl2,"Transit Center",,304,2526_shp,0,0
+30,2,t6DB-b12F-sl2,"Live Oak Pkwy",,303,2489_shp,0,0
+30,2,t714-b131-sl2,"Transit Center",,305,2526_shp,0,0
+30,2,t732-b191-sl2,"Transit Center",,401,2526_shp,0,0
+30,2,t73F-b192-sl2,"Live Oak Pkwy",,402,2489_shp,0,0
+30,2,t7A0-b192-sl2,"Transit Center",,402,2526_shp,0,0
+30,2,t7D0-b132-sl2,"Live Oak Pkwy",,306,2489_shp,0,0
+30,3,t208-b12D-sl3,"Live Oak Pkwy",,301,2489_shp,0,0
+30,3,t226-b12E-sl3,"Live Oak Pkwy",,302,2489_shp,0,0
+30,3,t22B-b12F-sl3,"Transit Center",,303,2526_shp,0,0
+30,3,t26C-b130-sl3,"Live Oak Pkwy",,304,2489_shp,0,0
+30,3,t271-b12D-sl3,"Transit Center",,301,2526_shp,0,0
+30,3,t28A-b131-sl3,"Live Oak Pkwy",,305,2489_shp,0,0
+30,3,t28F-b12E-sl3,"Transit Center",,302,2526_shp,0,0
+30,3,t2D0-b191-sl3,"Live Oak Pkwy",,401,2489_shp,0,0
+30,3,t2D5-b130-sl3,"Transit Center",,304,2526_shp,0,0
+30,3,t2EE-b193-sl3,"Live Oak Pkwy",,403,2489_shp,0,0
+30,3,t2F3-b131-sl3,"Transit Center",,305,2526_shp,0,0
+30,3,t334-b192-sl3,"Live Oak Pkwy",,402,2489_shp,0,0
+30,3,t339-b191-sl3,"Transit Center",,401,2526_shp,0,0
+30,3,t352-b194-sl3,"Live Oak Pkwy",,404,2489_shp,0,0
+30,3,t355-b193-sl3,"Transit Center",,403,2526_shp,0,0
+30,3,t398-b12F-sl3,"Live Oak Pkwy",,303,2489_shp,0,0
+30,3,t39B-b192-sl3,"Transit Center",,402,2526_shp,0,0
+30,3,t3B6-b12D-sl3,"Live Oak Pkwy",,301,2489_shp,0,0
+30,3,t3B9-b194-sl3,"Transit Center",,404,2526_shp,0,0
+30,3,t3FC-b192-sl3,"Live Oak Pkwy",,402,2489_shp,0,0
+30,3,t3FF-b12F-sl3,"Transit Center",,303,2526_shp,0,0
+30,3,t41A-b194-sl3,"Live Oak Pkwy",,404,2489_shp,0,0
+30,3,t41D-b12D-sl3,"Transit Center",,301,2526_shp,0,0
+30,3,t460-b12F-sl3,"Live Oak Pkwy",,303,2489_shp,0,0
+30,3,t463-b192-sl3,"Transit Center",,402,2526_shp,0,0
+30,3,t47E-b12D-sl3,"Live Oak Pkwy",,301,2489_shp,0,0
+30,3,t481-b194-sl3,"Transit Center",,404,2526_shp,0,0
+30,3,t4C4-b192-sl3,"Live Oak Pkwy",,402,2489_shp,0,0
+30,3,t4C7-b12F-sl3,"Transit Center",,303,2526_shp,0,0
+30,3,t4E2-b194-sl3,"Live Oak Pkwy",,404,2489_shp,0,0
+30,3,t4E5-b12D-sl3,"Transit Center",,301,2526_shp,0,0
+30,3,t528-b12F-sl3,"Live Oak Pkwy",,303,2489_shp,0,0
+30,3,t52B-b192-sl3,"Transit Center",,402,2526_shp,0,0
+30,3,t546-b12D-sl3,"Live Oak Pkwy",,301,2489_shp,0,0
+30,3,t549-b194-sl3,"Transit Center",,404,2526_shp,0,0
+30,3,t58C-b192-sl3,"Live Oak Pkwy",,402,2489_shp,0,0
+30,3,t593-b12F-sl3,"Transit Center",,303,2526_shp,0,0
+30,3,t5AA-b194-sl3,"Live Oak Pkwy",,404,2489_shp,0,0
+30,3,t5B1-b12D-sl3,"Transit Center",,301,2526_shp,0,0
+30,3,t5F0-b132-sl3,"Live Oak Pkwy",,306,2489_shp,0,0
+30,3,t5F7-b192-sl3,"Transit Center",,402,2526_shp,0,0
+30,3,t615-b194-sl3,"Transit Center",,404,2526_shp,0,0
+30,3,t640-b12E-sl3,"Live Oak Pkwy",,302,2489_shp,0,0
+30,3,t65B-b132-sl3,"Transit Center",,306,2526_shp,0,0
+30,3,t65E-b130-sl3,"Live Oak Pkwy",,304,2489_shp,0,0
+30,3,t6A9-b131-sl3,"Live Oak Pkwy",,305,2489_shp,0,0
+30,3,t6AB-b12E-sl3,"Transit Center",,302,2526_shp,0,0
+30,3,t6C7-b191-sl3,"Live Oak Pkwy",,401,2489_shp,0,0
+30,3,t6C9-b130-sl3,"Transit Center",,304,2526_shp,0,0
+30,3,t6DB-b12F-sl3,"Live Oak Pkwy",,303,2489_shp,0,0
+30,3,t714-b131-sl3,"Transit Center",,305,2526_shp,0,0
+30,3,t732-b191-sl3,"Transit Center",,401,2526_shp,0,0
+30,3,t73F-b192-sl3,"Live Oak Pkwy",,402,2489_shp,0,0
+30,3,t7A0-b192-sl3,"Transit Center",,402,2526_shp,0,0
+30,3,t7D0-b132-sl3,"Live Oak Pkwy",,306,2489_shp,0,0
+30,4,t208-b12D-sl4,"Live Oak Pkwy",,301,2489_shp,0,0
+30,4,t226-b12E-sl4,"Live Oak Pkwy",,302,2489_shp,0,0
+30,4,t22B-b12F-sl4,"Transit Center",,303,2526_shp,0,0
+30,4,t26C-b130-sl4,"Live Oak Pkwy",,304,2489_shp,0,0
+30,4,t271-b12D-sl4,"Transit Center",,301,2526_shp,0,0
+30,4,t28A-b131-sl4,"Live Oak Pkwy",,305,2489_shp,0,0
+30,4,t28F-b12E-sl4,"Transit Center",,302,2526_shp,0,0
+30,4,t2D0-b191-sl4,"Live Oak Pkwy",,401,2489_shp,0,0
+30,4,t2D5-b130-sl4,"Transit Center",,304,2526_shp,0,0
+30,4,t2EE-b193-sl4,"Live Oak Pkwy",,403,2489_shp,0,0
+30,4,t2F3-b131-sl4,"Transit Center",,305,2526_shp,0,0
+30,4,t334-b192-sl4,"Live Oak Pkwy",,402,2489_shp,0,0
+30,4,t339-b191-sl4,"Transit Center",,401,2526_shp,0,0
+30,4,t352-b194-sl4,"Live Oak Pkwy",,404,2489_shp,0,0
+30,4,t355-b193-sl4,"Transit Center",,403,2526_shp,0,0
+30,4,t398-b12F-sl4,"Live Oak Pkwy",,303,2489_shp,0,0
+30,4,t39B-b192-sl4,"Transit Center",,402,2526_shp,0,0
+30,4,t3B6-b12D-sl4,"Live Oak Pkwy",,301,2489_shp,0,0
+30,4,t3B9-b194-sl4,"Transit Center",,404,2526_shp,0,0
+30,4,t3FC-b192-sl4,"Live Oak Pkwy",,402,2489_shp,0,0
+30,4,t3FF-b12F-sl4,"Transit Center",,303,2526_shp,0,0
+30,4,t41A-b194-sl4,"Live Oak Pkwy",,404,2489_shp,0,0
+30,4,t41D-b12D-sl4,"Transit Center",,301,2526_shp,0,0
+30,4,t460-b12F-sl4,"Live Oak Pkwy",,303,2489_shp,0,0
+30,4,t463-b192-sl4,"Transit Center",,402,2526_shp,0,0
+30,4,t47E-b12D-sl4,"Live Oak Pkwy",,301,2489_shp,0,0
+30,4,t481-b194-sl4,"Transit Center",,404,2526_shp,0,0
+30,4,t4C4-b192-sl4,"Live Oak Pkwy",,402,2489_shp,0,0
+30,4,t4C7-b12F-sl4,"Transit Center",,303,2526_shp,0,0
+30,4,t4E2-b194-sl4,"Live Oak Pkwy",,404,2489_shp,0,0
+30,4,t4E5-b12D-sl4,"Transit Center",,301,2526_shp,0,0
+30,4,t528-b12F-sl4,"Live Oak Pkwy",,303,2489_shp,0,0
+30,4,t52B-b192-sl4,"Transit Center",,402,2526_shp,0,0
+30,4,t546-b12D-sl4,"Live Oak Pkwy",,301,2489_shp,0,0
+30,4,t549-b194-sl4,"Transit Center",,404,2526_shp,0,0
+30,4,t58C-b192-sl4,"Live Oak Pkwy",,402,2489_shp,0,0
+30,4,t593-b12F-sl4,"Transit Center",,303,2526_shp,0,0
+30,4,t5AA-b194-sl4,"Live Oak Pkwy",,404,2489_shp,0,0
+30,4,t5B1-b12D-sl4,"Transit Center",,301,2526_shp,0,0
+30,4,t5F0-b132-sl4,"Live Oak Pkwy",,306,2489_shp,0,0
+30,4,t5F7-b192-sl4,"Transit Center",,402,2526_shp,0,0
+30,4,t615-b194-sl4,"Transit Center",,404,2526_shp,0,0
+30,4,t640-b12E-sl4,"Live Oak Pkwy",,302,2489_shp,0,0
+30,4,t65B-b132-sl4,"Transit Center",,306,2526_shp,0,0
+30,4,t65E-b130-sl4,"Live Oak Pkwy",,304,2489_shp,0,0
+30,4,t6A9-b131-sl4,"Live Oak Pkwy",,305,2489_shp,0,0
+30,4,t6AB-b12E-sl4,"Transit Center",,302,2526_shp,0,0
+30,4,t6C7-b191-sl4,"Live Oak Pkwy",,401,2489_shp,0,0
+30,4,t6C9-b130-sl4,"Transit Center",,304,2526_shp,0,0
+30,4,t6DB-b12F-sl4,"Live Oak Pkwy",,303,2489_shp,0,0
+30,4,t714-b131-sl4,"Transit Center",,305,2526_shp,0,0
+30,4,t732-b191-sl4,"Transit Center",,401,2526_shp,0,0
+30,4,t73F-b192-sl4,"Live Oak Pkwy",,402,2489_shp,0,0
+30,4,t7A0-b192-sl4,"Transit Center",,402,2526_shp,0,0
+30,4,t7D0-b132-sl4,"Live Oak Pkwy",,306,2489_shp,0,0
+30,5,t208-b12D-sl5,"Live Oak Pkwy",,301,2489_shp,0,0
+30,5,t226-b12E-sl5,"Live Oak Pkwy",,302,2489_shp,0,0
+30,5,t22B-b12F-sl5,"Transit Center",,303,2526_shp,0,0
+30,5,t26C-b130-sl5,"Live Oak Pkwy",,304,2489_shp,0,0
+30,5,t271-b12D-sl5,"Transit Center",,301,2526_shp,0,0
+30,5,t28A-b131-sl5,"Live Oak Pkwy",,305,2489_shp,0,0
+30,5,t28F-b12E-sl5,"Transit Center",,302,2526_shp,0,0
+30,5,t2D0-b191-sl5,"Live Oak Pkwy",,401,2489_shp,0,0
+30,5,t2D5-b130-sl5,"Transit Center",,304,2526_shp,0,0
+30,5,t2EE-b193-sl5,"Live Oak Pkwy",,403,2489_shp,0,0
+30,5,t2F3-b131-sl5,"Transit Center",,305,2526_shp,0,0
+30,5,t334-b192-sl5,"Live Oak Pkwy",,402,2489_shp,0,0
+30,5,t339-b191-sl5,"Transit Center",,401,2526_shp,0,0
+30,5,t352-b194-sl5,"Live Oak Pkwy",,404,2489_shp,0,0
+30,5,t355-b193-sl5,"Transit Center",,403,2526_shp,0,0
+30,5,t398-b12F-sl5,"Live Oak Pkwy",,303,2489_shp,0,0
+30,5,t39B-b192-sl5,"Transit Center",,402,2526_shp,0,0
+30,5,t3B6-b12D-sl5,"Live Oak Pkwy",,301,2489_shp,0,0
+30,5,t3B9-b194-sl5,"Transit Center",,404,2526_shp,0,0
+30,5,t3FC-b192-sl5,"Live Oak Pkwy",,402,2489_shp,0,0
+30,5,t3FF-b12F-sl5,"Transit Center",,303,2526_shp,0,0
+30,5,t41A-b194-sl5,"Live Oak Pkwy",,404,2489_shp,0,0
+30,5,t41D-b12D-sl5,"Transit Center",,301,2526_shp,0,0
+30,5,t460-b12F-sl5,"Live Oak Pkwy",,303,2489_shp,0,0
+30,5,t463-b192-sl5,"Transit Center",,402,2526_shp,0,0
+30,5,t47E-b12D-sl5,"Live Oak Pkwy",,301,2489_shp,0,0
+30,5,t481-b194-sl5,"Transit Center",,404,2526_shp,0,0
+30,5,t4C4-b192-sl5,"Live Oak Pkwy",,402,2489_shp,0,0
+30,5,t4C7-b12F-sl5,"Transit Center",,303,2526_shp,0,0
+30,5,t4E2-b194-sl5,"Live Oak Pkwy",,404,2489_shp,0,0
+30,5,t4E5-b12D-sl5,"Transit Center",,301,2526_shp,0,0
+30,5,t528-b12F-sl5,"Live Oak Pkwy",,303,2489_shp,0,0
+30,5,t52B-b192-sl5,"Transit Center",,402,2526_shp,0,0
+30,5,t546-b12D-sl5,"Live Oak Pkwy",,301,2489_shp,0,0
+30,5,t549-b194-sl5,"Transit Center",,404,2526_shp,0,0
+30,5,t58C-b192-sl5,"Live Oak Pkwy",,402,2489_shp,0,0
+30,5,t593-b12F-sl5,"Transit Center",,303,2526_shp,0,0
+30,5,t5AA-b194-sl5,"Live Oak Pkwy",,404,2489_shp,0,0
+30,5,t5B1-b12D-sl5,"Transit Center",,301,2526_shp,0,0
+30,5,t5F0-b132-sl5,"Live Oak Pkwy",,306,2489_shp,0,0
+30,5,t5F7-b192-sl5,"Transit Center",,402,2526_shp,0,0
+30,5,t615-b194-sl5,"Transit Center",,404,2526_shp,0,0
+30,5,t640-b12E-sl5,"Live Oak Pkwy",,302,2489_shp,0,0
+30,5,t65B-b132-sl5,"Transit Center",,306,2526_shp,0,0
+30,5,t65E-b130-sl5,"Live Oak Pkwy",,304,2489_shp,0,0
+30,5,t6A9-b131-sl5,"Live Oak Pkwy",,305,2489_shp,0,0
+30,5,t6AB-b12E-sl5,"Transit Center",,302,2526_shp,0,0
+30,5,t6C7-b191-sl5,"Live Oak Pkwy",,401,2489_shp,0,0
+30,5,t6C9-b130-sl5,"Transit Center",,304,2526_shp,0,0
+30,5,t6DB-b12F-sl5,"Live Oak Pkwy",,303,2489_shp,0,0
+30,5,t714-b131-sl5,"Transit Center",,305,2526_shp,0,0
+30,5,t732-b191-sl5,"Transit Center",,401,2526_shp,0,0
+30,5,t73F-b192-sl5,"Live Oak Pkwy",,402,2489_shp,0,0
+30,5,t7A0-b192-sl5,"Transit Center",,402,2526_shp,0,0
+30,5,t7D0-b132-sl5,"Live Oak Pkwy",,306,2489_shp,0,0
+30,6,t208-b12D-sl6,"Live Oak Pkwy",,301,2489_shp,0,0
+30,6,t226-b12E-sl6,"Live Oak Pkwy",,302,2489_shp,0,0
+30,6,t22B-b12F-sl6,"Transit Center",,303,2526_shp,0,0
+30,6,t26C-b130-sl6,"Live Oak Pkwy",,304,2489_shp,0,0
+30,6,t271-b12D-sl6,"Transit Center",,301,2526_shp,0,0
+30,6,t28A-b131-sl6,"Live Oak Pkwy",,305,2489_shp,0,0
+30,6,t28F-b12E-sl6,"Transit Center",,302,2526_shp,0,0
+30,6,t2D0-b191-sl6,"Live Oak Pkwy",,401,2489_shp,0,0
+30,6,t2D5-b130-sl6,"Transit Center",,304,2526_shp,0,0
+30,6,t2EE-b193-sl6,"Live Oak Pkwy",,403,2489_shp,0,0
+30,6,t2F3-b131-sl6,"Transit Center",,305,2526_shp,0,0
+30,6,t334-b192-sl6,"Live Oak Pkwy",,402,2489_shp,0,0
+30,6,t339-b191-sl6,"Transit Center",,401,2526_shp,0,0
+30,6,t352-b194-sl6,"Live Oak Pkwy",,404,2489_shp,0,0
+30,6,t355-b193-sl6,"Transit Center",,403,2526_shp,0,0
+30,6,t398-b12F-sl6,"Live Oak Pkwy",,303,2489_shp,0,0
+30,6,t39B-b192-sl6,"Transit Center",,402,2526_shp,0,0
+30,6,t3B6-b12D-sl6,"Live Oak Pkwy",,301,2489_shp,0,0
+30,6,t3B9-b194-sl6,"Transit Center",,404,2526_shp,0,0
+30,6,t3FC-b192-sl6,"Live Oak Pkwy",,402,2489_shp,0,0
+30,6,t3FF-b12F-sl6,"Transit Center",,303,2526_shp,0,0
+30,6,t41A-b194-sl6,"Live Oak Pkwy",,404,2489_shp,0,0
+30,6,t41D-b12D-sl6,"Transit Center",,301,2526_shp,0,0
+30,6,t460-b12F-sl6,"Live Oak Pkwy",,303,2489_shp,0,0
+30,6,t463-b192-sl6,"Transit Center",,402,2526_shp,0,0
+30,6,t47E-b12D-sl6,"Live Oak Pkwy",,301,2489_shp,0,0
+30,6,t481-b194-sl6,"Transit Center",,404,2526_shp,0,0
+30,6,t4C4-b192-sl6,"Live Oak Pkwy",,402,2489_shp,0,0
+30,6,t4C7-b12F-sl6,"Transit Center",,303,2526_shp,0,0
+30,6,t4E2-b194-sl6,"Live Oak Pkwy",,404,2489_shp,0,0
+30,6,t4E5-b12D-sl6,"Transit Center",,301,2526_shp,0,0
+30,6,t528-b12F-sl6,"Live Oak Pkwy",,303,2489_shp,0,0
+30,6,t52B-b192-sl6,"Transit Center",,402,2526_shp,0,0
+30,6,t546-b12D-sl6,"Live Oak Pkwy",,301,2489_shp,0,0
+30,6,t549-b194-sl6,"Transit Center",,404,2526_shp,0,0
+30,6,t58C-b192-sl6,"Live Oak Pkwy",,402,2489_shp,0,0
+30,6,t593-b12F-sl6,"Transit Center",,303,2526_shp,0,0
+30,6,t5AA-b194-sl6,"Live Oak Pkwy",,404,2489_shp,0,0
+30,6,t5B1-b12D-sl6,"Transit Center",,301,2526_shp,0,0
+30,6,t5F0-b132-sl6,"Live Oak Pkwy",,306,2489_shp,0,0
+30,6,t5F7-b192-sl6,"Transit Center",,402,2526_shp,0,0
+30,6,t615-b194-sl6,"Transit Center",,404,2526_shp,0,0
+30,6,t640-b12E-sl6,"Live Oak Pkwy",,302,2489_shp,0,0
+30,6,t65B-b132-sl6,"Transit Center",,306,2526_shp,0,0
+30,6,t65E-b130-sl6,"Live Oak Pkwy",,304,2489_shp,0,0
+30,6,t6A9-b131-sl6,"Live Oak Pkwy",,305,2489_shp,0,0
+30,6,t6AB-b12E-sl6,"Transit Center",,302,2526_shp,0,0
+30,6,t6C7-b191-sl6,"Live Oak Pkwy",,401,2489_shp,0,0
+30,6,t6C9-b130-sl6,"Transit Center",,304,2526_shp,0,0
+30,6,t6DB-b12F-sl6,"Live Oak Pkwy",,303,2489_shp,0,0
+30,6,t714-b131-sl6,"Transit Center",,305,2526_shp,0,0
+30,6,t732-b191-sl6,"Transit Center",,401,2526_shp,0,0
+30,6,t73F-b192-sl6,"Live Oak Pkwy",,402,2489_shp,0,0
+30,6,t7A0-b192-sl6,"Transit Center",,402,2526_shp,0,0
+30,6,t7D0-b132-sl6,"Live Oak Pkwy",,306,2489_shp,0,0
+30,7,t274-b12D-sl7,"Live Oak Pkwy",,301,2489_shp,0,0
+30,7,t285-b12E-sl7,"Transit Center",,302,2526_shp,0,0
+30,7,t2CE-b12F-sl7,"Live Oak Pkwy",,303,2489_shp,0,0
+30,7,t2DF-b12D-sl7,"Transit Center",,301,2526_shp,0,0
+30,7,t328-b12E-sl7,"Live Oak Pkwy",,302,2489_shp,0,0
+30,7,t339-b12F-sl7,"Transit Center",,303,2526_shp,0,0
+30,7,t35A-b12D-sl7,"Live Oak Pkwy",,301,2489_shp,0,0
+30,7,t393-b12E-sl7,"Transit Center",,302,2526_shp,0,0
+30,7,t3B4-b12F-sl7,"Live Oak Pkwy",,303,2489_shp,0,0
+30,7,t3ED-b12D-sl7,"Transit Center",,301,2526_shp,0,0
+30,7,t40E-b12E-sl7,"Live Oak Pkwy",,302,2489_shp,0,0
+30,7,t41F-b12F-sl7,"Transit Center",,303,2526_shp,0,0
+30,7,t468-b12D-sl7,"Live Oak Pkwy",,301,2489_shp,0,0
+30,7,t479-b12E-sl7,"Transit Center",,302,2526_shp,0,0
+30,7,t4C2-b12F-sl7,"Live Oak Pkwy",,303,2489_shp,0,0
+30,7,t4D3-b12D-sl7,"Transit Center",,301,2526_shp,0,0
+30,7,t51C-b12E-sl7,"Live Oak Pkwy",,302,2489_shp,0,0
+30,7,t52D-b12F-sl7,"Transit Center",,303,2526_shp,0,0
+30,7,t54E-b12D-sl7,"Live Oak Pkwy",,301,2489_shp,0,0
+30,7,t587-b12E-sl7,"Transit Center",,302,2526_shp,0,0
+30,7,t5A8-b12F-sl7,"Live Oak Pkwy",,303,2489_shp,0,0
+30,7,t5E1-b12D-sl7,"Transit Center",,301,2526_shp,0,0
+30,7,t602-b12E-sl7,"Live Oak Pkwy",,302,2489_shp,0,0
+30,7,t613-b12F-sl7,"Transit Center",,303,2526_shp,0,0
+30,7,t65C-b12D-sl7,"Live Oak Pkwy",,301,2489_shp,0,0
+30,7,t66D-b12E-sl7,"Transit Center",,302,2526_shp,0,0
+30,7,t6B6-b12F-sl7,"Live Oak Pkwy",,303,2489_shp,0,0
+30,7,t6C7-b12D-sl7,"Transit Center",,301,2526_shp,0,0
+30,7,t710-b12E-sl7,"Live Oak Pkwy",,302,2489_shp,0,0
+30,7,t721-b12F-sl7,"Transit Center",,303,2526_shp,0,0
+30,7,t742-b12D-sl7,"Live Oak Pkwy",,301,2489_shp,0,0
+30,7,t77B-b12E-sl7,"Transit Center",,302,2526_shp,0,0
+30,7,t79C-b12F-sl7,"Live Oak Pkwy",,303,2489_shp,0,0
+30,7,t7D5-b12D-sl7,"Transit Center",,301,2526_shp,0,0
+30,7,t7F6-b12E-sl7,"Live Oak Pkwy",,302,2489_shp,0,0
+35,2,t208-b162-sl2,"Doraville MARTA",,354,2493_shp,0,0
+35,2,t212-b161-sl2,"P'tree Pky Forum",,353,2502_shp,0,0
+35,2,t226-b15F-sl2,"Doraville MARTA",,351,2493_shp,0,0
+35,2,t22B-b160-sl2,"P'tree Pky Forum",,352,2502_shp,0,0
+35,2,t26C-b161-sl2,"Doraville MARTA",,353,2493_shp,0,0
+35,2,t271-b162-sl2,"P'tree Pky Forum",,354,2502_shp,0,0
+35,2,t28A-b160-sl2,"Doraville MARTA",,352,2493_shp,0,0
+35,2,t28F-b15F-sl2,"P'tree Pky Forum",,351,2502_shp,0,0
+35,2,t2D0-b162-sl2,"Doraville MARTA",,354,2493_shp,0,0
+35,2,t2D5-b161-sl2,"P'tree Pky Forum",,353,2502_shp,0,0
+35,2,t2EE-b15F-sl2,"Doraville MARTA",,351,2493_shp,0,0
+35,2,t2F3-b160-sl2,"P'tree Pky Forum",,352,2502_shp,0,0
+35,2,t334-b161-sl2,"Doraville MARTA",,353,2493_shp,0,0
+35,2,t339-b162-sl2,"P'tree Pky Forum",,354,2502_shp,0,0
+35,2,t352-b160-sl2,"Doraville MARTA",,352,2493_shp,0,0
+35,2,t357-b15F-sl2,"P'tree Pky Forum",,351,2502_shp,0,0
+35,2,t398-b162-sl2,"Doraville MARTA",,354,2493_shp,0,0
+35,2,t39D-b161-sl2,"P'tree Pky Forum",,353,2502_shp,0,0
+35,2,t3B6-b15F-sl2,"Doraville MARTA",,351,2493_shp,0,0
+35,2,t3BB-b160-sl2,"P'tree Pky Forum",,352,2502_shp,0,0
+35,2,t3FC-b161-sl2,"Doraville MARTA",,353,2493_shp,0,0
+35,2,t401-b162-sl2,"P'tree Pky Forum",,354,2502_shp,0,0
+35,2,t41A-b160-sl2,"Doraville MARTA",,352,2493_shp,0,0
+35,2,t41F-b15F-sl2,"P'tree Pky Forum",,351,2502_shp,0,0
+35,2,t460-b162-sl2,"Doraville MARTA",,354,2493_shp,0,0
+35,2,t465-b161-sl2,"P'tree Pky Forum",,353,2502_shp,0,0
+35,2,t47E-b15F-sl2,"Doraville MARTA",,351,2493_shp,0,0
+35,2,t483-b160-sl2,"P'tree Pky Forum",,352,2502_shp,0,0
+35,2,t4C4-b165-sl2,"Doraville MARTA",,357,2493_shp,0,0
+35,2,t4C9-b162-sl2,"P'tree Pky Forum",,354,2502_shp,0,0
+35,2,t4E2-b164-sl2,"Doraville MARTA",,356,2493_shp,0,0
+35,2,t4E7-b15F-sl2,"P'tree Pky Forum",,351,2502_shp,0,0
+35,2,t528-b166-sl2,"Doraville MARTA",,358,2493_shp,0,0
+35,2,t52D-b165-sl2,"P'tree Pky Forum",,357,2502_shp,0,0
+35,2,t546-b163-sl2,"Doraville MARTA",,355,2493_shp,0,0
+35,2,t54B-b164-sl2,"P'tree Pky Forum",,356,2502_shp,0,0
+35,2,t58C-b165-sl2,"Doraville MARTA",,357,2493_shp,0,0
+35,2,t591-b166-sl2,"P'tree Pky Forum",,358,2502_shp,0,0
+35,2,t5AA-b164-sl2,"Doraville MARTA",,356,2493_shp,0,0
+35,2,t5AF-b163-sl2,"P'tree Pky Forum",,355,2502_shp,0,0
+35,2,t5F0-b166-sl2,"Doraville MARTA",,358,2493_shp,0,0
+35,2,t5F5-b165-sl2,"P'tree Pky Forum",,357,2502_shp,0,0
+35,2,t60E-b163-sl2,"Doraville MARTA",,355,2493_shp,0,0
+35,2,t613-b164-sl2,"P'tree Pky Forum",,356,2502_shp,0,0
+35,2,t654-b165-sl2,"Doraville MARTA",,357,2493_shp,0,0
+35,2,t659-b166-sl2,"P'tree Pky Forum",,358,2502_shp,0,0
+35,2,t672-b164-sl2,"Doraville MARTA",,356,2493_shp,0,0
+35,2,t677-b163-sl2,"P'tree Pky Forum",,355,2502_shp,0,0
+35,2,t6B8-b166-sl2,"Doraville MARTA",,358,2493_shp,0,0
+35,2,t6BD-b165-sl2,"P'tree Pky Forum",,357,2502_shp,0,0
+35,2,t6D6-b163-sl2,"Doraville MARTA",,355,2493_shp,0,0
+35,2,t6DB-b164-sl2,"P'tree Pky Forum",,356,2502_shp,0,0
+35,2,t71C-b165-sl2,"Doraville MARTA",,357,2493_shp,0,0
+35,2,t721-b166-sl2,"P'tree Pky Forum",,358,2502_shp,0,0
+35,2,t73A-b164-sl2,"Doraville MARTA",,356,2493_shp,0,0
+35,2,t73F-b163-sl2,"P'tree Pky Forum",,355,2502_shp,0,0
+35,2,t780-b166-sl2,"Doraville MARTA",,358,2493_shp,0,0
+35,2,t79E-b163-sl2,"Doraville MARTA",,355,2493_shp,0,0
+35,2,t7A3-b164-sl2,"P'tree Pky Forum",,356,2502_shp,0,0
+35,2,t839-b164-sl2,"Doraville MARTA",,356,2493_shp,0,0
+35,3,t208-b162-sl3,"Doraville MARTA",,354,2493_shp,0,0
+35,3,t212-b161-sl3,"P'tree Pky Forum",,353,2502_shp,0,0
+35,3,t226-b15F-sl3,"Doraville MARTA",,351,2493_shp,0,0
+35,3,t22B-b160-sl3,"P'tree Pky Forum",,352,2502_shp,0,0
+35,3,t26C-b161-sl3,"Doraville MARTA",,353,2493_shp,0,0
+35,3,t271-b162-sl3,"P'tree Pky Forum",,354,2502_shp,0,0
+35,3,t28A-b160-sl3,"Doraville MARTA",,352,2493_shp,0,0
+35,3,t28F-b15F-sl3,"P'tree Pky Forum",,351,2502_shp,0,0
+35,3,t2D0-b162-sl3,"Doraville MARTA",,354,2493_shp,0,0
+35,3,t2D5-b161-sl3,"P'tree Pky Forum",,353,2502_shp,0,0
+35,3,t2EE-b15F-sl3,"Doraville MARTA",,351,2493_shp,0,0
+35,3,t2F3-b160-sl3,"P'tree Pky Forum",,352,2502_shp,0,0
+35,3,t334-b161-sl3,"Doraville MARTA",,353,2493_shp,0,0
+35,3,t339-b162-sl3,"P'tree Pky Forum",,354,2502_shp,0,0
+35,3,t352-b160-sl3,"Doraville MARTA",,352,2493_shp,0,0
+35,3,t357-b15F-sl3,"P'tree Pky Forum",,351,2502_shp,0,0
+35,3,t398-b162-sl3,"Doraville MARTA",,354,2493_shp,0,0
+35,3,t39D-b161-sl3,"P'tree Pky Forum",,353,2502_shp,0,0
+35,3,t3B6-b15F-sl3,"Doraville MARTA",,351,2493_shp,0,0
+35,3,t3BB-b160-sl3,"P'tree Pky Forum",,352,2502_shp,0,0
+35,3,t3FC-b161-sl3,"Doraville MARTA",,353,2493_shp,0,0
+35,3,t401-b162-sl3,"P'tree Pky Forum",,354,2502_shp,0,0
+35,3,t41A-b160-sl3,"Doraville MARTA",,352,2493_shp,0,0
+35,3,t41F-b15F-sl3,"P'tree Pky Forum",,351,2502_shp,0,0
+35,3,t460-b162-sl3,"Doraville MARTA",,354,2493_shp,0,0
+35,3,t465-b161-sl3,"P'tree Pky Forum",,353,2502_shp,0,0
+35,3,t47E-b15F-sl3,"Doraville MARTA",,351,2493_shp,0,0
+35,3,t483-b160-sl3,"P'tree Pky Forum",,352,2502_shp,0,0
+35,3,t4C4-b165-sl3,"Doraville MARTA",,357,2493_shp,0,0
+35,3,t4C9-b162-sl3,"P'tree Pky Forum",,354,2502_shp,0,0
+35,3,t4E2-b164-sl3,"Doraville MARTA",,356,2493_shp,0,0
+35,3,t4E7-b15F-sl3,"P'tree Pky Forum",,351,2502_shp,0,0
+35,3,t528-b166-sl3,"Doraville MARTA",,358,2493_shp,0,0
+35,3,t52D-b165-sl3,"P'tree Pky Forum",,357,2502_shp,0,0
+35,3,t546-b163-sl3,"Doraville MARTA",,355,2493_shp,0,0
+35,3,t54B-b164-sl3,"P'tree Pky Forum",,356,2502_shp,0,0
+35,3,t58C-b165-sl3,"Doraville MARTA",,357,2493_shp,0,0
+35,3,t591-b166-sl3,"P'tree Pky Forum",,358,2502_shp,0,0
+35,3,t5AA-b164-sl3,"Doraville MARTA",,356,2493_shp,0,0
+35,3,t5AF-b163-sl3,"P'tree Pky Forum",,355,2502_shp,0,0
+35,3,t5F0-b166-sl3,"Doraville MARTA",,358,2493_shp,0,0
+35,3,t5F5-b165-sl3,"P'tree Pky Forum",,357,2502_shp,0,0
+35,3,t60E-b163-sl3,"Doraville MARTA",,355,2493_shp,0,0
+35,3,t613-b164-sl3,"P'tree Pky Forum",,356,2502_shp,0,0
+35,3,t654-b165-sl3,"Doraville MARTA",,357,2493_shp,0,0
+35,3,t659-b166-sl3,"P'tree Pky Forum",,358,2502_shp,0,0
+35,3,t672-b164-sl3,"Doraville MARTA",,356,2493_shp,0,0
+35,3,t677-b163-sl3,"P'tree Pky Forum",,355,2502_shp,0,0
+35,3,t6B8-b166-sl3,"Doraville MARTA",,358,2493_shp,0,0
+35,3,t6BD-b165-sl3,"P'tree Pky Forum",,357,2502_shp,0,0
+35,3,t6D6-b163-sl3,"Doraville MARTA",,355,2493_shp,0,0
+35,3,t6DB-b164-sl3,"P'tree Pky Forum",,356,2502_shp,0,0
+35,3,t71C-b165-sl3,"Doraville MARTA",,357,2493_shp,0,0
+35,3,t721-b166-sl3,"P'tree Pky Forum",,358,2502_shp,0,0
+35,3,t73A-b164-sl3,"Doraville MARTA",,356,2493_shp,0,0
+35,3,t73F-b163-sl3,"P'tree Pky Forum",,355,2502_shp,0,0
+35,3,t780-b166-sl3,"Doraville MARTA",,358,2493_shp,0,0
+35,3,t79E-b163-sl3,"Doraville MARTA",,355,2493_shp,0,0
+35,3,t7A3-b164-sl3,"P'tree Pky Forum",,356,2502_shp,0,0
+35,3,t839-b164-sl3,"Doraville MARTA",,356,2493_shp,0,0
+35,4,t208-b162-sl4,"Doraville MARTA",,354,2493_shp,0,0
+35,4,t212-b161-sl4,"P'tree Pky Forum",,353,2502_shp,0,0
+35,4,t226-b15F-sl4,"Doraville MARTA",,351,2493_shp,0,0
+35,4,t22B-b160-sl4,"P'tree Pky Forum",,352,2502_shp,0,0
+35,4,t26C-b161-sl4,"Doraville MARTA",,353,2493_shp,0,0
+35,4,t271-b162-sl4,"P'tree Pky Forum",,354,2502_shp,0,0
+35,4,t28A-b160-sl4,"Doraville MARTA",,352,2493_shp,0,0
+35,4,t28F-b15F-sl4,"P'tree Pky Forum",,351,2502_shp,0,0
+35,4,t2D0-b162-sl4,"Doraville MARTA",,354,2493_shp,0,0
+35,4,t2D5-b161-sl4,"P'tree Pky Forum",,353,2502_shp,0,0
+35,4,t2EE-b15F-sl4,"Doraville MARTA",,351,2493_shp,0,0
+35,4,t2F3-b160-sl4,"P'tree Pky Forum",,352,2502_shp,0,0
+35,4,t334-b161-sl4,"Doraville MARTA",,353,2493_shp,0,0
+35,4,t339-b162-sl4,"P'tree Pky Forum",,354,2502_shp,0,0
+35,4,t352-b160-sl4,"Doraville MARTA",,352,2493_shp,0,0
+35,4,t357-b15F-sl4,"P'tree Pky Forum",,351,2502_shp,0,0
+35,4,t398-b162-sl4,"Doraville MARTA",,354,2493_shp,0,0
+35,4,t39D-b161-sl4,"P'tree Pky Forum",,353,2502_shp,0,0
+35,4,t3B6-b15F-sl4,"Doraville MARTA",,351,2493_shp,0,0
+35,4,t3BB-b160-sl4,"P'tree Pky Forum",,352,2502_shp,0,0
+35,4,t3FC-b161-sl4,"Doraville MARTA",,353,2493_shp,0,0
+35,4,t401-b162-sl4,"P'tree Pky Forum",,354,2502_shp,0,0
+35,4,t41A-b160-sl4,"Doraville MARTA",,352,2493_shp,0,0
+35,4,t41F-b15F-sl4,"P'tree Pky Forum",,351,2502_shp,0,0
+35,4,t460-b162-sl4,"Doraville MARTA",,354,2493_shp,0,0
+35,4,t465-b161-sl4,"P'tree Pky Forum",,353,2502_shp,0,0
+35,4,t47E-b15F-sl4,"Doraville MARTA",,351,2493_shp,0,0
+35,4,t483-b160-sl4,"P'tree Pky Forum",,352,2502_shp,0,0
+35,4,t4C4-b165-sl4,"Doraville MARTA",,357,2493_shp,0,0
+35,4,t4C9-b162-sl4,"P'tree Pky Forum",,354,2502_shp,0,0
+35,4,t4E2-b164-sl4,"Doraville MARTA",,356,2493_shp,0,0
+35,4,t4E7-b15F-sl4,"P'tree Pky Forum",,351,2502_shp,0,0
+35,4,t528-b166-sl4,"Doraville MARTA",,358,2493_shp,0,0
+35,4,t52D-b165-sl4,"P'tree Pky Forum",,357,2502_shp,0,0
+35,4,t546-b163-sl4,"Doraville MARTA",,355,2493_shp,0,0
+35,4,t54B-b164-sl4,"P'tree Pky Forum",,356,2502_shp,0,0
+35,4,t58C-b165-sl4,"Doraville MARTA",,357,2493_shp,0,0
+35,4,t591-b166-sl4,"P'tree Pky Forum",,358,2502_shp,0,0
+35,4,t5AA-b164-sl4,"Doraville MARTA",,356,2493_shp,0,0
+35,4,t5AF-b163-sl4,"P'tree Pky Forum",,355,2502_shp,0,0
+35,4,t5F0-b166-sl4,"Doraville MARTA",,358,2493_shp,0,0
+35,4,t5F5-b165-sl4,"P'tree Pky Forum",,357,2502_shp,0,0
+35,4,t60E-b163-sl4,"Doraville MARTA",,355,2493_shp,0,0
+35,4,t613-b164-sl4,"P'tree Pky Forum",,356,2502_shp,0,0
+35,4,t654-b165-sl4,"Doraville MARTA",,357,2493_shp,0,0
+35,4,t659-b166-sl4,"P'tree Pky Forum",,358,2502_shp,0,0
+35,4,t672-b164-sl4,"Doraville MARTA",,356,2493_shp,0,0
+35,4,t677-b163-sl4,"P'tree Pky Forum",,355,2502_shp,0,0
+35,4,t6B8-b166-sl4,"Doraville MARTA",,358,2493_shp,0,0
+35,4,t6BD-b165-sl4,"P'tree Pky Forum",,357,2502_shp,0,0
+35,4,t6D6-b163-sl4,"Doraville MARTA",,355,2493_shp,0,0
+35,4,t6DB-b164-sl4,"P'tree Pky Forum",,356,2502_shp,0,0
+35,4,t71C-b165-sl4,"Doraville MARTA",,357,2493_shp,0,0
+35,4,t721-b166-sl4,"P'tree Pky Forum",,358,2502_shp,0,0
+35,4,t73A-b164-sl4,"Doraville MARTA",,356,2493_shp,0,0
+35,4,t73F-b163-sl4,"P'tree Pky Forum",,355,2502_shp,0,0
+35,4,t780-b166-sl4,"Doraville MARTA",,358,2493_shp,0,0
+35,4,t79E-b163-sl4,"Doraville MARTA",,355,2493_shp,0,0
+35,4,t7A3-b164-sl4,"P'tree Pky Forum",,356,2502_shp,0,0
+35,4,t839-b164-sl4,"Doraville MARTA",,356,2493_shp,0,0
+35,5,t208-b162-sl5,"Doraville MARTA",,354,2493_shp,0,0
+35,5,t212-b161-sl5,"P'tree Pky Forum",,353,2502_shp,0,0
+35,5,t226-b15F-sl5,"Doraville MARTA",,351,2493_shp,0,0
+35,5,t22B-b160-sl5,"P'tree Pky Forum",,352,2502_shp,0,0
+35,5,t26C-b161-sl5,"Doraville MARTA",,353,2493_shp,0,0
+35,5,t271-b162-sl5,"P'tree Pky Forum",,354,2502_shp,0,0
+35,5,t28A-b160-sl5,"Doraville MARTA",,352,2493_shp,0,0
+35,5,t28F-b15F-sl5,"P'tree Pky Forum",,351,2502_shp,0,0
+35,5,t2D0-b162-sl5,"Doraville MARTA",,354,2493_shp,0,0
+35,5,t2D5-b161-sl5,"P'tree Pky Forum",,353,2502_shp,0,0
+35,5,t2EE-b15F-sl5,"Doraville MARTA",,351,2493_shp,0,0
+35,5,t2F3-b160-sl5,"P'tree Pky Forum",,352,2502_shp,0,0
+35,5,t334-b161-sl5,"Doraville MARTA",,353,2493_shp,0,0
+35,5,t339-b162-sl5,"P'tree Pky Forum",,354,2502_shp,0,0
+35,5,t352-b160-sl5,"Doraville MARTA",,352,2493_shp,0,0
+35,5,t357-b15F-sl5,"P'tree Pky Forum",,351,2502_shp,0,0
+35,5,t398-b162-sl5,"Doraville MARTA",,354,2493_shp,0,0
+35,5,t39D-b161-sl5,"P'tree Pky Forum",,353,2502_shp,0,0
+35,5,t3B6-b15F-sl5,"Doraville MARTA",,351,2493_shp,0,0
+35,5,t3BB-b160-sl5,"P'tree Pky Forum",,352,2502_shp,0,0
+35,5,t3FC-b161-sl5,"Doraville MARTA",,353,2493_shp,0,0
+35,5,t401-b162-sl5,"P'tree Pky Forum",,354,2502_shp,0,0
+35,5,t41A-b160-sl5,"Doraville MARTA",,352,2493_shp,0,0
+35,5,t41F-b15F-sl5,"P'tree Pky Forum",,351,2502_shp,0,0
+35,5,t460-b162-sl5,"Doraville MARTA",,354,2493_shp,0,0
+35,5,t465-b161-sl5,"P'tree Pky Forum",,353,2502_shp,0,0
+35,5,t47E-b15F-sl5,"Doraville MARTA",,351,2493_shp,0,0
+35,5,t483-b160-sl5,"P'tree Pky Forum",,352,2502_shp,0,0
+35,5,t4C4-b165-sl5,"Doraville MARTA",,357,2493_shp,0,0
+35,5,t4C9-b162-sl5,"P'tree Pky Forum",,354,2502_shp,0,0
+35,5,t4E2-b164-sl5,"Doraville MARTA",,356,2493_shp,0,0
+35,5,t4E7-b15F-sl5,"P'tree Pky Forum",,351,2502_shp,0,0
+35,5,t528-b166-sl5,"Doraville MARTA",,358,2493_shp,0,0
+35,5,t52D-b165-sl5,"P'tree Pky Forum",,357,2502_shp,0,0
+35,5,t546-b163-sl5,"Doraville MARTA",,355,2493_shp,0,0
+35,5,t54B-b164-sl5,"P'tree Pky Forum",,356,2502_shp,0,0
+35,5,t58C-b165-sl5,"Doraville MARTA",,357,2493_shp,0,0
+35,5,t591-b166-sl5,"P'tree Pky Forum",,358,2502_shp,0,0
+35,5,t5AA-b164-sl5,"Doraville MARTA",,356,2493_shp,0,0
+35,5,t5AF-b163-sl5,"P'tree Pky Forum",,355,2502_shp,0,0
+35,5,t5F0-b166-sl5,"Doraville MARTA",,358,2493_shp,0,0
+35,5,t5F5-b165-sl5,"P'tree Pky Forum",,357,2502_shp,0,0
+35,5,t60E-b163-sl5,"Doraville MARTA",,355,2493_shp,0,0
+35,5,t613-b164-sl5,"P'tree Pky Forum",,356,2502_shp,0,0
+35,5,t654-b165-sl5,"Doraville MARTA",,357,2493_shp,0,0
+35,5,t659-b166-sl5,"P'tree Pky Forum",,358,2502_shp,0,0
+35,5,t672-b164-sl5,"Doraville MARTA",,356,2493_shp,0,0
+35,5,t677-b163-sl5,"P'tree Pky Forum",,355,2502_shp,0,0
+35,5,t6B8-b166-sl5,"Doraville MARTA",,358,2493_shp,0,0
+35,5,t6BD-b165-sl5,"P'tree Pky Forum",,357,2502_shp,0,0
+35,5,t6D6-b163-sl5,"Doraville MARTA",,355,2493_shp,0,0
+35,5,t6DB-b164-sl5,"P'tree Pky Forum",,356,2502_shp,0,0
+35,5,t71C-b165-sl5,"Doraville MARTA",,357,2493_shp,0,0
+35,5,t721-b166-sl5,"P'tree Pky Forum",,358,2502_shp,0,0
+35,5,t73A-b164-sl5,"Doraville MARTA",,356,2493_shp,0,0
+35,5,t73F-b163-sl5,"P'tree Pky Forum",,355,2502_shp,0,0
+35,5,t780-b166-sl5,"Doraville MARTA",,358,2493_shp,0,0
+35,5,t79E-b163-sl5,"Doraville MARTA",,355,2493_shp,0,0
+35,5,t7A3-b164-sl5,"P'tree Pky Forum",,356,2502_shp,0,0
+35,5,t839-b164-sl5,"Doraville MARTA",,356,2493_shp,0,0
+35,6,t208-b162-sl6,"Doraville MARTA",,354,2493_shp,0,0
+35,6,t212-b161-sl6,"P'tree Pky Forum",,353,2502_shp,0,0
+35,6,t226-b15F-sl6,"Doraville MARTA",,351,2493_shp,0,0
+35,6,t22B-b160-sl6,"P'tree Pky Forum",,352,2502_shp,0,0
+35,6,t26C-b161-sl6,"Doraville MARTA",,353,2493_shp,0,0
+35,6,t271-b162-sl6,"P'tree Pky Forum",,354,2502_shp,0,0
+35,6,t28A-b160-sl6,"Doraville MARTA",,352,2493_shp,0,0
+35,6,t28F-b15F-sl6,"P'tree Pky Forum",,351,2502_shp,0,0
+35,6,t2D0-b162-sl6,"Doraville MARTA",,354,2493_shp,0,0
+35,6,t2D5-b161-sl6,"P'tree Pky Forum",,353,2502_shp,0,0
+35,6,t2EE-b15F-sl6,"Doraville MARTA",,351,2493_shp,0,0
+35,6,t2F3-b160-sl6,"P'tree Pky Forum",,352,2502_shp,0,0
+35,6,t334-b161-sl6,"Doraville MARTA",,353,2493_shp,0,0
+35,6,t339-b162-sl6,"P'tree Pky Forum",,354,2502_shp,0,0
+35,6,t352-b160-sl6,"Doraville MARTA",,352,2493_shp,0,0
+35,6,t357-b15F-sl6,"P'tree Pky Forum",,351,2502_shp,0,0
+35,6,t398-b162-sl6,"Doraville MARTA",,354,2493_shp,0,0
+35,6,t39D-b161-sl6,"P'tree Pky Forum",,353,2502_shp,0,0
+35,6,t3B6-b15F-sl6,"Doraville MARTA",,351,2493_shp,0,0
+35,6,t3BB-b160-sl6,"P'tree Pky Forum",,352,2502_shp,0,0
+35,6,t3FC-b161-sl6,"Doraville MARTA",,353,2493_shp,0,0
+35,6,t401-b162-sl6,"P'tree Pky Forum",,354,2502_shp,0,0
+35,6,t41A-b160-sl6,"Doraville MARTA",,352,2493_shp,0,0
+35,6,t41F-b15F-sl6,"P'tree Pky Forum",,351,2502_shp,0,0
+35,6,t460-b162-sl6,"Doraville MARTA",,354,2493_shp,0,0
+35,6,t465-b161-sl6,"P'tree Pky Forum",,353,2502_shp,0,0
+35,6,t47E-b15F-sl6,"Doraville MARTA",,351,2493_shp,0,0
+35,6,t483-b160-sl6,"P'tree Pky Forum",,352,2502_shp,0,0
+35,6,t4C4-b165-sl6,"Doraville MARTA",,357,2493_shp,0,0
+35,6,t4C9-b162-sl6,"P'tree Pky Forum",,354,2502_shp,0,0
+35,6,t4E2-b164-sl6,"Doraville MARTA",,356,2493_shp,0,0
+35,6,t4E7-b15F-sl6,"P'tree Pky Forum",,351,2502_shp,0,0
+35,6,t528-b166-sl6,"Doraville MARTA",,358,2493_shp,0,0
+35,6,t52D-b165-sl6,"P'tree Pky Forum",,357,2502_shp,0,0
+35,6,t546-b163-sl6,"Doraville MARTA",,355,2493_shp,0,0
+35,6,t54B-b164-sl6,"P'tree Pky Forum",,356,2502_shp,0,0
+35,6,t58C-b165-sl6,"Doraville MARTA",,357,2493_shp,0,0
+35,6,t591-b166-sl6,"P'tree Pky Forum",,358,2502_shp,0,0
+35,6,t5AA-b164-sl6,"Doraville MARTA",,356,2493_shp,0,0
+35,6,t5AF-b163-sl6,"P'tree Pky Forum",,355,2502_shp,0,0
+35,6,t5F0-b166-sl6,"Doraville MARTA",,358,2493_shp,0,0
+35,6,t5F5-b165-sl6,"P'tree Pky Forum",,357,2502_shp,0,0
+35,6,t60E-b163-sl6,"Doraville MARTA",,355,2493_shp,0,0
+35,6,t613-b164-sl6,"P'tree Pky Forum",,356,2502_shp,0,0
+35,6,t654-b165-sl6,"Doraville MARTA",,357,2493_shp,0,0
+35,6,t659-b166-sl6,"P'tree Pky Forum",,358,2502_shp,0,0
+35,6,t672-b164-sl6,"Doraville MARTA",,356,2493_shp,0,0
+35,6,t677-b163-sl6,"P'tree Pky Forum",,355,2502_shp,0,0
+35,6,t6B8-b166-sl6,"Doraville MARTA",,358,2493_shp,0,0
+35,6,t6BD-b165-sl6,"P'tree Pky Forum",,357,2502_shp,0,0
+35,6,t6D6-b163-sl6,"Doraville MARTA",,355,2493_shp,0,0
+35,6,t6DB-b164-sl6,"P'tree Pky Forum",,356,2502_shp,0,0
+35,6,t71C-b165-sl6,"Doraville MARTA",,357,2493_shp,0,0
+35,6,t721-b166-sl6,"P'tree Pky Forum",,358,2502_shp,0,0
+35,6,t73A-b164-sl6,"Doraville MARTA",,356,2493_shp,0,0
+35,6,t73F-b163-sl6,"P'tree Pky Forum",,355,2502_shp,0,0
+35,6,t780-b166-sl6,"Doraville MARTA",,358,2493_shp,0,0
+35,6,t79E-b163-sl6,"Doraville MARTA",,355,2493_shp,0,0
+35,6,t7A3-b164-sl6,"P'tree Pky Forum",,356,2502_shp,0,0
+35,6,t839-b164-sl6,"Doraville MARTA",,356,2493_shp,0,0
+35,7,t271-b15F-sl7,"Doraville MARTA",,351,2493_shp,0,0
+35,7,t271-b160-sl7,"P'tree Pky Forum",,352,2502_shp,0,0
+35,7,t2D5-b15F-sl7,"P'tree Pky Forum",,351,2502_shp,0,0
+35,7,t2D5-b160-sl7,"Doraville MARTA",,352,2493_shp,0,0
+35,7,t339-b15F-sl7,"Doraville MARTA",,351,2493_shp,0,0
+35,7,t339-b160-sl7,"P'tree Pky Forum",,352,2502_shp,0,0
+35,7,t39D-b15F-sl7,"P'tree Pky Forum",,351,2502_shp,0,0
+35,7,t39D-b160-sl7,"Doraville MARTA",,352,2493_shp,0,0
+35,7,t401-b15F-sl7,"Doraville MARTA",,351,2493_shp,0,0
+35,7,t401-b160-sl7,"P'tree Pky Forum",,352,2502_shp,0,0
+35,7,t465-b15F-sl7,"P'tree Pky Forum",,351,2502_shp,0,0
+35,7,t465-b160-sl7,"Doraville MARTA",,352,2493_shp,0,0
+35,7,t4C9-b15F-sl7,"Doraville MARTA",,351,2493_shp,0,0
+35,7,t4C9-b160-sl7,"P'tree Pky Forum",,352,2502_shp,0,0
+35,7,t52D-b15F-sl7,"P'tree Pky Forum",,351,2502_shp,0,0
+35,7,t52D-b162-sl7,"Doraville MARTA",,354,2493_shp,0,0
+35,7,t591-b161-sl7,"Doraville MARTA",,353,2493_shp,0,0
+35,7,t591-b162-sl7,"P'tree Pky Forum",,354,2502_shp,0,0
+35,7,t5F5-b161-sl7,"P'tree Pky Forum",,353,2502_shp,0,0
+35,7,t5F5-b162-sl7,"Doraville MARTA",,354,2493_shp,0,0
+35,7,t659-b162-sl7,"P'tree Pky Forum",,354,2502_shp,0,0
+35,7,t659-b163-sl7,"Doraville MARTA",,355,2493_shp,0,0
+35,7,t6BD-b162-sl7,"Doraville MARTA",,354,2493_shp,0,0
+35,7,t6BD-b163-sl7,"P'tree Pky Forum",,355,2502_shp,0,0
+35,7,t721-b162-sl7,"P'tree Pky Forum",,354,2502_shp,0,0
+35,7,t721-b163-sl7,"Doraville MARTA",,355,2493_shp,0,0
+35,7,t785-b162-sl7,"Doraville MARTA",,354,2493_shp,0,0
+35,7,t785-b163-sl7,"P'tree Pky Forum",,355,2502_shp,0,0
+40,2,t226-b191-sl2,"5 Forks Trickum",,401,2494_shp,0,0
+40,2,t25D-b192-sl2,"5 Forks Trickum",,402,2509_shp,0,0
+40,2,t262-b191-sl2,"Transit Center",,401,2507_shp,0,0
+40,2,t26C-b193-sl2,"5 Forks Trickum",,403,2494_shp,0,0
+40,2,t27B-b193-sl2,"Transit Center",,403,2507_shp,0,0
+40,2,t27B-b194-sl2,"5 Forks Trickum",,404,2509_shp,0,0
+40,2,t2C1-b12F-sl2,"5 Forks Trickum",,303,2509_shp,0,0
+40,2,t2C6-b192-sl2,"Transit Center",,402,2507_shp,0,0
+40,2,t2DF-b12D-sl2,"5 Forks Trickum",,301,2509_shp,0,0
+40,2,t2E9-b194-sl2,"Transit Center",,404,2507_shp,0,0
+40,2,t320-b12E-sl2,"5 Forks Trickum",,302,2509_shp,0,0
+40,2,t334-b12F-sl2,"Transit Center",,303,2507_shp,0,0
+40,2,t33E-b130-sl2,"5 Forks Trickum",,304,2509_shp,0,0
+40,2,t348-b12D-sl2,"Transit Center",,301,2507_shp,0,0
+40,2,t384-b131-sl2,"5 Forks Trickum",,305,2509_shp,0,0
+40,2,t386-b12E-sl2,"Transit Center",,302,2507_shp,0,0
+40,2,t3A2-b191-sl2,"5 Forks Trickum",,401,2509_shp,0,0
+40,2,t3A4-b130-sl2,"Transit Center",,304,2507_shp,0,0
+40,2,t3E8-b12E-sl2,"5 Forks Trickum",,302,2509_shp,0,0
+40,2,t3EA-b131-sl2,"Transit Center",,305,2507_shp,0,0
+40,2,t406-b130-sl2,"5 Forks Trickum",,304,2509_shp,0,0
+40,2,t408-b191-sl2,"Transit Center",,401,2507_shp,0,0
+40,2,t44C-b131-sl2,"5 Forks Trickum",,305,2509_shp,0,0
+40,2,t44E-b12E-sl2,"Transit Center",,302,2507_shp,0,0
+40,2,t46A-b191-sl2,"5 Forks Trickum",,401,2509_shp,0,0
+40,2,t46C-b130-sl2,"Transit Center",,304,2507_shp,0,0
+40,2,t4B0-b12E-sl2,"5 Forks Trickum",,302,2509_shp,0,0
+40,2,t4B2-b131-sl2,"Transit Center",,305,2507_shp,0,0
+40,2,t4CE-b130-sl2,"5 Forks Trickum",,304,2509_shp,0,0
+40,2,t4D0-b191-sl2,"Transit Center",,401,2507_shp,0,0
+40,2,t514-b131-sl2,"5 Forks Trickum",,305,2509_shp,0,0
+40,2,t516-b12E-sl2,"Transit Center",,302,2507_shp,0,0
+40,2,t532-b191-sl2,"5 Forks Trickum",,401,2509_shp,0,0
+40,2,t534-b130-sl2,"Transit Center",,304,2507_shp,0,0
+40,2,t578-b12E-sl2,"5 Forks Trickum",,302,2509_shp,0,0
+40,2,t57A-b131-sl2,"Transit Center",,305,2507_shp,0,0
+40,2,t596-b130-sl2,"5 Forks Trickum",,304,2509_shp,0,0
+40,2,t598-b191-sl2,"Transit Center",,401,2507_shp,0,0
+40,2,t5DC-b131-sl2,"5 Forks Trickum",,305,2509_shp,0,0
+40,2,t5DE-b12E-sl2,"Transit Center",,302,2507_shp,0,0
+40,2,t5FA-b191-sl2,"5 Forks Trickum",,401,2509_shp,0,0
+40,2,t5FC-b130-sl2,"Transit Center",,304,2507_shp,0,0
+40,2,t60E-b12F-sl2,"5 Forks Trickum",,303,2509_shp,0,0
+40,2,t642-b131-sl2,"Transit Center",,305,2507_shp,0,0
+40,2,t654-b12D-sl2,"5 Forks Trickum",,301,2509_shp,0,0
+40,2,t660-b191-sl2,"Transit Center",,401,2507_shp,0,0
+40,2,t672-b192-sl2,"5 Forks Trickum",,402,2509_shp,0,0
+40,2,t674-b12F-sl2,"Transit Center",,303,2507_shp,0,0
+40,2,t6B8-b194-sl2,"5 Forks Trickum",,404,2509_shp,0,0
+40,2,t6BA-b12D-sl2,"Transit Center",,301,2507_shp,0,0
+40,2,t6D6-b132-sl2,"5 Forks Trickum",,306,2509_shp,0,0
+40,2,t6D8-b192-sl2,"Transit Center",,402,2507_shp,0,0
+40,2,t71C-b12E-sl2,"5 Forks Trickum",,302,2509_shp,0,0
+40,2,t71E-b194-sl2,"Transit Center",,404,2507_shp,0,0
+40,2,t73C-b132-sl2,"Transit Center",,306,2507_shp,0,0
+40,2,t780-b131-sl2,"5 Forks Trickum",,305,2509_shp,0,0
+40,2,t78C-b12E-sl2,"Transit Center",,302,2507_shp,0,0
+40,2,t7D0-b191-sl2,"5 Forks Trickum",,401,2509_shp,0,0
+40,3,t226-b191-sl3,"5 Forks Trickum",,401,2494_shp,0,0
+40,3,t25D-b192-sl3,"5 Forks Trickum",,402,2509_shp,0,0
+40,3,t262-b191-sl3,"Transit Center",,401,2507_shp,0,0
+40,3,t26C-b193-sl3,"5 Forks Trickum",,403,2494_shp,0,0
+40,3,t27B-b193-sl3,"Transit Center",,403,2507_shp,0,0
+40,3,t27B-b194-sl3,"5 Forks Trickum",,404,2509_shp,0,0
+40,3,t2C1-b12F-sl3,"5 Forks Trickum",,303,2509_shp,0,0
+40,3,t2C6-b192-sl3,"Transit Center",,402,2507_shp,0,0
+40,3,t2DF-b12D-sl3,"5 Forks Trickum",,301,2509_shp,0,0
+40,3,t2E9-b194-sl3,"Transit Center",,404,2507_shp,0,0
+40,3,t320-b12E-sl3,"5 Forks Trickum",,302,2509_shp,0,0
+40,3,t334-b12F-sl3,"Transit Center",,303,2507_shp,0,0
+40,3,t33E-b130-sl3,"5 Forks Trickum",,304,2509_shp,0,0
+40,3,t348-b12D-sl3,"Transit Center",,301,2507_shp,0,0
+40,3,t384-b131-sl3,"5 Forks Trickum",,305,2509_shp,0,0
+40,3,t386-b12E-sl3,"Transit Center",,302,2507_shp,0,0
+40,3,t3A2-b191-sl3,"5 Forks Trickum",,401,2509_shp,0,0
+40,3,t3A4-b130-sl3,"Transit Center",,304,2507_shp,0,0
+40,3,t3E8-b12E-sl3,"5 Forks Trickum",,302,2509_shp,0,0
+40,3,t3EA-b131-sl3,"Transit Center",,305,2507_shp,0,0
+40,3,t406-b130-sl3,"5 Forks Trickum",,304,2509_shp,0,0
+40,3,t408-b191-sl3,"Transit Center",,401,2507_shp,0,0
+40,3,t44C-b131-sl3,"5 Forks Trickum",,305,2509_shp,0,0
+40,3,t44E-b12E-sl3,"Transit Center",,302,2507_shp,0,0
+40,3,t46A-b191-sl3,"5 Forks Trickum",,401,2509_shp,0,0
+40,3,t46C-b130-sl3,"Transit Center",,304,2507_shp,0,0
+40,3,t4B0-b12E-sl3,"5 Forks Trickum",,302,2509_shp,0,0
+40,3,t4B2-b131-sl3,"Transit Center",,305,2507_shp,0,0
+40,3,t4CE-b130-sl3,"5 Forks Trickum",,304,2509_shp,0,0
+40,3,t4D0-b191-sl3,"Transit Center",,401,2507_shp,0,0
+40,3,t514-b131-sl3,"5 Forks Trickum",,305,2509_shp,0,0
+40,3,t516-b12E-sl3,"Transit Center",,302,2507_shp,0,0
+40,3,t532-b191-sl3,"5 Forks Trickum",,401,2509_shp,0,0
+40,3,t534-b130-sl3,"Transit Center",,304,2507_shp,0,0
+40,3,t578-b12E-sl3,"5 Forks Trickum",,302,2509_shp,0,0
+40,3,t57A-b131-sl3,"Transit Center",,305,2507_shp,0,0
+40,3,t596-b130-sl3,"5 Forks Trickum",,304,2509_shp,0,0
+40,3,t598-b191-sl3,"Transit Center",,401,2507_shp,0,0
+40,3,t5DC-b131-sl3,"5 Forks Trickum",,305,2509_shp,0,0
+40,3,t5DE-b12E-sl3,"Transit Center",,302,2507_shp,0,0
+40,3,t5FA-b191-sl3,"5 Forks Trickum",,401,2509_shp,0,0
+40,3,t5FC-b130-sl3,"Transit Center",,304,2507_shp,0,0
+40,3,t60E-b12F-sl3,"5 Forks Trickum",,303,2509_shp,0,0
+40,3,t642-b131-sl3,"Transit Center",,305,2507_shp,0,0
+40,3,t654-b12D-sl3,"5 Forks Trickum",,301,2509_shp,0,0
+40,3,t660-b191-sl3,"Transit Center",,401,2507_shp,0,0
+40,3,t672-b192-sl3,"5 Forks Trickum",,402,2509_shp,0,0
+40,3,t674-b12F-sl3,"Transit Center",,303,2507_shp,0,0
+40,3,t6B8-b194-sl3,"5 Forks Trickum",,404,2509_shp,0,0
+40,3,t6BA-b12D-sl3,"Transit Center",,301,2507_shp,0,0
+40,3,t6D6-b132-sl3,"5 Forks Trickum",,306,2509_shp,0,0
+40,3,t6D8-b192-sl3,"Transit Center",,402,2507_shp,0,0
+40,3,t71C-b12E-sl3,"5 Forks Trickum",,302,2509_shp,0,0
+40,3,t71E-b194-sl3,"Transit Center",,404,2507_shp,0,0
+40,3,t73C-b132-sl3,"Transit Center",,306,2507_shp,0,0
+40,3,t780-b131-sl3,"5 Forks Trickum",,305,2509_shp,0,0
+40,3,t78C-b12E-sl3,"Transit Center",,302,2507_shp,0,0
+40,3,t7D0-b191-sl3,"5 Forks Trickum",,401,2509_shp,0,0
+40,4,t226-b191-sl4,"5 Forks Trickum",,401,2494_shp,0,0
+40,4,t25D-b192-sl4,"5 Forks Trickum",,402,2509_shp,0,0
+40,4,t262-b191-sl4,"Transit Center",,401,2507_shp,0,0
+40,4,t26C-b193-sl4,"5 Forks Trickum",,403,2494_shp,0,0
+40,4,t27B-b193-sl4,"Transit Center",,403,2507_shp,0,0
+40,4,t27B-b194-sl4,"5 Forks Trickum",,404,2509_shp,0,0
+40,4,t2C1-b12F-sl4,"5 Forks Trickum",,303,2509_shp,0,0
+40,4,t2C6-b192-sl4,"Transit Center",,402,2507_shp,0,0
+40,4,t2DF-b12D-sl4,"5 Forks Trickum",,301,2509_shp,0,0
+40,4,t2E9-b194-sl4,"Transit Center",,404,2507_shp,0,0
+40,4,t320-b12E-sl4,"5 Forks Trickum",,302,2509_shp,0,0
+40,4,t334-b12F-sl4,"Transit Center",,303,2507_shp,0,0
+40,4,t33E-b130-sl4,"5 Forks Trickum",,304,2509_shp,0,0
+40,4,t348-b12D-sl4,"Transit Center",,301,2507_shp,0,0
+40,4,t384-b131-sl4,"5 Forks Trickum",,305,2509_shp,0,0
+40,4,t386-b12E-sl4,"Transit Center",,302,2507_shp,0,0
+40,4,t3A2-b191-sl4,"5 Forks Trickum",,401,2509_shp,0,0
+40,4,t3A4-b130-sl4,"Transit Center",,304,2507_shp,0,0
+40,4,t3E8-b12E-sl4,"5 Forks Trickum",,302,2509_shp,0,0
+40,4,t3EA-b131-sl4,"Transit Center",,305,2507_shp,0,0
+40,4,t406-b130-sl4,"5 Forks Trickum",,304,2509_shp,0,0
+40,4,t408-b191-sl4,"Transit Center",,401,2507_shp,0,0
+40,4,t44C-b131-sl4,"5 Forks Trickum",,305,2509_shp,0,0
+40,4,t44E-b12E-sl4,"Transit Center",,302,2507_shp,0,0
+40,4,t46A-b191-sl4,"5 Forks Trickum",,401,2509_shp,0,0
+40,4,t46C-b130-sl4,"Transit Center",,304,2507_shp,0,0
+40,4,t4B0-b12E-sl4,"5 Forks Trickum",,302,2509_shp,0,0
+40,4,t4B2-b131-sl4,"Transit Center",,305,2507_shp,0,0
+40,4,t4CE-b130-sl4,"5 Forks Trickum",,304,2509_shp,0,0
+40,4,t4D0-b191-sl4,"Transit Center",,401,2507_shp,0,0
+40,4,t514-b131-sl4,"5 Forks Trickum",,305,2509_shp,0,0
+40,4,t516-b12E-sl4,"Transit Center",,302,2507_shp,0,0
+40,4,t532-b191-sl4,"5 Forks Trickum",,401,2509_shp,0,0
+40,4,t534-b130-sl4,"Transit Center",,304,2507_shp,0,0
+40,4,t578-b12E-sl4,"5 Forks Trickum",,302,2509_shp,0,0
+40,4,t57A-b131-sl4,"Transit Center",,305,2507_shp,0,0
+40,4,t596-b130-sl4,"5 Forks Trickum",,304,2509_shp,0,0
+40,4,t598-b191-sl4,"Transit Center",,401,2507_shp,0,0
+40,4,t5DC-b131-sl4,"5 Forks Trickum",,305,2509_shp,0,0
+40,4,t5DE-b12E-sl4,"Transit Center",,302,2507_shp,0,0
+40,4,t5FA-b191-sl4,"5 Forks Trickum",,401,2509_shp,0,0
+40,4,t5FC-b130-sl4,"Transit Center",,304,2507_shp,0,0
+40,4,t60E-b12F-sl4,"5 Forks Trickum",,303,2509_shp,0,0
+40,4,t642-b131-sl4,"Transit Center",,305,2507_shp,0,0
+40,4,t654-b12D-sl4,"5 Forks Trickum",,301,2509_shp,0,0
+40,4,t660-b191-sl4,"Transit Center",,401,2507_shp,0,0
+40,4,t672-b192-sl4,"5 Forks Trickum",,402,2509_shp,0,0
+40,4,t674-b12F-sl4,"Transit Center",,303,2507_shp,0,0
+40,4,t6B8-b194-sl4,"5 Forks Trickum",,404,2509_shp,0,0
+40,4,t6BA-b12D-sl4,"Transit Center",,301,2507_shp,0,0
+40,4,t6D6-b132-sl4,"5 Forks Trickum",,306,2509_shp,0,0
+40,4,t6D8-b192-sl4,"Transit Center",,402,2507_shp,0,0
+40,4,t71C-b12E-sl4,"5 Forks Trickum",,302,2509_shp,0,0
+40,4,t71E-b194-sl4,"Transit Center",,404,2507_shp,0,0
+40,4,t73C-b132-sl4,"Transit Center",,306,2507_shp,0,0
+40,4,t780-b131-sl4,"5 Forks Trickum",,305,2509_shp,0,0
+40,4,t78C-b12E-sl4,"Transit Center",,302,2507_shp,0,0
+40,4,t7D0-b191-sl4,"5 Forks Trickum",,401,2509_shp,0,0
+40,5,t226-b191-sl5,"5 Forks Trickum",,401,2494_shp,0,0
+40,5,t25D-b192-sl5,"5 Forks Trickum",,402,2509_shp,0,0
+40,5,t262-b191-sl5,"Transit Center",,401,2507_shp,0,0
+40,5,t26C-b193-sl5,"5 Forks Trickum",,403,2494_shp,0,0
+40,5,t27B-b193-sl5,"Transit Center",,403,2507_shp,0,0
+40,5,t27B-b194-sl5,"5 Forks Trickum",,404,2509_shp,0,0
+40,5,t2C1-b12F-sl5,"5 Forks Trickum",,303,2509_shp,0,0
+40,5,t2C6-b192-sl5,"Transit Center",,402,2507_shp,0,0
+40,5,t2DF-b12D-sl5,"5 Forks Trickum",,301,2509_shp,0,0
+40,5,t2E9-b194-sl5,"Transit Center",,404,2507_shp,0,0
+40,5,t320-b12E-sl5,"5 Forks Trickum",,302,2509_shp,0,0
+40,5,t334-b12F-sl5,"Transit Center",,303,2507_shp,0,0
+40,5,t33E-b130-sl5,"5 Forks Trickum",,304,2509_shp,0,0
+40,5,t348-b12D-sl5,"Transit Center",,301,2507_shp,0,0
+40,5,t384-b131-sl5,"5 Forks Trickum",,305,2509_shp,0,0
+40,5,t386-b12E-sl5,"Transit Center",,302,2507_shp,0,0
+40,5,t3A2-b191-sl5,"5 Forks Trickum",,401,2509_shp,0,0
+40,5,t3A4-b130-sl5,"Transit Center",,304,2507_shp,0,0
+40,5,t3E8-b12E-sl5,"5 Forks Trickum",,302,2509_shp,0,0
+40,5,t3EA-b131-sl5,"Transit Center",,305,2507_shp,0,0
+40,5,t406-b130-sl5,"5 Forks Trickum",,304,2509_shp,0,0
+40,5,t408-b191-sl5,"Transit Center",,401,2507_shp,0,0
+40,5,t44C-b131-sl5,"5 Forks Trickum",,305,2509_shp,0,0
+40,5,t44E-b12E-sl5,"Transit Center",,302,2507_shp,0,0
+40,5,t46A-b191-sl5,"5 Forks Trickum",,401,2509_shp,0,0
+40,5,t46C-b130-sl5,"Transit Center",,304,2507_shp,0,0
+40,5,t4B0-b12E-sl5,"5 Forks Trickum",,302,2509_shp,0,0
+40,5,t4B2-b131-sl5,"Transit Center",,305,2507_shp,0,0
+40,5,t4CE-b130-sl5,"5 Forks Trickum",,304,2509_shp,0,0
+40,5,t4D0-b191-sl5,"Transit Center",,401,2507_shp,0,0
+40,5,t514-b131-sl5,"5 Forks Trickum",,305,2509_shp,0,0
+40,5,t516-b12E-sl5,"Transit Center",,302,2507_shp,0,0
+40,5,t532-b191-sl5,"5 Forks Trickum",,401,2509_shp,0,0
+40,5,t534-b130-sl5,"Transit Center",,304,2507_shp,0,0
+40,5,t578-b12E-sl5,"5 Forks Trickum",,302,2509_shp,0,0
+40,5,t57A-b131-sl5,"Transit Center",,305,2507_shp,0,0
+40,5,t596-b130-sl5,"5 Forks Trickum",,304,2509_shp,0,0
+40,5,t598-b191-sl5,"Transit Center",,401,2507_shp,0,0
+40,5,t5DC-b131-sl5,"5 Forks Trickum",,305,2509_shp,0,0
+40,5,t5DE-b12E-sl5,"Transit Center",,302,2507_shp,0,0
+40,5,t5FA-b191-sl5,"5 Forks Trickum",,401,2509_shp,0,0
+40,5,t5FC-b130-sl5,"Transit Center",,304,2507_shp,0,0
+40,5,t60E-b12F-sl5,"5 Forks Trickum",,303,2509_shp,0,0
+40,5,t642-b131-sl5,"Transit Center",,305,2507_shp,0,0
+40,5,t654-b12D-sl5,"5 Forks Trickum",,301,2509_shp,0,0
+40,5,t660-b191-sl5,"Transit Center",,401,2507_shp,0,0
+40,5,t672-b192-sl5,"5 Forks Trickum",,402,2509_shp,0,0
+40,5,t674-b12F-sl5,"Transit Center",,303,2507_shp,0,0
+40,5,t6B8-b194-sl5,"5 Forks Trickum",,404,2509_shp,0,0
+40,5,t6BA-b12D-sl5,"Transit Center",,301,2507_shp,0,0
+40,5,t6D6-b132-sl5,"5 Forks Trickum",,306,2509_shp,0,0
+40,5,t6D8-b192-sl5,"Transit Center",,402,2507_shp,0,0
+40,5,t71C-b12E-sl5,"5 Forks Trickum",,302,2509_shp,0,0
+40,5,t71E-b194-sl5,"Transit Center",,404,2507_shp,0,0
+40,5,t73C-b132-sl5,"Transit Center",,306,2507_shp,0,0
+40,5,t780-b131-sl5,"5 Forks Trickum",,305,2509_shp,0,0
+40,5,t78C-b12E-sl5,"Transit Center",,302,2507_shp,0,0
+40,5,t7D0-b191-sl5,"5 Forks Trickum",,401,2509_shp,0,0
+40,6,t226-b191-sl6,"5 Forks Trickum",,401,2494_shp,0,0
+40,6,t25D-b192-sl6,"5 Forks Trickum",,402,2509_shp,0,0
+40,6,t262-b191-sl6,"Transit Center",,401,2507_shp,0,0
+40,6,t26C-b193-sl6,"5 Forks Trickum",,403,2494_shp,0,0
+40,6,t27B-b193-sl6,"Transit Center",,403,2507_shp,0,0
+40,6,t27B-b194-sl6,"5 Forks Trickum",,404,2509_shp,0,0
+40,6,t2C1-b12F-sl6,"5 Forks Trickum",,303,2509_shp,0,0
+40,6,t2C6-b192-sl6,"Transit Center",,402,2507_shp,0,0
+40,6,t2DF-b12D-sl6,"5 Forks Trickum",,301,2509_shp,0,0
+40,6,t2E9-b194-sl6,"Transit Center",,404,2507_shp,0,0
+40,6,t320-b12E-sl6,"5 Forks Trickum",,302,2509_shp,0,0
+40,6,t334-b12F-sl6,"Transit Center",,303,2507_shp,0,0
+40,6,t33E-b130-sl6,"5 Forks Trickum",,304,2509_shp,0,0
+40,6,t348-b12D-sl6,"Transit Center",,301,2507_shp,0,0
+40,6,t384-b131-sl6,"5 Forks Trickum",,305,2509_shp,0,0
+40,6,t386-b12E-sl6,"Transit Center",,302,2507_shp,0,0
+40,6,t3A2-b191-sl6,"5 Forks Trickum",,401,2509_shp,0,0
+40,6,t3A4-b130-sl6,"Transit Center",,304,2507_shp,0,0
+40,6,t3E8-b12E-sl6,"5 Forks Trickum",,302,2509_shp,0,0
+40,6,t3EA-b131-sl6,"Transit Center",,305,2507_shp,0,0
+40,6,t406-b130-sl6,"5 Forks Trickum",,304,2509_shp,0,0
+40,6,t408-b191-sl6,"Transit Center",,401,2507_shp,0,0
+40,6,t44C-b131-sl6,"5 Forks Trickum",,305,2509_shp,0,0
+40,6,t44E-b12E-sl6,"Transit Center",,302,2507_shp,0,0
+40,6,t46A-b191-sl6,"5 Forks Trickum",,401,2509_shp,0,0
+40,6,t46C-b130-sl6,"Transit Center",,304,2507_shp,0,0
+40,6,t4B0-b12E-sl6,"5 Forks Trickum",,302,2509_shp,0,0
+40,6,t4B2-b131-sl6,"Transit Center",,305,2507_shp,0,0
+40,6,t4CE-b130-sl6,"5 Forks Trickum",,304,2509_shp,0,0
+40,6,t4D0-b191-sl6,"Transit Center",,401,2507_shp,0,0
+40,6,t514-b131-sl6,"5 Forks Trickum",,305,2509_shp,0,0
+40,6,t516-b12E-sl6,"Transit Center",,302,2507_shp,0,0
+40,6,t532-b191-sl6,"5 Forks Trickum",,401,2509_shp,0,0
+40,6,t534-b130-sl6,"Transit Center",,304,2507_shp,0,0
+40,6,t578-b12E-sl6,"5 Forks Trickum",,302,2509_shp,0,0
+40,6,t57A-b131-sl6,"Transit Center",,305,2507_shp,0,0
+40,6,t596-b130-sl6,"5 Forks Trickum",,304,2509_shp,0,0
+40,6,t598-b191-sl6,"Transit Center",,401,2507_shp,0,0
+40,6,t5DC-b131-sl6,"5 Forks Trickum",,305,2509_shp,0,0
+40,6,t5DE-b12E-sl6,"Transit Center",,302,2507_shp,0,0
+40,6,t5FA-b191-sl6,"5 Forks Trickum",,401,2509_shp,0,0
+40,6,t5FC-b130-sl6,"Transit Center",,304,2507_shp,0,0
+40,6,t60E-b12F-sl6,"5 Forks Trickum",,303,2509_shp,0,0
+40,6,t642-b131-sl6,"Transit Center",,305,2507_shp,0,0
+40,6,t654-b12D-sl6,"5 Forks Trickum",,301,2509_shp,0,0
+40,6,t660-b191-sl6,"Transit Center",,401,2507_shp,0,0
+40,6,t672-b192-sl6,"5 Forks Trickum",,402,2509_shp,0,0
+40,6,t674-b12F-sl6,"Transit Center",,303,2507_shp,0,0
+40,6,t6B8-b194-sl6,"5 Forks Trickum",,404,2509_shp,0,0
+40,6,t6BA-b12D-sl6,"Transit Center",,301,2507_shp,0,0
+40,6,t6D6-b132-sl6,"5 Forks Trickum",,306,2509_shp,0,0
+40,6,t6D8-b192-sl6,"Transit Center",,402,2507_shp,0,0
+40,6,t71C-b12E-sl6,"5 Forks Trickum",,302,2509_shp,0,0
+40,6,t71E-b194-sl6,"Transit Center",,404,2507_shp,0,0
+40,6,t73C-b132-sl6,"Transit Center",,306,2507_shp,0,0
+40,6,t780-b131-sl6,"5 Forks Trickum",,305,2509_shp,0,0
+40,6,t78C-b12E-sl6,"Transit Center",,302,2507_shp,0,0
+40,6,t7D0-b191-sl6,"5 Forks Trickum",,401,2509_shp,0,0
+40,7,t287-b191-sl7,"Transit Center",,401,2507_shp,0,0
+40,7,t287-b192-sl7,"5 Forks Trickum",,402,2509_shp,0,0
+40,7,t2EB-b191-sl7,"5 Forks Trickum",,401,2509_shp,0,0
+40,7,t2EB-b192-sl7,"Transit Center",,402,2507_shp,0,0
+40,7,t34F-b191-sl7,"Transit Center",,401,2507_shp,0,0
+40,7,t34F-b192-sl7,"5 Forks Trickum",,402,2509_shp,0,0
+40,7,t3B3-b191-sl7,"5 Forks Trickum",,401,2509_shp,0,0
+40,7,t3B3-b192-sl7,"Transit Center",,402,2507_shp,0,0
+40,7,t417-b191-sl7,"Transit Center",,401,2507_shp,0,0
+40,7,t417-b193-sl7,"5 Forks Trickum",,403,2509_shp,0,0
+40,7,t47B-b191-sl7,"5 Forks Trickum",,401,2509_shp,0,0
+40,7,t47B-b193-sl7,"Transit Center",,403,2507_shp,0,0
+40,7,t4DF-b191-sl7,"Transit Center",,401,2507_shp,0,0
+40,7,t4DF-b193-sl7,"5 Forks Trickum",,403,2509_shp,0,0
+40,7,t543-b191-sl7,"5 Forks Trickum",,401,2509_shp,0,0
+40,7,t543-b193-sl7,"Transit Center",,403,2507_shp,0,0
+40,7,t5A7-b191-sl7,"Transit Center",,401,2507_shp,0,0
+40,7,t5A7-b193-sl7,"5 Forks Trickum",,403,2509_shp,0,0
+40,7,t60B-b191-sl7,"5 Forks Trickum",,401,2509_shp,0,0
+40,7,t60B-b193-sl7,"Transit Center",,403,2507_shp,0,0
+40,7,t66F-b191-sl7,"Transit Center",,401,2507_shp,0,0
+40,7,t66F-b193-sl7,"5 Forks Trickum",,403,2509_shp,0,0
+40,7,t6D3-b191-sl7,"5 Forks Trickum",,401,2509_shp,0,0
+40,7,t6D3-b193-sl7,"Transit Center",,403,2507_shp,0,0
+40,7,t737-b191-sl7,"Transit Center",,401,2507_shp,0,0
+40,7,t737-b193-sl7,"5 Forks Trickum",,403,2509_shp,0,0
+40,7,t79B-b191-sl7,"5 Forks Trickum",,401,2509_shp,0,0
+40,7,t79B-b193-sl7,"Transit Center",,403,2507_shp,0,0
+45,2,t220-b1C3-sl2,"Sugarloaf Mills",,451,2517_shp,0,0
+45,2,t226-b1C4-sl2,"Gwinnett Med RC",,452,2478_shp,0,0
+45,2,t27A-b1C4-sl2,"Sugarloaf Mills",,452,2517_shp,0,0
+45,2,t280-b1C3-sl2,"Gwinnett Med RC",,451,2478_shp,0,0
+45,2,t2D4-b1C3-sl2,"Sugarloaf Mills",,451,2517_shp,0,0
+45,2,t2DA-b1C4-sl2,"Gwinnett Med RC",,452,2478_shp,0,0
+45,2,t32E-b1C4-sl2,"Sugarloaf Mills",,452,2517_shp,0,0
+45,2,t334-b1C3-sl2,"Gwinnett Med RC",,451,2478_shp,0,0
+45,2,t388-b1C3-sl2,"Sugarloaf Mills",,451,2517_shp,0,0
+45,2,t38E-b1C4-sl2,"Gwinnett Med RC",,452,2478_shp,0,0
+45,2,t3BA-b1C4-sl2,"Sugarloaf Mills",,452,2517_shp,0,0
+45,2,t3E8-b1C3-sl2,"Gwinnett Med RC",,451,2478_shp,0,0
+45,2,t414-b1C3-sl2,"Sugarloaf Mills",,451,2517_shp,0,0
+45,2,t41A-b1C4-sl2,"Gwinnett Med RC",,452,2478_shp,0,0
+45,2,t46E-b1C4-sl2,"Sugarloaf Mills",,452,2517_shp,0,0
+45,2,t474-b1C3-sl2,"Gwinnett Med RC",,451,2478_shp,0,0
+45,2,t4C8-b1C3-sl2,"Sugarloaf Mills",,451,2517_shp,0,0
+45,2,t4CE-b1C4-sl2,"Gwinnett Med RC",,452,2478_shp,0,0
+45,2,t522-b1C4-sl2,"Sugarloaf Mills",,452,2517_shp,0,0
+45,2,t528-b1C3-sl2,"Gwinnett Med RC",,451,2478_shp,0,0
+45,2,t57C-b1C3-sl2,"Sugarloaf Mills",,451,2517_shp,0,0
+45,2,t582-b1C6-sl2,"Gwinnett Med RC",,454,2478_shp,0,0
+45,2,t5AE-b1C6-sl2,"Sugarloaf Mills",,454,2517_shp,0,0
+45,2,t5DC-b1C5-sl2,"Gwinnett Med RC",,453,2478_shp,0,0
+45,2,t608-b1C5-sl2,"Sugarloaf Mills",,453,2517_shp,0,0
+45,2,t60E-b1C6-sl2,"Gwinnett Med RC",,454,2478_shp,0,0
+45,2,t662-b1C6-sl2,"Sugarloaf Mills",,454,2517_shp,0,0
+45,2,t668-b1C5-sl2,"Gwinnett Med RC",,453,2478_shp,0,0
+45,2,t6BC-b1C5-sl2,"Sugarloaf Mills",,453,2517_shp,0,0
+45,2,t6C2-b1C6-sl2,"Gwinnett Med RC",,454,2478_shp,0,0
+45,2,t716-b1C6-sl2,"Sugarloaf Mills",,454,2517_shp,0,0
+45,2,t71C-b1C5-sl2,"Gwinnett Med RC",,453,2478_shp,0,0
+45,2,t770-b1C5-sl2,"Sugarloaf Mills",,453,2517_shp,0,0
+45,2,t776-b1C6-sl2,"Gwinnett Med RC",,454,2478_shp,0,0
+45,2,t7A2-b1C6-sl2,"Sugarloaf Mills",,454,2517_shp,0,0
+45,2,t7D0-b1C5-sl2,"Gwinnett Med RC",,453,2478_shp,0,0
+45,2,t7FC-b1C5-sl2,"Sugarloaf Mills",,453,2517_shp,0,0
+45,2,t802-b1C6-sl2,"Gwinnett Med RC",,454,2478_shp,0,0
+45,3,t220-b1C3-sl3,"Sugarloaf Mills",,451,2517_shp,0,0
+45,3,t226-b1C4-sl3,"Gwinnett Med RC",,452,2478_shp,0,0
+45,3,t27A-b1C4-sl3,"Sugarloaf Mills",,452,2517_shp,0,0
+45,3,t280-b1C3-sl3,"Gwinnett Med RC",,451,2478_shp,0,0
+45,3,t2D4-b1C3-sl3,"Sugarloaf Mills",,451,2517_shp,0,0
+45,3,t2DA-b1C4-sl3,"Gwinnett Med RC",,452,2478_shp,0,0
+45,3,t32E-b1C4-sl3,"Sugarloaf Mills",,452,2517_shp,0,0
+45,3,t334-b1C3-sl3,"Gwinnett Med RC",,451,2478_shp,0,0
+45,3,t388-b1C3-sl3,"Sugarloaf Mills",,451,2517_shp,0,0
+45,3,t38E-b1C4-sl3,"Gwinnett Med RC",,452,2478_shp,0,0
+45,3,t3BA-b1C4-sl3,"Sugarloaf Mills",,452,2517_shp,0,0
+45,3,t3E8-b1C3-sl3,"Gwinnett Med RC",,451,2478_shp,0,0
+45,3,t414-b1C3-sl3,"Sugarloaf Mills",,451,2517_shp,0,0
+45,3,t41A-b1C4-sl3,"Gwinnett Med RC",,452,2478_shp,0,0
+45,3,t46E-b1C4-sl3,"Sugarloaf Mills",,452,2517_shp,0,0
+45,3,t474-b1C3-sl3,"Gwinnett Med RC",,451,2478_shp,0,0
+45,3,t4C8-b1C3-sl3,"Sugarloaf Mills",,451,2517_shp,0,0
+45,3,t4CE-b1C4-sl3,"Gwinnett Med RC",,452,2478_shp,0,0
+45,3,t522-b1C4-sl3,"Sugarloaf Mills",,452,2517_shp,0,0
+45,3,t528-b1C3-sl3,"Gwinnett Med RC",,451,2478_shp,0,0
+45,3,t57C-b1C3-sl3,"Sugarloaf Mills",,451,2517_shp,0,0
+45,3,t582-b1C6-sl3,"Gwinnett Med RC",,454,2478_shp,0,0
+45,3,t5AE-b1C6-sl3,"Sugarloaf Mills",,454,2517_shp,0,0
+45,3,t5DC-b1C5-sl3,"Gwinnett Med RC",,453,2478_shp,0,0
+45,3,t608-b1C5-sl3,"Sugarloaf Mills",,453,2517_shp,0,0
+45,3,t60E-b1C6-sl3,"Gwinnett Med RC",,454,2478_shp,0,0
+45,3,t662-b1C6-sl3,"Sugarloaf Mills",,454,2517_shp,0,0
+45,3,t668-b1C5-sl3,"Gwinnett Med RC",,453,2478_shp,0,0
+45,3,t6BC-b1C5-sl3,"Sugarloaf Mills",,453,2517_shp,0,0
+45,3,t6C2-b1C6-sl3,"Gwinnett Med RC",,454,2478_shp,0,0
+45,3,t716-b1C6-sl3,"Sugarloaf Mills",,454,2517_shp,0,0
+45,3,t71C-b1C5-sl3,"Gwinnett Med RC",,453,2478_shp,0,0
+45,3,t770-b1C5-sl3,"Sugarloaf Mills",,453,2517_shp,0,0
+45,3,t776-b1C6-sl3,"Gwinnett Med RC",,454,2478_shp,0,0
+45,3,t7A2-b1C6-sl3,"Sugarloaf Mills",,454,2517_shp,0,0
+45,3,t7D0-b1C5-sl3,"Gwinnett Med RC",,453,2478_shp,0,0
+45,3,t7FC-b1C5-sl3,"Sugarloaf Mills",,453,2517_shp,0,0
+45,3,t802-b1C6-sl3,"Gwinnett Med RC",,454,2478_shp,0,0
+45,4,t220-b1C3-sl4,"Sugarloaf Mills",,451,2517_shp,0,0
+45,4,t226-b1C4-sl4,"Gwinnett Med RC",,452,2478_shp,0,0
+45,4,t27A-b1C4-sl4,"Sugarloaf Mills",,452,2517_shp,0,0
+45,4,t280-b1C3-sl4,"Gwinnett Med RC",,451,2478_shp,0,0
+45,4,t2D4-b1C3-sl4,"Sugarloaf Mills",,451,2517_shp,0,0
+45,4,t2DA-b1C4-sl4,"Gwinnett Med RC",,452,2478_shp,0,0
+45,4,t32E-b1C4-sl4,"Sugarloaf Mills",,452,2517_shp,0,0
+45,4,t334-b1C3-sl4,"Gwinnett Med RC",,451,2478_shp,0,0
+45,4,t388-b1C3-sl4,"Sugarloaf Mills",,451,2517_shp,0,0
+45,4,t38E-b1C4-sl4,"Gwinnett Med RC",,452,2478_shp,0,0
+45,4,t3BA-b1C4-sl4,"Sugarloaf Mills",,452,2517_shp,0,0
+45,4,t3E8-b1C3-sl4,"Gwinnett Med RC",,451,2478_shp,0,0
+45,4,t414-b1C3-sl4,"Sugarloaf Mills",,451,2517_shp,0,0
+45,4,t41A-b1C4-sl4,"Gwinnett Med RC",,452,2478_shp,0,0
+45,4,t46E-b1C4-sl4,"Sugarloaf Mills",,452,2517_shp,0,0
+45,4,t474-b1C3-sl4,"Gwinnett Med RC",,451,2478_shp,0,0
+45,4,t4C8-b1C3-sl4,"Sugarloaf Mills",,451,2517_shp,0,0
+45,4,t4CE-b1C4-sl4,"Gwinnett Med RC",,452,2478_shp,0,0
+45,4,t522-b1C4-sl4,"Sugarloaf Mills",,452,2517_shp,0,0
+45,4,t528-b1C3-sl4,"Gwinnett Med RC",,451,2478_shp,0,0
+45,4,t57C-b1C3-sl4,"Sugarloaf Mills",,451,2517_shp,0,0
+45,4,t582-b1C6-sl4,"Gwinnett Med RC",,454,2478_shp,0,0
+45,4,t5AE-b1C6-sl4,"Sugarloaf Mills",,454,2517_shp,0,0
+45,4,t5DC-b1C5-sl4,"Gwinnett Med RC",,453,2478_shp,0,0
+45,4,t608-b1C5-sl4,"Sugarloaf Mills",,453,2517_shp,0,0
+45,4,t60E-b1C6-sl4,"Gwinnett Med RC",,454,2478_shp,0,0
+45,4,t662-b1C6-sl4,"Sugarloaf Mills",,454,2517_shp,0,0
+45,4,t668-b1C5-sl4,"Gwinnett Med RC",,453,2478_shp,0,0
+45,4,t6BC-b1C5-sl4,"Sugarloaf Mills",,453,2517_shp,0,0
+45,4,t6C2-b1C6-sl4,"Gwinnett Med RC",,454,2478_shp,0,0
+45,4,t716-b1C6-sl4,"Sugarloaf Mills",,454,2517_shp,0,0
+45,4,t71C-b1C5-sl4,"Gwinnett Med RC",,453,2478_shp,0,0
+45,4,t770-b1C5-sl4,"Sugarloaf Mills",,453,2517_shp,0,0
+45,4,t776-b1C6-sl4,"Gwinnett Med RC",,454,2478_shp,0,0
+45,4,t7A2-b1C6-sl4,"Sugarloaf Mills",,454,2517_shp,0,0
+45,4,t7D0-b1C5-sl4,"Gwinnett Med RC",,453,2478_shp,0,0
+45,4,t7FC-b1C5-sl4,"Sugarloaf Mills",,453,2517_shp,0,0
+45,4,t802-b1C6-sl4,"Gwinnett Med RC",,454,2478_shp,0,0
+45,5,t220-b1C3-sl5,"Sugarloaf Mills",,451,2517_shp,0,0
+45,5,t226-b1C4-sl5,"Gwinnett Med RC",,452,2478_shp,0,0
+45,5,t27A-b1C4-sl5,"Sugarloaf Mills",,452,2517_shp,0,0
+45,5,t280-b1C3-sl5,"Gwinnett Med RC",,451,2478_shp,0,0
+45,5,t2D4-b1C3-sl5,"Sugarloaf Mills",,451,2517_shp,0,0
+45,5,t2DA-b1C4-sl5,"Gwinnett Med RC",,452,2478_shp,0,0
+45,5,t32E-b1C4-sl5,"Sugarloaf Mills",,452,2517_shp,0,0
+45,5,t334-b1C3-sl5,"Gwinnett Med RC",,451,2478_shp,0,0
+45,5,t388-b1C3-sl5,"Sugarloaf Mills",,451,2517_shp,0,0
+45,5,t38E-b1C4-sl5,"Gwinnett Med RC",,452,2478_shp,0,0
+45,5,t3BA-b1C4-sl5,"Sugarloaf Mills",,452,2517_shp,0,0
+45,5,t3E8-b1C3-sl5,"Gwinnett Med RC",,451,2478_shp,0,0
+45,5,t414-b1C3-sl5,"Sugarloaf Mills",,451,2517_shp,0,0
+45,5,t41A-b1C4-sl5,"Gwinnett Med RC",,452,2478_shp,0,0
+45,5,t46E-b1C4-sl5,"Sugarloaf Mills",,452,2517_shp,0,0
+45,5,t474-b1C3-sl5,"Gwinnett Med RC",,451,2478_shp,0,0
+45,5,t4C8-b1C3-sl5,"Sugarloaf Mills",,451,2517_shp,0,0
+45,5,t4CE-b1C4-sl5,"Gwinnett Med RC",,452,2478_shp,0,0
+45,5,t522-b1C4-sl5,"Sugarloaf Mills",,452,2517_shp,0,0
+45,5,t528-b1C3-sl5,"Gwinnett Med RC",,451,2478_shp,0,0
+45,5,t57C-b1C3-sl5,"Sugarloaf Mills",,451,2517_shp,0,0
+45,5,t582-b1C6-sl5,"Gwinnett Med RC",,454,2478_shp,0,0
+45,5,t5AE-b1C6-sl5,"Sugarloaf Mills",,454,2517_shp,0,0
+45,5,t5DC-b1C5-sl5,"Gwinnett Med RC",,453,2478_shp,0,0
+45,5,t608-b1C5-sl5,"Sugarloaf Mills",,453,2517_shp,0,0
+45,5,t60E-b1C6-sl5,"Gwinnett Med RC",,454,2478_shp,0,0
+45,5,t662-b1C6-sl5,"Sugarloaf Mills",,454,2517_shp,0,0
+45,5,t668-b1C5-sl5,"Gwinnett Med RC",,453,2478_shp,0,0
+45,5,t6BC-b1C5-sl5,"Sugarloaf Mills",,453,2517_shp,0,0
+45,5,t6C2-b1C6-sl5,"Gwinnett Med RC",,454,2478_shp,0,0
+45,5,t716-b1C6-sl5,"Sugarloaf Mills",,454,2517_shp,0,0
+45,5,t71C-b1C5-sl5,"Gwinnett Med RC",,453,2478_shp,0,0
+45,5,t770-b1C5-sl5,"Sugarloaf Mills",,453,2517_shp,0,0
+45,5,t776-b1C6-sl5,"Gwinnett Med RC",,454,2478_shp,0,0
+45,5,t7A2-b1C6-sl5,"Sugarloaf Mills",,454,2517_shp,0,0
+45,5,t7D0-b1C5-sl5,"Gwinnett Med RC",,453,2478_shp,0,0
+45,5,t7FC-b1C5-sl5,"Sugarloaf Mills",,453,2517_shp,0,0
+45,5,t802-b1C6-sl5,"Gwinnett Med RC",,454,2478_shp,0,0
+45,6,t220-b1C3-sl6,"Sugarloaf Mills",,451,2517_shp,0,0
+45,6,t226-b1C4-sl6,"Gwinnett Med RC",,452,2478_shp,0,0
+45,6,t27A-b1C4-sl6,"Sugarloaf Mills",,452,2517_shp,0,0
+45,6,t280-b1C3-sl6,"Gwinnett Med RC",,451,2478_shp,0,0
+45,6,t2D4-b1C3-sl6,"Sugarloaf Mills",,451,2517_shp,0,0
+45,6,t2DA-b1C4-sl6,"Gwinnett Med RC",,452,2478_shp,0,0
+45,6,t32E-b1C4-sl6,"Sugarloaf Mills",,452,2517_shp,0,0
+45,6,t334-b1C3-sl6,"Gwinnett Med RC",,451,2478_shp,0,0
+45,6,t388-b1C3-sl6,"Sugarloaf Mills",,451,2517_shp,0,0
+45,6,t38E-b1C4-sl6,"Gwinnett Med RC",,452,2478_shp,0,0
+45,6,t3BA-b1C4-sl6,"Sugarloaf Mills",,452,2517_shp,0,0
+45,6,t3E8-b1C3-sl6,"Gwinnett Med RC",,451,2478_shp,0,0
+45,6,t414-b1C3-sl6,"Sugarloaf Mills",,451,2517_shp,0,0
+45,6,t41A-b1C4-sl6,"Gwinnett Med RC",,452,2478_shp,0,0
+45,6,t46E-b1C4-sl6,"Sugarloaf Mills",,452,2517_shp,0,0
+45,6,t474-b1C3-sl6,"Gwinnett Med RC",,451,2478_shp,0,0
+45,6,t4C8-b1C3-sl6,"Sugarloaf Mills",,451,2517_shp,0,0
+45,6,t4CE-b1C4-sl6,"Gwinnett Med RC",,452,2478_shp,0,0
+45,6,t522-b1C4-sl6,"Sugarloaf Mills",,452,2517_shp,0,0
+45,6,t528-b1C3-sl6,"Gwinnett Med RC",,451,2478_shp,0,0
+45,6,t57C-b1C3-sl6,"Sugarloaf Mills",,451,2517_shp,0,0
+45,6,t582-b1C6-sl6,"Gwinnett Med RC",,454,2478_shp,0,0
+45,6,t5AE-b1C6-sl6,"Sugarloaf Mills",,454,2517_shp,0,0
+45,6,t5DC-b1C5-sl6,"Gwinnett Med RC",,453,2478_shp,0,0
+45,6,t608-b1C5-sl6,"Sugarloaf Mills",,453,2517_shp,0,0
+45,6,t60E-b1C6-sl6,"Gwinnett Med RC",,454,2478_shp,0,0
+45,6,t662-b1C6-sl6,"Sugarloaf Mills",,454,2517_shp,0,0
+45,6,t668-b1C5-sl6,"Gwinnett Med RC",,453,2478_shp,0,0
+45,6,t6BC-b1C5-sl6,"Sugarloaf Mills",,453,2517_shp,0,0
+45,6,t6C2-b1C6-sl6,"Gwinnett Med RC",,454,2478_shp,0,0
+45,6,t716-b1C6-sl6,"Sugarloaf Mills",,454,2517_shp,0,0
+45,6,t71C-b1C5-sl6,"Gwinnett Med RC",,453,2478_shp,0,0
+45,6,t770-b1C5-sl6,"Sugarloaf Mills",,453,2517_shp,0,0
+45,6,t776-b1C6-sl6,"Gwinnett Med RC",,454,2478_shp,0,0
+45,6,t7A2-b1C6-sl6,"Sugarloaf Mills",,454,2517_shp,0,0
+45,6,t7D0-b1C5-sl6,"Gwinnett Med RC",,453,2478_shp,0,0
+45,6,t7FC-b1C5-sl6,"Sugarloaf Mills",,453,2517_shp,0,0
+45,6,t802-b1C6-sl6,"Gwinnett Med RC",,454,2478_shp,0,0
+45,7,t27A-b1C3-sl7,"Sugarloaf Mills",,451,2517_shp,0,0
+45,7,t280-b1C4-sl7,"Gwinnett Med RC",,452,2478_shp,0,0
+45,7,t2D4-b1C4-sl7,"Sugarloaf Mills",,452,2517_shp,0,0
+45,7,t2DA-b1C3-sl7,"Gwinnett Med RC",,451,2478_shp,0,0
+45,7,t32E-b1C3-sl7,"Sugarloaf Mills",,451,2517_shp,0,0
+45,7,t334-b1C4-sl7,"Gwinnett Med RC",,452,2478_shp,0,0
+45,7,t388-b1C4-sl7,"Sugarloaf Mills",,452,2517_shp,0,0
+45,7,t38E-b1C3-sl7,"Gwinnett Med RC",,451,2478_shp,0,0
+45,7,t3BA-b1C3-sl7,"Sugarloaf Mills",,451,2517_shp,0,0
+45,7,t3E8-b1C4-sl7,"Gwinnett Med RC",,452,2478_shp,0,0
+45,7,t414-b1C4-sl7,"Sugarloaf Mills",,452,2517_shp,0,0
+45,7,t41A-b1C3-sl7,"Gwinnett Med RC",,451,2478_shp,0,0
+45,7,t46E-b1C3-sl7,"Sugarloaf Mills",,451,2517_shp,0,0
+45,7,t474-b1C4-sl7,"Gwinnett Med RC",,452,2478_shp,0,0
+45,7,t4C8-b1C4-sl7,"Sugarloaf Mills",,452,2517_shp,0,0
+45,7,t4CE-b1C3-sl7,"Gwinnett Med RC",,451,2478_shp,0,0
+45,7,t522-b1C3-sl7,"Sugarloaf Mills",,451,2517_shp,0,0
+45,7,t528-b1C4-sl7,"Gwinnett Med RC",,452,2478_shp,0,0
+45,7,t57C-b1C4-sl7,"Sugarloaf Mills",,452,2517_shp,0,0
+45,7,t582-b1C5-sl7,"Gwinnett Med RC",,453,2478_shp,0,0
+45,7,t5AE-b1C5-sl7,"Sugarloaf Mills",,453,2517_shp,0,0
+45,7,t5DC-b1C6-sl7,"Gwinnett Med RC",,454,2478_shp,0,0
+45,7,t608-b1C6-sl7,"Sugarloaf Mills",,454,2517_shp,0,0
+45,7,t60E-b1C5-sl7,"Gwinnett Med RC",,453,2478_shp,0,0
+45,7,t662-b1C5-sl7,"Sugarloaf Mills",,453,2517_shp,0,0
+45,7,t668-b1C6-sl7,"Gwinnett Med RC",,454,2478_shp,0,0
+45,7,t6BC-b1C6-sl7,"Sugarloaf Mills",,454,2517_shp,0,0
+45,7,t6C2-b1C5-sl7,"Gwinnett Med RC",,453,2478_shp,0,0
+45,7,t716-b1C5-sl7,"Sugarloaf Mills",,453,2517_shp,0,0
+45,7,t71C-b1C6-sl7,"Gwinnett Med RC",,454,2478_shp,0,0
+45,7,t770-b1C6-sl7,"Sugarloaf Mills",,454,2517_shp,0,0
+45,7,t776-b1C5-sl7,"Gwinnett Med RC",,453,2478_shp,0,0
+45,7,t7A2-b1C5-sl7,"Sugarloaf Mills",,453,2517_shp,0,0
+45,7,t7D0-b1C6-sl7,"Gwinnett Med RC",,454,2478_shp,0,0
+50,2,t267-b1F5-sl2,"Doraville MARTA",,501,2440_shp,0,0
+50,2,t26C-b1F6-sl2,"Sugarloaf Mills",,502,2535_shp,0,0
+50,2,t285-b1F7-sl2,"Doraville MARTA",,503,2440_shp,0,0
+50,2,t28A-b1F8-sl2,"Sugarloaf Mills",,504,2535_shp,0,0
+50,2,t2CB-b1F6-sl2,"Doraville MARTA",,502,2440_shp,0,0
+50,2,t2D0-b1F5-sl2,"Sugarloaf Mills",,501,2535_shp,0,0
+50,2,t2E9-b1F8-sl2,"Doraville MARTA",,504,2440_shp,0,0
+50,2,t2EE-b1F7-sl2,"Sugarloaf Mills",,503,2535_shp,0,0
+50,2,t334-b1F6-sl2,"Sugarloaf Mills",,502,2535_shp,0,0
+50,2,t34D-b1F7-sl2,"Doraville MARTA",,503,2440_shp,0,0
+50,2,t352-b1F8-sl2,"Sugarloaf Mills",,504,2535_shp,0,0
+50,2,t3B6-b1F7-sl2,"Sugarloaf Mills",,503,2535_shp,0,0
+50,2,t3E8-b1F8-sl2,"Doraville MARTA",,504,2440_shp,0,0
+50,2,t44C-b1F7-sl2,"Doraville MARTA",,503,2440_shp,0,0
+50,2,t451-b1F8-sl2,"Sugarloaf Mills",,504,2535_shp,0,0
+50,2,t4B0-b1F8-sl2,"Doraville MARTA",,504,2440_shp,0,0
+50,2,t4B5-b1F7-sl2,"Sugarloaf Mills",,503,2535_shp,0,0
+50,2,t514-b1F7-sl2,"Doraville MARTA",,503,2440_shp,0,0
+50,2,t519-b1F8-sl2,"Sugarloaf Mills",,504,2535_shp,0,0
+50,2,t578-b1F8-sl2,"Doraville MARTA",,504,2440_shp,0,0
+50,2,t57D-b1F7-sl2,"Sugarloaf Mills",,503,2535_shp,0,0
+50,2,t5E1-b1F8-sl2,"Sugarloaf Mills",,504,2535_shp,0,0
+50,2,t5EB-b1F7-sl2,"Doraville MARTA",,503,2440_shp,0,0
+50,2,t609-b1F9-sl2,"Doraville MARTA",,505,2440_shp,0,0
+50,2,t64F-b1F8-sl2,"Doraville MARTA",,504,2440_shp,0,0
+50,2,t654-b1F7-sl2,"Sugarloaf Mills",,503,2535_shp,0,0
+50,2,t66D-b1FB-sl2,"Doraville MARTA",,507,2440_shp,0,0
+50,2,t672-b1F9-sl2,"Sugarloaf Mills",,505,2535_shp,0,0
+50,2,t6B3-b1F7-sl2,"Doraville MARTA",,503,2440_shp,0,0
+50,2,t6B8-b1F8-sl2,"Sugarloaf Mills",,504,2535_shp,0,0
+50,2,t6D1-b1F9-sl2,"Doraville MARTA",,505,2440_shp,0,0
+50,2,t6D6-b1FB-sl2,"Sugarloaf Mills",,507,2535_shp,0,0
+50,2,t717-b1F8-sl2,"Doraville MARTA",,504,2440_shp,0,0
+50,2,t71C-b1F7-sl2,"Sugarloaf Mills",,503,2535_shp,0,0
+50,2,t77B-b1F7-sl2,"Doraville MARTA",,503,2440_shp,0,0
+50,2,t780-b1F8-sl2,"Transit Center",,504,2534_shp,0,0
+50,2,t7D0-b1F8-sl2,"Doraville MARTA",,504,2524_shp,0,0
+50,3,t267-b1F5-sl3,"Doraville MARTA",,501,2440_shp,0,0
+50,3,t26C-b1F6-sl3,"Sugarloaf Mills",,502,2535_shp,0,0
+50,3,t285-b1F7-sl3,"Doraville MARTA",,503,2440_shp,0,0
+50,3,t28A-b1F8-sl3,"Sugarloaf Mills",,504,2535_shp,0,0
+50,3,t2CB-b1F6-sl3,"Doraville MARTA",,502,2440_shp,0,0
+50,3,t2D0-b1F5-sl3,"Sugarloaf Mills",,501,2535_shp,0,0
+50,3,t2E9-b1F8-sl3,"Doraville MARTA",,504,2440_shp,0,0
+50,3,t2EE-b1F7-sl3,"Sugarloaf Mills",,503,2535_shp,0,0
+50,3,t334-b1F6-sl3,"Sugarloaf Mills",,502,2535_shp,0,0
+50,3,t34D-b1F7-sl3,"Doraville MARTA",,503,2440_shp,0,0
+50,3,t352-b1F8-sl3,"Sugarloaf Mills",,504,2535_shp,0,0
+50,3,t3B6-b1F7-sl3,"Sugarloaf Mills",,503,2535_shp,0,0
+50,3,t3E8-b1F8-sl3,"Doraville MARTA",,504,2440_shp,0,0
+50,3,t44C-b1F7-sl3,"Doraville MARTA",,503,2440_shp,0,0
+50,3,t451-b1F8-sl3,"Sugarloaf Mills",,504,2535_shp,0,0
+50,3,t4B0-b1F8-sl3,"Doraville MARTA",,504,2440_shp,0,0
+50,3,t4B5-b1F7-sl3,"Sugarloaf Mills",,503,2535_shp,0,0
+50,3,t514-b1F7-sl3,"Doraville MARTA",,503,2440_shp,0,0
+50,3,t519-b1F8-sl3,"Sugarloaf Mills",,504,2535_shp,0,0
+50,3,t578-b1F8-sl3,"Doraville MARTA",,504,2440_shp,0,0
+50,3,t57D-b1F7-sl3,"Sugarloaf Mills",,503,2535_shp,0,0
+50,3,t5E1-b1F8-sl3,"Sugarloaf Mills",,504,2535_shp,0,0

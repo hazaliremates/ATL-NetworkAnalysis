@@ -1,0 +1,1669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlanta Public Transit Network Analysis</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --info-color: #17a2b8;
+            --gradient-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        body {
+            background: var(--gradient-bg);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .hero-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(15px);
+            border-radius: 25px;
+            padding: 3rem;
+            margin: 2rem 0;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .analysis-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 2rem;
+            margin: 1.5rem 0;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .analysis-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+        }
+
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .metric-card {
+            background: linear-gradient(145deg, #ffffff, #f8f9fa);
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+        }
+
+        .metric-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+        }
+
+        .metric-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .metric-label {
+            color: #6c757d;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .metric-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.8;
+        }
+
+        .viz-container {
+            background: white;
+            border-radius: 20px;
+            padding: 1.5rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+
+        .viz-image {
+            width: 100%;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            filter: brightness(0.95);
+        }
+
+        .viz-image:hover {
+            transform: scale(1.02);
+            filter: brightness(1);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .section-title {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        .subsection-title {
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .data-table {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            margin: 1rem 0;
+        }
+
+        .table th {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border: none;
+            font-weight: 600;
+            padding: 1rem;
+        }
+
+        .table td {
+            border-color: #f1f3f4;
+            vertical-align: middle;
+            padding: 0.8rem 1rem;
+        }
+
+        .rank-badge {
+            background: linear-gradient(135deg, var(--warning-color), #f8c471);
+            color: white;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin: 0 auto;
+        }
+
+        .nav-pills .nav-link {
+            border-radius: 25px;
+            margin: 0 8px;
+            padding: 12px 25px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-pills .nav-link.active {
+            background: linear-gradient(135deg, var(--secondary-color), #5dade2);
+            box-shadow: 0 8px 25px rgba(52, 152, 219, 0.3);
+        }
+
+        .insight-box {
+            background: linear-gradient(135deg, rgba(52, 152, 219, 0.1), rgba(155, 89, 182, 0.1));
+            border: 1px solid rgba(52, 152, 219, 0.2);
+            border-left: 4px solid var(--secondary-color);
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-stat {
+            background: linear-gradient(135deg, rgba(39, 174, 96, 0.1), rgba(46, 204, 113, 0.1));
+            border-radius: 10px;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            border-left: 4px solid var(--success-color);
+        }
+
+        .main-title {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .page-subtitle {
+            text-align: center;
+            color: #6c757d;
+            margin-bottom: 3rem;
+            font-size: 1.2rem;
+        }
+
+        .badge-custom {
+            background: linear-gradient(135deg, var(--info-color), #56c7f0);
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            margin: 0.2rem;
+        }
+
+        .analysis-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .attack-viz-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .code-block {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 10px;
+            padding: 1rem;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            overflow-x: auto;
+        }
+
+        @media (max-width: 768px) {
+            .analysis-grid, .attack-viz-grid {
+                grid-template-columns: 1fr;
+            }
+            .metric-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            }
+        }
+
+        .transit-carrier-badge {
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin: 0.2rem;
+        }
+
+        .marta-badge { background: linear-gradient(135deg, #e74c3c, #c0392b); color: white; }
+        .xpress-badge { background: linear-gradient(135deg, #3498db, #2980b9); color: white; }
+        .cobblinc-badge { background: linear-gradient(135deg, #95a5a6, #7f8c8d); color: white; }
+        .douglas-badge { background: linear-gradient(135deg, #27ae60, #229954); color: white; }
+        .gwinnett-badge { background: linear-gradient(135deg, #9b59b6, #8e44ad); color: white; }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Image Setup Instructions -->
+        <div class="analysis-card" id="image-setup-notice">
+            <h3 class="section-title">
+                <i class="fas fa-info-circle me-3"></i>Image Setup Instructions
+            </h3>
+            <div class="alert alert-info">
+                <h5><i class="fas fa-lightbulb me-2"></i>To Display Images Properly:</h5>
+                <p><strong>The images are currently set to load from:</strong> <code>static/analysis_results/images/</code></p>
+                
+                <h6><strong>Option 1: Local File Server (Recommended)</strong></h6>
+                <ol>
+                    <li>Navigate to your project directory</li>
+                    <li>Start a local server: <code>python -m http.server 8000</code></li>
+                    <li>Access at: <code>http://localhost:8000</code></li>
+                    <li>Images will load from: <code>static/analysis_results/images/image1.png</code>, etc.</li>
+                </ol>
+                
+                <h6><strong>Option 2: Copy Images to Same Directory</strong></h6>
+                <ol>
+                    <li>Copy all network visualization images to the same folder as this HTML file</li>
+                    <li>The paths will automatically adjust to find the images</li>
+                </ol>
+                
+                <button onclick="document.getElementById('image-setup-notice').style.display='none'" class="btn btn-primary mt-3">
+                    <i class="fas fa-check me-2"></i>Got it, hide this notice
+                </button>
+            </div>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <h1 class="display-3 main-title">Atlanta Public Transit Network Analysis</h1>
+            <p class="page-subtitle">
+                <strong>Final Report - July 21, 2025</strong><br>
+                Comprehensive network analysis of Atlanta's multi-carrier public transportation system using graph theory, centrality analysis, and machine learning techniques
+            </p>
+            <div class="text-center mb-4">
+                <h6 class="text-muted"> Team: Hazal I. Ates, Isaiah Coriolan, James Jones, Pierce Thomas</h6>
+            </div>
+            <div class="text-center">
+                <span class="badge-custom">
+                    <i class="fas fa-network-wired me-2"></i>50 Connected Components
+                </span>
+                <span class="badge-custom">
+                    <i class="fas fa-map-marked-alt me-2"></i>8,100+ Transit Stops
+                </span>
+                <span class="badge-custom">
+                    <i class="fas fa-route me-2"></i>Dijkstra's Routing Tool
+                </span>
+                <span class="badge-custom">
+                    <i class="fas fa-shield-alt me-2"></i>Robustness Testing
+                </span>
+                <span class="badge-custom">
+                    <i class="fas fa-robot me-2"></i>Link Prediction
+                </span>
+            </div>
+        </div>
+
+        <!-- Transit Carriers Overview -->
+        <div class="analysis-card">
+            <h2 class="section-title">
+                <i class="fas fa-bus me-3"></i>Multi-Carrier Transit Network Overview
+            </h2>
+            
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="lead">Atlanta's public transportation network spans five major carriers serving the metropolitan region, representing one of the most comprehensive transit systems in the southeastern United States.</p>
+                    
+                    <h5 class="subsection-title">Transit Carriers Analyzed</h5>
+                    <div class="mb-3">
+                        <span class="transit-carrier-badge marta-badge">MARTA - 6,651 stations</span>
+                        <span class="transit-carrier-badge cobblinc-badge">CobbLinc - 538 stations</span>
+                        <span class="transit-carrier-badge gwinnett-badge">Ride Gwinnett - 781 stations</span>
+                        <span class="transit-carrier-badge xpress-badge">Xpress - 94 stations</span>
+                        <span class="transit-carrier-badge douglas-badge">Connect Douglas - 47 stations</span>
+                    </div>
+                    
+                    <div class="insight-box">
+                        <h6><i class="fas fa-exclamation-triangle me-2 text-warning"></i>Critical Connectivity Challenge</h6>
+                        <p class="mb-2">Our analysis reveals a fundamental infrastructure issue: <strong>only 15 shared stops exist between all carriers</strong> out of over 8,000 total stations. This creates significant "bridging gaps" that riders must navigate themselves, typically ranging from 0.22 to 7.7 miles between transit carriers.</p>
+                        <p class="mb-0">This connectivity gap represents one of the primary barriers to increased ridership and system efficiency across the Atlanta metropolitan region.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="highlight-stat">
+                        <h6><strong>Network Composition</strong></h6>
+                        <ul class="list-unstyled">
+                            <li>• <strong>Largest Component:</strong> MARTA (6,651 stations)</li>
+                            <li>• <strong>Second Largest:</strong> Mixed component (CobbLinc, Xpress, Gwinnett: 1,413 stations)</li>
+                            <li>• <strong>Smallest:</strong> Connect Douglas (47 stations)</li>
+                        </ul>
+                        <hr>
+                        <h6><strong>Shared Transfer Points</strong></h6>
+                        <p class="small mb-0">Key locations include Civic Center Station, North Avenue Station, and Peachtree Street corridor stops that enable cross-carrier transfers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Key Metrics -->
+        <div class="analysis-card">
+            <h2 class="section-title">
+                <i class="fas fa-chart-bar me-3"></i>Network Topology & Statistical Measures
+            </h2>
+            
+            <div class="metric-grid">
+                <div class="metric-card">
+                    <div class="metric-icon">
+                        <i class="fas fa-percentage" style="color: var(--secondary-color);"></i>
+                    </div>
+                    <div class="metric-value">0.000123</div>
+                    <p class="metric-label">Network Density</p>
+                    <small class="text-muted">Extremely sparse - typical of geographic transit networks constrained by real-world routing</small>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-icon">
+                        <i class="fas fa-project-diagram" style="color: var(--success-color);"></i>
+                    </div>
+                    <div class="metric-value">50</div>
+                    <p class="metric-label">Strongly Connected Components</p>
+                    <small class="text-muted">Network fragmentation indicating limited cross-carrier connectivity</small>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-icon">
+                        <i class="fas fa-link" style="color: var(--warning-color);"></i>
+                    </div>
+                    <div class="metric-value">0.0285</div>
+                    <p class="metric-label">Degree Assortativity</p>
+                    <small class="text-muted">Positive assortativity - major hubs connect to other major hubs</small>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-icon">
+                        <i class="fas fa-shield-alt" style="color: var(--accent-color);"></i>
+                    </div>
+                    <div class="metric-value">0.128</div>
+                    <p class="metric-label">Attack Vulnerability (fc)</p>
+                    <small class="text-muted">Critical fragmentation threshold - network vulnerable to targeted attacks</small>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="highlight-stat">
+                        <h6><strong>Directed Network Assortativity Analysis:</strong></h6>
+                        <div class="code-block">
+In-In Degree: 0.162<br>
+In-Out Degree: 0.174<br>
+Out-In Degree: 0.191<br>
+Out-Out Degree: 0.164
+                        </div>
+                        <small class="text-muted">All positive values indicate hierarchical hub structure with major stations preferentially connecting to other major stations</small>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="insight-box">
+                        <h6><i class="fas fa-lightbulb me-2 text-warning"></i>Network Science Interpretation</h6>
+                        <p class="mb-2">The extremely low density (0.000123) reflects geographic constraints inherent in real-world transit systems, where stops connect primarily to adjacent stops along predefined routes rather than forming theoretical complete graphs.</p>
+                        <p class="mb-0">Positive assortativity across all directional measures confirms a hierarchical "hub-and-spoke" topology where major transfer stations (like MARTA rail stations) serve as regional connectivity nodes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <div class="analysis-card">
+            <ul class="nav nav-pills nav-justified" id="analysisTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="network-viz-tab" data-bs-toggle="pill" data-bs-target="#network-viz">
+                        <i class="fas fa-project-diagram me-2"></i>Network Structure
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="centrality-tab" data-bs-toggle="pill" data-bs-target="#centrality">
+                        <i class="fas fa-bullseye me-2"></i>Hub Analysis
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="distribution-tab" data-bs-toggle="pill" data-bs-target="#distribution">
+                        <i class="fas fa-chart-line me-2"></i>Connectivity Patterns
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="robustness-tab" data-bs-toggle="pill" data-bs-target="#robustness">
+                        <i class="fas fa-shield-alt me-2"></i>Network Robustness
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="prediction-tab" data-bs-toggle="pill" data-bs-target="#prediction">
+                        <i class="fas fa-robot me-2"></i>Link Prediction
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="tabContent">
+            
+            <!-- Network Visualizations Tab -->
+            <div class="tab-pane fade show active" id="network-viz" role="tabpanel">
+                <div class="analysis-card">
+                    <h3 class="section-title">
+                        <i class="fas fa-map me-3"></i>Geographic Network Structure & Transit Connectivity
+                    </h3>
+                    
+                    <div class="analysis-grid">
+                        <div class="viz-container">
+                            <h5 class="subsection-title">
+                                <i class="fas fa-project-diagram me-2 text-primary"></i>
+                                Complete Atlanta Transit Network
+                            </h5>
+                            <p class="alert alert-info">
+                                <i class="fas fa-info-circle me-2"></i>
+                                <strong>Figure 1 from Report:</strong> Complete network visualization showing all 8,100+ stops across five transit carriers. Dense central core represents downtown Atlanta/MARTA hub with radiating lines extending to suburban counties.
+                            </p>
+                            <img src="static/analysis_results/images/image1.png" alt="Complete Atlanta Transit Network" class="viz-image">
+                            <p class="text-muted mt-2"><i class="fas fa-info-circle me-1"></i>Network visualization demonstrates the hub-and-spoke topology with MARTA dominating the central core and suburban carriers extending outward</p>
+                        </div>
+                        
+                        <div class="viz-container">
+                            <h5 class="subsection-title">
+                                <i class="fas fa-subway me-2 text-danger"></i>
+                                MARTA Network Dominance
+                            </h5>
+                            <p class="alert alert-danger">
+                                <i class="fas fa-exclamation-triangle me-2"></i>
+                                <strong>Figure 2 from Report:</strong> MARTA's 6,651 stations form the largest strongly connected component, representing 82% of all network nodes. This concentration creates both efficiency and vulnerability.
+                            </p>
+                            <img src="static/analysis_results/images/image2.png" alt="MARTA Network Visualization" class="viz-image">
+                            <p class="text-muted mt-2"><i class="fas fa-train me-1"></i>MARTA's central position makes it critical infrastructure, but also a single point of failure for the regional transit system</p>
+                        </div>
+                    </div>
+                    
+                    <div class="insight-box">
+                        <h5><i class="fas fa-map-marked-alt me-2"></i>Geographic Distribution Analysis</h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6><strong>Central Core (MARTA Dominated):</strong></h6>
+                                <ul>
+                                    <li>High-density stop concentration in downtown Atlanta</li>
+                                    <li>Rail lines providing backbone connectivity</li>
+                                    <li>Major transfer hubs at Five Points, West End, Arts Center</li>
+                                    <li>Bus network feeding into rail stations</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h6><strong>Suburban Extensions:</strong></h6>
+                                <ul>
+                                    <li><strong>North:</strong> Gwinnett County (Ride Gwinnett)</li>
+                                    <li><strong>Northwest:</strong> Cobb County (CobbLinc)</li>
+                                    <li><strong>West:</strong> Douglas County (Connect Douglas)</li>
+                                    <li><strong>Regional:</strong> Xpress connecting outer counties</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <h6><strong>Critical Finding:</strong></h6>
+                        <p class="mb-0">The geographic layout reveals Atlanta's transit challenge: while MARTA provides excellent urban coverage, suburban counties operate largely independent systems with minimal integration, forcing riders to bridge gaps independently.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Centrality Analysis Tab -->
+            <div class="tab-pane fade" id="centrality" role="tabpanel">
+                <div class="analysis-card">
+                    <h3 class="section-title">
+                        <i class="fas fa-star me-3"></i>Critical Transit Hubs & Transfer Points
+                    </h3>
+                    
+                    <div class="row">
+                        <!-- Top Betweenness Centrality -->
+                        <div class="col-lg-6">
+                            <div class="data-table">
+                                <h5 class="subsection-title text-center py-3 mb-0 text-white" style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); margin: 0;">
+                                    <i class="fas fa-route me-2"></i>Top Betweenness Centrality Stations
+                                </h5>
+                                <div class="table-responsive">
+                                    <table class="table table-hover mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th>Rank</th>
+                                                <th>Station Name</th>
+                                                <th>Centrality Score</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span class="rank-badge">1</span></td>
+                                                <td><strong>WEST END STATION</strong></td>
+                                                <td><span class="badge bg-primary">0.255967</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="rank-badge">2</span></td>
+                                                <td><strong>FIVE POINTS STATION</strong></td>
+                                                <td><span class="badge bg-primary">0.243874</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="rank-badge">3</span></td>
+                                                <td><strong>OAKLAND CITY STATION</strong></td>
+                                                <td><span class="badge bg-primary">0.197101</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="rank-badge">4</span></td>
+                                                <td><strong>GARNETT STATION</strong></td>
+                                                <td><span class="badge bg-primary">0.178656</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="rank-badge">5</span></td>
+                                                <td><strong>ARTS CENTER STATION</strong></td>
+                                                <td><span class="badge bg-primary">0.174864</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Top Bus Station Hubs -->
+                        <div class="col-lg-6">
+                            <div class="data-table">
+                                <h5 class="subsection-title text-center py-3 mb-0 text-white" style="background: linear-gradient(135deg, var(--success-color), #58d68d); margin: 0;">
+                                    <i class="fas fa-bus me-2"></i>Top Bus Station Hubs (By Degree)
+                                </h5>
+                                <div class="table-responsive">
+                                    <table class="table table-hover mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th>Rank</th>
+                                                <th>Station Name</th>
+                                                <th>Connections</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span class="rank-badge">1</span></td>
+                                                <td><strong>Civic Center Station<br><small class="text-muted">@ West Peachtree Street</small></strong></td>
+                                                <td><span class="badge bg-success">15</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="rank-badge">2</span></td>
+                                                <td><strong>Marietta Transfer Center</strong></td>
+                                                <td><span class="badge bg-success">15</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="rank-badge">3</span></td>
+                                                <td><strong>Cumberland Transfer Center</strong></td>
+                                                <td><span class="badge bg-success">11</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="rank-badge">4</span></td>
+                                                <td><strong>Sylvan Rd SW Estes Dr</strong></td>
+                                                <td><span class="badge bg-success">11</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="rank-badge">5</span></td>
+                                                <td><strong>Panola Rd Park & Ride</strong></td>
+                                                <td><span class="badge bg-success">11</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Shared Stops Analysis -->
+                    <div class="row mt-4">
+                        <div class="col-lg-8">
+                            <div class="data-table">
+                                <h5 class="subsection-title text-center py-3 mb-0 text-white" style="background: linear-gradient(135deg, var(--info-color), #5dade2); margin: 0;">
+                                    <i class="fas fa-exchange-alt me-2"></i>Critical Cross-Carrier Transfer Points
+                                </h5>
+                                <div class="table-responsive">
+                                    <table class="table table-hover mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th>Transfer Stop</th>
+                                                <th>Shared Carriers</th>
+                                                <th>Avg Distance (miles)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>Civic Center Station</strong></td>
+                                                <td><span class="transit-carrier-badge cobblinc-badge">CobbLinc</span> <span class="transit-carrier-badge gwinnett-badge">Gwinnett</span></td>
+                                                <td><span class="badge bg-info">Central Hub</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>North Avenue Station</strong></td>
+                                                <td><span class="transit-carrier-badge cobblinc-badge">CobbLinc</span> <span class="transit-carrier-badge gwinnett-badge">Gwinnett</span></td>
+                                                <td><span class="badge bg-info">Central Hub</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Peachtree St @ Baker St</strong></td>
+                                                <td><span class="transit-carrier-badge xpress-badge">Xpress</span> <span class="transit-carrier-badge cobblinc-badge">CobbLinc</span></td>
+                                                <td><span class="badge bg-warning">0.24</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Washington St @ MLK Jr. Drive</strong></td>
+                                                <td><span class="transit-carrier-badge gwinnett-badge">Gwinnett</span> <span class="transit-carrier-badge cobblinc-badge">CobbLinc</span></td>
+                                                <td><span class="badge bg-danger">7.7</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>West Peachtree St at 5th St</strong></td>
+                                                <td><span class="transit-carrier-badge xpress-badge">Xpress</span> <span class="transit-carrier-badge cobblinc-badge">CobbLinc</span></td>
+                                                <td><span class="badge bg-warning">0.22</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4">
+                            <div class="insight-box h-100">
+                                <h5><i class="fas fa-exclamation-triangle me-2 text-danger"></i>Transfer Challenges</h5>
+                                <div class="mb-3">
+                                    <h6><strong>Critical Gap Analysis:</strong></h6>
+                                    <p class="mb-2">Only <strong>15 shared stops</strong> exist between all carriers, creating significant barriers to seamless regional transit.</p>
+                                </div>
+                                <div class="mb-3">
+                                    <h6><strong>Distance Gaps:</strong></h6>
+                                    <ul class="list-unstyled">
+                                        <li>• <span class="badge bg-success">0.22-0.26 mi</span> Downtown transfers</li>
+                                        <li>• <span class="badge bg-warning">5.89-7.7 mi</span> Suburban gaps</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h6><strong>Strategic Implication:</strong></h6>
+                                    <p class="mb-0">Riders must "bridge gaps" independently, deterring public transit use in favor of personal vehicles.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Key Findings from Report -->
+                    <div class="insight-box mt-4">
+                        <h5><i class="fas fa-search me-2"></i>Hub Analysis - Key Findings from Report</h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6><strong>MARTA Rail Dominance:</strong></h6>
+                                <p class="mb-2">MARTA rail stations (West End, Five Points, Oakland City) dominate betweenness centrality rankings, confirming their role as critical regional connectivity nodes.</p>
+                                <ul class="list-unstyled">
+                                    <li>• West End Station: Primary transfer hub for multiple lines</li>
+                                    <li>• Five Points: Historic downtown convergence point</li>
+                                    <li>• Arts Center: Key north-south connector</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h6><strong>Bus Transfer Centers:</strong></h6>
+                                <p class="mb-2">High-degree bus stations represent concentrated transfer points where multiple routes converge:</p>
+                                <ul class="list-unstyled">
+                                    <li>• Civic Center: Primary inter-carrier hub (15 connections)</li>
+                                    <li>• Marietta Transfer: Major Cobb County hub</li>
+                                    <li>• Cumberland: Secondary Cobb transfer point</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Degree Distribution Tab -->
+            <div class="tab-pane fade" id="distribution" role="tabpanel">
+                <div class="analysis-card">
+                    <h3 class="section-title">
+                        <i class="fas fa-chart-line me-3"></i>Network Connectivity Patterns & Scale-Free Characteristics
+                    </h3>
+                    
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="viz-container">
+                                <h5 class="subsection-title">
+                                    <i class="fas fa-chart-area me-2 text-success"></i>
+                                    Degree Distribution Analysis
+                                </h5>
+                                <p class="alert alert-success">
+                                    <i class="fas fa-chart-line me-2"></i>
+                                    <strong>Report Finding:</strong> The degree distribution exhibits scale-free characteristics typical of real-world transit networks. Most stops have 1-2 connections (simple through-stops) while few major hubs have many connections.
+                                </p>
+                                <img src="static/analysis_results/images/image2.png" alt="Degree Distribution" class="viz-image">
+                                <p class="text-muted mt-2">Degree distribution showing probability density of node connections across three network representations</p>
+                                <div class="row text-center mt-3">
+                                    <div class="col-4">
+                                        <span class="badge" style="background: #1f77b4;">■</span>
+                                        <small><strong>Undirected</strong><br>Total connections per stop</small>
+                                    </div>
+                                    <div class="col-4">
+                                        <span class="badge" style="background: #ff7f0e;">■</span>
+                                        <small><strong>In/Out Directed</strong><br>Directional route analysis</small>
+                                    </div>
+                                    <div class="col-4">
+                                        <span class="badge" style="background: #2ca02c;">■</span>
+                                        <small><strong>Sum Directed</strong><br>Combined directional degree</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4">
+                            <div class="insight-box h-100">
+                                <h5><i class="fas fa-chart-bar me-2"></i>Distribution Analysis</h5>
+                                <div class="mb-3">
+                                    <h6><strong>Scale-Free Network:</strong></h6>
+                                    <p class="mb-2">Follows power-law distribution characteristic of real-world transit systems rather than random networks.</p>
+                                </div>
+                                <div class="mb-3">
+                                    <h6><strong>Hub-Spoke Topology:</strong></h6>
+                                    <ul class="list-unstyled mb-2">
+                                        <li>• <strong>Peak at degree 1-2:</strong> Most stops are simple through-points</li>
+                                        <li>• <strong>Long tail:</strong> Few nodes with high connectivity (major hubs)</li>
+                                        <li>• <strong>Geographic constraints:</strong> Physical routing limitations</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h6><strong>Transit System Implications:</strong></h6>
+                                    <p class="mb-0">This distribution confirms Atlanta's transit follows realistic geographic constraints where most stops provide local access while major stations serve as regional transfer hubs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Additional Analysis -->
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="highlight-stat">
+                                <h6><strong>Network Topology Characteristics:</strong></h6>
+                                <ul class="list-unstyled">
+                                    <li>• <strong>Hierarchical Structure:</strong> Clear separation between local stops and regional hubs</li>
+                                    <li>• <strong>Geographic Constraints:</strong> Connectivity limited by street networks and physical infrastructure</li>
+                                    <li>• <strong>Service-Oriented Design:</strong> Hub-and-spoke patterns optimize for efficient passenger distribution</li>
+                                    <li>• <strong>Carrier Specialization:</strong> Each transit agency serves specific geographic regions</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="highlight-stat">
+                                <h6><strong>Comparison to Theoretical Networks:</strong></h6>
+                                <ul class="list-unstyled">
+                                    <li>• <strong>Not Random:</strong> Clear preferential attachment patterns</li>
+                                    <li>• <strong>Not Small-World:</strong> High clustering but longer path lengths</li>
+                                    <li>• <strong>Scale-Free:</strong> Power-law degree distribution with hub dominance</li>
+                                    <li>• <strong>Geographic:</strong> Spatial constraints limit theoretical optimal connections</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Network Robustness Tab -->
+            <div class="tab-pane fade" id="robustness" role="tabpanel">
+                <div class="analysis-card">
+                    <h3 class="section-title">
+                        <i class="fas fa-shield-alt me-3"></i>Network Vulnerability & Attack Simulation Results
+                    </h3>
+                    
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="viz-container">
+                                <h5 class="subsection-title">
+                                    <i class="fas fa-chart-line me-2 text-danger"></i>
+                                    Attack Simulation Results
+                                </h5>
+                                <p class="alert alert-danger">
+                                    <i class="fas fa-exclamation-triangle me-2"></i>
+                                    <strong>Critical Finding:</strong> Network demonstrates high vulnerability to degree centrality attacks (fc = 0.128) but strong resilience to closeness centrality attacks (fc = 0.99). This indicates targeted removal of high-degree nodes rapidly fragments the system.
+                                </p>
+                                <img src="static/analysis_results/images/image8.png" alt="Attack Simulation Results" class="viz-image">
+                                <p class="text-muted mt-2">Attack simulation curves showing network fragmentation under different targeting strategies</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4">
+                            <div class="insight-box h-100">
+                                <h5><i class="fas fa-exclamation-triangle me-2 text-danger"></i>Vulnerability Assessment</h5>
+                                <div class="mb-3">
+                                    <h6><strong>Degree Centrality Attacks:</strong></h6>
+                                    <p class="mb-2">Systematic removal of highest-degree nodes (major hubs) rapidly fragments network.</p>
+                                    <ul class="list-unstyled">
+                                        <li>• <span class="badge bg-danger">fc = 0.128</span> Critical threshold</li>
+                                        <li>• <span class="badge bg-warning">High Risk</span> Hub-dependent topology</li>
+                                    </ul>
+                                </div>
+                                <div class="mb-3">
+                                    <h6><strong>Closeness Centrality Attacks:</strong></h6>
+                                    <p class="mb-2">Network maintains connectivity even when nodes with high closeness centrality are removed.</p>
+                                    <ul class="list-unstyled">
+                                        <li>• <span class="badge bg-success">fc = 0.99</span> High resilience</li>
+                                        <li>• <span class="badge bg-info">Low Risk</span> Geographic redundancy</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h6><strong>Strategic Implication:</strong></h6>
+                                    <p class="mb-0">The network's vulnerability to hub attacks highlights the need for redundant pathways around major transfer points.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Attack Visualization Grid -->
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <div class="viz-container">
+                                <h6 class="text-center">Original Network</h6>
+                                <img src="static/analysis_results/images/image4.png" alt="Original Network" class="viz-image">
+                                <p class="text-center mt-2"><small>Complete connectivity before attacks</small></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="viz-container">
+                                <h6 class="text-center">Early Fragmentation</h6>
+                                <img src="static/analysis_results/images/image5.png" alt="Early Fragmentation" class="viz-image">
+                                <p class="text-center mt-2"><small>Initial component separation</small></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="viz-container">
+                                <h6 class="text-center">Severe Fragmentation</h6>
+                                <img src="static/analysis_results/images/image7.png" alt="Severe Fragmentation" class="viz-image">
+                                <p class="text-center mt-2"><small>Network collapse into isolated components</small></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Robustness Analysis from Report -->
+                    <div class="insight-box mt-4">
+                        <h5><i class="fas fa-shield-alt me-2"></i>Robustness Analysis - Report Findings</h5>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6><strong>Mathematical Condition:</strong></h6>
+                                <div class="code-block">
+Using condition: ⟨k²⟩/⟨k⟩ ≤ 2
+
+Degree Attack: fc = 0.128
+Closeness Attack: fc = 0.99
+                                </div>
+                                <p class="small mt-2">Network vulnerability measured using standard percolation theory thresholds</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h6><strong>Critical Infrastructure:</strong></h6>
+                                <ul class="list-unstyled">
+                                    <li>• <strong>Most Vulnerable:</strong> MARTA rail stations</li>
+                                    <li>• <strong>Secondary Risk:</strong> Major bus transfer centers</li>
+                                    <li>• <strong>Cascade Effects:</strong> Hub failure isolates entire regions</li>
+                                    <li>• <strong>Geographic Impact:</strong> County-level service disruption</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h6><strong>Resilience Strategies:</strong></h6>
+                                <ul class="list-unstyled">
+                                    <li>• Create redundant pathways around major hubs</li>
+                                    <li>• Develop secondary transfer centers</li>
+                                    <li>• Improve cross-agency connectivity</li>
+                                    <li>• Implement emergency rerouting protocols</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Link Prediction Tab -->
+            <div class="tab-pane fade" id="prediction" role="tabpanel">
+                <div class="analysis-card">
+                    <h3 class="section-title">
+                        <i class="fas fa-robot me-3"></i>Machine Learning Link Prediction Analysis
+                    </h3>
+                    
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="viz-container">
+                                <h5 class="subsection-title">
+                                    <i class="fas fa-cogs me-2 text-info"></i>
+                                    Logistic Regression Model Results
+                                </h5>
+                                <p class="alert alert-info">
+                                    <i class="fas fa-info-circle me-2"></i>
+                                    <strong>Model Performance:</strong> Trained logistic regression model using network topology and geographic features to predict potential new transit connections. Model identified 66.3M potential edges at 0.5 probability threshold.
+                                </p>
+                                
+                                <div class="code-block">
+<strong>Feature Coefficients (Logistic Regression):</strong>
+Common Neighbors:        0.551590
+Neighbor Union:          0.751714  ← Highest importance
+Jaccard Coefficient:     0.121432
+Adamic Adar Index:       0.545153
+Preferential Attachment: -0.098741 ← Negative weight
+Resource Allocation:     0.190292
+Geographic Distance:     -0.035886 ← Slight negative
+
+<strong>Model Results:</strong>
+Predicted Edges: 66,268,290
+Probability Threshold: 0.5
+Training Features: 7 topological + geographic
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4">
+                            <div class="insight-box h-100">
+                                <h5><i class="fas fa-brain me-2 text-warning"></i>Model Interpretation</h5>
+                                <div class="mb-3">
+                                    <h6><strong>Feature Importance:</strong></h6>
+                                    <ul class="list-unstyled">
+                                        <li>• <strong>Neighbor Union (0.75):</strong> Total unique neighbors strongly predicts connections</li>
+                                        <li>• <strong>Common Neighbors (0.55):</strong> Shared connections indicate potential links</li>
+                                        <li>• <strong>Geographic Distance (-0.036):</strong> Slight preference for closer connections</li>
+                                    </ul>
+                                </div>
+                                <div class="mb-3">
+                                    <h6><strong>Unexpected Finding:</strong></h6>
+                                    <p class="mb-2">Preferential Attachment shows negative coefficient (-0.098), suggesting high-degree nodes don't necessarily attract more connections in this transit context.</p>
+                                </div>
+                                <div>
+                                    <h6><strong>Transit Applications:</strong></h6>
+                                    <p class="mb-0">Focus on top 1% of predictions for realistic route planning and cross-carrier connectivity improvements.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Model Analysis -->
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="highlight-stat">
+                                <h6><strong>Positive Predictors (Pro-Connection):</strong></h6>
+                                <ul class="list-unstyled">
+                                    <li>• <strong>Neighbor Union:</strong> Stops with many total connections likely to link</li>
+                                    <li>• <strong>Adamic-Adar Index:</strong> Weighted common neighbors predict new routes</li>
+                                    <li>• <strong>Common Neighbors:</strong> Shared intermediate stops suggest direct connections</li>
+                                    <li>• <strong>Jaccard Similarity:</strong> Proportional neighbor overlap indicates compatibility</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="highlight-stat">
+                                <h6><strong>Negative Predictors (Anti-Connection):</strong></h6>
+                                <ul class="list-unstyled">
+                                    <li>• <strong>Preferential Attachment:</strong> High-degree hubs don't automatically connect</li>
+                                    <li>• <strong>Geographic Distance:</strong> Physical separation reduces connection probability</li>
+                                    <li>• <strong>Transit Constraints:</strong> Real-world routing limitations override theoretical preferences</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Strategic Applications -->
+                    <div class="insight-box mt-4">
+                        <h5><i class="fas fa-route me-2"></i>Strategic Applications for Transit Planning</h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6><strong>High-Priority Predictions:</strong></h6>
+                                <ul>
+                                    <li><strong>Cross-Carrier Links:</strong> Focus on connections between different transit agencies</li>
+                                    <li><strong>Regional Integration:</strong> Links that reduce current 15-stop limitation for transfers</li>
+                                    <li><strong>Hub Redundancy:</strong> Alternative pathways around critical stations</li>
+                                    <li><strong>Geographic Gaps:</strong> Connections reducing average transfer distances</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h6><strong>Model Refinement Needs:</strong></h6>
+                                <ul>
+                                    <li><strong>Threshold Adjustment:</strong> Increase to 0.8-0.9 for realistic predictions</li>
+                                    <li><strong>Transit-Specific Features:</strong> Add route type, carrier compatibility, schedule alignment</li>
+                                    <li><strong>Geographic Constraints:</strong> Include physical feasibility and zoning restrictions</li>
+                                    <li><strong>Ridership Data:</strong> Incorporate demand patterns and passenger flow analysis</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tool Development Section -->
+        <div class="analysis-card">
+            <h3 class="section-title">
+                <i class="fas fa-tools me-3"></i>Transit Planning Tool Development
+            </h3>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="highlight-stat">
+                        <h6><i class="fas fa-route me-2"></i>Dijkstra-Based Routing Tool</h6>
+                        <p class="mb-2">Our team developed a transit routing tool that addresses the "First & Last Mile" problem using network science principles:</p>
+                        <ul>
+                            <li><strong>Node Representation:</strong> Transit stations (not road intersections)</li>
+                            <li><strong>Edge Weights:</strong> Travel time or distance between connected stops</li>
+                            <li><strong>Optimization:</strong> Minimizes expected travel time or distance</li>
+                            <li><strong>Input:</strong> Start and target locations with user preferences</li>
+                            <li><strong>Output:</strong> Plotted route with transfer points and fare costs</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="highlight-stat">
+                        <h6><i class="fas fa-exclamation-triangle me-2"></i>Current Limitations & Future Development</h6>
+                        <p class="mb-2">Tool limitations identified during development:</p>
+                        <ul>
+                            <li><strong>Cross-Carrier Transfers:</strong> Limited handling of disconnected carrier networks</li>
+                            <li><strong>Bridging Gaps:</strong> Users must manually navigate between carriers</li>
+                            <li><strong>Data Currency:</strong> Analysis based on 3-year-old data</li>
+                            <li><strong>Route Changes:</strong> Recent service modifications not reflected</li>
+                        </ul>
+                        <p class="mt-2"><strong>Future Enhancement:</strong> Implement bidirectional Dijkstra's algorithm and automatic bridging optimization for cross-carrier transfers.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="insight-box">
+                <h5><i class="fas fa-lightbulb me-2"></i>Tool Innovation & Methodology</h5>
+                <p class="mb-3">Unlike commercial routing applications that use complex road network algorithms, our tool focuses specifically on transit network connectivity using:</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h6><strong>Network Simplification:</strong></h6>
+                        <ul class="list-unstyled">
+                            <li>• Nearest station identification</li>
+                            <li>• Cartesian product of top N closest stations</li>
+                            <li>• Reduced search space for efficiency</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h6><strong>Dual Network Approach:</strong></h6>
+                        <ul class="list-unstyled">
+                            <li>• Distance-weighted network (haversine)</li>
+                            <li>• Time-weighted network (schedule data)</li>
+                            <li>• User preference selection</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h6><strong>Geographic Integration:</strong></h6>
+                        <ul class="list-unstyled">
+                            <li>• Geocoding API integration</li>
+                            <li>• Real coordinate mapping</li>
+                            <li>• Visual route presentation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Strategic Recommendations -->
+        <div class="analysis-card">
+            <h3 class="section-title">
+                <i class="fas fa-clipboard-check me-3"></i>Strategic Recommendations & Future Implications
+            </h3>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="highlight-stat">
+                        <h6><i class="fas fa-exclamation-triangle me-2 text-danger"></i>Immediate Priorities (0-2 years)</h6>
+                        <ul>
+                            <li><strong>Increase Shared Stops:</strong> Strategic merging of close bus stops between carriers</li>
+                            <li><strong>Bridge Gap Solutions:</strong> Optimize transfer points to minimize bridging distances</li>
+                            <li><strong>Cross-Carrier Integration:</strong> Develop unified payment and scheduling systems</li>
+                            <li><strong>Hub Redundancy:</strong> Create alternative pathways around critical stations</li>
+                            <li><strong>Information Systems:</strong> Unified route planning across all carriers</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="highlight-stat">
+                        <h6><i class="fas fa-chart-line me-2 text-success"></i>Network Optimization (2-5 years)</h6>
+                        <ul>
+                            <li><strong>Strategic Route Addition:</strong> Use predictions for high-impact connections</li>
+                            <li><strong>Component Integration:</strong> Connect the 50 disconnected network pieces</li>
+                            <li><strong>Secondary Hub Development:</strong> Reduce over-dependence on single points</li>
+                            <li><strong>Suburban Integration:</strong> Better connectivity to growing population centers</li>
+                            <li><strong>Network Mesh Creation:</strong> Add cross-connections between radial lines</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="highlight-stat">
+                        <h6><i class="fas fa-city me-2 text-info"></i>Long-Term Vision (5-10 years)</h6>
+                        <ul>
+                            <li><strong>Regional Integration:</strong> True multi-modal transit network</li>
+                            <li><strong>Smart Transit Systems:</strong> Real-time optimization and AI-driven routing</li>
+                            <li><strong>Sustainability Goals:</strong> Support Paris Climate Accord objectives</li>
+                            <li><strong>Tourism Integration:</strong> Seamless airport-to-destination connectivity</li>
+                            <li><strong>Urban Development:</strong> Transit-oriented planning reducing urban sprawl</li>
+                            <li><strong>Technology Integration:</strong> IoT sensors and predictive maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="insight-box mt-4">
+                <h5><i class="fas fa-lightbulb me-2 text-warning"></i>Evidence-Based Policy Recommendations</h5>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6><strong>Network Science Applications:</strong></h6>
+                        <ul>
+                            <li><strong>Service Frequency Optimization:</strong> Use centrality measures to allocate resources to high-impact stations</li>
+                            <li><strong>Emergency Response Planning:</strong> Vulnerability analysis guides disruption mitigation strategies</li>
+                            <li><strong>Infrastructure Investment:</strong> Prioritize connections that maximally reduce network fragmentation</li>
+                            <li><strong>Route Planning:</strong> Focusing on highest-probability beneficial connections</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6><strong>Addressing Root Causes of Low Ridership:</strong></h6>
+                        <ul>
+                            <li><strong>First & Last Mile Solutions:</strong> Integrated approach to station access</li>
+                            <li><strong>Safety Improvements:</strong> Focus on high-centrality stations with security enhancements</li>
+                            <li><strong>Information Clarity:</strong> Unified wayfinding and real-time information systems</li>
+                            <li><strong>Cross-Carrier Coordination:</strong> Eliminate need for independent gap bridging</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="alert alert-warning mt-3">
+                    <h6><strong>Economic and Environmental Impact:</strong></h6>
+                    <p class="mb-2">Strategic network improvements support multiple policy objectives:</p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <strong>Economic Development:</strong> Better transit connectivity increases property values and business accessibility in underserved areas
+                        </div>
+                        <div class="col-md-4">
+                            <strong>Environmental Goals:</strong> Reduced car dependency contributes to carbon reduction targets and air quality improvement
+                        </div>
+                        <div class="col-md-4">
+                            <strong>Social Equity:</strong> Improved transit access provides transportation options for lower-income residents and increases job accessibility
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technical Methodology -->
+        <div class="analysis-card">
+            <h3 class="section-title">
+                <i class="fas fa-code me-3"></i>Research Methodology & Technical Implementation
+            </h3>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="data-table">
+                        <h5 class="subsection-title">Data Sources & Processing</h5>
+                        <div class="table-responsive">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>Transit Carrier</th>
+                                        <th>Data Files</th>
+                                        <th>Key Information</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="marta-badge transit-carrier-badge">MARTA</span></td>
+                                        <td>stops.csv, stoptimes.csv, trips.csv, routes.csv</td>
+                                        <td>Largest dataset (200x other carriers)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="xpress-badge transit-carrier-badge">Xpress</span></td>
+                                        <td>stops.csv, stoptimes.csv, trips.csv, routes.csv</td>
+                                        <td>Regional express routes</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="cobblinc-badge transit-carrier-badge">CobbLinc</span></td>
+                                        <td>stops.csv, stoptimes.csv, trips.csv, routes.csv</td>
+                                        <td>Cobb County local service</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="douglas-badge transit-carrier-badge">Douglas</span></td>
+                                        <td>stops.csv, stoptimes.csv, trips.csv, routes.csv</td>
+                                        <td>Douglas County connections</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="gwinnett-badge transit-carrier-badge">Gwinnett</span></td>
+                                        <td>stops.csv, stoptimes.csv, trips.csv, routes.csv</td>
+                                        <td>Gwinnett County suburban routes</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="data-table">
+                        <h5 class="subsection-title">Generated Analysis Files</h5>
+                        <div class="table-responsive">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>Generated File</th>
+                                        <th>Content</th>
+                                        <th>Analysis Use</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><code>ATLStops.csv</code></td>
+                                        <td>Consolidated stop information</td>
+                                        <td>Node creation</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>ATLTransitEdges.csv</code></td>
+                                        <td>Distance-weighted connections</td>
+                                        <td>Network topology</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>ATLTravelTimeEdges2.csv</code></td>
+                                        <td>Time-weighted connections</td>
+                                        <td>Routing optimization</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>RouteCarriers.csv</code></td>
+                                        <td>Route-carrier mapping</td>
+                                        <td>Transfer analysis</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>CompleteRouteNames.csv</code></td>
+                                        <td>Connection route details</td>
+                                        <td>Path reconstruction</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="highlight-stat">
+                        <h6><strong>Network Construction:</strong></h6>
+                        <ul class="list-unstyled">
+                            <li>• <strong>Nodes:</strong> Transit stations with lat/long coordinates</li>
+                            <li>• <strong>Edges:</strong> Direct route connections between stops</li>
+                            <li>• <strong>Weights:</strong> Haversine distance or scheduled travel time</li>
+                            <li>• <strong>Direction:</strong> Maintains route directionality</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="highlight-stat">
+                        <h6><strong>Analysis Techniques:</strong></h6>
+                        <ul class="list-unstyled">
+                            <li>• <strong>Centrality Measures:</strong> Betweenness, PageRank, Degree</li>
+                            <li>• <strong>Network Topology:</strong> Connected components, assortativity</li>
+                            <li>• <strong>Robustness Testing:</strong> Targeted node removal simulations</li>
+                            <li>• <strong>Machine Learning:</strong> Logistic regression for link prediction</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="highlight-stat">
+                        <h6><strong>Tool Development:</strong></h6>
+                        <ul class="list-unstyled">
+                            <li>• <strong>Routing Algorithm:</strong> Modified Dijkstra's for transit networks</li>
+                            <li>• <strong>User Interface:</strong> Start/end location input with preferences</li>
+                            <li>• <strong>Output:</strong> Visual route mapping with transfer points</li>
+                            <li>• <strong>Cost Calculation:</strong> Fare estimation across carriers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="code-block mt-4">
+<strong>Key Technical Specifications:</strong>
+
+Network Statistics:
+- Total Nodes: 8,100+ transit stops
+- Connected Components: 50 (largest: 6,651 MARTA stations)
+- Network Density: 0.00012280083309216608
+- Assortativity Coefficient: 0.028468092734359962
+
+Analysis Methods:
+- Centrality Analysis: NetworkX implementation of betweenness, PageRank algorithms
+- Robustness Testing: Systematic node removal with percolation theory metrics
+- Link Prediction: Scikit-learn logistic regression with 7-feature model
+- Visualization: Geographic coordinate plotting with network overlay
+
+Data Processing:
+- Preprocessing: GTFS-format transit data cleaning and standardization
+- Network Construction: Graph creation from stop sequences and route schedules
+- Weight Calculation: Haversine distance formula for geographic edges
+- Time Analysis: Schedule data parsing for temporal edge weights
+            </div>
+        </div>
+
+        <!-- Research Impact & Applications -->
+        <div class="analysis-card">
+            <h3 class="section-title">
+                <i class="fas fa-university me-3"></i>Research Impact & Broader Applications
+            </h3>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="highlight-stat">
+                        <h6><i class="fas fa-graduation-cap me-2"></i>Academic Contributions</h6>
+                        <ul>
+                            <li><strong>Network Science:</strong> Real-world application of graph theory to urban infrastructure</li>
+                            <li><strong>Transportation Research:</strong> Multi-carrier transit network analysis methodology</li>
+                            <li><strong>Urban Planning:</strong> Data-driven approach to transit connectivity assessment</li>
+                            <li><strong>Machine Learning:</strong> Link prediction applications in geographic networks</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="highlight-stat">
+                        <h6><i class="fas fa-city me-2"></i>Policy Applications</h6>
+                        <ul>
+                            <li><strong>Atlanta Transit Authority:</strong> Evidence-based infrastructure investment priorities</li>
+                            <li><strong>Regional Planning:</strong> Cross-county coordination strategies</li>
+                            <li><strong>Economic Development:</strong> Transit accessibility impact assessment</li>
+                            <li><strong>Environmental Policy:</strong> Carbon reduction through improved transit connectivity</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="highlight-stat">
+                        <h6><i class="fas fa-globe me-2"></i>Scalable Methodology</h6>
+                        <ul>
+                            <li><strong>Other Cities:</strong> Adaptable framework for multi-carrier transit analysis</li>
+                            <li><strong>Tourism Applications:</strong> Airport-to-destination routing optimization</li>
+                            <li><strong>Smart Cities:</strong> IoT integration and real-time network optimization</li>
+                            <li><strong>International Development:</strong> Transit planning for emerging urban areas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="insight-box mt-4">
+                <h5><i class="fas fa-lightbulb me-2"></i>Future Research Directions</h5>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6><strong>Methodological Extensions:</strong></h6>
+                        <ul>
+                            <li><strong>Temporal Networks:</strong> Time-varying analysis incorporating schedule variations and peak/off-peak patterns</li>
+                            <li><strong>Multi-layer Networks:</strong> Separate analysis of bus vs. rail networks with inter-layer connections</li>
+                            <li><strong>Dynamic Robustness:</strong> Real-time vulnerability assessment under varying traffic conditions</li>
+                            <li><strong>Passenger Flow Integration:</strong> Ridership data incorporation for demand-weighted network analysis</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6><strong>Technology Integration:</strong></h6>
+                        <ul>
+                            <li><strong>Real-time Data:</strong> Live vehicle tracking and schedule adherence integration</li>
+                            <li><strong>Mobile Applications:</strong> User-facing tools for route optimization and real-time updates</li>
+                            <li><strong>Predictive Analytics:</strong> Machine learning models for demand forecasting and capacity planning</li>
+                            <li><strong>IoT Sensors:</strong> Infrastructure monitoring and predictive maintenance applications</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conclusion -->
+        <div class="analysis-card text-center">
+            <h3 class="section-title">
+                <i class="fas fa-flag-checkered me-3"></i>Conclusion & Next Steps
+            </h3>
+            
+            <p class="lead mb-4">This comprehensive network analysis of Atlanta's public transit system reveals both the strengths and critical vulnerabilities of the current multi-carrier infrastructure, providing a roadmap for strategic improvements that can enhance connectivity, resilience, and ridership across the metropolitan region.</p>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="highlight-stat">
+                        <h6><i class="fas fa-check-circle me-2 text-success"></i>Key Achievements</h6>
+                        <ul class="text-start">
+                            <li>Comprehensive analysis of 8,100+ transit stops</li>
+                            <li>Identification of critical infrastructure vulnerabilities</li>
+                            <li>Development of functional routing tool prototype</li>
+                            <li>Evidence-based recommendations for system improvements</li>
+                            <li>Scalable methodology for other urban areas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="highlight-stat">
+                        <h6><i class="fas fa-exclamation-triangle me-2 text-warning"></i>Critical Findings</h6>
+                        <ul class="text-start">
+                            <li>Only 15 shared stops between all carriers</li>
+                            <li>Network vulnerable to targeted hub attacks (fc = 0.128)</li>
+                            <li>MARTA dominance creates single-point-of-failure risk</li>
+                            <li>Significant bridging gaps deter ridership</li>
+                            <li>50 disconnected components limit system integration</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="highlight-stat">
+                        <h6><i class="fas fa-arrow-right me-2 text-info"></i>Immediate Actions</h6>
+                        <ul class="text-start">
+                            <li>Strategic stop merging between carriers</li>
+                            <li>Redundant pathway development around critical hubs</li>
+                            <li>Cross-carrier coordination and integration initiatives</li>
+                            <li>Tool refinement and bidirectional algorithm implementation</li>
+                            <li>Real-time data integration for dynamic optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4 p-4 bg-light rounded">
+                <h5><strong>Research Team Contact:</strong></h5>
+                <p class="mb-2">Hazal I. Ates • Isaiah Coriolan • James Jones • Pierce Thomas</p>
+                <p class="mb-0 text-muted"><strong>Final Report Completed:</strong> July 21, 2025 | <strong>Analysis Period:</strong> Spring 2025 Semester</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Image Viewing -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Network Visualization</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImage" src="" alt="Network Analysis Visualization" class="img-fluid">
+                    <p id="modalDescription" class="mt-3 text-muted"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Image modal functionality
+        function showImage(title, src, description = '') {
+            document.getElementById('imageModalLabel').textContent = title;
+            document.getElementById('modalImage').src = src;
+            document.getElementById('modalDescription').textContent = description;
+        }
+
+        // Enhanced interactivity
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add loading animations for all cards
+            const cards = document.querySelectorAll('.analysis-card, .metric-card');
+            cards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                
+                setTimeout(() => {
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, index * 100);
+            });
+
+            // Enhanced hover effects for metric cards
+            const metricCards = document.querySelectorAll('.metric-card');
+            metricCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-12px) scale(1.03)';
+                    this.style.boxShadow = '0 25px 60px rgba(0, 0, 0, 0.2)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                    this.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.1)';
+                });
+            });
+
+            // Add smooth tab transitions
+            const tabButtons = document.querySelectorAll('[data-bs-toggle="pill"]');
+            tabButtons.forEach(button => {
+                button.addEventListener('shown.bs.tab', function() {
+                    const target = document.querySelector(this.getAttribute('data-bs-target'));
+                    if (target) {
+                        setTimeout(() => {
+                            target.scrollIntoView({ 
+                                behavior: 'smooth', 
+                                block: 'start' 
+                            });
+                        }, 150);
+                    }
+                });
+            });
+
+            // Add enhanced table interactions
+            const tables = document.querySelectorAll('.table tbody tr');
+            tables.forEach(row => {
+                row.addEventListener('mouseenter', function() {
+                    this.style.backgroundColor = 'rgba(52, 152, 219, 0.1)';
+                    this.style.transform = 'translateX(5px)';
+                    this.style.transition = 'all 0.3s ease';
+                });
+                
+                row.addEventListener('mouseleave', function() {
+                    this.style.backgroundColor = '';
+                    this.style.transform = 'translateX(0)';
+                });
+            });
+
+            // Add keyboard shortcuts
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    const modals = document.querySelectorAll('.modal.show');
+                    modals.forEach(modal => {
+                        const modalInstance = bootstrap.Modal.getInstance(modal);
+                        if (modalInstance) modalInstance.hide();
+                    });
+                }
+                
+                // Tab navigation with arrow keys
+                if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+                    const activeTab = document.querySelector('.nav-pills .nav-link.active');
+                    if (activeTab) {
+                        const tabs = Array.from(document.querySelectorAll('.nav-pills .nav-link'));
+                        const currentIndex = tabs.indexOf(activeTab);
+                        let newIndex;
+                        
+                        if (e.key === 'ArrowRight') {
+                            newIndex = (currentIndex + 1) % tabs.length;
+                        } else {
+                            newIndex = currentIndex === 0 ? tabs.length - 1 : currentIndex - 1;
+                        }
+                        
+                        tabs[newIndex].click();
+                        e.preventDefault();
+                    }
+                }
+            });
+
+            console.log('Atlanta Transit Network Analysis Dashboard Loaded Successfully');
+            console.log('Report-aligned content: Network topology, centrality analysis, robustness testing, and link predictions');
+        });
+
+        // Export functionality
+        function exportAnalysisData() {
+            const analysisData = {
+                timestamp: new Date().toISOString(),
+                report: "Atlanta Public Transit Analysis - Final Report",
+                date: "July 21, 2025",
+                authors: ["Hazal I. Ates", "Isaiah Coriolan", "James Jones", "Pierce Thomas"],
+                networkMetrics: {
+                    density: 0.00012280083309216608,
+                    assortativity: 0.028468092734359962,
+                    connectedComponents: 50,
+                    totalStops: 8100,
+                    sharedStops: 15
+                },
+                vulnerabilityAnalysis: {
+                    degreeCentralityAttack: 0.128,
+                    closenessCentralityAttack: 0.99
+                },
+                keyFindings: [
+                    "Only 15 shared stops between all transit carriers",
+                    "Network highly vulnerable to degree centrality attacks",
+                    "MARTA dominates with 6,651 stations (82% of network)",
+                    "Average bridging gap of 0.22-7.7 miles between carriers"
+                ]
+            };
+            
+            const dataStr = JSON.stringify(analysisData, null, 2);
+            const dataBlob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(dataBlob);
+            
+            const downloadLink = document.createElement('a');
+            downloadLink.href = url;
+            downloadLink.download = 'atlanta_transit_analysis_report.json';
+            downloadLink.click();
+            
+            URL.revokeObjectURL(url);
+        }
+
+        // Print functionality
+        function generateReport() {
+            window.print();
+        }
+
+        // Share functionality
+        function shareAnalysis() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Atlanta Public Transit Network Analysis - Final Report',
+                    text: 'Comprehensive network analysis of Atlanta\'s multi-carrier public transportation system',
+                    url: window.location.href
+                });
+            } else {
+                navigator.clipboard.writeText(window.location.href).then(() => {
+                    alert('Analysis URL copied to clipboard!');
+                });
+            }
+        }
+    </script>
+</body>
+</html>
