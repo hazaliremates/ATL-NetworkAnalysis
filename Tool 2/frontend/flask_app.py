@@ -20,6 +20,12 @@ from collections import Counter
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Paths relative to this repo so any clone can run the app
+FRONTEND_DIR = Path(__file__).resolve().parent
+TOOL_DIR = FRONTEND_DIR.parent
+DEFAULT_DB_PATH = TOOL_DIR / "processed_data" / "atlanta_transit.db"
+DEFAULT_ANALYSIS_PATH = FRONTEND_DIR / "static" / "analysis_results" / "data"
+
 app = Flask(__name__)
 CORS(app)
 
@@ -27,10 +33,10 @@ class EnhancedAtlantaTransitAPI:
     """Enhanced API with comprehensive analysis data loading"""
     
     def __init__(self, 
-                 db_path="/Users/iremates/Desktop/ISYE4803Proj/processed_data/atlanta_transit.db",
-                 analysis_path="/Users/iremates/Desktop/ISYE4803Proj/backend/analysis"):
-        self.db_path = db_path
-        self.analysis_path = analysis_path
+                 db_path=None,
+                 analysis_path=None):
+        self.db_path = str(Path(db_path).resolve() if db_path else DEFAULT_DB_PATH.resolve())
+        self.analysis_path = str(analysis_path or DEFAULT_ANALYSIS_PATH)
         self.graph = None
         self.stops_data = None
         self.routes_data = None
@@ -49,7 +55,15 @@ class EnhancedAtlantaTransitAPI:
     def load_data(self):
         """Load basic transit data and build graph"""
         try:
-            conn = sqlite3.connect(self.db_path)
+            if not os.path.exists(self.db_path):
+                raise FileNotFoundError(
+                    f"Transit DB not found at {self.db_path}. "
+                    "Expected Tool 2/processed_data/atlanta_transit.db in this repo."
+                )
+            logger.info(f"Loading transit DB from {self.db_path}")
+            # Read-only URI avoids needing write access next to the DB file
+            db_uri = Path(self.db_path).resolve().as_uri() + "?mode=ro"
+            conn = sqlite3.connect(db_uri, uri=True)
             
             self.stops_data = pd.read_sql_query("SELECT * FROM stops", conn)
             self.routes_data = pd.read_sql_query("SELECT * FROM routes", conn)
@@ -117,6 +131,11 @@ class EnhancedAtlantaTransitAPI:
             centrality_file = os.path.join(self.analysis_path, "centrality_analysis.csv")
             if os.path.exists(centrality_file):
                 self.centrality_data = pd.read_csv(centrality_file)
+                # Normalize schema — exports may use `node` instead of stop_id/name columns
+                if 'stop_name' not in self.centrality_data.columns and 'node' in self.centrality_data.columns:
+                    self.centrality_data['stop_name'] = self.centrality_data['node']
+                if 'agency_name' not in self.centrality_data.columns:
+                    self.centrality_data['agency_name'] = 'Unknown'
                 logger.info(f"Loaded centrality data for {len(self.centrality_data)} stops")
             
             # Load community detection data
@@ -127,6 +146,35 @@ class EnhancedAtlantaTransitAPI:
                 
         except Exception as e:
             logger.error(f"Error loading analysis data: {e}")
+
+    def _centrality_row_for_stop(self, stop_id):
+        """Look up a stop in centrality_data by id or name (schema-tolerant)."""
+        if self.centrality_data is None or self.centrality_data.empty:
+            return None
+
+        df = self.centrality_data
+        if 'stop_id_full' in df.columns:
+            match = df[df['stop_id_full'] == stop_id]
+            if not match.empty:
+                return match.iloc[0]
+
+        stop_name = None
+        if self.graph is not None and stop_id in self.graph.nodes:
+            stop_name = self.graph.nodes[stop_id].get('name')
+
+        for col in ('stop_name', 'node'):
+            if stop_name and col in df.columns:
+                match = df[df[col] == stop_name]
+                if not match.empty:
+                    return match.iloc[0]
+        return None
+
+    def _centrality_hub_columns(self):
+        """Return available columns for hub/centrality summaries."""
+        if self.centrality_data is None:
+            return []
+        preferred = ['stop_name', 'node', 'agency_name', 'pagerank', 'betweenness', 'degree', 'closeness']
+        return [c for c in preferred if c in self.centrality_data.columns]
     
     def get_comprehensive_network_stats(self):
         """Get comprehensive network statistics"""
@@ -144,11 +192,11 @@ class EnhancedAtlantaTransitAPI:
         }
         
         # Add top hubs from centrality analysis
-        if self.centrality_data is not None:
-            top_hubs = self.centrality_data.nlargest(20, 'pagerank')[
-                ['stop_name', 'agency_name', 'pagerank', 'betweenness', 'degree', 'closeness']
-            ].to_dict('records')
-            stats['top_hubs'] = top_hubs
+        if self.centrality_data is not None and 'pagerank' in self.centrality_data.columns:
+            cols = self._centrality_hub_columns()
+            if cols:
+                top_hubs = self.centrality_data.nlargest(20, 'pagerank')[cols].to_dict('records')
+                stats['top_hubs'] = top_hubs
         
         return stats
     
@@ -156,19 +204,19 @@ class EnhancedAtlantaTransitAPI:
         """Get detailed centrality analysis"""
         if self.centrality_data is None:
             return {'error': 'Centrality data not available'}
-        
-        return {
-            'top_pagerank': self.centrality_data.nlargest(20, 'pagerank').to_dict('records'),
-            'top_betweenness': self.centrality_data.nlargest(20, 'betweenness').to_dict('records'),
-            'top_degree': self.centrality_data.nlargest(20, 'degree').to_dict('records'),
-            'top_closeness': self.centrality_data.nlargest(20, 'closeness').to_dict('records'),
-            'statistics': {
-                'avg_pagerank': self.centrality_data['pagerank'].mean(),
-                'avg_betweenness': self.centrality_data['betweenness'].mean(),
-                'avg_degree': self.centrality_data['degree'].mean(),
-                'avg_closeness': self.centrality_data['closeness'].mean()
-            }
-        }
+
+        df = self.centrality_data
+        result = {}
+        for metric in ('pagerank', 'betweenness', 'degree', 'closeness'):
+            if metric in df.columns:
+                result[f'top_{metric}'] = df.nlargest(20, metric).to_dict('records')
+
+        stats = {}
+        for metric in ('pagerank', 'betweenness', 'degree', 'closeness'):
+            if metric in df.columns:
+                stats[f'avg_{metric}'] = float(df[metric].mean())
+        result['statistics'] = stats
+        return result
     
     def get_robustness_analysis(self):
         """Get network robustness analysis"""
@@ -238,18 +286,30 @@ class EnhancedAtlantaTransitAPI:
     
     def get_degree_distribution(self):
         """Calculate degree distribution for chart"""
-        if self.centrality_data is None:
-            return {'error': 'Centrality data not available'}
-        
-        degree_counts = self.centrality_data['degree'].value_counts().sort_index()
-        
+        if self.centrality_data is not None and 'degree' in self.centrality_data.columns:
+            degree_counts = self.centrality_data['degree'].value_counts().sort_index()
+            return {
+                'labels': [str(int(degree)) for degree in degree_counts.index],
+                'data': degree_counts.values.tolist(),
+                'statistics': {
+                    'max_degree': int(self.centrality_data['degree'].max()),
+                    'min_degree': int(self.centrality_data['degree'].min()),
+                    'avg_degree': float(self.centrality_data['degree'].mean())
+                }
+            }
+
+        if self.graph is None or len(self.graph.nodes()) == 0:
+            return {'error': 'Degree data not available'}
+
+        degrees = [d for _, d in self.graph.degree()]
+        degree_counts = pd.Series(degrees).value_counts().sort_index()
         return {
             'labels': [str(int(degree)) for degree in degree_counts.index],
             'data': degree_counts.values.tolist(),
             'statistics': {
-                'max_degree': int(self.centrality_data['degree'].max()),
-                'min_degree': int(self.centrality_data['degree'].min()),
-                'avg_degree': float(self.centrality_data['degree'].mean())
+                'max_degree': int(max(degrees)),
+                'min_degree': int(min(degrees)),
+                'avg_degree': float(sum(degrees) / len(degrees))
             }
         }
     
@@ -546,20 +606,20 @@ class EnhancedAtlantaTransitAPI:
         
         # Find affected hubs
         affected_hubs = []
-        if self.centrality_data is not None:
+        if self.centrality_data is not None and 'pagerank' in self.centrality_data.columns:
+            high_threshold = self.centrality_data['pagerank'].quantile(0.9)
+            very_high_threshold = self.centrality_data['pagerank'].quantile(0.95)
             for stop_id in stops_used:
-                hub_data = self.centrality_data[
-                    self.centrality_data['stop_id_full'] == stop_id
-                ]
-                if not hub_data.empty:
-                    hub_info = hub_data.iloc[0]
-                    if hub_info['pagerank'] > self.centrality_data['pagerank'].quantile(0.9):
-                        affected_hubs.append({
-                            'stop_name': hub_info['stop_name'],
-                            'agency': hub_info['agency_name'],
-                            'pagerank': hub_info['pagerank'],
-                            'importance': 'high' if hub_info['pagerank'] > self.centrality_data['pagerank'].quantile(0.95) else 'medium'
-                        })
+                hub_info = self._centrality_row_for_stop(stop_id)
+                if hub_info is None:
+                    continue
+                if hub_info['pagerank'] > high_threshold:
+                    affected_hubs.append({
+                        'stop_name': hub_info.get('stop_name', hub_info.get('node', stop_id)),
+                        'agency': hub_info.get('agency_name', 'Unknown'),
+                        'pagerank': hub_info['pagerank'],
+                        'importance': 'high' if hub_info['pagerank'] > very_high_threshold else 'medium'
+                    })
         
         return {
             'stops_used': len(stops_used),
@@ -592,16 +652,14 @@ class EnhancedAtlantaTransitAPI:
     
     def assess_connectivity_impact(self, stops_used):
         """Assess the connectivity impact of using specific stops"""
-        if not self.centrality_data is not None:
+        if self.centrality_data is None or 'pagerank' not in self.centrality_data.columns:
             return 'low'
         
         total_pagerank = 0
         for stop_id in stops_used:
-            stop_data = self.centrality_data[
-                self.centrality_data['stop_id_full'] == stop_id
-            ]
-            if not stop_data.empty:
-                total_pagerank += stop_data.iloc[0]['pagerank']
+            hub_info = self._centrality_row_for_stop(stop_id)
+            if hub_info is not None:
+                total_pagerank += hub_info['pagerank']
         
         # Classify impact based on cumulative PageRank
         if total_pagerank > 0.01:

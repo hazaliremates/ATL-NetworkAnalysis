@@ -1,5 +1,24 @@
 This repo contains the work for our Network Analysis project on ATL Public Transit.
 
+## Run the Flask web tool (Tool 2)
+
+Anyone who clones this repo can run the app — data lives in the repo under `Tool 2/`.
+
+```bash
+cd "Tool 2"
+python3 -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+cd frontend
+python flask_app.py
+```
+
+Then open http://localhost:4455
+
+The app loads `Tool 2/processed_data/atlanta_transit.db` (path relative to the repo, not a machine-specific folder).
+
+## Repo contents
+
 project_research.ipynb: Jupyter notebook used for the general analytics section of the report 
 
 Sum25NetworkProject.ipynb: The other Jupyter notebook used for network research section of the report
@@ -30,7 +49,7 @@ ATL Public Transit: Folder containing the data we collected from our data source
 
 /Tool 2/analysis/network_analysis.ipynb: Notebook performing full network analytics and visualization
 
-/Tool 2/processed_data/atlanta_transit.db: SQLite database used in the web tool (not included in repo due to file size limitations)
+/Tool 2/processed_data/atlanta_transit.db: SQLite DB for the web tool (stops, routes, and unique stop-to-stop connections)
 
 /Tool 2/frontend/flask_app.py: Flask backend for interactive web tool and API support
 
